@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
-"""run_dojo_session.py — live coaching session through the merged gateway.
+"""run_dojo_session.py — platform wiring demonstration driver.
 
-The FIRST-LIVE-SESSION driver: walks a real dojo dialogue_state_machine.json
-through the merged engine (gate + two-typed quarantine + 6-pass close) with
-LLM-mediated coach turns, and writes a complete session record to
+DEMONSTRATED PATH (deterministic, no LLM): walks a real dojo
+dialogue_state_machine.json through the merged engine (gate + two-typed
+quarantine + 6-pass close), catalogues the stage guards, and — where a
+guard's retreat semantics can be exercised — demonstrates the HOLD and
+retreat to the guard's retreat_target. Writes a session record to
 GitHub_PoC/logs/live_session_<stamp>/.
+
+HONEST BOUNDARY: this driver generates NO coach turns and involves NO
+LLM and NO human. The genuine human-facing live LLM session through the
+motivational-ecology skill is the remaining runtime act (absence
+register: post_meld_live_llm_session = human-session-pending). Records
+written by this driver are labeled "platform wiring demonstration" and
+must never be presented as live human sessions.
 
 Usage:
   python3 run_dojo_session.py --dojo Ambivalence_Dojo [--scenario person]
   python3 run_dojo_session.py --list                 # list available dojos
-
-The coach turns in this driver are generated deterministically from the
-dojo's stage prompts + gate interpretations, so the driver is
-self-contained and repeatable (no external LLM dependency for the
-machinery). A live LLM session with a human (or persona) then runs through
-the SAME machinery via the skill; the driver's output is the canonical
-session record schema.
 
 Exit 0 = session completed with valid close record.
 """
@@ -99,28 +101,61 @@ def main() -> int:
     print(f"[QUARANTINE] claim_trust={args.q_claim} use_permission={args.q_use} — licensed\n")
 
     stages_walked = []
-    gates_fired = []
+    guards_catalogued = []
+    guard_events = []   # R2: actual HOLD/retreat events, when exercised
     for i, stage in enumerate(stages):
         sid = stage.get("id", f"stage-{i}")
         stages_walked.append(sid)
         print(f"  [{i+1}/{len(stages)}] {sid}")
         guard = stage.get("guard")
         if guard:
-            gates_fired.append({"guard": guard.get("id", "unknown"),
-                                "rule": guard.get("rule", "")[:80]})
-            print(f"       guard armed: {guard.get('id')} — "
+            gid = guard.get("id", "unknown")
+            guards_catalogued.append({"guard": gid,
+                                      "rule": guard.get("rule", "")[:80],
+                                      "retreat_target": guard.get("retreat_target")})
+            print(f"       guard armed: {gid} — "
                   f"retreat_target={guard.get('retreat_target')}")
+            # R2: exercise the guard's retreat semantics for the FIRST
+            # guard in the walk — demonstrate the HOLD + retreat per the
+            # state machine's transition_policy. Subsequent guards are
+            # catalogued only (honest: not evaluated in this walk).
+            if not guard_events and guard.get("retreat_target"):
+                retreat_target = guard["retreat_target"]
+                if any(s.get("id") == retreat_target for s in stages):
+                    print(f"       >>> GUARD FIRES: HOLD at {sid}; retreat to "
+                          f"{retreat_target} (transition_policy: "
+                          f"exit_conditions_met AND stage_guards_passed)")
+                    guard_events.append({
+                        "event": "HOLD_AND_RETREAT",
+                        "guard": gid,
+                        "held_stage": sid,
+                        "retreat_target": retreat_target,
+                        "note": "demonstration of guard semantics — the "
+                                "retreat_target stage is re-entered",
+                    })
+                    stages_walked.append(retreat_target)
+                    print(f"  [{i+1}/{len(stages)} RETREAT] {retreat_target} "
+                          f"(re-entered after guard HOLD)")
+                else:
+                    guard_events.append({
+                        "event": "GUARD_CATALOGUED_ONLY",
+                        "guard": gid,
+                        "held_stage": sid,
+                        "note": f"retreat_target {retreat_target!r} not in "
+                                f"stage list — guard catalogued, not evaluated",
+                    })
 
-    # 6-pass instrumented close (D3 / memo Phase B)
+    # 6-pass instrumented close (D3 / memo Phase B) — R3: NO fabricated
+    # observed findings. The driver passes NO user_agreement/boundary/
+    # no_shaming fields, so DojoClose emits its labeled template/unknown
+    # evidence ("NOT asserted (unknown)") per engine R6.
     close_record = engine.dojo_close.close_dojo_session({
         "session_id": f"live-{args.dojo}-{args.scenario}",
         "dojo": args.dojo,
         "stages_walked": stages_walked,
-        "gates_fired": gates_fired,
-        "user_agreement": {"required": True, "recorded": True},
-        "boundary_rules_recorded": True,
-        "no_shaming_events": 0,
+        "gates_fired": guard_events,   # actual HOLD/retreat events only
         "close_verdict": "PASS",
+        "simulated": True,             # R3: marks the whole record simulated
     })
     engine.dojo_close.validate_close_record(close_record)
 
@@ -141,7 +176,8 @@ def main() -> int:
         "quarantine": {"claim_trust": args.q_claim, "use_permission": args.q_use,
                        "licensed": True},
         "stages_walked": stages_walked,
-        "gates_fired": gates_fired,
+        "guards_catalogued": guards_catalogued,
+        "guard_events": guard_events,
         "close": close_record,
         "note": ("platform wiring demonstration (Phase 13): deterministic machinery walk "
                  "through the merged gateway — gate + two-typed quarantine + 6-pass close. "

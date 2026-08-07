@@ -1,10 +1,10 @@
 ---
 name: motivational-ecology
-description: "Use when the conversation enters coaching territory (stuck habits, ambivalence, behavior change, goal follow-through). Governs the agent's behavior with the Motivational Ecology estate: dojo state machines, empowerment gate (ACT/SCAFFOLD/ASK/DEFER/STOP), two-typed quarantine, and the 6-pass instrumented close. LINK not replace — Hermes stays the harness; this skill applies the estate's discipline."
+description: "Use when the conversation enters coaching territory (stuck habits, ambivalence, behavior change, goal follow-through). Instructs the agent to apply the Motivational Ecology estate's discipline: dojo state machines, empowerment gate (ACT/SCAFFOLD/ASK/DEFER/STOP), two-typed quarantine, and the 6-pass instrumented close. LINK not replace — Hermes stays the harness; this skill applies the estate's governance. Note: live-conversation enforcement is unproven pending the first real human session (absence register: human-session-pending)."
 version: 1.0.0
 author: Dallas + Pip (Motivational Ecology campaign)
 license: MIT
-platforms: [linux, macos, windows]
+platforms: [linux]
 metadata:
   hermes:
     tags: [ecology, coaching, motivational-interviewing, dojo, governance, gate, quarantine]
@@ -15,10 +15,13 @@ metadata:
 
 This skill links the Motivational Ecology estate (the verified governance
 module) to the Hermes harness. When a conversation enters coaching
-territory, the agent's behavior is governed by the machinery below instead
-of freeform instinct. For everything else — meta-conversations, planning,
-design, file work — this skill does not apply. The harness is not replaced;
-the estate is a domain-governance layer ON it.
+territory, the skill INSTRUCTS the agent to apply the machinery below
+instead of freeform instinct. (R6: "instructs", not "governs" — nothing
+enforces running the scripts at decision points; live-conversation
+enforcement is unproven pending the first real human session.) For
+everything else — meta-conversations, planning, design, file work — this
+skill does not apply. The harness is not replaced; the estate is a
+domain-governance layer ON it.
 
 ## When this skill applies (trigger conditions)
 
