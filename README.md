@@ -11,13 +11,13 @@ All skills follow the agentskills.io open standard (SKILL.md + references/).
 Install any of them into your own Hermes agent with:
 
 ```bash
-hermes skills install <owner>/hermes-lab/skills/<skill-name>
+hermes skills install dk514506-jpg/hermes-lab/skills/<skill-name>
 ```
 
 Or add this repo as a tap to browse and install everything:
 
 ```bash
-hermes skills tap add <owner>/hermes-lab
+hermes skills tap add dk514506-jpg/hermes-lab
 hermes skills search ecology
 ```
 
