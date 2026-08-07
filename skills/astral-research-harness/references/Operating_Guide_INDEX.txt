@@ -1,0 +1,4 @@
+IDEAL RESEARCH ASSISTANT PERSONA OPERATING GUIDE
+=================================================
+
+[Full text at: ~/.hermes/hermes-agent/docs/Ideal_Research_Assistant_Operating_Guide.txt]

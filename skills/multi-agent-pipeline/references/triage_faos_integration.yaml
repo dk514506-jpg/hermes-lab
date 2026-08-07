@@ -1,0 +1,532 @@
+# ===========================================================================
+# triage.yaml — FAOS + HOMES + See-R + Astral Persona Integrated Pipeline
+#
+# This file extends the hermes-multi-agent-workflow skeleton with:
+#   - FAOS: field model, shadow route, task abstraction, instrumented close,
+#           dissent requirement, evidence ladder, perception window
+#   - HOMES: ambient sensing state, hardware topology, CSI telemetry refs
+#   - See-R: epistemic provenance, source inventory, quarantine discipline
+#   - Astral Persona: Capricorn-Scorpio-Taurus-Pisces behavioral governance
+#
+# Principle: every extension is DATA (new YAML blocks), not engine code.
+#
+# Full file at:
+#   ~/.hermes/hermes-agent/docs/triage_faos_integration.yaml
+# ===========================================================================
+
+# ---------------------------------------------------------------------------
+# PIPELINE IDENTITY
+# ---------------------------------------------------------------------------
+name: persona-research-pipeline
+board: persona-research
+workspace_root: ./work
+cost_gate_usd: 3.50
+
+# ---------------------------------------------------------------------------
+# FAOS: FIELD PERCEPTION WINDOW (§6.1)
+# Scout outputs a relational model before reducing to task.
+# ---------------------------------------------------------------------------
+perception:
+  enabled: true
+  required_outputs:
+    - observed_entities
+    - explicit_request
+    - active_constraints
+    - ambiguities
+    - competing_interpretations
+    - potential_stakes
+    - missing_information
+    - known_hazards
+    - evidence_sources
+  prohibition: "Do not select a solution during field capture."
+
+# ---------------------------------------------------------------------------
+# FAOS: RELATIONAL FIELD MODEL (§5.1)
+# Entities, relations, and stakes the system can perceive and track.
+# ---------------------------------------------------------------------------
+field_model:
+  entity_types:
+    - name: persona_profile
+      attributes: [planet, version, completeness, source_status]
+    - name: generation_run
+      attributes: [model, quant, context_window, peak_vram_mb]
+    - name: scoring_result
+      attributes: [judge_model, total_score, per_dimension_breakdown]
+    - name: bridge_loader
+      attributes: [script_version, leakage_check_passed, yaml_path]
+    - name: csv_output
+      attributes: [row_count, field_count, file_size_bytes, sha256]
+    - name: hardware_topology
+      attributes: [gpu_count, vram_per_card_gb, backend, os]
+  relation_types:
+    - type: generates
+      from: generation_run
+      to: csv_output
+    - type: evaluated_by
+      from: csv_output
+      to: scoring_result
+    - type: loaded_by
+      from: persona_profile
+      to: bridge_loader
+    - type: provisioned_by
+      from: generation_run
+      to: hardware_topology
+    - type: reveals
+      from: scoring_result
+      to: persona_profile
+      attribute: expression_fidelity
+  stakes:
+    - id: persona_expression_fidelity
+      description: "Does the LLM output carry the intended planetary sensory register?"
+      governed_by: Mercury/Scorpio
+      monitored_by: Venus/Taurus
+    - id: pipeline_integrity
+      description: "Does each stage pass without speculative compensation?"
+      governed_by: Saturn/Capricorn
+      monitored_by: Mars/Capricorn
+    - id: knowledge_cumulation
+      description: "Are findings quarantined, preserved, and available for synthesis?"
+      governed_by: Jupiter/Moon/Pisces
+      monitored_by: Sun/Capricorn
+
+# ---------------------------------------------------------------------------
+# SOURCES — scouts (FAOS §6.1 Phase A)
+# ---------------------------------------------------------------------------
+sources:
+  - id: bridge-scout
+    profile: persona-research
+    skill: triage-scout-bridge
+    schedule: "0 6 * * *"
+    query: "Inspect bridge_profile_loader.py for changes affecting persona fidelity."
+
+  - id: generation-scout
+    profile: persona-research
+    skill: triage-scout-generation
+    schedule: "30 6 * * *"
+    query: "Test-generate each planet; compare CSV against controlled vocabulary."
+
+  - id: hardware-scout
+    profile: persona-research
+    skill: triage-scout-hardware
+    schedule: "*/15 * * * *"
+    query: "Read HOMES hub state; report deviations from baseline."
+
+  - id: knowledge-scout
+    profile: persona-research
+    skill: triage-scout-seer
+    schedule: "0 8 * * 1"
+    query: "Audit See-R KB for stale entries, orphaned sources, unverified thresholds."
+
+# ---------------------------------------------------------------------------
+# ITEM SCHEMA — base fields + domain fields + epistemic provenance
+# ---------------------------------------------------------------------------
+item_schema:
+  fields:
+    - title
+    - claim
+    - sources
+    - why_it_may_matter
+    - entity_involved
+    - relation_affected
+    - stake_threatened
+    - evidence_level
+    - hardware_context
+    - urgent
+
+# ---------------------------------------------------------------------------
+# FAOS/See-R: EVIDENCE LADDER (§10.1)
+# 5-level epistemic provenance. No skips.
+# ---------------------------------------------------------------------------
+evidence_ladder:
+  levels:
+    - key: impression
+      label: "Field impression"
+      allowed_language: "This may suggest..."
+      authority: Jupiter/Moon/Pisces
+    - key: lead
+      label: "Forensic lead"
+      allowed_language: "This is a pressure point..."
+      authority: Mercury/Scorpio
+    - key: fact
+      label: "Preserved fact or fragment"
+      allowed_language: "The material preserves..."
+      authority: Venus/Taurus
+    - key: claim
+      label: "Method-tested claim"
+      allowed_language: "The evidence supports..."
+      authority: Saturn/Capricorn
+    - key: judgment
+      label: "Executed judgment"
+      allowed_language: "This should be rejected/central..."
+      authority: Sun/Mars/Capricorn
+  non_skip: true
+
+# ---------------------------------------------------------------------------
+# DEDUP
+# ---------------------------------------------------------------------------
+dedup:
+  method: token-cosine
+  duplicate_threshold: 0.62
+  possible_threshold: 0.40
+
+# ---------------------------------------------------------------------------
+# RUBRIC — triage gate (FAOS §6.3)
+# Each dimension carries a planetary_governor.
+# ---------------------------------------------------------------------------
+rubric:
+  threshold: 60
+  dimensions:
+    - key: persona_impact
+      max: 30
+      hint: "How much does this degrade persona expression fidelity?"
+      planetary_governor: Mercury/Scorpio
+    - key: pipeline_confidence
+      max: 25
+      hint: "How certain are we this is a real defect vs. noise?"
+      planetary_governor: Saturn/Capricorn
+    - key: fix_cost
+      max: 20
+      hint: "Effort to correct"
+      planetary_governor: Mars/Capricorn
+    - key: knowledge_value
+      max: 15
+      hint: "Does fixing this reveal something worth preserving?"
+      planetary_governor: Venus/Taurus
+    - key: strategic_priority
+      max: 10
+      hint: "Alignment with current phase objectives"
+      planetary_governor: Sun/Capricorn
+
+# ---------------------------------------------------------------------------
+# RESEARCH LANES — parallel fan-out before routing (FAOS §6.4)
+# ---------------------------------------------------------------------------
+research_lanes:
+  role: researcher
+  lanes:
+    - diagnose_root_cause
+    - assess_blast_radius
+    - prior_art_and_history
+  classifier_lane: diagnose_root_cause
+
+# ---------------------------------------------------------------------------
+# FAOS: ROUTE WITH SHADOW (§6.4, §7)
+# Each route carries primary + monitored alternative + promotion conditions.
+# ---------------------------------------------------------------------------
+route:
+  classifier: diagnose_root_cause.severity_and_type
+  map:
+    bridge_leakage:
+      primary: fix-bridge
+      shadow: document
+      shadow_conditions:
+        - "Fix requires architecture change beyond current phase"
+        - "Leakage is in global term list, not card-specific"
+      promotion_rule: single
+    generation_flattening:
+      primary: fix-generator
+      shadow: document
+      shadow_conditions:
+        - "Flattening is a model-level limitation, not prompt defect"
+      promotion_rule: single
+    scoring_asymmetry:
+      primary: fix-scoring
+      shadow: document
+      shadow_conditions:
+        - "Asymmetry is inherent in judge prompt design (known issue)"
+      promotion_rule: single
+    hardware_pressure:
+      primary: remediate-hardware
+      shadow: document
+      shadow_conditions:
+        - "Pressure is transient"
+      promotion_rule: single
+    knowledge_gap:
+      primary: document
+      shadow: shelve
+      shadow_conditions:
+        - "Gap is isolated and non-recurring"
+      promotion_rule: single
+    clean:
+      primary: shelve
+      shadow: null
+
+# ---------------------------------------------------------------------------
+# PATHS — per-route outcomes (FAOS §6.5-6.11)
+# Extended with: task_frame, close requirements.
+# ---------------------------------------------------------------------------
+paths:
+  fix-bridge:
+    task_frame:
+      success_condition: "Bridge loads all 7 planets, passes leakage guard and completeness check."
+      non_goals:
+        - "Refactoring bridge architecture"
+        - "Adding new planets"
+      boundaries:
+        - "Must not change public API (build_generation_prompt signature)"
+        - "Leakage guard must remain stricter than before fix"
+      required_evidence: "CI-style verification output"
+      stakeholders: [user, all_persona_profiles]
+      time_horizon: immediate
+      reversibility: full
+      uncertainty: low
+    prep:
+      - {stage: diagnose_leakage, role: analyst}
+      - {stage: plan_repair, role: analyst}
+    propose:
+      role: orchestrator
+      template: paths/proposals/fix-bridge.md
+    fulfill:
+      - {stage: implement_repair, role: builder}
+      - {stage: verify_fix, role: tester}
+    workspace_subdir: bridge-fixes
+    scope_rails: paths/rails/bridge-edit.md
+    close:
+      required_passes:
+        - victory: {description: "Leakage guard passes for all 7 planets"}
+        - defect: {description: "Known remaining leak paths documented"}
+        - dissent: {description: "Alternative repair strategies rejected with reason"}
+        - proxy_check: {description: "Did we measure 'guard passes' when the real goal is 'persona fidelity'?"}
+        - boundary_check: {description: "Repair stayed within scope_rails"}
+        - transfer_status: {description: "Technique available for similar defects"}
+
+  fix-generator:
+    task_frame:
+      success_condition: "Generated CSV contains all 7 persona fields"
+      non_goals:
+        - "Regenerate CSVs for all planets"
+        - "Change the question set"
+      boundaries:
+        - "Must preserve 22-question format"
+        - "Must not introduce new forbidden_terms"
+      required_evidence: "CSV passes schema validation"
+      stakeholders: [user, evaluation_pipeline]
+      time_horizon: immediate
+      reversibility: full
+      uncertainty: low
+    prep:
+      - {stage: inspect_generation_path, role: analyst}
+      - {stage: identify_flattening_source, role: analyst}
+    propose:
+      role: orchestrator
+      template: paths/proposals/fix-generator.md
+    fulfill:
+      - {stage: patch_generator, role: builder}
+      - {stage: regenerate_test, role: tester}
+      - {stage: validate_csv_output, role: tester}
+    workspace_subdir: generator-fixes
+    scope_rails: paths/rails/generator-edit.md
+    close:
+      required_passes:
+        - victory: {}
+        - defect: {}
+        - dissent: {}
+        - proxy_check: {}
+        - boundary_check: {}
+        - transfer_status: {}
+
+  fix-scoring:
+    task_frame:
+      success_condition: "Judge prompt and generation prompt for same planet draw from same persona fields"
+      non_goals:
+        - "Re-running entire eval suite"
+      boundaries:
+        - "Judge may know planet name; generator must not"
+      required_evidence: "Side-by-side prompt diff per planet"
+      stakeholders: [user, evaluation_pipeline, research_integrity]
+      time_horizon: this_phase
+      reversibility: partial
+      uncertainty: medium
+    prep:
+      - {stage: audit_prompt_symmetry, role: analyst}
+      - {stage: design_patch, role: analyst}
+    propose:
+      role: orchestrator
+      template: paths/proposals/fix-scoring.md
+    fulfill:
+      - {stage: patch_judge_builder, role: builder}
+      - {stage: regression_test, role: tester}
+    workspace_subdir: scoring-fixes
+    scope_rails: paths/rails/scoring-edit.md
+    close:
+      required_passes:
+        - victory: {}
+        - defect: {}
+        - dissent: {}
+        - proxy_check: {}
+        - boundary_check: {}
+        - transfer_status: {}
+
+  remediate-hardware:
+    task_frame:
+      success_condition: "Ollama VRAM below 11.5 GB with acceptable latency"
+      non_goals:
+        - "Acquiring new hardware"
+      boundaries:
+        - "Must not terminate external GPU processes"
+        - "Must not reduce context below 2048"
+      required_evidence: "nvidia-smi before and after snapshot"
+      stakeholders: [homes_hub, ollama_service]
+      time_horizon: immediate
+      reversibility: full
+      uncertainty: medium
+    prep:
+      - {stage: diagnose_pressure_source, role: analyst}
+      - {stage: evaluate_mitigations, role: analyst}
+    propose:
+      role: orchestrator
+      template: paths/proposals/remediate-hardware.md
+    fulfill:
+      - {stage: apply_mitigation, role: builder}
+      - {stage: verify_stability, role: tester}
+    workspace_subdir: hardware-mitigations
+    scope_rails: paths/rails/hardware-safety.md
+    close:
+      required_passes:
+        - victory: {}
+        - defect: {}
+        - dissent: {}
+        - proxy_check: {}
+        - boundary_check: {}
+        - transfer_status: {}
+
+  document:
+    task_frame:
+      success_condition: "Finding recorded in See-R workbook with source anchors and evidence level"
+      non_goals:
+        - "Implementing a fix"
+      boundaries:
+        - "Must include evidence_level from ladder"
+        - "Must include source anchor"
+      required_evidence: "At least one verifiable observation"
+      stakeholders: [seer_kb, future_pipeline_workers]
+      time_horizon: flexible
+      reversibility: full
+      uncertainty: variable
+    prep:
+      - {stage: capture_finding, role: analyst}
+      - {stage: classify_evidence, role: analyst}
+    propose:
+      role: orchestrator
+      template: paths/proposals/document.md
+    fulfill:
+      - {stage: write_kb_entry, role: analyst}
+      - {stage: update_seer_index, role: analyst}
+    workspace_subdir: documentation
+    deliverable_spec: paths/specs/see-r-entry.md
+    close:
+      required_passes:
+        - victory: {}
+        - defect: {}
+        - dissent: {}
+        - proxy_check: {}
+        - boundary_check: {}
+        - transfer_status: {}
+
+  shelve:
+    task_frame:
+      success_condition: "Item archived with reason, no further action needed"
+      non_goals: []
+      boundaries: []
+      required_evidence: "Clean scout report with no actionable defects"
+      stakeholders: []
+      time_horizon: immediate
+      reversibility: full
+      uncertainty: none
+    auto: false
+    prep: []
+    propose:
+      role: orchestrator
+      template: paths/proposals/shelve.md
+    fulfill:
+      - {stage: archive_no_action, role: analyst}
+    close:
+      required_passes:
+        - victory: {}
+        - defect: {}
+        - dissent: {}
+        - proxy_check: {}
+        - boundary_check: {}
+        - transfer_status: {}
+
+# ---------------------------------------------------------------------------
+# ROLES — mapped to Hermes profiles
+# ---------------------------------------------------------------------------
+roles:
+  orchestrator: orchestrator
+  researcher: researcher
+  analyst: analyst
+  builder: builder
+  tester: tester
+  hardware-operator: hardware-operator
+
+# ---------------------------------------------------------------------------
+# GATE — human approval point (FAOS §6.7)
+# With dissent requirement.
+# ---------------------------------------------------------------------------
+gate:
+  channel: telegram
+  approve: [approve]
+  shelve: [shelve, "reject the rest"]
+  modify: [modify]
+  dissent_required: true
+  dissent_format: |
+    Before approving, record one substantive competing interpretation,
+    failure path, or disconfirming observation. "No dissent identified"
+    is acceptable only after active testing.
+
+# ---------------------------------------------------------------------------
+# FAOS: INSTRUMENTED CLOSE (§6.8) — default passes for all paths
+# ---------------------------------------------------------------------------
+close:
+  default_passes:
+    - victory: {required: true, description: "What intended transformation occurred?"}
+    - defect: {required: true, description: "What remains wrong or unresolved?"}
+    - dissent: {required: true, description: "What alternative reading survived?"}
+    - proxy_check: {required: true, description: "Measured success = actual goal?"}
+    - boundary_check: {required: true, description: "Stayed within permitted scope?"}
+    - transfer_status: {required: true, description: "What may future tasks inherit?"}
+  result_states:
+    - TRUE
+    - FALSE
+    - PARTIAL
+    - INCONCLUSIVE
+    - BLOCKED
+
+# ---------------------------------------------------------------------------
+# FAOS: LEARNING LOOP (§6.9-6.10) — post-close calibration
+# ---------------------------------------------------------------------------
+learning_loop:
+  enabled: true
+  digest_required_before_calibration: true
+  calibration_targets:
+    - routing_priors
+    - rubric_dimension_weights
+    - evidence_ladder_promotion_rules
+    - scout_query_refinement
+  reflection_triggers:
+    - after_close: true
+    - after_user_correction: true
+    - after_third_occurrence_of_same_defect: true
+  memory_format: |
+    [persona-reflection] Item: <slug> | Path: <path> | Dominant: <planet>
+    | Close: <result_state> | Defect: <key_defect>
+    | Dissent: <dissent> | Delta: <what to change next iteration>
+
+# ---------------------------------------------------------------------------
+# ASTRA — persona harness integration metadata
+# ---------------------------------------------------------------------------
+astra:
+  persona: "Capricorn-Scorpio-Taurus-Pisces composite"
+  reference_doc: "Ideal_Research_Assistant_Operating_Guide.txt"
+  harness_skill: "astral-research-harness"
+  circuit_map:
+    field_perception: "Jupiter/Moon → Mercury → Venus → Saturn"
+    task_abstraction: "Mercury → Saturn"
+    triage_scoring: "Saturn → Sun"
+    research: "Mercury → Venus → Saturn"
+    routing: "Saturn → Mercury → Sun"
+    execution: "Mars → Venus → Saturn"
+    monitoring: "Saturn → Mercury"
+    close: "Sun → Saturn"
+    digest: "Jupiter/Moon"
+    calibration: "Saturn → Jupiter"
