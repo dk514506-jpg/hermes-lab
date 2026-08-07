@@ -46,6 +46,23 @@ The `docs/campaign/` folder carries the Motivational Ecology campaign's
 plans and memos (Phases 9-13): the FAOS × Ecology integration memo, the
 phase plans, and the pre-verdict self-reviews. Start with OVERVIEW.md.
 
+## Runtime bundle
+
+The full self-contained runtime (merged engine, estate, dojo machinery,
+14-verifier campaign gate — 1.3MB) ships as a release asset, not in this
+tree:
+
+```bash
+# Download + extract + verify (any machine, incl. cloud):
+curl -L -o bundle.tar.gz https://github.com/dk514506-jpg/hermes-lab/releases/download/v1.0.0-runtime-bundle/ecology-harness-bundle.tar.gz
+tar -xzf bundle.tar.gz
+cd ecology-harness-bundle && python3 council_notes/verify_all.py   # expect exit 0
+```
+
+Path resolution is portable: `$ECOLOGY_ESTATE_ROOT` → walk-up → home-lab
+fallback. The skill in `skills/motivational-ecology/` is the live-wire
+interface to it.
+
 ## Notes
 
 - Machine-specific absolute paths have been scrubbed to `~/` references.
