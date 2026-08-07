@@ -38,11 +38,20 @@ hermes skills search ecology
 | large-corpus-ingestion | Ingest corpora via manifest + selective reads |
 | hiskill-package-authoring | Build/QA 9-file HiSkill skill packages |
 | self-hosted-web-deployment | Deploy web services with Tailscale, auth, systemd |
+| motivational-ecology | Live-wire coaching skill: dojos + empowerment gate + quarantine + 6-pass close (Phase 13) |
+
+## Campaign docs
+
+The `docs/campaign/` folder carries the Motivational Ecology campaign's
+plans and memos (Phases 9-13): the FAOS × Ecology integration memo, the
+phase plans, and the pre-verdict self-reviews. Start with OVERVIEW.md.
 
 ## Notes
 
 - Machine-specific absolute paths have been scrubbed to `~/` references.
 - The Valens *corpus* (book text + artifacts) is intentionally NOT included —
   ask Dallas if you want access to that material directly.
+- The estate's runtime logs (26MB) are not in this repo either; the
+  canonical estate lives at `~/.hermes/hermes-agent/docs/Ecology/Foundation/GitHub_PoC/`.
 - Built with Hermes Agent (https://hermes-agent.nousresearch.com) — Nous
   Research's self-improving agent framework.
