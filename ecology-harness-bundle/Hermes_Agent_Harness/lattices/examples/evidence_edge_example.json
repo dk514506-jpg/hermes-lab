@@ -1,0 +1,10 @@
+{
+  "$schema": "../evidence_edge_schema.json",
+  "id": "E-001",
+  "from_insight": "H-001",
+  "to_observation": "O-001",
+  "strength": "moderate",
+  "provenance": "VERIFIED practice log (direct machine record)",
+  "direction": "supports",
+  "note": "The 'keep starting and quitting' pattern is the learner's own repeated history; the desire/ability split is coder-level interpretation (RECONSTRUCTED labeling)."
+}

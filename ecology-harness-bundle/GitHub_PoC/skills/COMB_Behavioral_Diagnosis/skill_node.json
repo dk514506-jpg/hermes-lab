@@ -1,0 +1,99 @@
+{
+  "id": "COMB_Behavioral_Diagnosis",
+  "name": "COMB Behavioral Diagnosis",
+  "version": "1.0",
+  "layer": 1,
+  "role": "diagnosis",
+  "purpose": "Turn user statements about a stuck goal or habit into a six-component COM-B profile (C-Ph, C-Ps, O-Ph, O-So, M-Re, M-Au), identify the binding constraint, and emit a hypothesis-status, user-correctable diagnosis.",
+  "inputs": {
+    "required": [
+      "target_behavior",
+      "user_statements",
+      "user_goal_or_stated_intent"
+    ],
+    "optional": [
+      "schedule_or_resource_data",
+      "social_context",
+      "habit_or_telemetry_log",
+      "motivational_lattice_insights",
+      "prior_tdf_grid",
+      "known_constraints"
+    ]
+  },
+  "outputs": {
+    "primary": [
+      "component_profile",
+      "binding_constraint"
+    ],
+    "secondary": [
+      "hypothesis_status",
+      "component_notes",
+      "next_skill_candidates",
+      "open_probes"
+    ]
+  },
+  "state_read": [
+    "target_behavior",
+    "user_statements",
+    "component_profile",
+    "evidence_sufficiency",
+    "lattice_insights_used"
+  ],
+  "state_write": [
+    "component_profile",
+    "binding_constraint",
+    "hypothesis_status",
+    "user_corrections",
+    "open_probes",
+    "next_skill_candidates"
+  ],
+  "triggers": [
+    "user describes a stuck goal or habit",
+    "user asks why a behavior will not change",
+    "user requests a behavior-change plan without an existing diagnosis",
+    "TDF grid, MI conversation, or SDT check needs a component-level anchor",
+    "intervention selection needs a COM-B input"
+  ],
+  "completion_conditions": [
+    "six-component profile emitted with per-slot evidence quotes and salience",
+    "binding constraint identified or explicitly abstained on insufficient evidence",
+    "hypothesis label attached to profile and every slot",
+    "user has had the opportunity to correct any slot"
+  ],
+  "applicability_states": [
+    "stuck_goal_or_habit_described",
+    "behavior_change_plan_requested",
+    "component_anchor_needed",
+    "diagnostic_mirroring_requested"
+  ],
+  "expected_state_changes": {
+    "component_profile": "array[6] of {component, salience, evidence_quotes, confidence}",
+    "binding_constraint": "C-Ph|C-Ps|O-Ph|O-So|M-Re|M-Au|none",
+    "hypothesis_status": "true",
+    "user_corrections": "array",
+    "next_skill_candidates": "array of skill ids"
+  },
+  "representative_examples": [
+    "\"I keep meaning to walk after dinner but I always forget\" \u2192 M-Au (habit/cue), binding constraint M-Au.",
+    "\"I'd exercise but I genuinely don't know how to start\" \u2192 C-Ps (knowledge), propose learning paths, do not answer for the user.",
+    "\"There's no time between work and bed\" \u2192 O-Ph (physical opportunity), surface schedule options; user keeps time-allocation judgment."
+  ],
+  "failure_hints": [
+    "If every utterance codes to M-Re, run the anti-myopia sparring move.",
+    "If the profile reads as a verdict, downgrade to hypothesis.",
+    "If the user repeatedly corrects slots, the agent crossed the empowerment boundary; invoke Human_Empowerment_Boundary."
+  ],
+  "support_count": 0,
+  "source_influences": [
+    "Michie, van Stralen & West 2011 (COM-B)",
+    "Willmott 2021",
+    "Ogden 2016",
+    "Behavior Change Wheel (BCW) Table 2 linkage",
+    "Theory_to_Routine_Interface v1.0 COM-B row"
+  ],
+  "governance": {
+    "boundary_gate": "required",
+    "rule": "No AtomicOp executes on high-meaning tasks (identity, values, commitments, interpretive closure) without a Human_Empowerment_Boundary check first",
+    "declared": "2026-08-06 Phase 4"
+  }
+}

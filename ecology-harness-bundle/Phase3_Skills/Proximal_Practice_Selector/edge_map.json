@@ -1,0 +1,222 @@
+{
+  "skill_id": "Proximal_Practice_Selector",
+  "edges": [
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "assess_task_learnability",
+      "type": "decomposes_to",
+      "order": 1,
+      "rationale": "Skill-building vs one-off; erosion vs blocked acquisition (Natali 2025)."
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "minimal_sufficiency",
+      "type": "decomposes_to",
+      "order": 2,
+      "rationale": "Hints before answers (Bastani 2025 Tutor arm)."
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "compute_skill_load",
+      "type": "decomposes_to",
+      "order": 3,
+      "rationale": "Share of tasks completed unassisted; first-class metric (TTRI register)."
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "readiness_gate",
+      "type": "decomposes_to",
+      "order": 4,
+      "rationale": "Time to inferred readiness (Liu 2026 CHI)."
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "fade_scaffolds",
+      "type": "decomposes_to",
+      "order": 5,
+      "rationale": "Hint -> less hint -> none (Bastani; Proximal State Nudging)."
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "detect_atrophy_risk",
+      "type": "decomposes_to",
+      "order": 6,
+      "rationale": "Unassisted decline check (Bastani -17%; Budzyn reversion)."
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "select_practice_dose",
+      "type": "decomposes_to",
+      "order": 7,
+      "rationale": "Spacing counters 24h decay (Eiroa-Solans 2025)."
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "separate_performance_capability",
+      "type": "decomposes_to",
+      "order": 8,
+      "rationale": "Assisted vs unassisted tracks (Brynjolfsson vs Bastani)."
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "record_unassisted_competence",
+      "type": "decomposes_to",
+      "order": 9,
+      "rationale": "Per-user unassisted track write."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Proximal_Practice_Selector",
+      "type": "can_follow",
+      "rationale": "Barrier grid -> proximal practice design",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Proximal_Practice_Selector",
+      "type": "can_follow",
+      "rationale": "Readiness verdict -> practice timing",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "Proximal_Practice_Selector",
+      "type": "can_follow",
+      "rationale": "Binding constraint -> practice target",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Proximal_Practice_Selector",
+      "type": "can_follow",
+      "rationale": "Competence-support audit informs challenge level",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "Human_Empowerment_Boundary",
+      "type": "supports",
+      "rationale": "Skill-atrophy risk evidence feeds boundary modes",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "SDT_Need_Support_Check",
+      "type": "supports",
+      "rationale": "Fade schedule is competence-support data",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "Human_Empowerment_Boundary",
+      "type": "compatible_with",
+      "rationale": "SCAFFOLD mode pairs with minimal-sufficiency selection",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "Feedback_Ecology_Map",
+      "type": "compatible_with",
+      "rationale": "Feedback loops serve unassisted calibration",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "ConvoDojo_Practice_Sparring",
+      "type": "compatible_with",
+      "rationale": "Sparring intensity fades across sessions",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "Material_Arrangement_Scan",
+      "type": "compatible_with",
+      "rationale": "Material cues supplement, never replace, practice",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "Post_Close_Calibration_Debrief",
+      "type": "compatible_with",
+      "rationale": "Atrophy events feed calibration",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Restore_Scaffold",
+      "target": "Proximal_Practice_Selector",
+      "type": "recovers_with",
+      "rationale": "Unassisted drop after fade -> re-add one level, slow schedule",
+      "kind": "internal"
+    },
+    {
+      "source": "Reschedule_Practice",
+      "target": "Proximal_Practice_Selector",
+      "type": "recovers_with",
+      "rationale": "Decay -> tighten spacing, add retrieval",
+      "kind": "internal"
+    },
+    {
+      "source": "Reopen_User_Choice",
+      "target": "Proximal_Practice_Selector",
+      "type": "recovers_with",
+      "rationale": "Attempt timing returns to the user",
+      "kind": "internal"
+    },
+    {
+      "source": "Downgrade_To_Hint",
+      "target": "Proximal_Practice_Selector",
+      "type": "recovers_with",
+      "rationale": "Answer -> hint chain",
+      "kind": "internal"
+    },
+    {
+      "source": "Surface_Unassisted_Track",
+      "target": "Proximal_Practice_Selector",
+      "type": "recovers_with",
+      "rationale": "Metacognitive correction (Bastani; Lee 2025)",
+      "kind": "internal"
+    },
+    {
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "Proximal_Practice_Selector",
+      "type": "supports",
+      "rationale": "Binding constraint is a proximal-state input (mirror of COMB map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Proximal_Practice_Selector",
+      "type": "supports",
+      "rationale": "Domain salience is a proximal-state input (mirror of TDF map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Proximal_Practice_Selector",
+      "type": "supports",
+      "rationale": "Readiness verdict gates practice timing (mirror of MI map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Proximal_Practice_Selector",
+      "type": "compatible_with",
+      "rationale": "Conversation and practice co-scheduled on readiness (mirror of MI map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Proximal_Practice_Selector",
+      "type": "supports",
+      "rationale": "Competence scaffolding informs the fade schedule (mirror of SDT map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Proximal_Practice_Selector",
+      "type": "compatible_with",
+      "rationale": "Need-support audit and practice design co-run on competence work (mirror of SDT map)",
+      "flag": "RECONSTRUCTED"
+    }
+  ]
+}

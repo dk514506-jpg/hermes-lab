@@ -1,0 +1,83 @@
+LOCUS VALIDATION — PHASE 9 (Valens × Ecology Meld)
+Validator: Locus (validator-steward) · Date: 2026-08-07
+Method: FAOS locus_review_spec 7-check discipline (adjudicates admissibility, not quality)
+Artifacts reviewed (5): Phase9_Plan.md (decision record), governance/valens_operating_logics.md,
+meld/ecology_valens_meld_charter.md, meld/valens_principle_coverage.md,
+valens_wiki syntheses/ecology-valens-meld.md.
+Disk verification performed: verify_phase9.py (40/40 PASS, exit 0), verify_harness.py (exit 0),
+grep/schema/JSON spot-checks of every cited evidence cell, mirror-tree audit.
+
+--------------------------------------------------------------------------
+1. DECISION FIDELITY — ADMISSIBLE
+   Evidence: All 31 compiled answers are honored in all 5 artifacts — Q4.1 corpus EXEMPT
+   (logics scope note, charter §3.9, synthesis #7, README); Q3.1/Q3.5 personas stay separate
+   (charter §3.7, plan out-of-scope, schema default QUARANTINED); Q1.5 frozen (all docs);
+   Q2.3 two mechanisms mapped-not-merged (charter §2, coverage mapping note, synthesis #4);
+   Q3.4 prior-not-evidence (schema desc); Q4.4 footnote convention (logics §6, schema `source`
+   field, Contrary_Findings block); Q4.5 method-not-findings (all docs); Q6.6 Pip drafts
+   (charter §3.17). No artifact contradicts the compiled record.
+
+2. INTERNAL CONSISTENCY — ADMISSIBLE
+   Evidence: Terminology and decisions agree across all 5 docs (operating logics, Q0-Q10,
+   S0-S9, 10 principles, frozen, "cross-linked not unified"); charter §5 continuity block
+   matches disk state (verifier present, judge record correctly marked "after round").
+   Note (non-blocking): coverage-matrix verdict sentence "P4/P9 strong in the
+   witness-bearing packages (TDF, MI, MLG)" is looser than its own cells — P4-MI, P4-MLG,
+   P9-MI are PARTIAL, only TDF is EMBEDDED on both.
+
+3. EVIDENCE LADDER — ADMISSIBLE
+   Evidence: Coverage matrix declares its method (machine-scan of 6 file types per package;
+   every EMBEDDED cell grounded in a real op/state name; "no fabricated quotes"), and
+   spot-checks confirm the cells: HEB classify_decision_meaning (SKILL.md), MI spirit gate
+   (8 files incl. SKILL.md/state_schema), MLG link_evidence_edges + evidence_edge direction,
+   TDF version metadata / 14-domain conflict, T2R_traceability = 48 entries (matches logics
+   §5 claim). Empirical claims are all disk-verifiable; Contrary_Findings register flags
+   every entry VERIFIED/RECONSTRUCTED/UNVERIFIED.
+
+4. QUARANTINE DISCIPLINE — ADMISSIBLE
+   Evidence: Nothing operationalizes the astral personas — charter §3.7 (own harness, not in
+   dojos, compatibility deferred), logics scope note ("nothing in this document is a finding
+   about astrology"), README ("no astronomical content is used anywhere"), and
+   persona_profile_schema.json defaults status to QUARANTINED with boundary_gate required.
+   Q0-Q10 tier Q1 historical_archive ("preserved, not operationalized") is the corpus's class.
+
+5. NON-OPERATIONAL REGISTRY — ADMISSIBLE
+   Evidence: persona_profile_schema.json states "STRICTLY a prior for framing, NEVER evidence
+   (Valens Book VII non-operational registry)" and linked_insights are "framing only, never
+   causal attribution"; wiki non-operational-registry.md exists with the operational /
+   non-operational classes and a consult-before-operationalizing rule; planetary terms appear
+   only as transposition mappings (logics §5) or prior-framing — never as evidence.
+
+6. PREMATURE COHERENCE — ADMISSIBLE
+   Evidence: Coverage verdict "the 'already embedded' assumption HOLDS WITH GAPS" matches its
+   own cells — all 10 principles have >=1 EMBEDDED cell; the P2 (1 EMBEDDED), P6 (1 EMBEDDED),
+   P7 (6/8 PARTIAL), SDT/PPS (2 ABSENT each) gaps are disclosed in the same doc; the
+   synthesis's "already embedded" claim quotes the matrix's own verdict and the gaps stay
+   visible in both docs. No artifact claims the corpus means anything new (charter §4
+   explicitly disclaims). See note (a) for the single loose sentence.
+
+7. CLOSE COMPLETENESS — ADMISSIBLE
+   Evidence: All 10 D1-D4 items present and verified on disk: D1.1 logics doc (canonical +
+   mirror), D1.2 README corpus pointer (canonical), D1.3 persona_profile_schema.json +
+   lattice_index persona_profile layer, D1.4 witness cross-link in
+   Contrary_Findings_and_Limits.md + both wiki registers, D1.5 footnote convention;
+   D2.6 coverage matrix (10x8, all cells populated); D3.7 charter (Q2.3+Q4.1+Q4.5);
+   D4.8 wiki synthesis; D4.9 journal/2026-08-07.md; D4.10 pointers both directions.
+   verify_phase9.py runs 40/40 PASS (exit 0) including "harness verifier still passes"
+   (verify_harness.py exit 0). See note (b) for the mirror-README caveat.
+
+--------------------------------------------------------------------------
+NON-BLOCKING REVISION NOTES (feed the scheduled sublative revision round; none block admissibility):
+(a) meld/valens_principle_coverage.md §Verdict: tighten "P4/P9 strong in (TDF, MI, MLG)" to
+    "strongest in TDF (P4) and TDF/MLG (P9)" — MI is PARTIAL on both principles per the matrix's
+    own cells.
+(b) Phase9_Plan.md canonical-estate decision promises the Hermes_Agent_Harness mirror receives
+    "the governance doc + README pointer"; the governance doc is mirrored but
+    Hermes_Agent_Harness/README.md contains no corpus/meld pointer (canonical GitHub_PoC README
+    has it). Add the pointer to the mirror README to honor "both trees stay coherent".
+(c) council_notes/verify_phase9.py: principle-presence checks for P2-P10 match any numbered
+    header ("N. **"); match the principle titles for real guard strength. Doc content itself
+    is correct (verified by read).
+
+--------------------------------------------------------------------------
+LOCUS VERDICT: ADMISSIBLE

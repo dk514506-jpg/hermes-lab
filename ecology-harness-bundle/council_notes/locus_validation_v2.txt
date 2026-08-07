@@ -1,0 +1,61 @@
+# LOCUS Validation v2 — Revised Discord Report + Revised GitHub_PoC Package vs. Claimed Fixes (a–j)
+
+Validator: LOCUS (peer validator, round 2 — re-validation after the v1 critique round)
+Date: 2026-08-06
+Scope: council_notes/report_discord_v2.md (Discord report v2) and the revised
+GitHub_PoC/ package (now ships the full estate: skills/ 8 packages, routines/ 5 dojos,
+governance/ 5 safeguards, lattices/, logs/, evidence/ incl. Calibration_Log.md,
+judge_verdicts/ 5 raw verdicts, the 4 evidence-base files, verify/verify_harness.py,
+verify_gate_output.txt).
+Method: read every file cited in the 10 claimed fixes; ran verify/verify_harness.py
+myself; diffed package copies against archive originals (council_notes/); counted
+calibration rows and bibliography entries programmatically; resolved the 4 anchored
+DOIs live via doi.org; grepped the whole package + report for the pre-revision
+phrasings ("fetched and verified", "runtime enforced", "working archive", "all
+VERIFIED", "proven"). No files were edited.
+
+---
+
+## PART 1 — Fix-verification table (the 10 claimed fixes a–j)
+
+| Fix | Claimed revision | Verdict | Evidence |
+|---|---|---|---|
+| a | "78 sources fetched and verified" → "fetched and checked against live journal APIs (existence + retraction status — not full-text review)" | **PARTIAL** | New qualifier IS in the report: report_discord_v2.md:42-44 "78 sources fetched and checked against live journal APIs (existence + retraction status — not full-text review); retracted papers exiled to a register; opinion articles and preprints honestly flagged." The "verified" overclaim and the not-full-text-review scope are fixed. BUT the count still overstates: the shipped bibliography's own header says "70+ sources fetched" (evidence/Annotated_Bibliography.md:5), and per-entry flags show only 75 of 78 entries were fetched ([76] Maturana/Varela, [77] Beer, [78] Morozov — canonical anchors, no DOI, not fetched; [28],[75] UNVERIFIED). "78 sources fetched" contradicts the file shipped alongside the report — the exact count-drift class the campaign polices. |
+| b | n=1 caveat added | **VERIFIED** | report_discord_v2.md:111-113 "Honest caveat: the runtime evidence is one session, one approval. The gates are mechanical and the log is append-only, but the runtime sample is n=1 — read the log and judge whether that matters." Also :126 "The acceptance test is n=1 — one session, one approval." README.md:136-140 carries the same caveat. |
+| c | "the author, in this case — stated plainly" added | **VERIFIED** | report_discord_v2.md:107 "Then the user approved it (the author, in this case — stated plainly) — and that approval is in the record, verbatim." This also resolves v1 caveat 7's pending→approved sequencing: the report now states the pending field was the by-design pre-approval state and the shipped field reads APPROVED (evidence/acceptance_test_001.json:138, verbatim user quote). |
+| d | 'proven' → 'demonstrated' in README | **VERIFIED** | README.md:5 "…verified by 9 machine checks and 3 independent judge rounds, and demonstrated in a live acceptance test." Grep of README.md for "proven"/"proving": 0 hits. (report_discord_v2.md:22 retains "a way of *proving* they don't" — a method-level aspirational sentence, outside the claimed fix.) |
+| e | Full 22-row calibration log now ships (was 11-row extract) | **VERIFIED** | evidence/Calibration_Log.md has exactly 22 data rows (#1–#22, programmatic count = 22; lines 21-42). The v1 11-row curated extract is gone; the v1-flagged "The full 22-row log lives in the working archive" line is gone. README.md:89 "all 22 corrections" and :32-33 "22 rows" now match the shipped file. |
+| f | Quick start now executable (verify/ + skills/ ship; verify_harness.py passes exit 0) | **VERIFIED** | Ran `python3 verify/verify_harness.py` against the package tree: 44 [PASS] lines (root entries, 8×9 skill files, JSON/YAML parse, graph validity, 5×7 dojo artifacts, governance/ 5, evidence-base 4), "HARNESS VERIFIED — exit 0", exit code 0. skills/ ships 8 packages; `cp -r skills/* ~/.hermes/skills/` is now resolvable. Quick-start step 3's "ConvoDojo executor" is ConvoDojo_Practice_Sparring SKILL.md, documented in-package as "the shared executor" (routines/README.md:50-54) — ships, resolvable. |
+| g | DOIs anchored in judge_verdict_summary.md (Bastani, Budzyń, Brynjolfsson, Wang & Fan) | **VERIFIED** | evidence/judge_verdict_summary.md:69-83 "The four live-verified citations (checkable)" table: Bastani 10.1073/pnas.2422633122; Budzyń 10.1016/S2468-1253(25)00133-5; Brynjolfsson 10.1093/qje/qjae044; Wang & Fan 10.1057/s41599-025-04787-y. All 4 exactly match the judge's own execution-evidence DOIs (council_notes/judge_deepseek_whole_project.txt:21-28) and bibliography entries [1],[2],[9]. Live check (this run): all 4 resolve via doi.org (302 → publisher landing; Budzyń and Wang & Fan return 200; PNAS/QJE return 403 = publisher bot-block, but doi.org redirects to the correct landing pages, e.g. QJE → academic.oup.com/qje/article/140/2/889/7990658 matching "QJE 140(2)"). |
+| h | Timezone note added to acceptance_test_001.json | **PARTIAL** | Note IS present in evidence/acceptance_test_001.json:139 `"_timezone_note": "Timestamp 2026-08-07T03:14:27Z is UTC; the session ran 2026-08-06 evening local time (UTC-7). The user approval dated 2026-08-06 is local — same wall-clock day. No sequence inconsistency."` — correctly resolves the 08-07Z vs 08-06 approval tension. BUT the logs/ copy — the runtime store per log_schema.md:4 — was NOT updated: logs/acceptance_test_001.json has no timezone note, and diff shows the two copies now differ by exactly this field (lines 138-139). v1 recorded logs/ and evidence/ copies as byte-identical; the revision introduced the first divergence with no cross-reference in the logs/ copy. |
+| i | 'runtime enforced' claims softened | **VERIFIED** | README.md:82 now reads "enforced by the artifacts; the boundary-gate execution layer is Phase 9" — the word "runtime" is gone and the execution-layer gap is stated in the same sentence. README.md:186-189: "Phase 1-8: COMPLETE at the specification/verification level … The runtime layer beyond the acceptance session is unexercised (one session, n=1)." Grep: "runtime enforced" now appears only inside the raw judge verdict judge_claude_phase8.txt:32 (historical rubric text, not a package claim). docs/verification.md:43-50 "The honest boundary" states the 47 review-enforced checks. |
+| j | Stale 'working archive' references fixed in docs | **PARTIAL** | Fixed: docs/ is clean of "working archive" (remaining "archive" hits in docs/architecture.md:3 and docs/safeguards.md:3 are provenance phrases, fine); Calibration_Log.md's v1-flagged "lives in the working archive" line is gone. NOT fixed: evidence/judge_verdict_summary.md:3 still reads "Full verdicts in the working archive (council_notes/judge_*.txt)." — stale now that the full verdicts ship at evidence/judge_verdicts/ (5 files; I diffed all 5 against council_notes originals: byte-identical). The pointer should read evidence/judge_verdicts/. Related residual of the same class (not "working archive" phrasing): 5 SKILL.md files still say "Place this folder at: Hermes_Agent_Harness/skills/<pkg>/" (COMB:214, MI:197, TDF:201, SDT:183, Proximal:193) and logs/log_schema.md:4 "Layer: Hermes_Agent_Harness/logs/ (Phase 7)" — the package is GitHub_PoC and the quick start installs to ~/.hermes/skills/. verify_phase7's stale-path sweep covers Phase3_Skills/Phase6_Dojo/Phase5_Safeguards only, so Hermes_Agent_Harness escapes it (calibration row 12's "path sweep to packaged locations" missed these 6). |
+
+Result: **7 of 10 fixes fully verified; 3 PARTIAL (a — count still overstated vs. the shipped bibliography's own "70+ sources fetched"; h — timezone note applied to the evidence/ copy only, logs/ copy now diverges; j — one stale "working archive" pointer remains in judge_verdict_summary.md:3 plus 6 Hermes_Agent_Harness placement paths). No fix is NOT DONE.**
+
+---
+
+## PART 2 — NEW unsupported / residual claims introduced or newly exposed by the revisions
+
+1. **README.md:7-11 — "everything you need to install, verify, and run it yourself" (NEW, MINOR).** Install (step 2) and verify (step 1, harness exit 0 — confirmed by my run) are fully self-contained. "Run it yourself" is not: a dojo session runs through the ConvoDojo executor, which is a Hermes-skill contract (routines/README.md:50), and executing it requires Hermes + a model backend, which the package does not and cannot ship; quick-start step 3 is a comment, not a command. The sentence overstates the package's self-containedness by one word.
+
+2. **evidence/Recent_Evidence_Digest.md:119 — "70+ sources fetched and VERIFIED across the two review councils" (NEWLY SHIPPED, residual of the row-1 class).** The digest is one of the 4 evidence-base files new to the v2 package. This line regresses to the exact bare-"VERIFIED" phrasing the campaign corrected: the Annotated_Bibliography header (shipped beside it) says "70+ sources fetched" with no VERIFIED blanket, and 4 entries are RECONSTRUCTED, 2 UNVERIFIED, 3 not fetched. The report (fix a) and the bibliography header were fixed; this digest line was not.
+
+3. **handoff_notes.md:15-19 — bare "Phase 5 COMPLETE / Phase 6 COMPLETE / Phase 7 COMPLETE / critique round COMPLETE" (NEWLY SHIPPED, minor).** The README carefully qualifies "COMPLETE at the specification/verification level … runtime layer beyond the acceptance session is unexercised (one session, n=1)" (README.md:186-189); the newly shipped handoff's status block carries no such qualifier, regressing v1 caveat 5 in a file a package reader will hit.
+
+4. **Residual stale deployment paths (see fix j evidence)** — 5 SKILL.md "Place this folder at: Hermes_Agent_Harness/…" lines + logs/log_schema.md:4. Newly shipped with the full skills/ layer; same class as the row-12 stale-path sweep that was supposed to fix them.
+
+## PART 3 — Positive re-confirmations (checked this round, all hold)
+
+- evidence/Calibration_Log.md = 22 rows; evidence/judge_verdicts/ = 5 files, all byte-identical to council_notes originals ("raw, unedited" is true).
+- 4 evidence-base files ship (Annotated_Bibliography, Recent_Evidence_Digest, Contrary_Findings_and_Limits, phase2_api_seed) and verify_harness.py checks exactly those 4.
+- Annotated_Bibliography = 78 numbered entries (the 79th "### [" match is the legend line "### [n] Author(s)…" at :21); header corrected to the row-20 phrasing ("assembled from VERIFIED council distillations (synthesis = RECONSTRUCTED …; 70+ sources fetched; per-entry flags)") — no bare-VERIFIED header.
+- evidence/verify_gate_output.txt = 9 verifier PASS lines + "FULL CAMPAIGN GATE: ALL VERIFIERS PASS — exit 0", consistent with README "9/9 verifiers green (gate output shipped)".
+- lattices/T2R_traceability.json = 48 entries (row-15 count holds).
+- Acceptance record unchanged from v1 (spirit gate T14, outcome_arbitration APPROVED with verbatim quote) apart from the fix-h field.
+
+## Bottom line
+
+The revision round fixed 7 of 10 caveats cleanly and the package is materially more honest than v1: the report's "verified"→"checked, not full-text" qualifier, the n=1 and stated-plainly-author framing, the full 22-row log, a harness I re-ran to exit 0, a checkable DOI table that resolves live, and the softened COMPLETE/runtime language are all real and in the files. The three PARTIALs are small but exact: (a) "78 sources fetched" still outruns the bibliography's own "70+ sources fetched"; (h) the timezone note landed in only one of the two shipped acceptance-JSON copies, breaking the v1-noted byte-identity; (j) judge_verdict_summary.md:3 still points at the working archive for verdicts that now ship in-package, and 6 Hermes_Agent_Harness placement paths survived the row-12 sweep. Newly shipped content also re-exposes the row-1 class once (Recent_Evidence_Digest.md:119 "fetched and VERIFIED") and the bare-COMPLETE phrasing once (handoff_notes.md). Nothing rises to fabrication; all residuals are the same two fixable classes the campaign already polices.
+
+— LOCUS (peer validator, round 2), 2026-08-06

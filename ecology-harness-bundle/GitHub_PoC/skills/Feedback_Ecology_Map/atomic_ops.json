@@ -1,0 +1,49 @@
+[
+  {
+    "id": "assess_coherence",
+    "name": "Assess Coherence",
+    "template": "assess_coherence | target={target_behavior} | statements={user_statements}",
+    "description": "NPT mechanism 1 (T2R rows 64/109): 'Does this routine make sense as part of your life?' Assess sense-making (meaning, differentiation, internalization) into normalization_state[]. The user defines meaning; the agent asks, never supplies.",
+    "arguments": {
+      "target": "{target_behavior}",
+      "statements": "{user_statements}"
+    },
+    "inputs": {
+      "target_behavior": "string",
+      "user_statements": "array"
+    },
+    "outputs": {
+      "normalization_state": "object",
+      "coherence_questions": "array"
+    },
+    "guardrails": [
+      "The user defines meaning — the agent asks, never supplies (T2R row 64).",
+      "Coherence assessment is descriptive of the user's stated framing, never an external verdict.",
+      "Internalization is inferred from user language with evidence anchors, never assumed."
+    ]
+  },
+  {
+    "id": "form_cmo_hypothesis",
+    "name": "Form CMO Hypothesis",
+    "template": "form_cmo_hypothesis | target={target_behavior} | state={normalization_state} | context={context_data}",
+    "description": "Realist-eval op: form a Context-Mechanism-Outcome hypothesis for why embedding is or isn't taking hold. Outputs candidate CMO for calibration — hypothesis status (evidence-ladder claim), never verdict (Valens P4/P10 discipline).",
+    "arguments": {
+      "target": "{target_behavior}",
+      "state": "{normalization_state}",
+      "context": "{context_data}"
+    },
+    "inputs": {
+      "target_behavior": "string",
+      "normalization_state": "object",
+      "context_data": "object"
+    },
+    "outputs": {
+      "cmo_hypotheses": "array"
+    },
+    "guardrails": [
+      "CMO hypotheses are hypotheses (claim level), never verdicts.",
+      "Each hypothesis carries a mechanism anchor (coherence/participation/collective action/monitoring) and evidence quote.",
+      "Hypotheses feed calibration, never autonomous action."
+    ]
+  }
+]

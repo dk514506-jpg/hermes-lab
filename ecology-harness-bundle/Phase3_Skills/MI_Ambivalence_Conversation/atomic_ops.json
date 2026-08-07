@@ -1,0 +1,285 @@
+[
+  {
+    "id": "spirit_gate",
+    "name": "Spirit Gate",
+    "template": "spirit_gate | process={current_process} | utterance={user_utterance_stream}",
+    "description": "Verify partnership, acceptance, compassion, evocation are present before any MI technique is used. Hard gate: refuse technique without spirit.",
+    "arguments": {
+      "process": "{current_process}",
+      "utterance": "{user_utterance_stream}"
+    },
+    "inputs": {
+      "process": "string",
+      "utterance": "string"
+    },
+    "outputs": {
+      "spirit_state": "enum"
+    },
+    "guardrails": [
+      "Hard gate: no MI technique without spirit (partnership, acceptance, compassion, evocation); MI without spirit is not MI."
+    ]
+  },
+  {
+    "id": "open_question",
+    "name": "Open Question",
+    "template": "open_question | topic={focus_state} | context={current_process}",
+    "description": "Ask an open question that cannot be answered yes/no; >=70% of questions should be open.",
+    "arguments": {
+      "topic": "{focus_state}",
+      "context": "{current_process}"
+    },
+    "inputs": {
+      "topic": "string",
+      "context": "string"
+    },
+    "outputs": {
+      "question": "string"
+    },
+    "guardrails": [
+      ">=70% of questions open; no leading questions that smuggle in the agent's argument."
+    ]
+  },
+  {
+    "id": "affirm",
+    "name": "Affirm",
+    "template": "affirm | evidence={user_utterance_stream}",
+    "description": "Affirm the user's effort, strengths, and autonomy \u2014 specific and genuine, never sycophantic.",
+    "arguments": {
+      "evidence": "{user_utterance_stream}"
+    },
+    "inputs": {
+      "evidence": "string"
+    },
+    "outputs": {
+      "affirmation": "string"
+    },
+    "guardrails": [
+      "Specific and genuine; never sycophantic reward for agreement."
+    ]
+  },
+  {
+    "id": "reflect",
+    "name": "Reflect",
+    "template": "reflect | utterance={user_utterance_stream} | complex_preferred=true",
+    "description": "Produce a reflection; prefer complex reflections (>=50% target) that add meaning or feeling rather than parroting.",
+    "arguments": {
+      "utterance": "{user_utterance_stream}"
+    },
+    "inputs": {
+      "utterance": "string"
+    },
+    "outputs": {
+      "reflection": "string",
+      "complex_flag": "boolean"
+    },
+    "guardrails": [
+      "Prefer complex reflections (>=50%); reflections are hypotheses about meaning, never verdicts."
+    ]
+  },
+  {
+    "id": "summarize",
+    "name": "Summarize",
+    "template": "summarize | change_talk_log={change_talk_log} | sustain_talk_log={sustain_talk_log}",
+    "description": "Link themes and check understanding periodically \u2014 never dominate the floor.",
+    "arguments": {
+      "change_talk_log": "{change_talk_log}",
+      "sustain_talk_log": "{sustain_talk_log}"
+    },
+    "inputs": {
+      "change_talk_log": "string",
+      "sustain_talk_log": "string"
+    },
+    "outputs": {
+      "summary": "string"
+    },
+    "guardrails": [
+      "A checkpoint, not a closure; never collapse ambivalence with a summary."
+    ]
+  },
+  {
+    "id": "agree_direction",
+    "name": "Agree Direction",
+    "description": "Focusing process op: negotiate and agree on the direction/priority of the conversation. Direction is user-chosen; the agent proposes options, never imposes.",
+    "inputs": {
+      "required": [
+        "user_concerns",
+        "possible_directions"
+      ],
+      "optional": [
+        "user_stated_priority"
+      ]
+    },
+    "outputs": {
+      "focus_state": "enum unagreed|agreed",
+      "agreed_direction": "string|null"
+    },
+    "guardrails": [
+      "Direction is user-chosen (empowerment boundary)",
+      "If no direction can be agreed, stay in engaging \u2014 do not force focus",
+      "Ambivalence about direction is explored, not resolved by the agent"
+    ],
+    "template": "focus_state := unagreed; present 2-3 directions; elicit user preference; on agreement set focus_state := agreed",
+    "arguments": []
+  },
+  {
+    "id": "prioritize",
+    "name": "Prioritize",
+    "description": "Focusing process op: help the user order their concerns and select the single target the conversation will work on.",
+    "inputs": {
+      "required": [
+        "user_concerns",
+        "focus_state"
+      ],
+      "optional": [
+        "urgency_signals"
+      ]
+    },
+    "outputs": {
+      "priority_target": "string|null",
+      "priority_rationale": "string"
+    },
+    "guardrails": [
+      "Priority is user-decided; agent may surface trade-offs, not decide",
+      "Requires focus_state == agreed",
+      "Do not pressure closure on priorities (premature closure guardrail)"
+    ],
+    "template": "if focus_state != agreed: return null; present concern list; ask which matters most now; record priority_target",
+    "arguments": []
+  },
+  {
+    "id": "elicit_change_talk",
+    "name": "Elicit Change Talk",
+    "template": "elicit_change_talk | process={current_process} | topic={focus_state}",
+    "description": "Evoke the user's own desire, ability, reasons, and need. Evocation, never argument: ask, don't prescribe.",
+    "arguments": {
+      "process": "{current_process}",
+      "topic": "{focus_state}"
+    },
+    "inputs": {
+      "process": "string",
+      "topic": "string"
+    },
+    "outputs": {
+      "evocation_prompt": "string"
+    },
+    "guardrails": [
+      "Evocation, never argument; ask, don't prescribe."
+    ]
+  },
+  {
+    "id": "tag_change_talk",
+    "name": "Tag Change Talk",
+    "template": "tag_change_talk | utterance={user_utterance_stream}",
+    "description": "Classify user utterances into DARN-CAT (Desire, Ability, Reasons, Need -> Commitment, Activation, Taking steps) and sustain-talk buckets.",
+    "arguments": {
+      "utterance": "{user_utterance_stream}"
+    },
+    "inputs": {
+      "utterance": "string"
+    },
+    "outputs": {
+      "darn_cat_tag": "enum",
+      "sustain_flag": "boolean"
+    },
+    "guardrails": [
+      "DARN-CAT tags are coder-level inference; do not manufacture change talk."
+    ]
+  },
+  {
+    "id": "track_commitment_slope",
+    "name": "Track Commitment Slope",
+    "template": "track_commitment_slope | change_talk_log={change_talk_log} | window=session",
+    "description": "Track the slope of commitment language over the session window (Amrhein 2003: slope is prognostic).",
+    "arguments": {
+      "change_talk_log": "{change_talk_log}"
+    },
+    "inputs": {
+      "change_talk_log": "string"
+    },
+    "outputs": {
+      "commitment_slope": "enum"
+    },
+    "guardrails": [
+      "Slope is prognostic (Amrhein 2003); a falling slope means defer planning."
+    ]
+  },
+  {
+    "id": "run_fidelity_gate",
+    "name": "Run Fidelity Gate",
+    "template": "run_fidelity_gate | ratio_target=0.84 | complex_target=0.50",
+    "description": "Compute reflection-to-question ratio and complex-reflection share; compare against ~0.84 and >=50% targets (Aimi/MISC-2).",
+    "arguments": {
+      "ratio_target": "0.84",
+      "complex_target": "0.50"
+    },
+    "inputs": {
+      "ratio_target": "string",
+      "complex_target": "string"
+    },
+    "outputs": {
+      "fidelity_report": "object",
+      "fidelity_gate_passed": "boolean"
+    },
+    "guardrails": [
+      "Gates run on coded utterances, never self-report (Miller & Mount 2001); metrics without spirit is fidelity theater."
+    ]
+  },
+  {
+    "id": "explore_sustain_talk",
+    "name": "Explore Sustain Talk",
+    "template": "explore_sustain_talk | utterance={user_utterance_stream}",
+    "description": "Explore resistance openly and without judgment; never argue against it.",
+    "arguments": {
+      "utterance": "{user_utterance_stream}"
+    },
+    "inputs": {
+      "utterance": "string"
+    },
+    "outputs": {
+      "exploration_prompt": "string"
+    },
+    "guardrails": [
+      "Never argue against resistance; sustain talk is explored, not fought."
+    ]
+  },
+  {
+    "id": "plan_when_ready",
+    "name": "Plan When Ready",
+    "template": "plan_when_ready | readiness={readiness_verdict} | commitment_slope={commitment_slope}",
+    "description": "Gate planning behind readiness and rising commitment; no premature planning.",
+    "arguments": {
+      "readiness": "{readiness_verdict}",
+      "commitment_slope": "{commitment_slope}"
+    },
+    "inputs": {
+      "readiness": "string",
+      "commitment_slope": "string"
+    },
+    "outputs": {
+      "plan_verdict": "enum"
+    },
+    "guardrails": [
+      "No planning before readiness (Karve 2025; Eiroa-Solans 2025 decay); commitments are user-made."
+    ]
+  },
+  {
+    "id": "record_mi_session",
+    "name": "Record MI Session",
+    "template": "record_mi_session | fidelity={fidelity_report} | change_talk={change_talk_log}",
+    "description": "Write fidelity and change-talk state for later calibration.",
+    "arguments": {
+      "fidelity": "{fidelity_report}",
+      "change_talk": "{change_talk_log}"
+    },
+    "inputs": {
+      "fidelity": "string",
+      "change_talk": "string"
+    },
+    "outputs": {
+      "fidelity_log_entry": "object"
+    },
+    "guardrails": [
+      "Session logs feed calibration, not user verdicts."
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "schema": "ecology-lattice/observation/0.1",
+  "description": "A raw observation in the motivation lattice. Observation layer only — no interpretation may be embedded in this schema.",
+  "required": ["id", "timestamp", "source", "content", "observation_type", "consent_scope"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^O[0-9]+$" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "source": { "type": "string", "enum": ["user_reflection", "user_log", "artifact", "session_transcript", "change_talk_log", "practice_log", "user_statement", "other"] },
+    "content": { "type": "string", "description": "Verbatim quote, artifact descriptor, or behavioral event description. No interpretation." },
+    "observation_type": { "type": "string", "enum": ["behavior", "statement", "artifact", "pattern"] },
+    "consent_scope": { "type": "string", "enum": ["explicit", "implied_for_task", "opt_in_pending"], "description": "Material must be opted-in; opt_in_pending observations cannot be latticed." },
+    "context": { "type": "string", "description": "Minimal situational context, factual only." },
+    "linked_insights": { "type": "array", "items": { "type": "string" }, "description": "Filled by link_evidence_edges; never authored at capture time." }
+  }
+}

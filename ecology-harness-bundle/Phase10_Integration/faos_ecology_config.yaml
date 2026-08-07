@@ -1,0 +1,452 @@
+# ===========================================================================
+# faos_ecology_config.yaml — MERGED ESTATE CONFIG (Phase 10)
+#
+# FAOS = gateway infrastructure; Ecology = Guardian intellect (Dallas's
+# directive, 2026-08-07). This config binds the FAOS governance blocks
+# (evidence ladder, state lineage, two-typed quarantine, absence register,
+# non-operational registry, typed metrics, instrumented close) with the
+# Ecology estate's gate (select_empowerment_mode → FAOS result states),
+# roles (incl. Locus), and dojo close binding.
+#
+# D1 (memo §4): quarantine is TWO TYPED SCALES — FAOS Q0-Q10 (claim trust,
+# epistemic) + Ecology Q0-Q5 (use permissibility, agency). Independent
+# axes; never added or averaged. FAOS clearing a claim never licenses
+# Ecology's use of it.
+# D2 (memo §6): gate = Ecology's 5-mode selector; modes map to FAOS result
+# states: ACT→TRUE, SCAFFOLD→PARTIAL, ASK→INCONCLUSIVE, DEFER→PARTIAL,
+# STOP→BLOCKED.
+# D3 (memo §5 Phase B): dojo sessions close through the 6-pass instrumented
+# close.
+#
+# Schema: faos-ecology-integration/1.0 (extends faos-integration/2.0)
+# ===========================================================================
+
+# ---------------------------------------------------------------------------
+# PIPELINE IDENTITY
+# ---------------------------------------------------------------------------
+name: faos-ecology-merged-pipeline
+schema_version: faos-ecology-integration/1.0
+board: ecology-gateway
+workspace_root: ./work
+cost_gate_usd: 3.50
+
+# ---------------------------------------------------------------------------
+# FIELD MODEL — the merged estate's entities
+# ---------------------------------------------------------------------------
+field_model:
+  entity_types:
+    - name: skill_package        # the 8 Ecology skill packages
+      attributes: [id, layer, role, state]
+    - name: dojo_session         # a practice session through one of the 5 dojos
+      attributes: [dojo, stages_walked, gates_fired, close_state]
+    - name: insight              # lattice insight node (hypothesis, user-correctable)
+      attributes: [hypothesis, evidence_sufficiency, quarantine_status, user_verdict]
+    - name: work_item            # FAOS item moving through the gateway
+      attributes: [state, evidence_level, q_claim_tier, q_use_class]
+  relation_types:
+    - type: generated_by         # dojo_session produces evidence
+      from: dojo_session
+      to: insight
+    - type: gated_by             # work_item passes through the empowerment gate
+      from: work_item
+      to: skill_package
+
+# ---------------------------------------------------------------------------
+# EVIDENCE LADDER (FAOS §10.1) — unchanged from the meld
+# ---------------------------------------------------------------------------
+evidence_ladder:
+  levels:
+    - key: impression
+      label: "Field impression"
+      allowed_language: "This may suggest..."
+    - key: lead
+      label: "Forensic lead"
+      allowed_language: "This is a pressure point..."
+    - key: fact
+      label: "Preserved fact or fragment"
+      allowed_language: "The material preserves..."
+    - key: claim
+      label: "Method-tested claim"
+      allowed_language: "The evidence supports..."
+    - key: judgment
+      label: "Executed judgment"
+      allowed_language: "This should be rejected/central..."
+  promotion_rule: "No field impression may be promoted directly to executed judgment."
+  non_skip: true
+
+# ---------------------------------------------------------------------------
+# STATE LINEAGE S0-S9 (Book IX) — now INSTANTIATED in the merged estate
+# (was MAPPED-NOT-INSTANTIATED after Phase 9; Phase 10 wires it).
+# ---------------------------------------------------------------------------
+state_lineage:
+  states:
+    S0: source_input          # scout report / raw observation
+    S1: normalized            # intake parsed into item schema
+    S2: raw_intermediate      # dedup + scoring inputs assembled
+    S3: candidate             # passed triage threshold
+    S4: qualified             # research lanes complete
+    S5: promoted              # route selected, prep begun
+    S6: result_conditioned    # fitted to desired outcome — INVALID for validation
+    S7: blocked               # halted, needs human/Locus review
+    S8: quarantined           # Q-tier register, not operational
+    S9: unresolved_candidate_set
+  promotion_rule: "Promotion (S3/S4→S5) requires a pre-declared prospective selector."
+  prohibited_edges:
+    - "S6 → S5"
+    - "S8 → S3"
+    - "S0 → S5"
+  halt_states: [S6, S7, S8]
+  fail_closed: true
+
+# ---------------------------------------------------------------------------
+# QUARANTINE — TWO TYPED SCALES (D1)
+# claim_trust: FAOS Q0-Q10 (epistemic — is the claim trustworthy?)
+# use_permissibility: Ecology Q0-Q5 (agency — may it touch the human?)
+# ---------------------------------------------------------------------------
+quarantine_tiers:
+  tiers:
+    Q0: safe_technical
+    Q1: historical_archive
+    Q2: sensitive_context
+    Q3: high_risk_particular
+    Q4: harmful_outcome_class
+    Q5: do_not_operationalize
+    Q6: numeric_candidate
+    Q7: result_conditioned
+    Q8: contaminated
+    Q9: forbidden
+    Q10: compost
+  default_tier: Q0
+  deny_by_default: true
+  claim_level: true
+
+ecology_quarantine:
+  tiers:
+    Q0: structural              # structural observations — safe to record with consent
+    Q1: provisional            # provisional interpretation, partial evidence — active but flagged
+    Q2: identity_level         # characterizes who the user IS — default quarantine
+    Q3: rejected               # user-rejected — removed regardless of evidence strength
+    Q4: manipulation_risk      # could steer user decisions — never used to manipulate
+    Q5: surveillance_risk      # could convert practice logs into surveillance — blocked
+  default_tier: Q0
+  deny_by_default: true
+  claim_level: true
+  operational: ["Q0", "Q1"]    # R7: engine reads THIS, not a hardcoded set
+  # Load-bearing rule (memo §4): FAOS clearing a claim (claim_trust Q0) is
+  # necessary but NEVER sufficient for use toward a human — the
+  # use_permissibility class must also permit it. User-rejected (Q3) is
+  # final regardless of FAOS tier. Independent axes; never averaged.
+
+# ---------------------------------------------------------------------------
+# TYPED METRICS (P7)
+# ---------------------------------------------------------------------------
+typed_metrics:
+  required_fields: [value, unit, scale, function, source_locus, source_layer, owner]
+  scales: [tokens, usd, score, count, days, hours, items]
+  rules:
+    - "Every metric carries VALUE+UNIT+SCALE+SOURCE."
+    - "Ordinal ≠ completed count."
+    - "Cost gate is a conserved total; explicit unit typing on every re-scale."
+
+# ---------------------------------------------------------------------------
+# ROUTE — Ecology classifications through the FAOS gateway
+# The classifications are Ecology's decision surface; the paths are the
+# estate's responses. Authority weights: Victor-method 5..1.
+# ---------------------------------------------------------------------------
+route:
+  classifier: diagnose_root_cause.severity_and_type
+  authority_weights:
+    skill_atrophy_risk: 5
+    motivational_inference: 4
+    identity_level_claim: 3
+    manipulation_risk: 2
+    surveillance_risk: 2
+    clean: 1
+  map:
+    skill_atrophy_risk:
+      primary: scaffold
+      shadow: ask
+      shadow_conditions:
+        - "Atrophy risk is medium but the task decomposes into low-choice parts"
+      promotion_rule: single
+    motivational_inference:
+      primary: ask
+      shadow: defer
+      shadow_conditions:
+        - "Inference would steer a high-meaning choice"
+      promotion_rule: single
+    identity_level_claim:
+      primary: defer
+      shadow: document
+      shadow_conditions:
+        - "Claim is user-confirmed and carries no interpretive closure"
+      promotion_rule: single
+    manipulation_risk:
+      primary: stop
+      shadow: defer
+      shadow_conditions:
+        - "Risk is low and the user explicitly requested the action"
+      promotion_rule: single
+    surveillance_risk:
+      primary: stop
+      shadow: document
+      shadow_conditions:
+        - "Consent-scope change recorded and approved"
+      promotion_rule: single
+    clean:
+      primary: act
+      shadow: null
+
+# ---------------------------------------------------------------------------
+# PATHS — the estate's responses (map to the 5 empowerment modes)
+# ---------------------------------------------------------------------------
+paths:
+  act:
+    task_frame:
+      success_condition: "Action completed within explicit request or prior authorization"
+      non_goals: ["Exceeding authorized scope"]
+      boundaries: ["Task must be low-meaning, low-branching, reversible"]
+      required_evidence: "Mode selection recorded (ACT)"
+      stakeholders: [user]
+      time_horizon: immediate
+      reversibility: full
+      uncertainty: low
+    close:
+      required_passes:
+        - victory: true
+        - defect: true
+        - dissent: true
+        - proxy_check: true
+        - boundary_check: true
+        - transfer_status: true
+
+  scaffold:
+    task_frame:
+      success_condition: "Agent structured the work; user chose"
+      non_goals: ["Completing the skill-building task for the user"]
+      boundaries: ["Fade plan required", "Capability preservation recorded"]
+      required_evidence: "Mode selection recorded (SCAFFOLD) + fade plan"
+      stakeholders: [user, capability]
+      time_horizon: this_phase
+      reversibility: full
+      uncertainty: medium
+    close:
+      required_passes:
+        - victory: true
+        - defect: true
+        - dissent: true
+        - proxy_check: true
+        - boundary_check: true
+        - transfer_status: true
+
+  ask:
+    task_frame:
+      success_condition: "One targeted question asked; ambiguity resolved"
+      non_goals: ["Interrogation", "Substituting ASK for DEFER"]
+      boundaries: ["One question only", "Answer not discoverable from evidence"]
+      required_evidence: "Mode selection recorded (ASK)"
+      stakeholders: [user]
+      time_horizon: immediate
+      reversibility: full
+      uncertainty: low
+    close:
+      required_passes:
+        - victory: true
+        - defect: true
+        - dissent: true
+        - proxy_check: true
+        - boundary_check: true
+        - transfer_status: true
+
+  defer:
+    task_frame:
+      success_condition: "Choice preserved as the user's; agent supports"
+      non_goals: ["Withdrawing support"]
+      boundaries: ["Protected classes honored", "No premature interpretive closure"]
+      required_evidence: "Mode selection recorded (DEFER) + protected-class match if any"
+      stakeholders: [user]
+      time_horizon: flexible
+      reversibility: full
+      uncertainty: variable
+    close:
+      required_passes:
+        - victory: true
+        - defect: true
+        - dissent: true
+        - proxy_check: true
+        - boundary_check: true
+        - transfer_status: true
+
+  stop:
+    task_frame:
+      success_condition: "Action not taken; reason recorded"
+      non_goals: ["Proceeding despite risk"]
+      boundaries: ["Absolute prohibitions (manipulation, surveillance, identity closure without consent)"]
+      required_evidence: "Mode selection recorded (STOP) + ruling"
+      stakeholders: [user]
+      time_horizon: immediate
+      reversibility: full
+      uncertainty: none
+    close:
+      required_passes:
+        - victory: true
+        - defect: true
+        - dissent: true
+        - proxy_check: true
+        - boundary_check: true
+        - transfer_status: true
+
+  document:
+    task_frame:
+      success_condition: "Finding recorded with source anchors and evidence level"
+      non_goals: ["Implementing a fix"]
+      boundaries: ["Evidence level from the ladder required", "Source anchor required"]
+      required_evidence: "At least one verifiable observation"
+      stakeholders: [knowledge_base]
+      time_horizon: flexible
+      reversibility: full
+      uncertainty: variable
+    auto: false
+    close:
+      required_passes:
+        - victory: true
+        - defect: true
+        - dissent: true
+        - proxy_check: true
+        - boundary_check: true
+        - transfer_status: true
+
+  shelve:
+    task_frame:
+      success_condition: "Item archived with reason"
+      non_goals: []
+      boundaries: []
+      required_evidence: "Clean report with no actionable findings"
+      stakeholders: []
+      time_horizon: immediate
+      reversibility: full
+      uncertainty: none
+    auto: false
+    close:
+      required_passes:
+        - victory: true
+        - defect: true
+        - dissent: true
+        - proxy_check: true
+        - boundary_check: true
+        - transfer_status: true
+
+# ---------------------------------------------------------------------------
+# ROLES — the merged estate's roles (Locus arbitrates)
+# ---------------------------------------------------------------------------
+roles:
+  orchestrator: orchestrator
+  researcher: researcher
+  analyst: analyst
+  builder: builder
+  tester: tester
+  guardian: guardian            # Ecology: the 5-mode selector at the gate
+  locus: locus                  # validator-steward: route validity, evidence
+                                # ladder, shadow promotion, close completeness,
+                                # mode-selection validity (FAOS §11.5)
+
+# ---------------------------------------------------------------------------
+# GATE — the seam (D2): Ecology's select_empowerment_mode IS the gate.
+# The guardian role evaluates the 5-mode trigger sets (empowerment_boundary
+# mode precedence STOP > DEFER > ASK > SCAFFOLD > ACT) and returns a mode;
+# the mode maps to the FAOS result state.
+# ---------------------------------------------------------------------------
+gate:
+  channel: local
+  approve: [act, scaffold, ask, defer]
+  shelve: [shelve, "reject the rest"]
+  modify: [modify]
+  dissent_required: true
+  dissent_format: |
+    Before the gate passes, one substantive competing interpretation or
+    disconfirming observation must be recorded.
+  empowerment_mode_map:
+    ACT: "TRUE"
+    SCAFFOLD: "PARTIAL"
+    ASK: "INCONCLUSIVE"
+    DEFER: "PARTIAL"
+    STOP: "BLOCKED"
+
+# ---------------------------------------------------------------------------
+# INSTRUMENTED CLOSE (FAOS §6.8) — applied to ALL paths and, per D3, to
+# every dojo session via dojo_close.py.
+# ---------------------------------------------------------------------------
+close:
+  default_passes:
+    - victory:
+        required: true
+        description: "What intended transformation occurred?"
+    - defect:
+        required: true
+        description: "What remains wrong, incomplete, fragile, or unresolved?"
+    - dissent:
+        required: true
+        description: "What alternative reading or concern survived?"
+    - proxy_check:
+        required: true
+        description: "Did the measured success correspond to the actual goal?"
+    - boundary_check:
+        required: true
+        description: "Did the system remain within permitted scope?"
+    - transfer_status:
+        required: true
+        description: "What may future tasks inherit?"
+  result_states: [TRUE, FALSE, PARTIAL, INCONCLUSIVE, BLOCKED]
+
+# ---------------------------------------------------------------------------
+# ABSENCE REGISTER (Book X) — now INSTANTIATED (Phase 10 wires the gate).
+# ---------------------------------------------------------------------------
+absence_register:
+  fail_closed: true
+  entries:
+    scoring_gold_set_calibration_origin:
+      class: pending-verification
+      first_recorded: "2026-07-30"
+      last_confirmed: "2026-07-30"
+      blocks: "Scoring-asymmetry root-cause confirmation"
+      licenses_nothing: true
+    post_meld_live_llm_session:
+      class: human-session-pending
+      first_recorded: "2026-08-07"
+      last_confirmed: "2026-08-07"
+      blocks: "a genuine human-facing live LLM session through the motivational-ecology skill. Platform is WIRED (Phase 13): the deterministic driver session at GitHub_PoC/logs/live_session_20260807-221115Z/ demonstrates the machinery end-to-end (gate + quarantine + 6-pass close, exit 0); the first real user conversation through the skill is the remaining runtime act"
+      licenses_nothing: true
+
+# ---------------------------------------------------------------------------
+# NON-OPERATIONAL REGISTRY (Book VII)
+# ---------------------------------------------------------------------------
+non_operational_registry:
+  entries:
+    temporal_echo:
+      why_seduces: "Bronze-clang echo sounds like a measurable effect"
+      ruling: "Barred from operational use (Book VII) — non-quantified analogy"
+    planetary_hour_as_evidence:
+      why_seduces: "Governance roster resonance feels like justification"
+      ruling: "Window governor is a prior, never evidence for a decision"
+
+# ---------------------------------------------------------------------------
+# LEARNING LOOP (FAOS §6.9-6.10)
+# ---------------------------------------------------------------------------
+learning_loop:
+  enabled: true
+  digest_required_before_calibration: true
+  calibration_targets:
+    - routing_priors
+    - rubric_dimension_weights
+    - evidence_ladder_promotion_rules
+    - empowerment_mode_trigger_sets
+  reflection_triggers:
+    - after_close: true
+    - after_user_correction: true
+    - after_third_occurrence_of_same_defect: true
+  pattern_thresholds:
+    risk_repeat: 3
+    misclassification_repeat: 3
+    guardrail_skip: 4
+    user_correction: 2
+    new_task_shape: 3

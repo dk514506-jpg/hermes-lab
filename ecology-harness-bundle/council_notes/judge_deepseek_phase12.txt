@@ -1,0 +1,177 @@
+# Phase 12 Judge Verdict — Conditional Package Activation
+## Material_Arrangement_Scan + Feedback_Ecology_Map
+
+Judge: DeepSeek (nous portal deepseek-v4-flash-0731) — adversarial outside judge
+Date: 2026-08-07
+Artifacts reviewed (in brief order): Phase12_Plan.md; Material_Arrangement_Scan (9 files);
+Feedback_Ecology_Map (9 files); phase12_conditional_packages.py (executable, read line-by-line
+and adversarially probed); verify_phase12.py (run); skill_graph_index.json; T2R_traceability.json;
+plus cross-checks: DEFERRED_PACKAGES.md, verify_all.py, examples/evaluation notes of both packages.
+Execution evidence: self-test run (PASS, exit 0); verify_phase12.py run (33 checks PASS, exit 0,
+incl. legacy Phase 11 + FAOS); targeted probe scripts executed against the module.
+
+---
+
+## 1. VERDICT
+
+**REVISE** — the activation is real, the 6 ops execute, and most discipline is carried in code,
+but detect_shared_elements is a wholesale pass-through that violates its own guardrail (JSON-only
+guardrail, fail-open), and the "ZERO UNINSTANTIATED" claim in the T2R register is achieved by
+pruning the 3 REGISTERED-NOT-BUILT ops out of the register rather than resolving them. Both are
+fixable without redesign; the package set is one revision round from DEPLOY.
+
+## 2. SCORE
+
+**3.5 / 5** — genuine executables with behaviorally-tested discipline (confirmation gating,
+arrangement-only proposals, claim-level hypotheses, ask-never-supply all verified in code by my
+own execution), honest 8+2 built-package count and honest registered-not-built declarations in
+support_ops.md; but one op's guardrail exists only in JSON while its code contradicts it, and the
+authoritative T2R register + deferral registries misstate the post-activation state.
+
+## 3. KERNEL — preserve exactly as-is
+
+1. **scan_meanings confirmation gating is enforced by construction** — identity-level statements
+   are surfaced as `meaning_reframes_candidates` with `confirmation_required: True` and there is
+   no code path that ever applies a reframe (phase12_conditional_packages.py L66-84). The self-test
+   asserts the gate (L200). This is the Phase 11 confirmed-Q2 path carried correctly.
+2. **design_novelty_into_routine is arrangement-only by construction** — every proposal is
+   "relocate/adjust in the environment (arrangement only)" (L105-117); meaning cannot be touched
+   by the op regardless of inputs. Proposals are suggestions; user authority preserved.
+3. **form_cmo_hypothesis keeps claim-level discipline** — `hypothesis_status: "hypothesis"` is
+   hardcoded (L170) and mechanism is pinned to `coherence` (L164), claiming only what the package
+   actually built (the other three NPT mechanisms are registered-not-built). No verdicts emitted.
+4. **Honest activation wiring** — skill_graph_index.json L6: "10 built packages (8 +
+   Material_Arrangement_Scan + Feedback_Ecology_Map)", 4 edges carry `activated:
+   2026-08-07 Phase 12` annotations with the historical quarantine note retained, `quarantined_edges:
+   []`. The 6 T2R flips each map to a real, executable method that the self-test exercises. The
+   "registered-not-built" honesty for assess_participation/collective_action/monitoring is explicit
+   in FEM support_ops.md L7-18 and evaluation_notes.md L21-24.
+5. **The verifier is real and runs** — verify_phase12.py executed: 33 checks PASS, exit 0,
+   including the non-recursive legacy chain (Phase 11 verifier, FAOS canonical). The stand-in
+   parsing IS disclosed honestly in the code docstrings (scan_materials L47-48 "Deterministic
+   stand-in: split the description into candidate materials"; detect_shared_elements L90).
+
+## 4. WEAKNESSES
+
+1. **HIGH — detect_shared_elements is a wholesale pass-through that violates its own guardrail.**
+   atomic_ops.json (MAS) L67 guardrail: "No element is claimed shared without appearing in two
+   practices' inventories." The executable (phase12_conditional_packages.py L86-97) has NO second
+   practice anywhere in its signature; it returns `materials_shared = materials_inventory if
+   len > 1` — i.e. claims EVERY material shared whenever there are ≥2 materials, and `meanings_shared
+   = all identity-level meanings` (shared with what?). My probe: 2 materials → both "shared", with
+   zero evidence of a second practice. This is the schema-declares / code-fails-open pattern the
+   brief warned about. The guardrail exists in JSON only. Fix: add a second-practice input (or
+   practice_graph containing ≥2 practices), emit overlaps only for elements present in two
+   inventories, mark results "candidate/stand-in", and add a behavioral verifier check.
+
+2. **HIGH — "ZERO UNINSTANTIATED remain" is achieved by deletion, not resolution.** The 3
+   registered-not-built ops (assess_participation, assess_collective_action, assess_monitoring) are
+   absent from T2R_traceability.json entirely — all 49 listed entries are "instantiated" (my count;
+   verifier docstring and graph open_items say "48", which is itself stale). The register's stated
+   purpose is "trace every AtomicOp candidate … or mark uninstantiated" (T2R L6), so those 3 belong
+   in the register with status REGISTERED-NOT-BUILT. The verifier check "T2R: ZERO UNINSTANTIATED
+   remain (all 48 register ops resolved)" (verify_phase12.py L139-140, docstring L18) passes
+   trivially because the string "UNINSTANTIATED" no longer exists. The honesty lives in
+   support_ops.md, not in the authoritative register. Fix: re-add the 3 ops with explicit
+   REGISTERED-NOT-BUILT status and make the verifier assert 46 instantiated + 3 registered-not-built.
+
+3. **MED — Registries contradict the activation.** DEFERRED_PACKAGES.md still lists both packages
+   as deferred with activation criteria (L20-21) and "Uninstantiated T2R register ops (9 of 48)"
+   (L28); T2R_traceability.json status header still reads "POST-PHASE-4 … NPT + practice-theory
+   remain deferred" (L5); skill_graph_index.json open_items still says "39 instantiated, 9
+   UNINSTANTIATED — see DEFERRED_PACKAGES.md" (L229) and the file date is 2026-08-06 (L5). A fresh
+   reader of the deferral roadmap would conclude the packages are still deferred while the graph
+   shows them un-quarantined — the exact "missing from registries" pattern prior rounds caught, here
+   as activation records missing from registries. Fix: update all three to POST-PHASE-12 state.
+
+4. **MED — Declared outputs with no producer.** skill_node.json (MAS) declares `practice_graph` as
+   the package's PRIMARY output and state_write (L23-24, L41); FEM declares `embedding_feedback_loops`
+   as secondary output and state_write (skill_node L26-28, L40). No op in the executable constructs
+   either — my search across Phase12_Activation found zero occurrences. The verifier checks
+   state_schema KEYS exist, not that ops produce them. Fix: add a trivial aggregator op
+   (build_practice_graph) or declare the outputs "derived by consumer"; verifier asserts producers.
+
+5. **MED — Stand-in limits disclosed in code docstrings but absent from the package registries.**
+   evaluation_notes.md (MAS) "What verified" lists boundary discipline and T2R flips but never notes
+   the ";"-split stand-in parsing, the hardcoded `"location": "described"`, or that
+   detect_shared_elements cannot detect two-practice bundles — while examples.md L16-17/L32
+   presents exactly that capability ("the shoes serve BOTH the walk practice AND … decompression
+   practice") as if the executable performed it. The note's edge count is also wrong ("4 internal +
+   2 compatible_with" vs the actual 4 decomposes + 3 feeds + 2 compatible_with). Fix: add a
+   "stand-in limits" section to evaluation_notes.md and mark examples as illustrative beyond the
+   deterministic executable.
+
+6. **LOW-MED — Identity-marker false positives.** `"i am"` and `"i'm a"` are substring matches
+   (phase12_conditional_packages.py L30-32). My probe: "I am going to try walking after dinner" →
+   level=identity, promoted to a confirmation-gated reframe candidate. Fail-closed direction
+   (over-gating demands confirmation), so safe, but noisy and it inflates meaning_reframes_candidates
+   with behavioral statements. Fix: word-boundary/pattern matching ("i am someone who", "i'm the
+   kind of person") or require sentence-initial marker.
+
+7. **LOW — Evidence-anchor quality.** design_novelty's `evidence_anchor` is the string "materials
+   inventory scan" — an op name, not an anchor (L111). form_cmo_hypothesis emits a hypothesis with
+   an EMPTY `evidence_quote` when normalization_state lacks quotes (L168-169), contradicting its own
+   guardrail "Each hypothesis carries … evidence quote" (FEM atomic_ops.json L45). Fix: require
+   non-empty evidence or suppress/flag the unanchored hypothesis.
+
+## 5. HONESTY CHECK
+
+- **Does the executable implement what the schema declares?** Mostly yes; three exceptions:
+  (a) detect_shared_elements' "two practices" guardrail exists in JSON only and the code's
+  len>1 pass-through contradicts it (W1); (b) practice_graph and embedding_feedback_loops are
+  declared outputs/state_write with no producer (W4); (c) detect_shared_elements' declared input is
+  `practice_graph` (object) but the executable takes materials_inventory + meanings_inventory lists —
+  signature drift (W1).
+- **Guardrails in code or only JSON?** Verified in CODE (by my execution): scan_meanings
+  confirmation gating (candidates carry confirmation_required; no apply path), design_novelty
+  arrangement-only, form_cmo claim-level, assess_coherence ask-never-supply (questions are asked;
+  meaning field is the placeholder "user-defined (agent asks, never supplies)", never invented).
+  NOT in code: the two-practices rule for shared elements (W1). The verifier's discipline checks
+  (verify_phase12.py L97-112) are string-presence checks on JSON guardrails — the real behavioral
+  coverage is the self-test, which omits detect_shared_elements behavior beyond key presence (L205).
+- **Activation wiring honest?** Yes. 10 = 8+2 exactly; edges un-quarantined with activation dates;
+  6 T2R flips each backed by a real executable method (self-test exercises all 6).
+- **Overclaiming found:** the verifier's "all 48 register ops resolved / ZERO UNINSTANTIATED"
+  framing (W2); MAS examples/evaluation implying bundle detection the deterministic executable
+  cannot perform (W5); stale "39/9" and "POST-PHASE-4 … remain deferred" registry headers (W3).
+- **Stand-in parsing:** honestly disclosed in code docstrings; NOT disclosed in evaluation_notes.md,
+  skill_node.json, or examples — partial (W5).
+
+## 6. DISCIPLINE CHECK (Valens)
+
+- **Premature coherence:** FEM is restrained — only coherence is assessed; the other three
+  mechanisms are explicitly registered-not-built and recovery_ops.md refuses to fabricate readings
+  (partial_embedding_recovery). MAS partially fails: the skill's purpose, examples, and edge
+  rationale claim bundle detection ("one competence serving two practices", "change one, benefit
+  two") that the executable cannot deliver — the package claims more than its deliverable (W1/W5).
+- **User-owned meaning:** PASS. scan_meanings surfaces the user's own statements; reframe
+  candidates are the user's words, confirmation-gated, never agent-supplied framings.
+  assess_coherence records meaning as user-defined and asks questions; no imposed reframe found in
+  code or outputs. "The agent asks, never supplies" is carried through both packages.
+- **Claim-level hypotheses:** PASS. form_cmo_hypothesis is hardcoded to hypothesis status; the
+  outcome strings ("routine not yet internalized (fades without support)") are assertions but are
+  labeled hypothesis and feed calibration only. Caveat: empty-evidence hypotheses (W7).
+- **Identity confirmation gating:** PASS by construction — candidates are tagged
+  confirmation_required and nothing applies them (the gate is vacuously safe; note the op never
+  generates an actual alternative reframe, so the candidate list is semantically hollow — a
+  function, not a flaw).
+
+## 7. RECOMMENDED REVISIONS (minimal set to move to DEPLOY)
+
+1. Rework detect_shared_elements: accept a ≥2-practice input, emit overlaps only for elements
+   present in two inventories, label results as candidates/stand-in, and add a behavioral verifier
+   check (W1).
+2. Re-add assess_participation / assess_collective_action / assess_monitoring to
+   T2R_traceability.json with status REGISTERED-NOT-BUILT; change the verifier to assert
+   46 instantiated + 3 registered-not-built instead of "ZERO UNINSTANTIATED" (W2).
+3. Update DEFERRED_PACKAGES.md (remove the two activated packages; revise the 9-of-48 line), the
+   T2R status header, and skill_graph_index open_items + date to POST-PHASE-12 reality (W3).
+4. Add build_practice_graph (and FEM's embedding_feedback_loops) producers or declare the outputs
+   derived-by-consumer in the schemas; verifier asserts production (W4).
+5. Add a "stand-in limits" section to both evaluation_notes.md; flag examples that exceed the
+   deterministic executable (W5).
+6. Tighten IDENTITY_LEVEL_MARKERS to word-bounded patterns (W6).
+7. Require a non-empty evidence_quote for form_cmo_hypothesis output, or mark the hypothesis
+   "unanchored" (W7).
+
+With 1-3 applied this is a DEPLOY. Items 4-7 are hardening; none require redesign.

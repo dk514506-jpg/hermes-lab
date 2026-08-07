@@ -1,0 +1,124 @@
+{
+  "id": "MI_Ambivalence_Conversation",
+  "name": "MI Ambivalence Conversation",
+  "version": "1.0",
+  "purpose": "Run the Motivational Interviewing layer of conversation \u2014 spirit, four processes (engaging, focusing, evoking, planning), OARS micro-skills, DARN-CAT change-talk detection with commitment-slope tracking, and runtime fidelity gates (reflection-to-question ratio toward ~0.84, complex reflections >= 50%, per Aimi/MISC-2 evidence) \u2014 with a hard gate that MI techniques without spirit are not MI.",
+  "applicability_states": [
+    "ambivalence_expressed",
+    "sustain_talk_or_resistance_detected",
+    "behavior_change_exploration_needed",
+    "motivational_barrier_identified_by_diagnosis",
+    "readiness_assessment_required",
+    "user_stuck_between_reasons",
+    "mi_practice_sparring_mode"
+  ],
+  "expected_state_changes": {
+    "process_state": "engaging|focusing|evoking|planning",
+    "spirit_state": "present|absent|degraded",
+    "reflection_to_question_ratio": "number",
+    "complex_reflection_share": "number",
+    "change_talk_log": "array",
+    "sustain_talk_log": "array",
+    "commitment_slope": "rising|flat|falling",
+    "readiness_verdict": "not_ready|ambivalent|ready",
+    "fidelity_gate_passed": "boolean",
+    "preserved_user_decision": "string"
+  },
+  "representative_examples": [
+    "User says 'I know I should exercise more, but I never have energy' \u2014 evoke desire/reasons before any planning; tag sustain talk, explore it, never fight it.",
+    "When reflection-to-question ratio drops below ~0.84 across a window, downgrade questions to complex reflections and log the fidelity miss.",
+    "When commitment slope is falling, defer planning and return to evoking (Amrhein 2003: slope is prognostic)."
+  ],
+  "failure_hints": [
+    "If the user starts defending the status quo, the agent has argued against resistance.",
+    "If the user's change talk is all repetition of agent-supplied reasons, evocation has become prescription (disingenuous change talk).",
+    "If the user agrees to plans they later abandon within 24h, planning may have run ahead of readiness (Eiroa-Solans 2025 decay)."
+  ],
+  "support_count": 0,
+  "source_influences": [
+    "Motivational Interviewing: Miller & Rose 2009 relational pathway (VERIFIED, empathy r=.82)",
+    "Bischof 2021 meta OR 1.55 [1.40-1.71] (VERIFIED)",
+    "Amrhein 2003 commitment-strength slope (VERIFIED)",
+    "Aimi/MISC-2: Shenoi 2026 ratio 0.84, complex reflections 66.7% (VERIFIED, Recent_Evidence_Digest Area 1)",
+    "Lim 2025 LLM+HMM change-talk transition dynamics (VERIFIED)",
+    "Karve 2025 ceiling finding; Eiroa-Solans 2025 24h decay (VERIFIED)",
+    "Miller & Mount 2001 self-report vs coded proficiency (VERIFIED)",
+    "Theory_to_Routine_Interface MI row (RECONSTRUCTED agent-operability)"
+  ],
+  "layer": 5,
+  "role": "conversation",
+  "inputs": {
+    "required": [
+      "task_description",
+      "user_utterance_stream",
+      "current_process",
+      "user_goal_or_stated_intent",
+      "known_constraints"
+    ],
+    "optional": [
+      "motivational_insights",
+      "engagement_state",
+      "focus_state",
+      "change_talk_log",
+      "fidelity_log",
+      "readiness_signals"
+    ]
+  },
+  "outputs": {
+    "primary": [
+      "process_state",
+      "change_talk_log",
+      "sustain_talk_log",
+      "commitment_slope",
+      "fidelity_report",
+      "readiness_verdict"
+    ],
+    "secondary": [
+      "next_process",
+      "preserved_user_decision",
+      "risk_notes",
+      "next_skill_candidates"
+    ]
+  },
+  "triggers": [
+    "user expresses ambivalence",
+    "sustain talk or resistance detected",
+    "behavior-change exploration needed without prescription",
+    "motivational barrier identified by diagnosis skills",
+    "readiness assessment required before planning or practice",
+    "user stuck between reasons for and against",
+    "MI practice/sparring mode requested"
+  ],
+  "completion_conditions": [
+    "spirit gate passed before each technique",
+    "four processes advanced in order without skipping evoking",
+    "DARN-CAT tags written for change and sustain talk",
+    "commitment slope tracked over window",
+    "fidelity report emitted (ratio ~0.84, complex >=50%)",
+    "readiness verdict recorded; planning gated on it"
+  ],
+  "state_read": [
+    "user_utterance_stream",
+    "current_process",
+    "change_talk_log",
+    "fidelity_log",
+    "readiness_signals",
+    "engagement_state",
+    "focus_state"
+  ],
+  "state_write": [
+    "process_state",
+    "spirit_state",
+    "change_talk_log",
+    "sustain_talk_log",
+    "commitment_slope",
+    "readiness_verdict",
+    "fidelity_report",
+    "fidelity_gate_passed"
+  ],
+  "governance": {
+    "boundary_gate": "required",
+    "rule": "No AtomicOp executes on high-meaning tasks (identity, values, commitments, interpretive closure) without a Human_Empowerment_Boundary check first",
+    "declared": "2026-08-06 Phase 4"
+  }
+}

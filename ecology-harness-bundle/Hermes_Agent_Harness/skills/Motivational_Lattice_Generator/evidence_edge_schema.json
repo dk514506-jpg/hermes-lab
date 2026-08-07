@@ -1,0 +1,14 @@
+{
+  "schema": "ecology-lattice/evidence_edge/0.1",
+  "description": "A citation edge from an insight node to the observations that support it. The lattice's audit mechanism: every insight is traceable to its raw observations.",
+  "required": ["id", "from_insight", "to_observation", "strength", "provenance", "direction"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^E[0-9]+$" },
+    "from_insight": { "type": "string", "description": "Insight node id (H...)." },
+    "to_observation": { "type": "string", "description": "Observation id (O...)." },
+    "strength": { "type": "string", "enum": ["direct_quote", "consistent", "weak", "contradictory"] },
+    "provenance": { "type": "string", "description": "Source path or bundle reference for auditability." },
+    "direction": { "type": "string", "enum": ["supports", "tensions", "contradicts"] },
+    "note": { "type": "string", "description": "Optional coder note; flagged RECONSTRUCTED when it is an inference." }
+  }
+}

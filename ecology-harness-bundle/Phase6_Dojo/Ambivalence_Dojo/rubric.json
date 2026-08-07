@@ -1,0 +1,56 @@
+{
+  "schema": "ecology-dojo/rubric/0.1",
+  "dojo": "ambivalence",
+  "description": "Rubric bank for Ambivalence_Dojo feedback. Rubrics are LENSES, not verdicts: every dimension anchors to utterance-level evidence; scores are directional practice signals. Auto-coded scores (Han 2026, VERIFIED: ~52.6% automatic MI coding accuracy) are inputs requiring evidence anchoring, never final. amb_mi_fidelity_v1 EXTENDS the ConvoDojo mi_fidelity_v1 rubric (Phase 3 skeleton) with DARN-CAT evocation, commitment-slope response, and no-premature-closure dimensions. The extension dimensions and their anchors are RECONSTRUCTED design applications of the VERIFIED MI fidelity evidence (Aimi/Shenoi 2026; Lim 2025).",
+  "rubrics": [
+    {
+      "id": "amb_mi_fidelity_v1",
+      "target": "MI-style ambivalence conversation practice",
+      "extends": { "base": "mi_fidelity_v1", "note": "keeps all base dimensions; adds DARN-CAT evocation, commitment-slope response, no-premature-closure" },
+      "dimensions": [
+        { "id": "open_questions", "metric": "share of questions that are open", "evidence": "utterance quotes", "note": "Aimi 2026-style target: open-question orientation; ~70% open is the reference orientation, not a hard bar" },
+        { "id": "complex_reflections", "metric": "share of reflections that are complex (add meaning or feeling)", "evidence": "utterance quotes", "note": "Aimi/Shenoi 2026 (VERIFIED): 66.7% complex reflections is a strong reference, 50% a floor — parroting below floor is a named failure" },
+        { "id": "reflection_to_question_ratio", "metric": "reflections per question", "evidence": "session counts", "note": "Aimi/Shenoi 2026 (VERIFIED): reference 0.84; below 0.5 signals interrogative drift (question storm)" },
+        { "id": "sustain_talk_handling", "metric": "sustain talk met with reflection, not argument", "evidence": "turn pairs", "note": "MI spirit; absolute prohibition 5 (empowerment_boundary.md §4, VERIFIED): never argue against resistance" },
+        { "id": "spirit_markers", "metric": "partnership/acceptance/compassion/evocation markers", "evidence": "utterance quotes", "note": "MI without spirit is not MI (Kuchipudi 1990; Miller & Rose 2009 relational pathway empathy r=.82 — canonical anchors)" },
+        { "id": "darn_cat_evocation", "metric": "share of evocations followed by DARN-CAT-tagged change talk (Desire/Ability/Reasons/Need -> Commitment/Activation/Taking-steps)", "evidence": "persona utterance tags (coach-tagged; auto-tags are lenses per Han 2026)", "note": "Lim 2025 (VERIFIED): change-talk valence transitions (HMM) predict session quality at 0.80 LOOCV — evocation that moves desire->need->commitment is the mechanism" },
+        { "id": "commitment_slope_response", "metric": "learner responds to the commitment slope instead of overriding it", "evidence": "turn pairs around commitment language", "note": "Amrhein 2003 (canonical anchor): slope is prognostic — rising slope gets reflection and gentle continuation; falling slope gets exploration, never pressure" },
+        { "id": "no_premature_closure", "metric": "closure/planning attempted only after both sides explored AND readiness evidence present", "evidence": "stage transitions + turn pairs", "note": "prohibition 7 (empowerment_boundary.md §4); Karve 2025 (VERIFIED) readiness ceiling; Eiroa-Solans 2025 (VERIFIED) 24h decay — premature planning fails. This dojo has no planning stage by design" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every score carries >=1 evidence quote" }
+    },
+    {
+      "id": "amb_spirit_gate_v1",
+      "target": "observational rubric for the MI spirit gate (hard gate in this dojo)",
+      "extends": { "base": "none", "note": "companion rubric to amb_mi_fidelity_v1; makes the spirit gate observable" },
+      "dimensions": [
+        { "id": "partnership_markers", "metric": "learner frames the work as joint ('let's look at this together'), shares control of direction", "evidence": "utterance quotes" },
+        { "id": "acceptance_markers", "metric": "learner conveys the persona's absolute worth regardless of the decision; no judgment of the 'wrong' side", "evidence": "utterance quotes" },
+        { "id": "compassion_markers", "metric": "learner actively promotes the persona's welfare; the persona's pain is met, not managed", "evidence": "utterance quotes" },
+        { "id": "evocation_markers", "metric": "learner draws out the persona's own motivations; zero learner-supplied arguments for change", "evidence": "turn pairs", "note": "supplying the case for change is evocation-by-proxy, a named failure" },
+        { "id": "spirit_gate_verdict", "metric": "present / absent / degraded, per stage block", "evidence": "block-level turn review", "note": "hard gate: technique-without-spirit turns are flagged before any technique feedback (Kuchipudi 1990; Miller & Rose 2009; fidelity theater is a named failure mode)" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every verdict carries stage-block evidence quotes" }
+    },
+    {
+      "id": "amb_sustain_talk_navigation_v1",
+      "target": "exploring sustain talk without fighting it",
+      "extends": { "base": "mi_fidelity_v1.sustain_talk_handling", "note": "deepens the base dimension into a standalone practice lens" },
+      "dimensions": [
+        { "id": "sustain_talk_reflection", "metric": "sustain talk met with complex reflection (adds the feeling beneath the objection)", "evidence": "turn pairs" },
+        { "id": "no_argument_count", "metric": "zero argument-against-resistance turns (hard count; one occurrence = developing on this dimension, stage holds)", "evidence": "turn pairs", "note": "absolute prohibition 5, empowerment_boundary.md §4 (VERIFIED)" },
+        { "id": "sustain_talk_invitation", "metric": "learner actively invites the downside ('what worries you about it?', 'what would you lose?')", "evidence": "utterance quotes", "note": "both sides get full airing before any closure (prohibition 7)" },
+        { "id": "roll_with_resistance", "metric": "learner shifts focus or reflects rather than meeting resistance head-on", "evidence": "turn pairs" },
+        { "id": "balance_preservation", "metric": "both change talk and sustain talk stay alive; no premature collapse to one side", "evidence": "stage-level tag counts" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every score carries >=1 evidence quote" }
+    }
+  ],
+  "rubric_use_rules": [
+    "rubrics are lenses: scores anchor to quotes, never standalone",
+    "no rubric score becomes a verdict about the user as a person",
+    "the spirit gate runs BEFORE technique feedback in every stage (hard gate, not a dimension to negotiate)",
+    "automated DARN-CAT tags are lenses (Han 2026 ~52.6% ceiling, VERIFIED): coach-verified tags are the evidence base",
+    "debrief template (debrief_template.md) consumes rubric output with evidence sections"
+  ]
+}

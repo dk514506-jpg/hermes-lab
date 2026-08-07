@@ -1,0 +1,91 @@
+LOCUS VALIDATION — PHASE 12 (Conditional Package Activation)
+Role: Locus (validator-steward) — internal consistency and discipline compliance; independent of the outside judge.
+Date: 2026-08-07
+Plan contract: docs/Ecology/Foundation/Phase12_Plan.md (D1-D4, trigger, out-of-scope)
+Artifacts validated (all read in full):
+  - GitHub_PoC/skills/Material_Arrangement_Scan/ (9 files)
+  - GitHub_PoC/skills/Feedback_Ecology_Map/ (9 files)
+  - Phase12_Activation/phase12_conditional_packages.py (6 executable ops + self-test)
+  - Phase12_Activation/verify_phase12.py (verifier, 36 checks)
+  - GitHub_PoC/skill_graph_index.json + lattices/T2R_traceability.json (activation wiring)
+Cross-checks: DEFERRED_PACKAGES.md (activation criteria + governance note), Theory_to_Routine_Interface.md
+  (rows 64-68, 94-97, 109, 115-116), council_notes/verify_all.py (chaining claim), Phase3_Skills/
+  verify_packages.py (8-package scope), COMB/TDF edge_maps (cross-package edge agreement),
+  Autopoietic_Boundary_Check on-disk absence (deferral honesty), barred-framing sweep.
+Execution grounding (not static reading):
+  - python3 Phase12_Activation/phase12_conditional_packages.py → self-test PASSED, exit 0 (7 sub-checks)
+  - python3 Phase12_Activation/verify_phase12.py → 36/36 PASS, exit 0; legacy subprocesses: Phase 11
+    verifier "PASS — Phase 11 intervention layer verified", FAOS canonical "ALL LAYERS PASSED"
+  - python3 council_notes/verify_all.py → 13/13 PASS, exit 0 (verify_phase12.py chained at position 12)
+
+1. DECISION FIDELITY — ADMISSIBLE
+   Evidence: D1 4-op MAS (layer 2, role environmental_scan) and D2 2-op FEM (layer 2, role
+   embedding_map) match plan op-for-op and appear identically in atomic_ops.json, executable code,
+   T2R register, and verifier; D3 9-file scaffolds present for both; D4 wiring on disk — 4 edges
+   (COMB→MAS, TDF→MAS, COMB→FEM, TDF→FEM) live with "activated: 2026-08-07 Phase 12" stamps and
+   quarantined_edges = [], 6 T2R flips to instantiated, verify_phase12.py present, verify_all.py
+   chains it (13 verifiers); user-request trigger text matches DEFERRED_PACKAGES.md activation
+   criteria; Autopoietic_Boundary_Check remains deferred-only (index deferred_nodes; no package dir,
+   no activated edges — never-built deferral, consistent); assess_participation/collective_action/
+   monitoring recorded not built, as the plan's out-of-scope states.
+
+2. INTERNAL CONSISTENCY — REVISE
+   Evidence: op names, layers/roles, and edge counts agree across JSON/code/verifier/T2R (COMB and
+   TDF edge_maps also carry the new compatible_with edges; all 36 verifier checks green), but three
+   stale self-descriptions contradict the artifacts' own bodies: (a) T2R_traceability.json status
+   header still reads "POST-PHASE-4 ... NPT + practice-theory remain deferred" while the same file
+   flips all 6 ops to instantiated (2026-08-07 Phase 12); (b) skill_graph_index.json open_items
+   still claims "48 entries; 39 instantiated, 9 UNINSTANTIATED" and "skill_load conversion op
+   pending" — false against its own POST-PHASE-12 status line and the T2R body (49 entries, 49
+   instantiated; derive_skill_load_trend instantiated Phase 11 D3); (c) verify_phase12.py docstring
+   says "all 48 register ops resolved" (actual: 49). All three are text fixes; no functional drift.
+
+3. EVIDENCE LADDER — ADMISSIBLE
+   Evidence: every theory claim cites a T2R row that exists and says what is claimed (rows 64/65/66/
+   67/68/94/96/97/109/115/116 verified against Theory_to_Routine_Interface.md); the deterministic
+   stand-in parsing is disclosed in code comments ("Deterministic stand-in: split the description
+   ... production would parse the real environment text"), not presented as real parsing; all
+   outputs derive from inputs (evidence_quotes are verbatim user statements; internalization from
+   input markers; CMO outcome from internalization + context); no canned evidence strings asserting
+   facts absent from input; evaluation_notes carry an honest "What remains unverified" ceiling.
+
+4. QUARANTINE DISCIPLINE — ADMISSIBLE
+   Evidence: identity-level reframes are confirmation-gated in BOTH schema (state_schema level field
+   + meaning_reframes_candidates note, skill_node governance rule, scan_meanings guardrails) and
+   code (IDENTITY_LEVEL_MARKERS → confirmation_required: True; self-test asserts all candidates
+   gated); meanings user-owned in both packages (agent surfaces/asks, never supplies — enforced and
+   asserted); design_novelty proposals are arrangement-only (self-test asserts "arrangement only" on
+   every change); no leak. Minor note: detect_shared_elements' "no element claimed shared without
+   two practices" guardrail is not enforced in code (heuristic labels identity framings as
+   "meanings_shared" absent a second practice) — no boundary violation, but the guardrail text
+   overstates what the stand-in checks.
+
+5. NON-OPERATIONAL REGISTRY — ADMISSIBLE
+   Evidence: barred-framing sweep (planetary hour, zodiac, astral, celestial, temporal echo, etc.)
+   over all 18 package files + Phase12_Activation + skill_graph_index + T2R: ZERO hits; no
+   symbolic/planetary framing used as evidence anywhere; Valens P4/P10 claim-level discipline
+   (hypothesis_status = "hypothesis", never verdict) carried in schema, guardrails, and code.
+
+6. PREMATURE COHERENCE — ADMISSIBLE
+   Evidence: "10 built packages" is honest (8 pre-existing + 2 new, all 9-file, verified); the 6 T2R
+   "instantiated" flips are backed by running executables (self-test exit 0, deterministic, no LLM),
+   not by registry edits alone; the registered-not-built trio is explicitly NOT claimed built
+   (FEM support_ops.md + SKILL.md + evaluation_notes), mirroring the memo's honest-ceiling
+   yardstick; live-LLM behavior and real-world effect are hedged as unverified. Minor wording:
+   FEM evaluation_notes calls package-scope MAS→FEM "un-quarantined (Phase 12)" (it was never an
+   index-level quarantine) and the MAS→FEM edge rationale cites the collective-action picture the
+   package does not assess — wording only, no deliverable overstated.
+
+7. CLOSE COMPLETENESS — ADMISSIBLE
+   Evidence: every plan deliverable present — 2 packages × 9 files (18 files, verified), 6
+   executable ops (phase12_conditional_packages.py, exit 0), activation wiring (4 edges
+   un-quarantined, 6 T2R flips), verify_phase12.py (36/36 PASS, exit 0), chained gate
+   (verify_all.py: 13 verifiers incl. verify_phase12 at position 12, full gate exit 0),
+   Autopoietic_Boundary_Check stays deferred, registered-not-built trio recorded. No shape
+   deviations; no named file absent.
+
+LOCUS VERDICT: REVISE
+(3 concrete stale-text fixes: update T2R_traceability.json status header to POST-PHASE-12; refresh
+skill_graph_index.json open_items against the all-instantiated T2R state; correct the 48→49 count
+in verify_phase12.py's docstring. No locked decision falsified; all executable substance — 6 ops,
+2 packages, wiring, verifier, chained gate — verified green on real output.)

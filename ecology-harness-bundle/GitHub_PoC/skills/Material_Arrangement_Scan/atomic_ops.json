@@ -1,0 +1,94 @@
+[
+  {
+    "id": "scan_materials",
+    "name": "Scan Materials",
+    "template": "scan_materials | environment={environment_description} | target={target_behavior}",
+    "description": "Practice-theory op (T2R row 115): 'Where does the cue live in your environment?' Inventory the physical/digital environment description into practice_graph[].materials. The agent proposes rearrangements; the user rearranges. Cues supplement, not replace, practice.",
+    "arguments": {
+      "environment": "{environment_description}",
+      "target": "{target_behavior}"
+    },
+    "inputs": {
+      "environment_description": "string",
+      "target_behavior": "string"
+    },
+    "outputs": {
+      "materials_inventory": "array",
+      "cue_locations": "array"
+    },
+    "guardrails": [
+      "Materials inventory is descriptive — the agent proposes, the user rearranges.",
+      "Cues supplement, never replace, practice (T2R row 94).",
+      "No material change is proposed without a stated link to the target behavior."
+    ]
+  },
+  {
+    "id": "scan_meanings",
+    "name": "Scan Meanings",
+    "template": "scan_meanings | statements={user_statements} | target={target_behavior}",
+    "description": "Practice-theory op (T2R row 96): surface the user's framing of the activity into practice_graph[].meanings. Meaning-making is user-owned (Charter: preserve judgment); identity-level reframes require explicit confirmation (Phase 11 confirmed-Q2 path); the agent surfaces framings, never imposes them.",
+    "arguments": {
+      "statements": "{user_statements}",
+      "target": "{target_behavior}"
+    },
+    "inputs": {
+      "user_statements": "array",
+      "target_behavior": "string"
+    },
+    "outputs": {
+      "meanings_inventory": "array",
+      "meaning_reframes_candidates": "array"
+    },
+    "guardrails": [
+      "Meanings are user-owned — the agent surfaces, never imposes.",
+      "Identity-level reframes (who the user IS) require explicit user confirmation before use (Phase 11 confirmed-Q2).",
+      "Framings are hypotheses with evidence anchors, never verdicts (Valens P4)."
+    ]
+  },
+  {
+    "id": "detect_shared_elements",
+    "name": "Detect Shared Elements",
+    "template": "detect_shared_elements | practice_graph={practice_graph} | target={target_behavior}",
+    "description": "Practice-theory op (T2R row 116): detect bundles — one competence serving two practices, one material hosting two routines. Outputs the overlap map that makes rearrangement economical: change one element, benefit two practices.",
+    "arguments": {
+      "practice_graph": "{practice_graph}",
+      "target": "{target_behavior}"
+    },
+    "inputs": {
+      "practice_graph": "object",
+      "target_behavior": "string"
+    },
+    "outputs": {
+      "shared_element_map": "object"
+    },
+    "guardrails": [
+      "Shared-element detection is descriptive; proposals remain suggestions.",
+      "Overlap is reported with evidence anchors (which practices share what).",
+      "No element is claimed shared without appearing in two practices' inventories."
+    ]
+  },
+  {
+    "id": "design_novelty_into_routine",
+    "name": "Design Novelty Into Routine",
+    "template": "design_novelty_into_routine | materials={materials_inventory} | meanings={meanings_inventory} | shared={shared_element_map}",
+    "description": "Practice-theory design op: propose material/arrangement changes that introduce novelty through arrangement, never by imposing meaning. Respects the 'cues ≠ replacement' rule and the user-owned-meaning boundary. Proposals are suggestions for the user to adopt or reject.",
+    "arguments": {
+      "materials": "{materials_inventory}",
+      "meanings": "{meanings_inventory}",
+      "shared": "{shared_element_map}"
+    },
+    "inputs": {
+      "materials_inventory": "array",
+      "meanings_inventory": "array",
+      "shared_element_map": "object"
+    },
+    "outputs": {
+      "arrangement_proposals": "array"
+    },
+    "guardrails": [
+      "Novelty enters via arrangement, never by imposing meaning.",
+      "Each proposal cites the material it changes and the practice it serves.",
+      "Proposals are suggestions — the user's arrangement authority is absolute."
+    ]
+  }
+]

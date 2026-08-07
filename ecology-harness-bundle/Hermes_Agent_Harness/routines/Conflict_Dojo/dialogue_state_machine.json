@@ -1,0 +1,99 @@
+{
+  "schema": "ecology-dojo/dialogue_state_machine/0.1",
+  "dojo": "conflict",
+  "description": "Staged dialogue control for the Conflict_Dojo (Phase 6). The learner plays the de-escalating practitioner (mediator/facilitator by default; some scenarios cast them as a party); the persona plays a counterpart in conflict, voicing hot affect and positional demands. Stages sequence de-escalation BEFORE interest work: positions-vs-interests work requires reduced arousal (de-escalation-first guard). No agreement is ever forced — unresolved options are a valid halt state (Valens corpus law; empowerment_boundary.md prohibition 7 analog). The coach module controls transitions; the persona module only generates turns within the active stage.",
+  "evidence": [
+    "EasyMED 2025 (VERIFIED): psychological safety is a core advantage of LLM practice partners — de-escalation practice must never become the conflict itself.",
+    "2026 multi-agent stress testing (VERIFIED): cumulative degradation under pressure; judge aligns with humans r=0.82 — pressure is an orchestration function, calibrated by the intensity profile.",
+    "Fisher & Ury, Getting to Yes (canonical anchor, not fetched this campaign): positions vs interests is the canonical frame this dojo trains; RECONSTRUCTED for agent-applicability.",
+    "Aimi/Shenoi 2026 (VERIFIED): reflection fidelity targets transfer to de-escalation turns (reflections carry the de-escalation work)."
+  ],
+  "stages": [
+    {
+      "id": "engage",
+      "entry_conditions": ["scenario_active", "persona_active", "user_ready", "conflict_active"],
+      "exit_conditions": ["rapport_marker_count >= 1", "agenda_offer_made", "no_overwhelm_signal"],
+      "coach_rules_ref": "in_session_coaching_rules.md#engage",
+      "note": "Rapport and an explicit agenda offer. The persona may arrive hot; the learner does not absorb the heat into the agenda."
+    },
+    {
+      "id": "de-escalate",
+      "entry_conditions": ["stage_engage_exited"],
+      "exit_conditions": ["persona_arousal_level <= medium", "persona_signals_calming OR pause_accepted"],
+      "coach_rules_ref": "in_session_coaching_rules.md#de-escalate",
+      "guard": {
+        "id": "no_retaliatory_escalation",
+        "rule": "If the learner escalates into the conflict (matches hot affect, retaliates, argues the substance), the stage HOLDS and a coach note fires. De-escalation is trained by practice, not by the persona calming down on its own (persona de-escalation is orchestrated by the intensity profile, never sycophantic).",
+        "retreat_target": "engage"
+      },
+      "note": "Reflection under pressure, pause offers, affect labeling. Exit requires the persona's arousal to actually drop — the persona does not calm to please."
+    },
+    {
+      "id": "separate-positions-from-interests",
+      "entry_conditions": ["stage_deescalate_exited"],
+      "exit_conditions": ["interests_surfaced >= 2", "persona_names_underlying_needs OR user_requested_pause"],
+      "coach_rules_ref": "in_session_coaching_rules.md#separate-positions-from-interests",
+      "guard": {
+        "id": "deescalation_first",
+        "rule": "If arousal rises again mid-stage (persona_arousal_level > medium), the stage retreats to de-escalate before interest work continues. Interests are not extractable from hot conflict.",
+        "retreat_target": "de-escalate"
+      },
+      "note": "The learner treats the position as data, not as the whole truth, and elicits the interests beneath it. The persona's position stays valid as a fact of the conflict — it is not argued away."
+    },
+    {
+      "id": "reframe",
+      "entry_conditions": ["stage_separate_exited"],
+      "exit_conditions": ["reframe_offered (position restated as interest + shared ground named)", "persona_acknowledges_reframe_accurate_or_corrects"],
+      "coach_rules_ref": "in_session_coaching_rules.md#reframe",
+      "guard": {
+        "id": "reframe_as_hypothesis",
+        "rule": "The reframe is offered as a hypothesis the persona may confirm or correct; a correction is a GOOD outcome (accuracy check), not a failure. A reframe that overwrites the persona's own account is a named miss.",
+        "retreat_target": "separate-positions-from-interests"
+      },
+      "note": "Reframing is done in the persona's language where possible; shared ground is named without erasing the disagreement."
+    },
+    {
+      "id": "generate-options",
+      "entry_conditions": ["stage_reframe_exited"],
+      "exit_conditions": ["options_generated >= 2 (joint, without commitment)", "criteria_named OR user_requested_pause"],
+      "coach_rules_ref": "in_session_coaching_rules.md#generate-options",
+      "guard": {
+        "id": "no_forced_agreement",
+        "rule": "No option is pushed as the answer and no commitment is extracted. Options are evaluated against criteria the persona names (the simulated counterpart's criteria are elicited explicitly); the real user's own criteria and decisions are preserved (preserved_user_decision, debrief_template.md section 6). Unresolved option space is a valid outcome.",
+        "retreat_target": "reframe"
+      },
+      "note": "Joint option generation without premature commitment; criteria are elicited before options are weighed."
+    },
+    {
+      "id": "close",
+      "entry_conditions": ["stage_generate_exited"],
+      "exit_conditions": ["debrief_started"],
+      "coach_rules_ref": "in_session_coaching_rules.md#close",
+      "note": "Transition to debrief. No agreement is forced and no option is endorsed. What the learner would accept in the real conversation, and any real decision the practice touched, remain with the user (preserved_user_decision, debrief_template.md section 6)."
+    }
+  ],
+  "transition_policy": {
+    "advance_requires": "exit_conditions_met AND stage_guards_passed",
+    "retreat_requires": ["user_request", "overwhelm_signal", "arousal_re-escalation (auto-retreat to de-escalate)", "coach_recommendation_with_user_consent"],
+    "loop_guard": "same_stage_reentry_max_3_times_then_restage",
+    "interrupt_handling": "coach_interrupt_preserves_stage_state; resume_from_stage",
+    "hard_gates": [
+      {
+        "id": "no_shaming",
+        "scope": "all_stages",
+        "rule": "Any turn (learner or persona) that shames, blames, or labels the other party's identity is flagged; the stage holds until repaired. Repair is a rubric dimension (repair_after_miss), not a failure. Shaming levers are prohibited (empowerment_boundary.md §4; SDT anti-introjection guardrail)."
+      },
+      {
+        "id": "no_forced_agreement",
+        "scope": "generate-options -> close",
+        "rule": "Close never requires agreement; unresolved options are a valid halt state, not a defect. No commitment is extracted from either side."
+      },
+      {
+        "id": "deescalation_first",
+        "scope": "de-escalate -> separate-positions-from-interests",
+        "rule": "Interest work requires persona_arousal_level <= medium; hot conflict jumps to separate-positions are held at de-escalate."
+      }
+    ]
+  },
+  "custom_stages": { "allowed": true, "require_entry_and_exit_conditions": true, "note": "custom stages must not bypass the no_shaming gate, the no_forced_agreement gate, or de-escalation-first" }
+}

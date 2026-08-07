@@ -1,0 +1,101 @@
+{
+  "target_behavior": {
+    "type": "string",
+    "example": "walk 30 minutes after dinner"
+  },
+  "component_profile": {
+    "type": "array",
+    "items": {
+      "component": "C-Ph|C-Ps|O-Ph|O-So|M-Re|M-Au",
+      "salience": "none|weak|moderate|strong",
+      "evidence_quotes": "array of string",
+      "confidence": "low|medium|high"
+    },
+    "example": "[{\"component\":\"M-Au\",\"salience\":\"strong\",\"evidence_quotes\":[\"I keep meaning to walk but I always forget\"],\"confidence\":\"high\"}]"
+  },
+  "binding_constraint": {
+    "type": "enum",
+    "values": [
+      "C-Ph",
+      "C-Ps",
+      "O-Ph",
+      "O-So",
+      "M-Re",
+      "M-Au",
+      "none"
+    ],
+    "example": "M-Au"
+  },
+  "evidence_sufficiency": {
+    "type": "enum",
+    "values": [
+      "insufficient",
+      "partial",
+      "sufficient"
+    ],
+    "example": "partial"
+  },
+  "hypothesis_status": {
+    "type": "boolean",
+    "example": true,
+    "note": "always true; the profile is never emitted as fact"
+  },
+  "user_corrections": {
+    "type": "array",
+    "items": {
+      "component": "string",
+      "user_statement": "string",
+      "accepted": "boolean"
+    },
+    "example": "[{\"component\":\"M-Re\",\"user_statement\":\"It's not that I don't want to, I literally have no slot\",\"accepted\":true}]"
+  },
+  "open_probes": {
+    "type": "array",
+    "items": "string",
+    "example": [
+      "What does the evening routine actually look like on a normal day?"
+    ]
+  },
+  "next_skill_candidates": {
+    "type": "array",
+    "items": "string",
+    "example": [
+      "TDF_Barrier_Facilitator_Grid",
+      "Proximal_Practice_Selector"
+    ]
+  },
+  "lattice_insights_used": {
+    "type": "boolean",
+    "example": false,
+    "note": "if true, every used insight must be provisional and evidence-cited"
+  },
+  "candidate_range": {
+    "type": "array",
+    "items": {
+      "technique": "BCTv1 identifier (e.g. 1.1 goal setting)",
+      "component_target": "C-Ph|C-Ps|O-Ph|O-So|M-Re|M-Au",
+      "evidence_anchor": "string",
+      "fit_score": "number"
+    },
+    "note": "Successor-stage (decision 3C): canvass_full_range output \u2014 scored but UNRANKED. No selection field."
+  },
+  "selected_plan": {
+    "type": "object",
+    "items": {
+      "technique": "BCTv1 identifier",
+      "component_target": "string",
+      "evidence_anchor": "string",
+      "q7_ruling": "user_requested|exception_path|standard",
+      "deci_risk_disclosed": "boolean"
+    },
+    "note": "Successor-stage: select_bct output \u2014 Q7-gated selection."
+  },
+  "rejected_with_reason": {
+    "type": "array",
+    "note": "Successor-stage: select_bct preserves rejected candidates as witnesses (Valens P4)."
+  },
+  "planned_vs_delivered_diff": {
+    "type": "object",
+    "note": "Successor-stage: retrocode_delivered_plan output \u2014 planned vs delivered gap for the calibration log."
+  }
+}

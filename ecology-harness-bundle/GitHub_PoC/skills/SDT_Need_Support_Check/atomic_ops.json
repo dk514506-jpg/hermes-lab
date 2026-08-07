@@ -1,0 +1,197 @@
+[
+  {
+    "id": "identify_candidate_utterance",
+    "name": "Identify Candidate Utterance",
+    "template": "identify_candidate_utterance | utterance={candidate_agent_utterance}",
+    "description": "Extract the utterance or design element under review.",
+    "arguments": {
+      "utterance": "{candidate_agent_utterance}"
+    },
+    "inputs": {
+      "utterance": "string"
+    },
+    "outputs": {
+      "candidate_utterance": "string"
+    },
+    "guardrails": [
+      "Audit the triggering utterance, not the whole design, unless the design is the trigger."
+    ]
+  },
+  {
+    "id": "audit_autonomy_support",
+    "name": "Audit Autonomy Support",
+    "template": "audit_autonomy_support | utterance={candidate_agent_utterance} | constraints={known_constraints}",
+    "description": "Check for controlling language, rationale provision, perspective-taking, and genuine choice menus (autonomy = volition, not independence).",
+    "arguments": {
+      "utterance": "{candidate_agent_utterance}",
+      "constraints": "{known_constraints}"
+    },
+    "inputs": {
+      "utterance": "string",
+      "constraints": "string"
+    },
+    "outputs": {
+      "autonomy_support_level": "enum"
+    },
+    "guardrails": [
+      "Autonomy is volition, not independence; choice menus must be real, never staged."
+    ]
+  },
+  {
+    "id": "audit_competence_support",
+    "name": "Audit Competence Support",
+    "template": "audit_competence_support | task={task_description} | utterance={candidate_agent_utterance}",
+    "description": "Check for optimal challenge, effectance feedback, and scaffold presence (competence = perceived efficacy).",
+    "arguments": {
+      "task": "{task_description}",
+      "utterance": "{candidate_agent_utterance}"
+    },
+    "inputs": {
+      "task": "string",
+      "utterance": "string"
+    },
+    "outputs": {
+      "competence_support_level": "enum"
+    },
+    "guardrails": [
+      "Competence support must include scaffold fade; permanent crutches are not support."
+    ]
+  },
+  {
+    "id": "audit_relatedness_support",
+    "name": "Audit Relatedness Support",
+    "template": "audit_relatedness_support | utterance={candidate_agent_utterance}",
+    "description": "Check warmth, acknowledgment, and non-judgment in the utterance.",
+    "arguments": {
+      "utterance": "{candidate_agent_utterance}"
+    },
+    "inputs": {
+      "utterance": "string"
+    },
+    "outputs": {
+      "relatedness_support_level": "enum"
+    },
+    "guardrails": [
+      "Warmth without structure is false reassurance."
+    ]
+  },
+  {
+    "id": "detect_pressure_language",
+    "name": "Detect Pressure Language",
+    "template": "detect_pressure_language | text={user_language_sample} | utterance={candidate_agent_utterance}",
+    "description": "Scan for must/should/have-to framing and guilt or shame levers in both user and agent language.",
+    "arguments": {
+      "text": "{user_language_sample}",
+      "utterance": "{candidate_agent_utterance}"
+    },
+    "inputs": {
+      "text": "string",
+      "utterance": "string"
+    },
+    "outputs": {
+      "pressure_language_detected": "boolean"
+    },
+    "guardrails": [
+      "Never pull a guilt/shame lever; introjection language is an alarm to explore, not a tool."
+    ]
+  },
+  {
+    "id": "classify_regulatory_style",
+    "name": "Classify Regulatory Style",
+    "template": "classify_regulatory_style | text={user_language_sample} | history={regulatory_style_history}",
+    "description": "Classify user speech on the amotivation->external->introjected->identified->integrated->intrinsic continuum; labeled inference, user-correctable, with confidence.",
+    "arguments": {
+      "text": "{user_language_sample}",
+      "history": "{regulatory_style_history}"
+    },
+    "inputs": {
+      "text": "string",
+      "history": "string"
+    },
+    "outputs": {
+      "regulatory_style": "enum",
+      "regulatory_style_confidence": "enum"
+    },
+    "guardrails": [
+      "Classification is a labeled, user-correctable inference; never a verdict or identity claim."
+    ]
+  },
+  {
+    "id": "check_undermining_risk",
+    "name": "Check Undermining Risk",
+    "template": "check_undermining_risk | utterance={candidate_agent_utterance}",
+    "description": "Flag performance-contingent tangible rewards (Deci 1999 undermining); informational feedback is permitted, controlling reward is not.",
+    "arguments": {
+      "utterance": "{candidate_agent_utterance}"
+    },
+    "inputs": {
+      "utterance": "string"
+    },
+    "outputs": {
+      "undermining_risk": "enum"
+    },
+    "guardrails": [
+      "No performance-contingent tangible rewards (Deci 1999); informational feedback is permitted."
+    ]
+  },
+  {
+    "id": "suggest_autonomy_support_phrasing",
+    "name": "Suggest Autonomy Support Phrasing",
+    "template": "suggest_autonomy_support_phrasing | audit={need_support_audit} | mode={recommended_mode}",
+    "description": "Generate a revised phrasing: non-controlling, rationale, perspective-taking, explicit choice.",
+    "arguments": {
+      "audit": "{need_support_audit}",
+      "mode": "{recommended_mode}"
+    },
+    "inputs": {
+      "audit": "string",
+      "mode": "string"
+    },
+    "outputs": {
+      "recommended_phrasing": "string"
+    },
+    "guardrails": [
+      "Revised phrasing must carry rationale, perspective-taking, and real choice; no compliance laundering."
+    ]
+  },
+  {
+    "id": "target_integration_not_compliance",
+    "name": "Target Integration Not Compliance",
+    "template": "target_integration_not_compliance | goal={user_goal_or_stated_intent} | phrasing={recommended_phrasing}",
+    "description": "Verify goal framing supports internalization (relatedness->competence->autonomy per OIT), not mere compliance.",
+    "arguments": {
+      "goal": "{user_goal_or_stated_intent}",
+      "phrasing": "{recommended_phrasing}"
+    },
+    "inputs": {
+      "goal": "string",
+      "phrasing": "string"
+    },
+    "outputs": {
+      "integration_verdict": "boolean"
+    },
+    "guardrails": [
+      "Goal framing must support internalization (OIT), not mere compliance."
+    ]
+  },
+  {
+    "id": "record_need_support_outcome",
+    "name": "Record Need Support Outcome",
+    "template": "record_need_support_outcome | audit={need_support_audit} | style={regulatory_style}",
+    "description": "Write the audit and classification into need_support_score and regulatory_style state.",
+    "arguments": {
+      "audit": "{need_support_audit}",
+      "style": "{regulatory_style}"
+    },
+    "inputs": {
+      "audit": "string",
+      "style": "string"
+    },
+    "outputs": {
+      "need_support_score": "array"
+    },
+    "guardrails": [
+      "Audits are calibration data, never user verdicts."
+    ]
+  }
+]

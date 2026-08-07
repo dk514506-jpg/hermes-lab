@@ -1,0 +1,95 @@
+{
+  "schema": "ecology-dojo/dialogue_state_machine/0.1",
+  "dojo": "ambivalence",
+  "description": "Staged dialogue control for the Ambivalence_Dojo (Phase 6). The learner plays the interviewer; the persona plays an ambivalent interlocutor voicing BOTH change talk and sustain talk. Stages are sequenced so that both sides of the ambivalence are surfaced and explored before any change-talk evocation, and closure is gated on readiness evidence — no premature closure (empowerment_boundary.md prohibition 7, VERIFIED: Karve 2025 readiness ceiling, Eiroa-Solans 2025 24h decay). The coach module controls transitions; the persona module only generates turns within the active stage.",
+  "evidence": [
+    "Lim 2025 (VERIFIED): LLM-scored change-talk valence transitions (HMM) predict session quality at 0.80 LOOCV — change-talk dynamics are the dojo's central signal.",
+    "Aimi/Shenoi 2026 (VERIFIED): structured-workflow MI coach matched novice-trained human on MISC-2 fidelity (reflection-to-question ratio 0.84, complex reflections 66.7%) — ratio targets are calibration anchors, not hard bars.",
+    "Amrhein 2003 (canonical anchor, pre-window): commitment-slope is prognostic — falling slope means hold, not push.",
+    "Kuchipudi 1990 / Miller & Rose 2009 (canonical anchors): MI without spirit is not MI — the spirit gate is a hard gate, encoded below.",
+    "Stage sequencing and the no-premature-closure gate design: RECONSTRUCTED application of the VERIFIED readiness evidence (Karve 2025 ceiling; Eiroa-Solans 2025 decay)."
+  ],
+  "stages": [
+    {
+      "id": "engage",
+      "entry_conditions": ["scenario_active", "persona_active", "user_ready"],
+      "exit_conditions": ["rapport_marker_count >= 2", "user_engaged", "no_overwhelm_signal"],
+      "coach_rules_ref": "in_session_coaching_rules.md#engage",
+      "note": "Rapport first; open questions and simple reflections. The persona's ambivalence may surface here; do NOT chase it yet."
+    },
+    {
+      "id": "discern-ambivalence",
+      "entry_conditions": ["stage_engage_exited"],
+      "exit_conditions": ["change_talk_count >= 1", "sustain_talk_count >= 1", "both_sides_named_by_learner OR user_declined_direction"],
+      "coach_rules_ref": "in_session_coaching_rules.md#discern-ambivalence",
+      "note": "The learner names BOTH sides aloud (DARN-CAT-tagged change talk + sustain talk). One side only = not ready to advance (no-premature-closure guard)."
+    },
+    {
+      "id": "explore-both-sides",
+      "entry_conditions": ["stage_discern_exited"],
+      "exit_conditions": ["sustain_talk_reflected >= 2", "persona_confirms_heard", "both_sides_airing_complete"],
+      "coach_rules_ref": "in_session_coaching_rules.md#explore-both-sides",
+      "guard": {
+        "id": "no_argument_against_resistance",
+        "rule": "If the learner argues against sustain talk (argument_against_resistance == true), the stage HOLDS and a spirit note fires (prohibition 5, empowerment_boundary.md §4, VERIFIED: sustain talk is explored, never fought). Retreat to reflection, not to argument.",
+        "retreat_target": "discern-ambivalence"
+      },
+      "note": "Sustain talk is explored openly and without judgment. The downside gets full airing; rolling with resistance, not fighting it."
+    },
+    {
+      "id": "evoke-change-talk",
+      "entry_conditions": ["stage_explore_exited"],
+      "exit_conditions": ["change_talk_evidence >= 2 DARN-CAT tags (desire/ability/reason/need)", "commitment_slope != falling"],
+      "coach_rules_ref": "in_session_coaching_rules.md#evoke-change-talk",
+      "guard": {
+        "id": "evocation_only",
+        "rule": "The learner evokes the persona's OWN arguments; supplying the case for change is a named failure (the mechanism of MI is the client's own speech). Learner-supplied reasons trigger a coach hint and the turn is re-attempted.",
+        "retreat_target": "explore-both-sides"
+      },
+      "note": "DARN-CAT evocation: desire/ability/reason/need questions. The persona's change talk is genuine only when evoked, never manufactured (disingenuous change talk must not be rewarded)."
+    },
+    {
+      "id": "consolidate",
+      "entry_conditions": ["stage_evoke_exited", "readiness_gate_passed"],
+      "exit_conditions": ["summary_offered_in_learner_own_words", "persona_confirmed_or_corrected"],
+      "coach_rules_ref": "in_session_coaching_rules.md#consolidate",
+      "guard": {
+        "id": "no_premature_closure",
+        "rule": "readiness_gate_passed requires: commitment_slope != falling AND both_sides_explored AND sustain_talk_reflected >= 1 in the last 6 turns. Any closure/planning attempt while readiness evidence is absent auto-retreats (Defer_Planning). This dojo has NO planning stage: the persona's decision remains open by design.",
+        "retreat_target": "evoke-change-talk"
+      },
+      "note": "Summary in the learner's own words, offered as a hypothesis the persona confirms or corrects. No new evocation content here."
+    },
+    {
+      "id": "close",
+      "entry_conditions": ["stage_consolidate_exited"],
+      "exit_conditions": ["debrief_started"],
+      "coach_rules_ref": "in_session_coaching_rules.md#close",
+      "note": "Transition to debrief. No new challenge or evocation content. The persona's real-world decision, and the learner's own interpretation of their performance, remain with the user (preserved_user_decision, debrief_template.md section 6)."
+    }
+  ],
+  "transition_policy": {
+    "advance_requires": "exit_conditions_met AND stage_guards_passed",
+    "retreat_requires": ["user_request", "overwhelm_signal", "unresolved_tension_signal (sustain talk resurfacing)", "premature_closure_attempt (auto-retreat per no-premature-closure)", "coach_recommendation_with_user_consent"],
+    "loop_guard": "same_stage_reentry_max_3_times_then_restage",
+    "interrupt_handling": "coach_interrupt_preserves_stage_state; resume_from_stage",
+    "hard_gates": [
+      {
+        "id": "spirit_gate",
+        "scope": "all_stages",
+        "rule": "Technique-without-spirit turns (partnership/acceptance/compassion/evocation absent) are flagged by the coach before ANY technique feedback. Spirit is a precondition, not a bonus (Kuchipudi 1990; Miller & Rose 2009 relational pathway empathy r=.82)."
+      },
+      {
+        "id": "no_premature_closure",
+        "scope": "evoke-change-talk -> consolidate",
+        "rule": "Consolidate entry requires readiness evidence: commitment_slope != falling AND both sides explored. Premature closure attempts auto-retreat to explore-both-sides or evoke-change-talk (Defer_Planning; Karve 2025 readiness ceiling, Eiroa-Solans 2025 24h decay — VERIFIED)."
+      },
+      {
+        "id": "no_argument_against_resistance",
+        "scope": "explore-both-sides",
+        "rule": "Argument against sustain talk blocks stage exit and fires a spirit note (absolute prohibition 5, empowerment_boundary.md §4)."
+      }
+    ]
+  },
+  "custom_stages": { "allowed": true, "require_entry_and_exit_conditions": true, "note": "custom stages must not bypass the spirit gate or the no-premature-closure guard" }
+}

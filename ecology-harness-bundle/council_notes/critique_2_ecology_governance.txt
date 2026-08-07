@@ -1,0 +1,38 @@
+## 1. The kernel (what is genuinely strong — specific)
+
+- **Witness conflicts preserved, not harmonized, at the source layer.** TDF 12-vs-14 (Contrary_Findings_and_Limits.md §A2, including the 16-vs-13 researcher count discrepancy), the reward-undermining dispute (§A3), Beer-vs-Hui (§A5), and productivity-vs-capability (§B1) are all carried as open conflicts with their evidence, exactly per the Valens discipline. The retraction register (Wang & Fan 2025 RETRACTED, SRSUPM 2026 WITHDRAWN, README lines 65-66) is honest.
+- **Quarantine law transposed correctly into the motivational domain.** VERIFIED_STRUCTURE ≠ PERMITTED_APPLICATION is made operational in Motivational_Lattice_Generator: identity-level claims default to quarantine, `quarantine_insight` is an AtomicOp, and "an insight that the user rejects is removed from active use regardless of evidence strength" (SKILL.md §Empowerment Boundary). That is the corpus's law, correctly relocated.
+- **Interpretive sovereignty is encoded, not merely promised.** Plan v2 §11 states it; Human_Empowerment_Boundary operationalizes it as five modes (ACT/SCAFFOLD/ASK/DEFER/STOP), a `preserved_user_decision` output, and recovery ops (Undo_Interpretive_Closure, Reopen_User_Choice, Reopen_Capability_Track). Anti-atrophy is a first-class state variable (`skill_load_metric`), not a slogan.
+- **Philosophy kept as philosophy** — explicitly enforced (README line 68; Contrary_Findings D7: "closed-loop ≠ closure").
+- **The critique round itself is the best continuity artifact**: critique_briefing.md preserves Dallas's sublative framing and council assignments as an enacted practice.
+
+## 2. The limitations (what is weak or wrong — specific)
+
+- **The campaign failed to register itself in the ecology it governs.** 03_Open_Questions_Register.txt and 05_Project_Atlas.txt carry timestamps identical to seed creation (17:34); the Foundation campaign (18:23) never touched them. The register still holds its 5 seed questions — none of the campaign's live questions (TDF 12-vs-14 operationalization, reward-undermining vs. reward design in Proximal_Practice_Selector, the OneDrive write-path constraint, the 17-26% prediction ceiling) got QIDs, "Last Witnessed" dates, or Right of Return entries. The Atlas does not even list "Motivational Ecology" as an active project. The charter's "active project relationships rather than isolated archives" is violated at the top level.
+- **No journal, no handoff record.** Plan §7.5 specifies handoff_notes.md; zero files matching journal/handoff/continuity exist in the Ecology tree. Continuity currently lives in the parent's context window — precisely the "stored" rather than "enacted" continuity the charter forbids (Charter line 13). Interruption today means re-deriving the campaign.
+- **A status-line category error.** README stamps "Phases 1-2 VERIFIED (assembled from council distillations)." VERIFIED means source-fetched; a parent-side synthesis of subagent distillations is a reconstruction. Under the corpus's own printed-vs-reconstructed and ordinal≠completed rules, the syntheses should read RECONSTRUCTED-assembled, with VERIFIED reserved for sources. The same bleed recurs at the skill layer: Human_Empowerment_Boundary cites Beacock 2026 (preprint), ProACT (preprint), Xu 2026, Liu 2026 as unmarked grounding — the evidence files carry status flags, the operational skills that cite them do not. The separation stops at the archive door.
+- **Sovereignty encoded but never enacted.** No user verdict record exists anywhere; the campaign ran fully agent-side in one day (all files 17:32-18:23, 2026-08-06). Dallas's revision/rejection/quarantine rights are protocol, never exercised. Encoding without enactment is one interruption away from stored identity.
+- **The self-application gap — sharpest limitation.** The architecture's headline principle ("skill preservation is a measured objective, not a slogan," Contrary_Findings D2) is not applied to its own user. Councils of subagents did Dallas's reading, distilling, and judging. No skill_load_metric tracks whether Dallas's own Valens-reading and critique capability is rising or falling as Pip does the work. The campaign describes the architecture it does not embody — it is an instance of the very over-assistance pattern its Layer 4 exists to prevent.
+
+## 3. The missing (what would raise it a level)
+
+- A dated campaign journal/handoff record with the same discipline as the artifacts, plus updated register QIDs and an Atlas entry with relation edges (→ Valens discipline, → Agent Architecture).
+- A campaign-level quarantine appendix (the Valens sequence requires "Quarantine Appendix and Dangerous-Material Update" per book) covering the user-material bundles (bundle_4/5.txt, CONTEXT_BUNDLE_*): what is archive-only, what must not be applied to Dallas without confirmation.
+- Evidence-status propagation into Phase 3: per-claim VERIFIED/RECONSTRUCTED tags in SKILL.md grounding sections, or a linked source-fidelity register.
+- An enforcement mechanism for the HEB gate: "governance edge HEB → *" is declared in edge maps but nothing at runtime stops a skill from acting without a boundary check. Declared firewall ≠ working firewall.
+- The campaign's own skill_load_metric: per-phase record of what Dallas does unassisted vs. delegated, with at least one unassisted user task per phase.
+
+## 4. Concrete revision instructions (numbered, actionable)
+
+1. Update 03_Open_Questions_Register.txt with ≥6 campaign QIDs (TDF 12-vs-14 operationalization; reward-undermining vs. reward design; OneDrive write-path; prediction-ceiling → timing-prior-only policy; skill-load measurement for the campaign user; HEB enforcement gate), each with Date Added, Related Projects, Last Witnessed, Right of Return: Yes.
+2. Register the Motivational Ecology campaign in 05_Project_Atlas.txt with relation edges to Valens Anthologies (discipline inheritance) and Agent Architecture (consumer), and answer the three monthly review questions.
+3. Create Foundation/handoff_notes.md (or JOURNAL.md): dated entries covering council prompts, consolidation procedure, decisions, open questions — what a fresh agent needs to re-enter inquiry on disk, not in context.
+4. Re-label README status to "Phases 1-2 assembled from VERIFIED council distillations (synthesis = RECONSTRUCTED at artifact level)".
+5. Add per-claim evidence-status flags to Phase 3 SKILL.md grounding sections, demoting preprint/abstract-only grounding (Beacock, ProACT, Xu) to RECONSTRUCTED.
+6. Create a campaign-level QUARANTINE_APPENDIX.md over the user-material bundles.
+7. In Phase 4, make the HEB check mandatory (no AtomicOp executes when task_meaning_level ≠ low without a boundary check) and make user_consent_level a hard precondition of capture_observation.
+8. Track the campaign's own skill_load_metric and schedule one unassisted user task per phase.
+
+## 5. Verdict (one sentence)
+
+Discipline-faithful foundation with the strongest encoded governance in this ecology — but currently a beautiful archive with a stale self-map and no enacted continuity, and in real use it will bite first where declared governance meets unenforced runtime (the HEB gate) and where its own over-assistance quietly deskills the user it was built to empower.

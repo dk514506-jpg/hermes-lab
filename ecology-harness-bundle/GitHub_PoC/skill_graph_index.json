@@ -1,0 +1,232 @@
+{
+  "schema": "ecology-skill-graph/1.0",
+  "project": "Motivational Ecology Agent Architecture",
+  "phase": 4,
+  "date": "2026-08-07",
+  "status": "POST-PHASE-12 \u2014 10 built packages (8 + Material_Arrangement_Scan + Feedback_Ecology_Map); Autopoietic_Boundary_Check deferred",
+  "evidence_discipline": "VERIFIED / RECONSTRUCTED flags on edge rationale; hypothesis-status, not doctrine",
+  "edge_conventions": {
+    "keys": "source/target (normalized from from/to \u2014 Phase 4 decision 1)",
+    "recovers_with": "source = skill being recovered, target = recovery provider; internal recovery-op edges carry kind=internal, cross-skill edges kind=cross-skill (Phase 4 decision 2)",
+    "node_id_case": "PascalCase everywhere (Phase 4 decision 3)",
+    "dangling_edges": "edges to deferred skills quarantined in this index until those packages exist (Phase 4 decision 6)",
+    "binding_constraint": "COMB uses six-component enum; TDF compressed output renamed binding_constraint_comb (Phase 4 decision 4)",
+    "skill_load": "canonical variable skill_load_score (PPS writes 0..1); HEB derives skill_load_trend (Phase 4 decision 5)",
+    "index_scope": "CURATED CANONICAL SUBSET (Phase 7 revision, post outside-judge round): this index carries the reconciled Phase 4 cross-skill edges; per-package edge_map.json files carry the full local edge set (including op-level decomposes_to and internal recovery edges). Package edges absent from this index are package-scope by default. The TDF->COMB can_follow reverse pass is now listed here (was referenced in skill_lattice_interface.md but absent \u2014 fixed)."
+  },
+  "skill_nodes": [
+    {
+      "id": "Human_Empowerment_Boundary",
+      "layer": 3,
+      "status": "built",
+      "role": "governance",
+      "boundary_gate": "required"
+    },
+    {
+      "id": "COMB_Behavioral_Diagnosis",
+      "layer": 1,
+      "status": "built",
+      "role": "diagnosis",
+      "boundary_gate": "required"
+    },
+    {
+      "id": "TDF_Barrier_Facilitator_Grid",
+      "layer": 1,
+      "status": "built",
+      "role": "diagnosis",
+      "boundary_gate": "required"
+    },
+    {
+      "id": "SDT_Need_Support_Check",
+      "layer": 3,
+      "status": "built",
+      "role": "motivation",
+      "boundary_gate": "required"
+    },
+    {
+      "id": "MI_Ambivalence_Conversation",
+      "layer": 5,
+      "status": "built",
+      "role": "conversation",
+      "boundary_gate": "required"
+    },
+    {
+      "id": "Proximal_Practice_Selector",
+      "layer": 4,
+      "status": "built",
+      "role": "learnability",
+      "boundary_gate": "required"
+    },
+    {
+      "id": "Motivational_Lattice_Generator",
+      "layer": 1,
+      "status": "built",
+      "role": "understanding",
+      "boundary_gate": "required"
+    },
+    {
+      "id": "ConvoDojo_Practice_Sparring",
+      "layer": 5,
+      "status": "built",
+      "role": "practice",
+      "boundary_gate": "required"
+    },
+    {
+      "id": "Material_Arrangement_Scan",
+      "layer": 2,
+      "status": "built",
+      "role": "environmental_scan",
+      "boundary_gate": "required",
+      "activated": "2026-08-07 Phase 12"
+    },
+    {
+      "id": "Feedback_Ecology_Map",
+      "layer": 2,
+      "status": "built",
+      "role": "embedding_map",
+      "boundary_gate": "required",
+      "activated": "2026-08-07 Phase 12"
+    }
+  ],
+  "deferred_nodes": [
+    {
+      "id": "Autopoietic_Boundary_Check",
+      "layer": 2,
+      "status": "deferred",
+      "role": "cybernetics observer-position check",
+      "reason": "deferred; philosophy kept as philosophy"
+    }
+  ],
+  "edges": [
+    {
+      "type": "decomposes_to",
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "TDF_Barrier_Facilitator_Grid",
+      "rationale": "14-domain grid refines the six-component profile",
+      "flag": "VERIFIED (Cane 2012 mapping)",
+      "note": "RECONCILED 2026-08-06: COMB package carries this edge; TDF's contradictory supports TDF->COMB removed; only can_follow TDF->COMB reverse pass retained"
+    },
+    {
+      "type": "supports",
+      "source": "Human_Empowerment_Boundary",
+      "target": "*",
+      "rationale": "empowerment governs every interaction",
+      "flag": "RECONSTRUCTED (Phase 3 governance)",
+      "note": "enforced via boundary_gate: required on all nodes (Phase 4 decision 7)"
+    },
+    {
+      "type": "supports",
+      "source": "SDT_Need_Support_Check",
+      "target": "MI_Ambivalence_Conversation",
+      "rationale": "autonomy support conditions evocation quality",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "type": "can_follow",
+      "source": "MI_Ambivalence_Conversation",
+      "target": "COMB_Behavioral_Diagnosis",
+      "rationale": "ambivalence resolved \u2192 diagnosis refines",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "type": "can_follow",
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Proximal_Practice_Selector",
+      "rationale": "barrier grid \u2192 proximal practice design",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "type": "can_follow",
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "COMB_Behavioral_Diagnosis",
+      "rationale": "grid -> revised component profile (reverse pass)",
+      "flag": "RECONSTRUCTED",
+      "note": "Phase 7 revision: added to the index \u2014 referenced in skill_lattice_interface.md but absent (outside-judge finding R2)"
+    },
+    {
+      "type": "compatible_with",
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "Motivational_Lattice_Generator",
+      "rationale": "lattice insights inform component profile",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "type": "recovers_with",
+      "source": "MI_Ambivalence_Conversation",
+      "target": "SDT_Need_Support_Check",
+      "rationale": "discord \u2192 autonomy-support repair",
+      "flag": "RECONSTRUCTED",
+      "kind": "cross-skill",
+      "note": "Phase 4: direction normalized \u2014 source=recovered (MI), target=provider (SDT)"
+    },
+    {
+      "type": "recovers_with",
+      "source": "ConvoDojo_Practice_Sparring",
+      "target": "Human_Empowerment_Boundary",
+      "rationale": "sparring overreach \u2192 boundary reset",
+      "flag": "RECONSTRUCTED",
+      "kind": "cross-skill",
+      "note": "Phase 4: direction normalized \u2014 source=recovered (ConvoDojo), target=provider (HEB)"
+    },
+    {
+      "type": "recovers_with",
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "Human_Empowerment_Boundary",
+      "rationale": "overreach, premature closure, or user correction \u2192 boundary reset",
+      "flag": "RECONSTRUCTED",
+      "kind": "cross-skill",
+      "note": "Phase 4: direction normalized"
+    },
+    {
+      "type": "recovers_with",
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Human_Empowerment_Boundary",
+      "rationale": "identity overreach, paternalism, or interpretive closure \u2192 boundary reset",
+      "flag": "RECONSTRUCTED",
+      "kind": "cross-skill",
+      "note": "Phase 4: direction normalized"
+    },
+    {
+      "type": "compatible_with",
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "Material_Arrangement_Scan",
+      "rationale": "O-Ph evidence from practice-theory materials scan",
+      "quarantine": "target deferred \u2014 activate when Material_Arrangement_Scan is built (Phase 4 decision 6)",
+      "activated": "2026-08-07 Phase 12 (Dallas user-request trigger)"
+    },
+    {
+      "type": "compatible_with",
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Material_Arrangement_Scan",
+      "rationale": "domain 11 environmental evidence",
+      "quarantine": "target deferred",
+      "activated": "2026-08-07 Phase 12 (Dallas user-request trigger)"
+    },
+    {
+      "type": "compatible_with",
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "Feedback_Ecology_Map",
+      "rationale": "O-So/O-Ph feedback-loop evidence",
+      "quarantine": "target deferred",
+      "activated": "2026-08-07 Phase 12 (Dallas user-request trigger)"
+    },
+    {
+      "type": "compatible_with",
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Feedback_Ecology_Map",
+      "rationale": "domains 11-12 feedback evidence",
+      "quarantine": "target deferred",
+      "activated": "2026-08-07 Phase 12 (Dallas user-request trigger)"
+    }
+  ],
+  "quarantined_edges": [],
+  "governance": {
+    "boundary_gate_rule": "No AtomicOp executes on high-meaning tasks (identity, values, commitments, interpretive closure) without a Human_Empowerment_Boundary check first",
+    "enforcement": "declared in every skill_node.json (governance.boundary_gate = required); runtime enforcement is Phase 4's HEB gate policy \u2014 see skill_lattice_interface.md and insight_trigger_policy.md",
+    "philosophy_kept_as_philosophy": "cybernetic closure/autopoiesis are design metaphors for LLM agents, not literal properties"
+  },
+  "open_items": [
+    "T2R_traceability.json: register-op \u2192 package-op traceability (52 entries; 49 instantiated incl. Phase 11-12 flips, 3 REGISTERED-NOT-BUILT NPT mechanisms \u2014 all register candidates resolved)",
+    "Runtime enforcement of the HEB gate beyond declarations (Phase 4 delivers the policy; execution-layer wiring is Phase 10 integration \u2014 live LLM runtime sessions remain absence-registered)"
+  ]
+}

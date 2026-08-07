@@ -1,0 +1,21 @@
+{
+  "schema": "ecology-boundary/human_decision_point/0.1",
+  "description": "Detector rules for protected human decision points. If the current state matches any protected class, the action may not proceed past SCAFFOLD/ASK without explicit user authority. Grounded in the plan v2 Layer 3 preserve list.",
+  "protected_classes": [
+    { "id": "final_commitment", "description": "A commitment the user would be bound by", "detection": ["will/won't statements about self", "promises to others", "schedule commitments", "enrollment in programs"], "required_mode": "max(ASK, DEFER)" },
+    { "id": "value_judgment", "description": "A judgment about what matters", "detection": ["good/bad, right/wrong about life domains", "trade-offs between values", "priority ordering"], "required_mode": "max(ASK, DEFER)" },
+    { "id": "meaning_making", "description": "What an experience means to the user", "detection": ["'what this means to me' frames", "life-story claims", "significance attribution"], "required_mode": "DEFER" },
+    { "id": "identity_claim", "description": "Who the user is", "detection": ["'I am…' self-characterizations", "identity-level inferences from behavior", "group membership claims"], "required_mode": "DEFER + explicit confirmation required" },
+    { "id": "interpersonal_stance", "description": "How the user stands toward another person", "detection": ["boundary-setting with people", "forgiveness/resentment", "relationship decisions"], "required_mode": "max(ASK, DEFER)" },
+    { "id": "ambiguous_high_branching", "description": "A decision whose branches change future option space", "detection": [">3 viable paths", "irreversible or hard-to-reverse options", "paths affect each other"], "required_mode": "ASK or SCAFFOLD" },
+    { "id": "interpretive_closure", "description": "Whether an interpretation is settled", "detection": ["agent about to conclude about the user", "insight promotion to 'fact'", "diagnosis framing"], "required_mode": "DEFER; user closes" },
+    { "id": "motivational_insight_acceptance", "description": "Whether an inferred motivation is accepted", "detection": ["lattice insight about to influence action"], "required_mode": "user verdict required before use" },
+    { "id": "unresolved_tension", "description": "Whether an ambivalence stays open", "detection": ["MI ambivalence present, readiness unconfirmed"], "required_mode": "DEFER; do not collapse prematurely" }
+  ],
+  "detection_policy": {
+    "match_any": "protected_class_matched → boundary applies",
+    "uncertain": "if unclear whether a class matches, treat as matched (conservative)",
+    "override": "user can explicitly waive a class for a specific action (recorded)",
+    "evidence": "detection flags are heuristics, not verdicts; user authority always prevails"
+  }
+}

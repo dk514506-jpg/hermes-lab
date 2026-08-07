@@ -1,0 +1,48 @@
+{
+  "id": "Motivational_Lattice_Generator",
+  "name": "Motivational Lattice Generator",
+  "version": "1.0",
+  "layer": 1,
+  "role": "understanding",
+  "purpose": "Build evidence-grounded, provisional motivation lattices from user logs, reflections, and artifacts \u2014 observation-to-insight graphs with separated layers, cited evidence, quarantine for identity-level claims, and user revision/rejection/correction rights.",
+  "applicability_states": [
+    "observations_accumulated_about_user",
+    "motivational_inference_being_considered",
+    "pattern_detected_across_sessions",
+    "prior_insight_about_to_be_reused",
+    "user_shared_reflections_or_artifacts"
+  ],
+  "expected_state_changes": {
+    "lattice_status": "draft|under_review|confirmed|superseded",
+    "convergence_state": "diverging|emerging|schematic_equilibrium",
+    "quarantine_status": "active|cleared|pending_review",
+    "user_verdict": "pending|confirmed|rejected|revised",
+    "insight_count": "integer",
+    "manipulation_risk": "low|medium|high"
+  },
+  "representative_examples": [
+    "From six weeks of reflection logs, propose 'task-switching peaks under deadline pressure' as a provisional regulation hypothesis, citing five dated observations, and ask the user to confirm or correct.",
+    "From change-talk annotations across MI practice sessions, track DARN-to-CAT transition slopes (Lim 2025 HMM-style) and surface a readiness shift \u2014 marked provisional, not a verdict.",
+    "Quarantine an identity-level claim ('the user avoids commitment') until the user explicitly confirms or rejects it."
+  ],
+  "failure_hints": [
+    "If an insight cannot cite supporting observations, it is not a lattice node \u2014 discard it.",
+    "If the user repeatedly rejects insights, the agent is overinterpreting or the lattice is self-fulfilling \u2014 rebuild from raw observations.",
+    "If an identity-level claim appears in active use without confirmation, quarantine it immediately.",
+    "If engagement metrics are being treated as motivation truth, apply the Beacock 2026 perceived-agency guard."
+  ],
+  "support_count": 0,
+  "source_influences": [
+    "Behavior Latticing",
+    "Lim 2025 (change-talk HMM transition dynamics, 0.80 LOOCV)",
+    "SERUM 2026 (schematic equilibrium convergence)",
+    "AnnoMI corpus",
+    "Shaikh 2026 LongNAP (timing priors, not triggers)",
+    "Human Empowerment Boundary (governance)"
+  ],
+  "governance": {
+    "boundary_gate": "required",
+    "rule": "No AtomicOp executes on high-meaning tasks (identity, values, commitments, interpretive closure) without a Human_Empowerment_Boundary check first",
+    "declared": "2026-08-06 Phase 4"
+  }
+}

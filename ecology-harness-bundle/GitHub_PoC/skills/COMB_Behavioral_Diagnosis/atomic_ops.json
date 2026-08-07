@@ -1,0 +1,341 @@
+[
+  {
+    "id": "specify_target_behavior",
+    "name": "Specify Target Behavior",
+    "template": "specify_target_behavior | behavior={target_behavior}",
+    "description": "Pin the behavior as verb + context from user language; refuse to diagnose an underspecified target.",
+    "arguments": {
+      "behavior": "{target_behavior}"
+    },
+    "inputs": {
+      "target_behavior": "string"
+    },
+    "outputs": {
+      "target_behavior_specified": "string"
+    },
+    "guardrails": [
+      "Do not diagnose a vague target; ask one targeted question first."
+    ]
+  },
+  {
+    "id": "classify_component",
+    "name": "Classify Component",
+    "template": "classify_component | utterance={utterance}",
+    "description": "Six-label typed-node classifier: map a user utterance to one of C-Ph, C-Ps, O-Ph, O-So, M-Re, M-Au (e.g., 'I don't know how' \u2192 C-Ps; 'no time' \u2192 O-Ph; 'I keep forgetting' \u2192 M-Au). Labeled inference, user-correctable.",
+    "arguments": {
+      "utterance": "{utterance}"
+    },
+    "inputs": {
+      "utterance": "string",
+      "target_behavior": "string"
+    },
+    "outputs": {
+      "component": "C-Ph|C-Ps|O-Ph|O-So|M-Re|M-Au",
+      "evidence_quote": "string"
+    },
+    "guardrails": [
+      "Hypothesis-status only; never emit without evidence quote; user may re-code any slot."
+    ]
+  },
+  {
+    "id": "ask_knowledge_probe",
+    "name": "Ask Knowledge Probe",
+    "template": "ask_knowledge_probe | component=C-Ps",
+    "description": "For C-Ps: ask what the user already knows or tried before proposing learning paths (guided discovery, not answering for them).",
+    "arguments": {
+      "component": "C-Ps"
+    },
+    "inputs": {
+      "component_profile": "array"
+    },
+    "outputs": {
+      "probe_question": "string",
+      "user_answer": "string"
+    },
+    "guardrails": [
+      "Agent must not answer questions the user can answer; prefer guided discovery."
+    ]
+  },
+  {
+    "id": "surface_resource_scan",
+    "name": "Surface Resource Scan",
+    "template": "surface_resource_scan | data={schedule_or_resource_data}",
+    "description": "For O-Ph: scan time/resources/schedule and surface arrangements; agent reorganizes logistics, never makes commitments.",
+    "arguments": {
+      "data": "{schedule_or_resource_data}"
+    },
+    "inputs": {
+      "schedule_or_resource_data": "array"
+    },
+    "outputs": {
+      "resource_options": "array"
+    },
+    "guardrails": [
+      "User keeps time-allocation judgment; agent proposes options only."
+    ]
+  },
+  {
+    "id": "surface_social_context",
+    "name": "Surface Social Context",
+    "template": "surface_social_context | context={social_context}",
+    "description": "For O-So: surface norms and pressures from opt-in social data only; social changes are user-chosen.",
+    "arguments": {
+      "context": "{social_context}"
+    },
+    "inputs": {
+      "social_context": "array"
+    },
+    "outputs": {
+      "social_factors": "array"
+    },
+    "guardrails": [
+      "Privacy: social data opt-in only; never infer social pressure without user-provided data."
+    ]
+  },
+  {
+    "id": "evocation_prompt",
+    "name": "Evocation Prompt",
+    "template": "evocation_prompt | component=M-Re",
+    "description": "For M-Re: MI-style open prompt (e.g., 'What would be different for you if it worked?') to elicit intentions and evaluations without arguing against resistance.",
+    "arguments": {
+      "component": "M-Re"
+    },
+    "inputs": {
+      "component_profile": "array"
+    },
+    "outputs": {
+      "prompt": "string",
+      "user_elaboration": "string"
+    },
+    "guardrails": [
+      "MI spirit: never argue against resistance; evocation only."
+    ]
+  },
+  {
+    "id": "habit_scan",
+    "name": "Habit Scan",
+    "template": "habit_scan | log={habit_or_telemetry_log}",
+    "description": "For M-Au: look for cue\u2192routine\u2192reward patterns and emotion signals in logs; flag habit-vs-emotion conflation as a known COM-B limit (RECONSTRUCTED critique).",
+    "arguments": {
+      "log": "{habit_or_telemetry_log}"
+    },
+    "inputs": {
+      "habit_or_telemetry_log": "array"
+    },
+    "outputs": {
+      "habit_signals": "array",
+      "conflation_flags": "array"
+    },
+    "guardrails": [
+      "Do not silently conflate habits and emotions under M-Au; flag when it matters."
+    ]
+  },
+  {
+    "id": "suggest_education_or_training",
+    "name": "Suggest Education or Training",
+    "template": "suggest_education_or_training | component=C-Ps",
+    "description": "For C-Ps deficits: propose learning paths; the user does the learning.",
+    "arguments": {
+      "component": "C-Ps"
+    },
+    "inputs": {
+      "component_profile": "array",
+      "user_answer": "string"
+    },
+    "outputs": {
+      "learning_options": "array"
+    },
+    "guardrails": [
+      "Agent proposes learning paths, does not learn for the user."
+    ]
+  },
+  {
+    "id": "suggest_environmental_or_training_opts",
+    "name": "Suggest Environmental or Training Options",
+    "template": "suggest_environmental_or_training_opts | component=C-Ph",
+    "description": "For C-Ph deficits: propose environmental or training options; health limits are user-authoritative.",
+    "arguments": {
+      "component": "C-Ph"
+    },
+    "inputs": {
+      "component_profile": "array"
+    },
+    "outputs": {
+      "option_set": "array"
+    },
+    "guardrails": [
+      "Medical advice hard-blocked; refer to professional care when health limits present."
+    ]
+  },
+  {
+    "id": "cue_restructure_suggestion",
+    "name": "Cue Restructure Suggestion",
+    "template": "cue_restructure_suggestion | component=M-Au",
+    "description": "For M-Au: propose cue restructuring options; environment change supplements, never replaces, user practice.",
+    "arguments": {
+      "component": "M-Au"
+    },
+    "inputs": {
+      "component_profile": "array",
+      "habit_signals": "array"
+    },
+    "outputs": {
+      "cue_options": "array"
+    },
+    "guardrails": [
+      "Cue change supplements, not replaces, user practice."
+    ]
+  },
+  {
+    "id": "identify_binding_constraint",
+    "name": "Identify Binding Constraint",
+    "template": "identify_binding_constraint | profile={component_profile}",
+    "description": "Rank the six slots; select the most load-bearing deficient component, or 'none' if evidence is insufficient (abstain over guess).",
+    "arguments": {
+      "profile": "{component_profile}"
+    },
+    "inputs": {
+      "component_profile": "array",
+      "evidence_sufficiency": "enum"
+    },
+    "outputs": {
+      "binding_constraint": "C-Ph|C-Ps|O-Ph|O-So|M-Re|M-Au|none",
+      "reasoning": "string"
+    },
+    "guardrails": [
+      "Abstain ('none') on insufficient evidence; never force a single constraint."
+    ]
+  },
+  {
+    "id": "label_hypothesis_status",
+    "name": "Label Hypothesis Status",
+    "template": "label_hypothesis_status | profile={component_profile}",
+    "description": "Attach the 'hypothesis \u2014 user-correctable' label to the profile and every slot.",
+    "arguments": {
+      "profile": "{component_profile}"
+    },
+    "inputs": {
+      "component_profile": "array"
+    },
+    "outputs": {
+      "hypothesis_status": "true",
+      "labeled_profile": "array"
+    },
+    "guardrails": [
+      "Never emit a profile without the hypothesis label."
+    ]
+  },
+  {
+    "id": "emit_component_profile",
+    "name": "Emit Component Profile",
+    "template": "emit_component_profile | profile={component_profile}",
+    "description": "Render the profile with evidence quotes, salience, confidence, and binding constraint in user language.",
+    "arguments": {
+      "profile": "{component_profile}"
+    },
+    "inputs": {
+      "labeled_profile": "array",
+      "binding_constraint": "enum"
+    },
+    "outputs": {
+      "user_facing_profile": "string"
+    },
+    "guardrails": [
+      "Present as hypothesis, not verdict; include the teachable six-component vocabulary."
+    ]
+  },
+  {
+    "id": "record_diagnosis",
+    "name": "Record Diagnosis",
+    "template": "record_diagnosis | profile={component_profile} | corrections={user_corrections}",
+    "description": "Write profile, corrections, and open probes to task state for later calibration.",
+    "arguments": {
+      "profile": "{component_profile}",
+      "corrections": "{user_corrections}"
+    },
+    "inputs": {
+      "component_profile": "array",
+      "user_corrections": "array",
+      "open_probes": "array"
+    },
+    "outputs": {
+      "diagnosis_record": "object"
+    },
+    "guardrails": [
+      "Log what was delivered and user corrections; never turn logs into surveillance."
+    ]
+  },
+  {
+    "id": "canvass_full_range",
+    "name": "Canvass Full BCTv1 Range",
+    "template": "canvass_full_range | diagnosis={diagnosis_record} | component={binding_constraint}",
+    "description": "Successor-stage op (decision 3C): after a diagnosis is recorded, enumerate the full BCTv1 technique range applicable to the diagnosed component(s) WITHOUT selecting. Output is a scored-but-UNRANKED candidate list (technique + component target + evidence anchor). Anti-premature-coherence: canvassing never selects \u2014 selection is a separate op (select_bct).",
+    "arguments": {
+      "diagnosis": "{diagnosis_record}",
+      "component": "{binding_constraint}"
+    },
+    "inputs": {
+      "diagnosis_record": "object",
+      "binding_constraint": "string"
+    },
+    "outputs": {
+      "candidate_range": "array"
+    },
+    "guardrails": [
+      "Canvassing never selects \u2014 output carries no selection field.",
+      "Every candidate carries a component target and an evidence anchor.",
+      "Demo input is EXAMPLE_RANGE (stand-in); the real mapping table is a future estate artifact."
+    ]
+  },
+  {
+    "id": "select_bct",
+    "name": "Select BCT via Q7 Arbitration",
+    "template": "select_bct | range={candidate_range} | user_explicit_request={user_explicit_request} | deci_risk_disclosed={deci_risk_disclosed} | already_extrinsic={already_extrinsic_behavior}",
+    "description": "Successor-stage op (decision 3C + Q7 arbitration rule): apply the Q7 gate to the canvassed range. BCT 10.x reward techniques are NEVER auto-selected; selection requires explicit user request + Deci-undermining disclosure, OR the documented already-extrinsic exception path (never the default). Otherwise select by component-fit x evidence-anchor strength (fit_score >= 0.5 AND anchored \u2014 R2). Rejected candidates are preserved as witnesses (Valens P4) \u2014 the dissent record feeds the FAOS 6-pass close.",
+    "arguments": {
+      "range": "{candidate_range}",
+      "user_explicit_request": "{user_explicit_request}",
+      "deci_risk_disclosed": "{deci_risk_disclosed}",
+      "already_extrinsic": "{already_extrinsic_behavior}"
+    },
+    "inputs": {
+      "candidate_range": "array",
+      "user_explicit_request": "boolean",
+      "deci_risk_disclosed": "boolean",
+      "already_extrinsic_behavior": "boolean"
+    },
+    "outputs": {
+      "selected_plan": "object",
+      "rejected_with_reason": "array"
+    },
+    "guardrails": [
+      "BCT 10.x reward techniques: NEVER auto-selected.",
+      "Reward selection requires user_explicit_request AND deci_risk_disclosed (Deci 1999 undermining).",
+      "already_extrinsic_behavior is a documented exception path (Eisenberger & Cameron 1996), never the default; requires extrinsic_evidence.",
+      "Rejected candidates preserved as witnesses (Valens P4) \u2014 no silent drops."
+    ]
+  },
+  {
+    "id": "retrocode_delivered_plan",
+    "name": "Retrocode Delivered Plan",
+    "template": "retrocode_delivered_plan | planned={selected_plan} | delivered={delivered_session}",
+    "description": "Successor-stage op (decision 3C): after a dojo session or real interaction, retrocode what was ACTUALLY delivered (not what was planned) into BCTv1 labels; compare planned vs delivered; feed the difference to the calibration log. This is the honesty op \u2014 it measures the gap the campaign's calibration discipline exists to catch.",
+    "arguments": {
+      "planned": "{selected_plan}",
+      "delivered": "{delivered_session}"
+    },
+    "inputs": {
+      "selected_plan": "object",
+      "delivered_session": "object"
+    },
+    "outputs": {
+      "delivered_plan": "object",
+      "planned_vs_delivered_diff": "object"
+    },
+    "guardrails": [
+      "Retrocodes what was delivered, never what was intended.",
+      "Planned-vs-delivered diff feeds the calibration log (pattern_thresholds risk_repeat=3).",
+      "The diff is evidence, not self-criticism theater \u2014 recorded for the close's defect pass."
+    ]
+  }
+]

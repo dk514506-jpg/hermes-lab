@@ -1,0 +1,211 @@
+{
+  "skill_id": "SDT_Need_Support_Check",
+  "edges": [
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "identify_candidate_utterance",
+      "type": "decomposes_to",
+      "order": 1,
+      "rationale": "Audit target = the utterance or design under review (HEB candidate-action analog)."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "audit_autonomy_support",
+      "type": "decomposes_to",
+      "order": 2,
+      "rationale": "Autonomy = volition; non-controlling phrasing, rationale, perspective-taking, choice menus (TTRI SDT row)."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "audit_competence_support",
+      "type": "decomposes_to",
+      "order": 3,
+      "rationale": "Competence = perceived efficacy; optimal challenge + effectance feedback (TTRI SDT row)."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "audit_relatedness_support",
+      "type": "decomposes_to",
+      "order": 4,
+      "rationale": "Warmth/norms; engagement conditions need satisfaction."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "detect_pressure_language",
+      "type": "decomposes_to",
+      "order": 5,
+      "rationale": "Anti-introjection guardrail: guilt/shame levers prohibited (TTRI quarantine)."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "classify_regulatory_style",
+      "type": "decomposes_to",
+      "order": 6,
+      "rationale": "External-to-intrinsic continuum; labeled inference, user-correctable (Foundation_Matrix SDT row)."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "check_undermining_risk",
+      "type": "decomposes_to",
+      "order": 7,
+      "rationale": "No performance-contingent tangible rewards; Deci 1999 undermining (BCT 10.x SDT check)."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "suggest_autonomy_support_phrasing",
+      "type": "decomposes_to",
+      "order": 8,
+      "rationale": "Revised phrasing: rationale + perspective-taking + real choice."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "target_integration_not_compliance",
+      "type": "decomposes_to",
+      "order": 9,
+      "rationale": "OIT: relatedness -> competence -> autonomy internalization."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "record_need_support_outcome",
+      "type": "decomposes_to",
+      "order": 10,
+      "rationale": "need_support_score[] state write for calibration."
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Human_Empowerment_Boundary",
+      "type": "can_follow",
+      "rationale": "Boundary modes (ACT/SCAFFOLD/ASK/DEFER/STOP) gate which utterances get audited",
+      "flag": "RECONSTRUCTED (Phase 3 governance)"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "supports",
+      "rationale": "Autonomy support conditions evocation quality",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Proximal_Practice_Selector",
+      "type": "supports",
+      "rationale": "Competence scaffolding informs the fade schedule",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Proximal_Practice_Selector",
+      "type": "compatible_with",
+      "rationale": "Need-support audit and practice design co-run on competence work",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "compatible_with",
+      "rationale": "Need support sustains the MI relational pathway",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Feedback_Ecology_Map",
+      "type": "compatible_with",
+      "rationale": "Feedback loops must be informational, not evaluative",
+      "flag": "RECONSTRUCTED",
+      "quarantine": "quarantined until Feedback_Ecology_Map is built (skill_graph_index.json quarantined_edges)"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Material_Arrangement_Scan",
+      "type": "compatible_with",
+      "rationale": "Environmental cues must not replace volition",
+      "flag": "RECONSTRUCTED",
+      "quarantine": "quarantined until Material_Arrangement_Scan is built (skill_graph_index.json quarantined_edges)"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Autopoietic_Boundary_Check",
+      "type": "compatible_with",
+      "rationale": "Choice-increasing imperative (von Foerster) aligns with autonomy support",
+      "flag": "RECONSTRUCTED",
+      "quarantine": "quarantined until Autopoietic_Boundary_Check is built (skill_graph_index.json quarantined_edges)"
+    },
+    {
+      "source": "Remove_Reward_Contingency",
+      "target": "SDT_Need_Support_Check",
+      "type": "recovers_with",
+      "rationale": "Withdraw controlling reward, reframe as informational feedback",
+      "kind": "internal"
+    },
+    {
+      "source": "Reopen_User_Choice",
+      "target": "SDT_Need_Support_Check",
+      "type": "recovers_with",
+      "rationale": "Restore a collapsed choice menu",
+      "kind": "internal"
+    },
+    {
+      "source": "Downgrade_To_Scaffold",
+      "target": "SDT_Need_Support_Check",
+      "type": "recovers_with",
+      "rationale": "Full execution -> structure and options",
+      "kind": "internal"
+    },
+    {
+      "source": "Return_To_User_Authority",
+      "target": "SDT_Need_Support_Check",
+      "type": "recovers_with",
+      "rationale": "User decides; agent states it explicitly",
+      "kind": "internal"
+    },
+    {
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "SDT_Need_Support_Check",
+      "type": "can_follow",
+      "rationale": "Motivational quality under the M components (mirror of COMB map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "SDT_Need_Support_Check",
+      "type": "can_follow",
+      "rationale": "M-domain and identity-domain barriers \u2192 need support (mirror of TDF map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "SDT_Need_Support_Check",
+      "type": "can_follow",
+      "rationale": "Need-support audit follows the conversation (mirror of MI map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "SDT_Need_Support_Check",
+      "type": "supports",
+      "rationale": "Lattice supplies provisional need/motive hypotheses to the audit (mirror of MLG map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "SDT_Need_Support_Check",
+      "type": "compatible_with",
+      "rationale": "Lattice insights inform need-support assessment cautiously (mirror of MLG map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "Proximal_Practice_Selector",
+      "type": "can_follow",
+      "rationale": "Competence-support audit informs challenge level (mirror in PPS map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Proximal_Practice_Selector",
+      "target": "SDT_Need_Support_Check",
+      "type": "supports",
+      "rationale": "Fade schedule is competence-support data (mirror of PPS map)",
+      "flag": "RECONSTRUCTED"
+    }
+  ]
+}

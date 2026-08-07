@@ -1,0 +1,253 @@
+# Council Critique — GitHub PoC Package v1
+**Reviewer:** rigor-and-impression critic (Council)
+**Date:** 2026-08-06
+**Subject:** `GitHub_PoC/` (10 files: README, docs/architecture, docs/safeguards, docs/verification, docs/valens-principles, evidence/Calibration_Log, evidence/judge_verdict_summary, evidence/acceptance_test_001.json + debrief, LICENSE)
+**Purpose:** public posting as proof of concept to impress AI researchers at Nous Research
+**Method:** read all 10 shipped files; cross-checked every referenced artifact against the shipped tree; stress-tested the six assessment dimensions.
+
+---
+
+## Verdict up front
+
+This is a *good trailer* for a project whose film is locked in an unlisted archive. The
+self-indicting calibration-log framing is the right instinct and is genuinely rare. But as a
+standalone public package it currently fails its own standards: two README commands point at
+files that are not in the tree, a doc claims a verifier is "SHIPPED in-tree" when it is not, the
+flagship evidence (full calibration log, raw judge verdicts, acceptance transcript, 78-source
+bibliography) is all behind a "working archive" pointer that no reader can reach, and the
+headline verb "proven" overstates what a single simulated dojo session shows. None of this is
+fatal; all of it is fixable before posting. Details and prioritized fixes below.
+
+---
+
+## 1. 60-second comprehension — PASS with friction
+
+**What works:** The first line is strong and concrete: *"A governed learning-and-agency-support
+architecture for agentic systems — built on a 2000-year-old epistemic discipline, verified by 9
+machine checks and 3 independent judge rounds, and proven in a live acceptance test."* The
+"agent proposes / human disposes — enforced structurally, not promised in prose" line is a
+memorable thesis. The five-layer ASCII diagram communicates the shape of the system in one
+glance. "What's in this package" tree matches the shipped files exactly.
+
+**What fails:**
+- **Jargon density.** A stranger at 60 seconds meets: Motivational Lattice, skill graph, dojos,
+  spirit gate, quarantine law Q0-Q5, COMB/TDF, T2R, empowerment boundary, preserved-user-decision
+  set, L1-L5 escalation. Each is defined somewhere in the package, but none in the README's first
+  screen. The README reads like a summary written for people who already know the project.
+- **The astrology hook is a coin flip.** "2nd-century astrological anthology" in line ~58 is the
+  first thing a skeptic will seize on. The package's own defense ("not importing astrology — the
+  epistemic machinery") lives in `docs/valens-principles.md`, three clicks deep. For a Nous
+  Research audience this needs an explicit, early, one-paragraph framing: *why an astrological
+  corpus is a legitimate stress-test of epistemic discipline, and what the architecture does NOT
+  inherit* — plus an explicit "this is not astrology" line in the README's first 30 lines.
+- **Number soup.** "8 skill packages, 90 files, 78-source evidence base, 22 calibration rows, 9
+  verifiers, 257 checks, T2R=48, 3 judge rounds, ~140KB of critique" — a 60-second reader cannot
+  verify any of these from the package, and precision without verifiability reads as
+  embellishment to a skeptic (see §6).
+- **No audience statement.** No "who this is for / what problem it solves for an agent-safety or
+  HITL researcher" paragraph. The closest is buried in `docs/safeguards.md` ("Why this matters
+  for agent research").
+
+**Recommendation:** a 5-line "What this is / What this is NOT / Why an astrologer's corpus /
+What you can check right now" block immediately after the one-liner; lead with the agency-
+preservation problem, treat Valens as a case study.
+
+---
+
+## 2. Proof credibility — the core asset is real, but half of it is out of reach
+
+**The calibration log (best asset, correctly framed).** Finding → fix → verifier-guard rows at
+artifact+line granularity, including a self-caught overclaim about the verification gate itself
+(row 17), is exactly the right integrity move, and the log reads authentic. The README's three
+highlights are well chosen.
+
+**But the skeptic's first three questions are all unanswerable from the package:**
+1. *"Show me the full 22-row log."* The extract ships 11 rows (1, 5, 6, 7, 9, 10, 15, 17, 18,
+   19, 22). The header says the full log "lives in the working archive" — a pointer with no
+   address. The flagship integrity artifact is invisible. A curated extract of your own error log
+   is not a log.
+2. *"Show me the raw judge verdicts."* The summary quotes a **4.7/5 — DEPLOY** verdict and
+   "~140KB of critique," all in `council_notes/judge_*.txt` — again unshipped. More importantly,
+   the judges are **API calls to Claude and DeepSeek — the same model family that built the
+   estate** — and the README presents their verdict with almost no hedging. A Nous researcher's
+   reflexive objection is "you had the model grade itself and you're quoting the grade." The
+   calibration log partially answers this, but the package should say the counter-argument out
+   loud: machine judges as *adversarial reviewers whose every finding was machine-held*, not
+   independent human auditors. Hedge the 4.7/5; it invites a "so what" more than it impresses.
+3. *"Show me the session."* The acceptance test is the most falsifiable artifact and it is
+   genuinely well built (spirit gate fired exactly once, never graded; outcome field "pending —
+   user arbitrates"; verbatim user approval that reads authentic precisely because it is
+   unpolished). But there is **no transcript**: the debrief cites turns T1-T35 with no record of
+   what was said in any of them, and no dialogue_state_machine.json to check the hard gates
+   against. The rubric scores (7 reflections / 6 questions ≈ 1.17, etc.) are therefore
+   unverifiable claims. The single most convincing addition to this package would be the raw
+   session transcript, or even a 3-turn excerpt showing the spirit-gate firing.
+
+**What would convert the skeptic:** DOIs/links for the four citations the judge claims to have
+"independently verified against publishers live" (Bastani 2025 PNAS, Budzyń 2025 Lancet,
+Brynjolfsson 2025 QJE, Wang & Fan 2025 retraction). This is the package's strongest checkable
+claim and it ships with zero anchors. One wrong detail in any of the four and the whole
+credibility stack folds.
+
+---
+
+## 3. Self-containment — the biggest structural failure
+
+The README's file tree matches the shipped files. The problem is every *other* reference:
+
+| Referenced artifact | Where claimed | In package? |
+|---|---|---|
+| `skills/*` (8 skill packages) | README quick start: `cp -r skills/* ~/.hermes/skills/` | **NO** — dead command |
+| `verify/verify_harness.py` | README quick start: `python3 verify/verify_harness.py` | **NO** — dead command; worse, `docs/verification.md` lists it as "**SHIPPED in-tree**: consumer-facing re-check" — directly checkable false claim |
+| Full 22-row calibration log (`Phase8_Evaluation/Calibration_Log.md`) | Calibration extract header | NO |
+| Raw judge verdicts (`council_notes/judge_*.txt`) | judge summary | NO |
+| 78-source evidence base | README diagram, architecture.md | NO — **zero bibliography entries ship**, despite ~15 inline citations across the evidence files (Bastani 2025, Budzyń 2025, Brynjolfsson 2025, Wang & Fan 2025, Jose 2025, Nguyen/CALM-IT 2026, Liu 2026, Michie 2005, Cane 2012, Han 2026, Aimi/Shenoi 2026, Kuchipudi 1990, Miller & Rose 2009) |
+| `Self_Application_Log` | README philosophy | NO |
+| `T2R_traceability.json` | valens-principles.md | NO |
+| `logs/acceptance_test_001_debrief.md` (debrief_ref in JSON) | acceptance JSON | path mismatch — debrief ships at `evidence/acceptance_test_001_debrief.md` |
+| `lattice/examples/`, `DEFERRED_PACKAGES.md`, `governance/`, Phase 5 full texts | architecture.md, safeguards.md, judge summary | NO (mostly declared as archive items — acceptable) |
+
+**The pattern:** the package is honest in prose ("curated extract") and dishonest in practice —
+it ships commands that cannot run and a doc claim ("SHIPPED in-tree") that is false in the
+shipped tree. That is precisely the self-description-accuracy error class the calibration log
+claims to police (row 17). A reviewer who runs the quick start on day one gets `cp: cannot
+stat 'skills/*'` and a broken python invocation, then stops reading. This is the single most
+damaging defect in the package.
+
+---
+
+## 4. Missing elements that would land harder (ranked)
+
+1. **A runnable artifact.** Either ship `verify/verify_harness.py` (even a minimal self-locating
+   checker over the 10 shipped files) plus one sample skill package so the quick start works, or
+   delete the quick start and point to a real address for the archive. A PoC whose headline
+   commands fail on arrival cannot impress.
+2. **The acceptance transcript** (or a substantial excerpt — the T13→T15 spirit-gate sequence
+   alone would sell the whole architecture).
+3. **DOIs / publisher links** for the four live-verified citations, and a proper references
+   section for all ~15 cited works. An AI-research audience will check; citation fabrication is
+   the epidemic they are most primed to suspect.
+4. **"What we'd love feedback on" + CONTRIBUTING.md.** Explicitly requested; currently absent.
+   The project's best move is to invite scrutiny of the calibration log, the spirit-gate
+   semantics, and the 47 review-enforced checks — name the questions you want answered.
+5. **Named authorship/contact.** "Dallas" appears in evidence; the README is anonymous
+   ("Built 2026-08-06"). Anonymous + astrology reads crank-ish. A name, org, or at minimum a
+   contact/issue pointer materially raises credibility.
+6. **A live demo pointer** — a terminal recording or short clip of a dojo session (especially
+   the spirit gate firing), or a link to the working archive. "Watch it happen" beats "read
+   about it happening."
+7. **An explicit "What this is NOT"** — not astrology, not a finished coaching product, not a
+   replacement for human judgment; the roadmap exists but a negative-space paragraph early in the
+   README disarms the two most likely misreadings.
+8. **Path unification** (`logs/` vs `evidence/`) and a per-file provenance line in the README
+   tree marking each artifact "full" vs "extract."
+
+---
+
+## 5. Honest scoping — good intent, broken execution
+
+- **The good:** the README's PoC block (lines 7-11) is exemplary — "curated extract ... not the
+  entire estate ... what we'd show a collaborator." The "honest open ledger" in the calibration
+  extract (Q6-Q11) and the "honest boundary" section in verification.md (47 review-enforced vs
+  machine-checked checks) are exactly the right tone. Keep all of this.
+- **The broken:** the package then makes estate-level claims ("9/9 verifiers green; 3 judge
+  rounds integrated; acceptance test user-approved" in Status, "proven in a live acceptance
+  test" in the headline) while shipping only the extract — and the extract's own quick start
+  pretends the full estate is present. Scoping is honest in prose and violated in behavior.
+- **The overclaim:** "proven in a live acceptance test." One simulated session (persona
+  `p_devon_exercise`, `live_decision_touch` did not fire, transfer_flag false, per the debrief
+  itself) exercises the pipeline; it does not *prove* an architecture. Change to
+  "demonstrated in a live acceptance test" — the evidence supports demonstration, and the
+  softened verb is still impressive and now defensible.
+
+---
+
+## 6. Scrutiny-risk claims (ranked by embarrassment potential)
+
+1. **`verify_harness.py` "SHIPPED in-tree" — absent from the tree.** (docs/verification.md,
+   gate diagram.) A one-command check reveals the package contradicts its own documentation.
+   Maximum embarrassment because it is the exact error class the project claims to have
+   eliminated. **P0 fix.**
+2. **Quick start commands that cannot run** (`skills/*`, `verify/verify_harness.py`).
+   **P0 fix.**
+3. **Date inconsistency in the flagship evidence.** Acceptance JSON is timestamped
+   `2026-08-07T03:14:27Z` and the debrief header says "date: 2026-08-07," but the user approval
+   quoted in the same debrief is dated **2026-08-06** — approving a session before it ran, on
+   its face. (Plausibly a UTC/local artifact — 03:14Z Aug 7 is Aug 6 evening in US timezones —
+   but nothing in the package says so, and a skeptic's first date-check lands here.) **P0 fix:
+   one clarifying line.**
+4. **"Proven in a live acceptance test"** headline vs a single simulated session. **P0/P1 fix:
+   "demonstrated."**
+5. **Four "independently verified" citations with no DOIs/links.** The strongest checkable
+   claim in the package is uncheckable. One wrong year/venue and the whole edifice reads as
+   fabricated. **P0 fix.**
+6. **LLM judges grading an LLM-built estate, quoted as "4.7/5 DEPLOY" with no hedge.** Not a
+   fraud, but naive framing; the "independent" in "3 independent judge rounds" is doing heavy
+   lifting. **P1 fix: reframe as adversarial machine review; publish at least one raw verdict.**
+7. **Precision without provenance:** "90 files," "78-source evidence base," "257 checks,"
+   "~140KB of critique," "22 corrections," "48 register ops" — none traceable in-package.
+   Unverifiable precision reads as inflation. **P1 fix: per-file provenance table or archive
+   pointer.**
+8. **The astrology framing** — a coin flip with a skeptical audience; handled well in prose,
+   buried too deep. **P1 fix: early explicit framing.**
+9. **2026-dated citations** (Han 2026, Aimi/Shenoi 2026, Liu 2026, Nguyen 2026) with no
+   bibliography — plausible given the campaign date, but the first thing a citation-checker will
+   probe. **P1 fix: ship the references section.**
+10. **Calibration extract row gaps** (rows 2-4, 8, 11-14, 16, 20-21 missing) with no note that
+    numbering follows the full 22-row log. A careful reader will count 11 and wonder.
+    **P2 fix: one sentence.**
+11. **"9/9 verifiers green"** (Status section) — the verifiers don't ship; from the package
+    this is an assertion, not a result. **P1 fix: ship the gate output log or a badge-style
+    transcript.**
+12. **"Append-only, consent-scoped" logging** — claimed for the acceptance JSON, but no schema
+    file (`ecology-log/0.1`) and no consent artifact ship. Minor, but it's a checkable
+    architecture claim with nothing to check against. **P2.**
+
+---
+
+## 7. Prioritized recommendations
+
+### P0 — before any public posting (each is hours, not days)
+1. **Make the quick start real or delete it.** Ship `verify/verify_harness.py` (a self-locating
+   checker over the shipped tree is enough) and at least one sample skill package, OR replace the
+   quick start with "full estate available on request / at <URL>." Remove the "SHIPPED in-tree"
+   claim in docs/verification.md until it is true.
+2. **Anchor the four live-verified citations** with DOIs/publisher URLs (Bastani, Budzyń,
+   Brynjolfsson, Wang & Fan). Add a references section for the other ~11 cited works.
+3. **Fix the date inconsistency** with a one-line timezone/sequence note (approval 2026-08-06
+   local vs log timestamp 2026-08-07T03:14Z) — or align the dates.
+4. **Change "proven in a live acceptance test" → "demonstrated / exercised in a live acceptance
+   test"** everywhere it appears.
+5. **Ship the acceptance transcript** (T1-T35, or the T13→T15 spirit-gate window at minimum).
+   It converts the acceptance test from a claim into a record.
+
+### P1 — same week, high leverage
+6. Publish the working archive (tarball or gated branch) and link it; or explicitly offer it on
+   request. The full 22-row log + raw judge verdicts + verifier suite are the strongest proof you
+   have — the package currently hides its best evidence behind a pointer with no address.
+7. Add "What we'd love feedback on" (name the open questions: calibration-log integrity, spirit-
+   gate semantics, the 47 review-enforced checks, Q6/Q10/Q11) + CONTRIBUTING.md + named contact.
+8. Reframe the judge section honestly: same-family LLMs as adversarial reviewers whose findings
+   were all machine-held; hedge or contextualize the 4.7/5; quote specific catches rather than
+   the score.
+9. Add the early "What this is / What this is NOT / Why Valens" block to the README (see §1).
+10. Add a per-file provenance note to the README tree ("full artifact" vs "extract of <archive
+    path>") so every claim is either checkable in-package or traceable to a real pointer.
+
+### P2 — polish
+11. Live demo pointer (terminal capture of a dojo session / spirit-gate firing; or a hosted
+    page).
+12. Unify `logs/` vs `evidence/` references; note calibration-row numbering follows the full log.
+13. Ship `ecology-log/0.1` schema snippet or a consent artifact stub to back the "strict schema,
+    consent-scoped" claim.
+14. Consider a one-page FAQ for the astrology question — it will be asked in every thread.
+
+---
+
+## Bottom line
+
+The substance is real, the self-indictment framing is a genuine differentiator, and the PoC
+scoping intent is right. But a public package must survive its own quick start and its own
+first date-check; right now it fails both, and its best evidence is out of reach of the reader.
+Fix the P0 list and this becomes a credible, hard-to-dismiss artifact. Post it as-is and the
+first ten minutes of scrutiny will center on the things you can fix in an afternoon.

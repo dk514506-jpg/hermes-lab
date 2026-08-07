@@ -1,0 +1,166 @@
+{
+  "skill_id": "TDF_Barrier_Facilitator_Grid",
+  "edges": [
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "code_utterance_to_construct",
+      "type": "decomposes_to",
+      "order": 1,
+      "rationale": "Core utterance\u2192construct\u2192domain coding with Cane 2012 provenance confidence."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "label_barrier_facilitator",
+      "type": "decomposes_to",
+      "order": 2,
+      "rationale": "Polarity assignment per coded construct, preferring user framing."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "aggregate_domain_salience",
+      "type": "decomposes_to",
+      "order": 3,
+      "rationale": "14-domain roll-up weighting count, confidence, and user emphasis."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "order_grid_by_salience",
+      "type": "decomposes_to",
+      "order": 4,
+      "rationale": "Salience-ordered barrier and facilitator grids."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "compress_to_COMB",
+      "type": "decomposes_to",
+      "order": 5,
+      "rationale": "Verified 14\u21923 TDF\u2192COM-B compression to binding constraint."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "encode_version_metadata",
+      "type": "decomposes_to",
+      "order": 6,
+      "rationale": "12-vs-14 witness conflict preserved as metadata, never harmonized."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "ask_identity_domain_confirmation",
+      "type": "decomposes_to",
+      "order": 7,
+      "rationale": "Domain-3 identity-level claims gated on explicit user confirmation."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "separate_evidence_interpretation",
+      "type": "decomposes_to",
+      "order": 8,
+      "rationale": "Quote/code/confidence/implication layering per cell."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "emit_barrier_grid",
+      "type": "decomposes_to",
+      "order": 9,
+      "rationale": "User-facing ordered grid with evidence and confidence."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "record_grid",
+      "type": "decomposes_to",
+      "order": 10,
+      "rationale": "Write grid, version metadata, and confirmation queue to state."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Proximal_Practice_Selector",
+      "type": "can_follow",
+      "rationale": "barrier grid \u2192 proximal practice design",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "SDT_Need_Support_Check",
+      "type": "can_follow",
+      "rationale": "M-domain and identity-domain barriers \u2192 need support",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "can_follow",
+      "rationale": "Intentions/Emotions/Behavioural-Regulation barriers \u2192 evocation",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "COMB_Behavioral_Diagnosis",
+      "type": "can_follow",
+      "rationale": "grid \u2192 revised component profile (reverse pass)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Feedback_Ecology_Map",
+      "type": "compatible_with",
+      "rationale": "domains 11-12 feedback evidence",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Material_Arrangement_Scan",
+      "type": "compatible_with",
+      "rationale": "domain 11 environmental evidence",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Motivational_Lattice_Generator",
+      "type": "compatible_with",
+      "rationale": "provisional insights as construct evidence",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Proximal_Practice_Selector",
+      "type": "supports",
+      "rationale": "domain salience is a proximal-state input"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Human_Empowerment_Boundary",
+      "type": "recovers_with",
+      "rationale": "identity overreach, paternalism, or interpretive closure \u2192 boundary reset",
+      "kind": "cross-skill",
+      "note": "[Phase 4: direction normalized to source=recovered-skill, target=recovery-provider]"
+    },
+    {
+      "source": "Reopen_Construct_Assignment",
+      "target": "TDF_Barrier_Facilitator_Grid",
+      "type": "recovers_with",
+      "rationale": "user rejects a code \u2192 re-code with correction recorded",
+      "kind": "internal"
+    },
+    {
+      "source": "Downgrade_Confidence",
+      "target": "TDF_Barrier_Facilitator_Grid",
+      "type": "recovers_with",
+      "rationale": "thin evidence or user dispute \u2192 lower confidence weight",
+      "kind": "internal"
+    },
+    {
+      "source": "Mark_Identity_Claim_Provisional",
+      "target": "TDF_Barrier_Facilitator_Grid",
+      "type": "recovers_with",
+      "rationale": "domain-3 claim used without confirmation \u2192 downgrade to labeled hypothesis",
+      "kind": "internal"
+    },
+    {
+      "source": "Reencode_Version_Metadata",
+      "target": "TDF_Barrier_Facilitator_Grid",
+      "type": "recovers_with",
+      "rationale": "12-vs-14 conflict flattened \u2192 restore witness conflict",
+      "kind": "internal"
+    }
+  ]
+}

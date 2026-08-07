@@ -1,0 +1,189 @@
+{
+  "skill_id": "Motivational_Lattice_Generator",
+  "edges": [
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "capture_observation",
+      "type": "decomposes_to",
+      "order": 1
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "classify_observation_type",
+      "type": "decomposes_to",
+      "order": 2
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "separate_inference_layers",
+      "type": "decomposes_to",
+      "order": 3
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "form_interpretation_hypothesis",
+      "type": "decomposes_to",
+      "order": 4
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "link_evidence_edges",
+      "type": "decomposes_to",
+      "order": 5
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "score_evidence_sufficiency",
+      "type": "decomposes_to",
+      "order": 6
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "detect_schematic_convergence",
+      "type": "decomposes_to",
+      "order": 7
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "flag_identity_level_claim",
+      "type": "decomposes_to",
+      "order": 8
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "quarantine_insight",
+      "type": "decomposes_to",
+      "order": 9
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "derive_implication_and_action",
+      "type": "decomposes_to",
+      "order": 10
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "present_lattice_for_review",
+      "type": "decomposes_to",
+      "order": 11
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "record_user_verdict",
+      "type": "decomposes_to",
+      "order": 12
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "ConvoDojo_Practice_Sparring",
+      "type": "can_follow",
+      "rationale": "practice sessions generate fresh observations for the lattice",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "can_follow",
+      "rationale": "change-talk logs (Lim 2025) are first-class observation material",
+      "flag": "VERIFIED (Lim 2025)"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "COMB_Behavioral_Diagnosis",
+      "type": "can_follow",
+      "rationale": "lattice observations feed component profile refinement",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "TDF_Barrier_Facilitator_Grid",
+      "type": "can_follow",
+      "rationale": "lattice patterns may sharpen barrier-grid salience coding",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "Human_Empowerment_Boundary",
+      "type": "compatible_with",
+      "rationale": "empowerment boundary governs all use of inferred insights",
+      "flag": "RECONSTRUCTED (Phase 3 governance)"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "SDT_Need_Support_Check",
+      "type": "compatible_with",
+      "rationale": "lattice insights inform need-support assessment cautiously",
+      "flag": "RECONSTRUCTED (Lim 2025 grounding)"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "Proximal_Practice_Selector",
+      "type": "compatible_with",
+      "rationale": "confirmed insights may inform proximal practice design",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "COMB_Behavioral_Diagnosis",
+      "type": "compatible_with",
+      "rationale": "lattice insights inform component profile",
+      "flag": "RECONSTRUCTED (Lim 2025 grounding; seed edge)"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "SDT_Need_Support_Check",
+      "type": "supports",
+      "rationale": "lattice supplies provisional need/motive hypotheses to need-support checks",
+      "flag": "RECONSTRUCTED (Lim 2025 grounding)"
+    },
+    {
+      "source": "Motivational_Lattice_Generator",
+      "target": "Human_Empowerment_Boundary",
+      "type": "supports",
+      "rationale": "provisional insights feed the boundary's motivational-inference risk assessment",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Mark_As_Provisional",
+      "target": "Motivational_Lattice_Generator",
+      "type": "recovers_with",
+      "kind": "internal"
+    },
+    {
+      "source": "Quarantine_Insight",
+      "target": "Motivational_Lattice_Generator",
+      "type": "recovers_with",
+      "kind": "internal"
+    },
+    {
+      "source": "Reopen_User_Choice",
+      "target": "Motivational_Lattice_Generator",
+      "type": "recovers_with",
+      "kind": "internal"
+    },
+    {
+      "source": "Return_To_User_Authority",
+      "target": "Motivational_Lattice_Generator",
+      "type": "recovers_with",
+      "kind": "internal"
+    },
+    {
+      "source": "Undo_Interpretive_Closure",
+      "target": "Motivational_Lattice_Generator",
+      "type": "recovers_with",
+      "kind": "internal"
+    },
+    {
+      "source": "Separate_Evidence_Interpretation_Implication",
+      "target": "Motivational_Lattice_Generator",
+      "type": "recovers_with",
+      "kind": "internal"
+    },
+    {
+      "source": "Rebuild_Lattice_From_Raw_Observations",
+      "target": "Motivational_Lattice_Generator",
+      "type": "recovers_with",
+      "kind": "internal"
+    }
+  ]
+}

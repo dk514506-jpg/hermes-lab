@@ -1,0 +1,103 @@
+{
+  "schema": "ecology-lattice-index/0.1",
+  "project": "Motivational Ecology Agent Architecture",
+  "phase": 4,
+  "date": "2026-08-06",
+  "status": "SEED — index schema + trigger/edge policy; insight instances populate at runtime via Motivational_Lattice_Generator",
+  "evidence_discipline": "Insights are hypotheses, not facts. Every insight cites supporting observations. Identity-level claims default to quarantine. User retains revision, rejection, quarantine, and correction rights.",
+  "lattice_layers": {
+    "observation": {
+      "description": "Raw user-provided or observed evidence: statements, logs, reflections, artifacts.",
+      "schema": "Motivational_Lattice_Generator/observation_schema.json",
+      "required": ["id", "timestamp", "source", "content", "observation_type", "consent_scope"]
+    },
+    "interpretation": {
+      "description": "Hypothesis layer: provisional inferences from observations, explicitly worded as hypotheses.",
+      "schema": "Motivational_Lattice_Generator/insight_node_schema.json",
+      "required": ["id", "hypothesis", "layer", "evidence_sufficiency", "confidence", "identity_level_flag", "quarantine_status", "user_verdict", "evidence_edges"],
+      "id_pattern": "^H[0-9]+$"
+    },
+    "evidence_edge": {
+      "description": "Typed links from insight to supporting observation with strength and provenance.",
+      "schema": "Motivational_Lattice_Generator/evidence_edge_schema.json",
+      "required": ["id", "from_insight", "to_observation", "strength", "provenance", "direction"]
+    }
+  },
+  "quarantine_tiers": {
+    "Q0_STRUCTURAL": {"note": "structural observations (no interpretation) — safe to record with consent"},
+    "Q1_PROVISIONAL": {"note": "provisional interpretation with partial evidence — active but flagged"},
+    "Q2_IDENTITY_LEVEL": {"note": "identity-level claim (characterizes who the user IS) — default quarantine; requires explicit user confirmation before use"},
+    "Q3_REJECTED": {"note": "user-rejected insight — removed from active use regardless of evidence strength (Valens quarantine law transposed)"},
+    "Q4_MANIPULATION_RISK": {"note": "insight that could steer user decisions — never used to manipulate; empowerment boundary governs"},
+    "Q5_SURVEILLANCE_RISK": {"note": "observation/insight whose use could convert practice logs into surveillance — blocked without explicit consent"}
+  },
+  "insight_triggers": [
+    {
+      "insight_condition": "insight confirms a C-Ps knowledge/skill gap (evidence_sufficiency >= partial, user_verdict = confirmed)",
+      "may_trigger": ["TDF_Barrier_Facilitator_Grid", "COMB_Behavioral_Diagnosis"],
+      "confirmation_required": "user_verdict must be confirmed; otherwise treat as hypothesis input only",
+      "flag": "RECONSTRUCTED (Phase 4 policy)"
+    },
+    {
+      "insight_condition": "insight identifies motivational quality (introjected vs identified vs intrinsic regulatory style)",
+      "may_trigger": ["SDT_Need_Support_Check"],
+      "confirmation_required": "regulatory-style classification is coder-level inference — labeled, user-correctable",
+      "flag": "RECONSTRUCTED (grounded in Li 2025, Lim 2025 — VERIFIED)"
+    },
+    {
+      "insight_condition": "insight suggests ambivalence or change-talk patterns (DARN-CAT signals)",
+      "may_trigger": ["MI_Ambivalence_Conversation"],
+      "confirmation_required": "change-talk observations may enter the conversation only via evocation, never as accusation",
+      "flag": "RECONSTRUCTED (grounded in Lim 2025 HMM transition dynamics — VERIFIED)"
+    },
+    {
+      "insight_condition": "insight indicates risk of skill atrophy or dependency (rising assistance fraction, falling unassisted performance)",
+      "may_trigger": ["Proximal_Practice_Selector"],
+      "confirmation_required": "atrophy inference must be distinguished from mere preference; objective telemetry over self-report",
+      "flag": "RECONSTRUCTED (grounded in Bastani 2025, Budzyń 2025 — VERIFIED)"
+    },
+    {
+      "insight_condition": "insight characterizes identity, values, commitments, or interpretive closure",
+      "may_trigger": ["Human_Empowerment_Boundary"],
+      "confirmation_required": "identity-level insights are quarantine-tier Q2; explicit user confirmation mandatory before ANY use",
+      "flag": "RECONSTRUCTED (Valens quarantine law transposed)"
+    },
+    {
+      "insight_condition": "insight suggests practice-theory elements (materials, competences, meanings) or embedding-work state",
+      "may_trigger": ["Material_Arrangement_Scan (deferred)", "Feedback_Ecology_Map (deferred)"],
+      "confirmation_required": "n/a until deferred packages are built — edges quarantined in skill_graph_index",
+      "flag": "RECONSTRUCTED (deferred)"
+    }
+  ],
+  "lattice_skill_edges": {
+    "MLG_supports": ["SDT_Need_Support_Check", "Human_Empowerment_Boundary"],
+    "MLG_can_follow_into": ["ConvoDojo_Practice_Sparring", "MI_Ambivalence_Conversation", "COMB_Behavioral_Diagnosis", "TDF_Barrier_Facilitator_Grid"],
+    "MLG_compatible_with": ["Human_Empowerment_Boundary", "SDT_Need_Support_Check", "Proximal_Practice_Selector", "COMB_Behavioral_Diagnosis"],
+    "note": "directions per skill_graph_index.json v1.0; lattice insights feed diagnosis (COMB/TDF), motivation (SDT/MI), learnability (PPS), and governance (HEB)"
+  },
+  "state_variables": {
+    "observation_count": "int",
+    "insight_count": "int",
+    "evidence_sufficiency": "enum insufficient|partial|sufficient",
+    "convergence_state": "string (schematic equilibrium per SERUM 2026 — VERIFIED)",
+    "interpretation_confidence": "enum low|medium|high",
+    "identity_level_flag": "boolean",
+    "quarantine_status": "enum active|cleared|pending_review",
+    "user_verdict": "enum pending|confirmed|rejected|revised",
+    "manipulation_risk": "enum low|medium|high",
+    "surveillance_risk": "enum low|medium|high",
+    "lattice_freshness": "date-time",
+    "lattice_status": "enum building|stable|stale|quarantined",
+    "insight_nodes": "array of insight_node_schema",
+    "evidence_edges": "array of evidence_edge_schema",
+    "quarantined_insights": "array",
+    "user_verdict_record": "array of {insight_id, verdict, date}"
+  },
+  "validation_protocol": "Motivational_Lattice_Generator/insight_validation_protocol.md",
+  "guardrails": "Motivational_Lattice_Generator/paternalism_and_overinterpretation_guardrails.md",
+  "open_items": [
+    "Runtime lattice instances (populated by MLG ops: capture_observation → form_interpretation_hypothesis → link_evidence_edges → score_evidence_sufficiency → present_lattice_for_review → record_user_verdict)",
+    "Trigger policy thresholds (numeric confidence/evidence cutoffs per trigger) — insight_trigger_policy.md",
+    "Deferred-skill triggers (Material_Arrangement_Scan, Feedback_Ecology_Map) activate when packages are built"
+  ]
+}

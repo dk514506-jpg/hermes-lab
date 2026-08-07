@@ -1,0 +1,24 @@
+{
+  "schema": "ecology-lattice/persona_profile/0.1",
+  "description": "A persona-profile node in the motivation lattice: the inherited-nature concept (Valens planetary-nature-profile, transposed per Phase 9 meld Q3.4). Represents stable inherited defaults that shape how observations are weighted and how insights are framed — a schema-level concept, not a runtime persona. Inherited nature is a PRIOR, never evidence (non-operational-registry discipline).",
+  "required": ["id", "kind", "inherited_nature", "status", "boundary_gate"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^P[0-9]+$" },
+    "kind": { "type": "string", "const": "persona_profile" },
+    "inherited_nature": {
+      "type": "object",
+      "description": "Stable inherited defaults abstracted from the planetary-nature-profile concept. STRICTLY a prior for framing, NEVER evidence for decisions (Valens Book VII non-operational registry).",
+      "properties": {
+        "archetype": { "type": "string", "description": "Named nature profile (e.g. Capricorn-Scorpio-Taurus-Pisces composite)" },
+        "default_stance": { "type": "string", "description": "Behavioral default; mutable by condition-state logic (Valens P3)" },
+        "source": { "type": "string", "description": "Provenance of the profile: wiki concept, user statement, or reconstruction. Printed vs reconstructed flag per meld footnote convention." }
+      }
+    },
+    "status": { "type": "string", "enum": ["active", "quarantined", "archived"], "description": "Persona profiles default to QUARANTINED until reviewed (meld Q3.5: separation IS the quarantine; no conflict with the quarantine law)." },
+    "boundary_gate": { "type": "string", "const": "required", "description": "Every persona node carries the HEB boundary gate (estate-wide governance block)." },
+    "governed_by": { "type": "string", "description": "Ecology governance layer that binds this node (empowerment_boundary, valens_operating_logics)." },
+    "linked_insights": { "type": "array", "items": { "type": "string" }, "description": "Insight IDs framed by this profile; framing only, never causal attribution." },
+    "created": { "type": "string", "format": "date-time" },
+    "updated": { "type": "string", "format": "date-time" }
+  }
+}

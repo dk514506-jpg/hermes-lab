@@ -1,0 +1,81 @@
+{
+  "target_behavior": {
+    "type": "string",
+    "example": "do physiotherapy stretches each morning"
+  },
+  "utterance_log": {
+    "type": "array",
+    "items": {
+      "quote": "string",
+      "polarity": "barrier|facilitator|mixed",
+      "provisional_construct": "string"
+    },
+    "example": "[{\"quote\":\"I'd do the stretches but my colleagues would find it weird\",\"polarity\":\"barrier\",\"provisional_construct\":\"social norms\"}]"
+  },
+  "construct_codes": {
+    "type": "array",
+    "items": {
+      "construct_id": "string",
+      "domain": "1..14",
+      "construct": "string",
+      "confidence": "low|medium|high",
+      "polarity": "barrier|facilitator|mixed",
+      "evidence_quote": "string"
+    },
+    "example": "[{\"construct_id\":\"TDF-12-09\",\"domain\":\"Social Influences\",\"construct\":\"social norms\",\"confidence\":\"medium\",\"polarity\":\"barrier\",\"evidence_quote\":\"my colleagues would find it weird\"}]"
+  },
+  "domain_salience": {
+    "type": "object",
+    "keys": "14 TDF domains",
+    "values": "none|weak|moderate|strong",
+    "example": "{\"Knowledge\":\"weak\",\"Social Influences\":\"strong\"}"
+  },
+  "barrier_grid": {
+    "type": "array",
+    "items": "salience-ordered domain cells with codes and quotes",
+    "example": "[{domain:\"Social Influences\", salience:\"strong\", codes:[...]}]"
+  },
+  "facilitator_grid": {
+    "type": "array",
+    "items": "salience-ordered domain cells with codes and quotes",
+    "example": "[{domain:\"Social Influences\", salience:\"moderate\", codes:[...]}]"
+  },
+  "version_metadata": {
+    "type": "object",
+    "example": "{\"domains_14\":\"Cane 2012\",\"domains_12\":\"Michie 2005\",\"conflict\":\"preserved\",\"mapping_notes\":\"12-domain set collapsed Goals into Intentions and Optimism into Beliefs about Capabilities; both readings kept, never harmonized\"}"
+  },
+  "hypothesis_status": {
+    "type": "boolean",
+    "example": true,
+    "note": "coder-level inference, user-correctable"
+  },
+  "confirmation_queue": {
+    "type": "array",
+    "items": {
+      "claim": "string",
+      "reason": "string",
+      "status": "pending|confirmed|rejected"
+    },
+    "example": "[{\"claim\":\"You seem to define yourself around not being a routine person\",\"reason\":\"domain 3 identity-level interpretation\",\"status\":\"pending\"}]"
+  },
+  "user_corrections": {
+    "type": "array",
+    "items": {
+      "construct": "string",
+      "user_statement": "string",
+      "accepted": "boolean"
+    },
+    "example": "[{\"construct\":\"knowledge\",\"user_statement\":\"I actually know the exercises fine\",\"accepted\":true}]"
+  },
+  "binding_constraint_comb": {
+    "type": "enum",
+    "values": [
+      "C",
+      "O",
+      "M",
+      "none"
+    ],
+    "example": "O",
+    "note": "14->3 compression result, never allowed to hide the domain story. RENAMED from binding_constraint (Phase 4) to avoid collision with COMB's six-component binding_constraint."
+  }
+}

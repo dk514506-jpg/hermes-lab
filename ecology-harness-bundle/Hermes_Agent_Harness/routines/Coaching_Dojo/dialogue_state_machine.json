@@ -1,0 +1,99 @@
+{
+  "schema": "ecology-dojo/dialogue_state_machine/0.1",
+  "dojo": "Coaching_Dojo",
+  "description": "Staged dialogue control for coaching-conversation practice (powerful questions, inquiry over advice, GROW-ish structure, listening). Stages have entry/exit conditions; the coach module controls transitions; the persona module (the coachee) only generates turns within the active stage. Adapted from the Phase 3 sparring 5-stage core. Grounding (VERIFIED): the sparring core's evidence base applies here \u2014 EasyMED 2025 (separated persona/coach modules, psychological safety), AgentForge 2026 (visible coordination demands drive learning). Adaptation decisions below are RECONSTRUCTED.",
+  "adapted_from": {
+    "source": "skills/ConvoDojo_Practice_Sparring/dialogue_state_machine.json (harness skeleton)",
+    "status": "ADAPTED",
+    "evidence": "RECONSTRUCTED",
+    "kept": [
+      "5-stage core ids (engage/explore/challenge/consolidate/close) for interface compatibility with the sparring core",
+      "transition_policy (advance / retreat / loop_guard / interrupt_handling)",
+      "custom_stages policy"
+    ],
+    "changed": [
+      "REMAPped stage semantics onto GROW-ish structure: engage ~ Goal-orientation, explore ~ Reality, challenge ~ Options (inquiry-tension), consolidate ~ Will / next steps, close ~ debrief. GROW is an established coaching frame; mapping it onto the core is a RECONSTRUCTED design decision, not doctrine",
+      "REDEFINED challenge stage: in coaching practice the pressure is the coachee's advice-seeking and deflection ('just tell me what to do'), not argumentative pushback; the user's job is to hold inquiry (RECONSTRUCTED from inquiry-over-advice as the domain's core target)",
+      "ADDED advice_suppression_active guard: the coach module monitors the USER's turns for advice-verbs during challenge and nudges back to inquiry; the persona may request advice, the user must not supply it (RECONSTRUCTED; grounded in the MI package's evocation-not-accusation and the coaching inquiry rubric)"
+    ]
+  },
+  "stages": [
+    {
+      "id": "engage",
+      "entry_conditions": [
+        "scenario_active",
+        "persona_active",
+        "user_ready"
+      ],
+      "exit_conditions": [
+        "rapport_marker_count >= 2",
+        "goal_surface_started",
+        "no_overwhelm_signal"
+      ],
+      "grow_phase": "goal",
+      "coach_rules_ref": "in_session_coaching_rules.md#engage"
+    },
+    {
+      "id": "explore",
+      "entry_conditions": [
+        "stage_engage_exited"
+      ],
+      "exit_conditions": [
+        "reality_surface_complete OR user_declined_direction"
+      ],
+      "grow_phase": "reality",
+      "coach_rules_ref": "in_session_coaching_rules.md#explore"
+    },
+    {
+      "id": "challenge",
+      "entry_conditions": [
+        "stage_explore_exited",
+        "intensity_agreed",
+        "advice_suppression_active"
+      ],
+      "exit_conditions": [
+        "options_exhausted OR user_requested_pause"
+      ],
+      "grow_phase": "options",
+      "coach_rules_ref": "in_session_coaching_rules.md#challenge"
+    },
+    {
+      "id": "consolidate",
+      "entry_conditions": [
+        "stage_challenge_exited"
+      ],
+      "exit_conditions": [
+        "summary_offered",
+        "will_statement_elicited",
+        "user_response_received"
+      ],
+      "grow_phase": "will",
+      "coach_rules_ref": "in_session_coaching_rules.md#consolidate"
+    },
+    {
+      "id": "close",
+      "entry_conditions": [
+        "stage_consolidate_exited"
+      ],
+      "exit_conditions": [
+        "debrief_started"
+      ],
+      "grow_phase": "debrief",
+      "coach_rules_ref": "in_session_coaching_rules.md#close"
+    }
+  ],
+  "transition_policy": {
+    "advance_requires": "exit_conditions_met",
+    "retreat_requires": [
+      "user_request",
+      "overwhelm_signal",
+      "coach_recommendation_with_user_consent"
+    ],
+    "loop_guard": "same_stage_reentry_max_3_times_then_restage",
+    "interrupt_handling": "coach_interrupt_preserves_stage_state; resume_from_stage"
+  },
+  "custom_stages": {
+    "allowed": true,
+    "require_entry_and_exit_conditions": true
+  }
+}

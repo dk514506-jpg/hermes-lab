@@ -1,0 +1,12 @@
+{
+  "assistance_mode": { "type": "enum", "values": ["full_execution", "hint", "scaffold", "none"] },
+  "scaffold_level": { "type": "integer", "min": 0, "max": 5 },
+  "skill_load_score": { "type": "number", "min": 0, "max": 1 },
+  "unassisted_competence_track": { "type": "array", "items": "object" },
+  "assisted_performance_track": { "type": "array", "items": "object" },
+  "readiness_state": { "type": "enum", "values": ["not_ready", "emerging", "ready"] },
+  "atrophy_risk": { "type": "enum", "values": ["low", "medium", "high"] },
+  "last_scaffold_fade": { "type": "timestamp" },
+  "fade_schedule": { "type": "array", "items": "object" },
+  "preserved_user_decision": { "type": "string" }
+}

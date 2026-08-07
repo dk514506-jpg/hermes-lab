@@ -1,0 +1,100 @@
+{
+  "id": "TDF_Barrier_Facilitator_Grid",
+  "name": "TDF Barrier / Facilitator Grid",
+  "version": "1.0",
+  "layer": 1,
+  "role": "diagnosis",
+  "purpose": "Code user statements into the 14 TDF domains over 84 constructs, emit a salience-ordered barrier/facilitator grid, compress to a COM-B binding constraint (14\u21923), and preserve the 12-vs-14 domain witness conflict as version metadata.",
+  "inputs": {
+    "required": [
+      "target_behavior",
+      "user_statements"
+    ],
+    "optional": [
+      "component_profile",
+      "interview_or_reflection_log",
+      "motivational_lattice_insights",
+      "schedule_or_social_data",
+      "prior_grids"
+    ]
+  },
+  "outputs": {
+    "primary": [
+      "barrier_grid",
+      "facilitator_grid",
+      "binding_constraint"
+    ],
+    "secondary": [
+      "version_metadata",
+      "hypothesis_status",
+      "confirmation_queue",
+      "next_skill_candidates"
+    ]
+  },
+  "state_read": [
+    "target_behavior",
+    "user_statements",
+    "component_profile",
+    "utterance_log",
+    "domain_salience"
+  ],
+  "state_write": [
+    "construct_codes",
+    "barrier_grid",
+    "facilitator_grid",
+    "binding_constraint_comb",
+    "version_metadata",
+    "confirmation_queue",
+    "user_corrections"
+  ],
+  "triggers": [
+    "COM-B profile exists and needs finer resolution",
+    "user describes barriers or facilitators in detail",
+    "implementation question needs a domain-level answer",
+    "Proximal_Practice_Selector or BCW/BCT selection needs a barrier grid",
+    "user asks what is really in the way and a single-component guess is insufficient"
+  ],
+  "completion_conditions": [
+    "14-domain grid emitted, salience-ordered, with construct-level codes and confidence weights",
+    "barrier and facilitator polarity assigned per coded construct",
+    "COM-B compression produced and binding constraint stated",
+    "version_metadata records the 12-vs-14 witness conflict as preserved",
+    "confirmation_queue items (identity-level claims) held pending user confirmation"
+  ],
+  "applicability_states": [
+    "component_profile_needs_resolution",
+    "detailed_barriers_described",
+    "implementation_question_open",
+    "proximal_practice_input_needed"
+  ],
+  "expected_state_changes": {
+    "construct_codes": "array of {construct_id, domain, construct, confidence, polarity, evidence_quote}",
+    "barrier_grid": "array (salience-ordered)",
+    "binding_constraint": "C|O|M|none",
+    "version_metadata": "{domains_14, domains_12, conflict: \"preserved\", mapping_notes}",
+    "confirmation_queue": "array of {claim, reason, status}"
+  },
+  "representative_examples": [
+    "\"I'd do the stretches but my colleagues would find it weird\" \u2192 Social Influences (norm), polarity barrier.",
+    "\"I keep forgetting the routine\" \u2192 Memory/Attention/Decision (memory), polarity barrier; likely M compression.",
+    "\"What helps is that my partner does it with me\" \u2192 Social Influences (social support), polarity facilitator."
+  ],
+  "failure_hints": [
+    "If a domain-3 identity claim appears, hold it in the confirmation queue until the user confirms.",
+    "If grid language drifts from coder-level inference to fact, downgrade confidence and re-label.",
+    "If the 12-vs-14 conflict was flattened anywhere, run Reencode_Version_Metadata."
+  ],
+  "support_count": 0,
+  "source_influences": [
+    "Cane 2012 (full text; 14 domains / 84 constructs)",
+    "Michie 2005 (12 domains)",
+    "Zhou 2024",
+    "Wu 2024",
+    "Theory_to_Routine_Interface v1.0 TDF row"
+  ],
+  "governance": {
+    "boundary_gate": "required",
+    "rule": "No AtomicOp executes on high-meaning tasks (identity, values, commitments, interpretive closure) without a Human_Empowerment_Boundary check first",
+    "declared": "2026-08-06 Phase 4"
+  }
+}

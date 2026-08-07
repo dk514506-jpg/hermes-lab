@@ -1,0 +1,11 @@
+{
+  "$schema": "../observation_schema.json",
+  "id": "O-001",
+  "timestamp": "2026-08-06T21:00:00Z",
+  "source": "dojo_session_log",
+  "content": "During an Ambivalence_Dojo practice session, the learner said: \"I keep starting exercise programs and quitting after three weeks. It's like I want to want it, but something in me doesn't.\"",
+  "observation_type": "user_utterance",
+  "consent_scope": "practice_session",
+  "context": "Ambivalence_Dojo scn_amb_exercise, stage explore-both-sides",
+  "linked_insights": ["H-001"]
+}

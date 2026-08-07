@@ -1,0 +1,45 @@
+{
+  "schema": "ecology-dojo/rubric/0.1",
+  "dojo": "Conversation_Dojo",
+  "description": "Rubric bank for everyday-conversation practice. Rubrics are LENSES, not verdicts: every dimension anchors to utterance-level evidence; scores are directional practice signals. Auto-coded scores are inputs requiring evidence anchoring (Han 2026, VERIFIED: ~52.6% automatic MI-coding accuracy — same caution applies to any automated conversation coding).",
+  "rubrics": [
+    {
+      "id": "listening_and_followup_v1",
+      "target": "everyday listening and follow-up questions",
+      "dimensions": [
+        { "id": "listening_accuracy", "metric": "user's responses/backchannels match what the persona actually said", "evidence": "turn pairs: persona turn -> user response", "note": "mishearings and non-sequiturs are evidence; a correct follow-up built on the persona's content is the anchor" },
+        { "id": "follow_up_quality", "metric": "follow-up questions build on prior turns and open rather than close the topic", "evidence": "utterance quotes", "note": "open follow-ups ('what made you pick that?') beat closed yes/no probes; RECONSTRUCTED calibration anchor" },
+        { "id": "turn_taking_balance", "metric": "no monopolizing; user yields and responds to the persona's cues", "evidence": "turn-length counts and interruption events", "note": "interruptions counted per session; 2+ unacknowledged interruptions flags a turn-taking focus for next session" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every score carries >=1 evidence quote" }
+    },
+    {
+      "id": "small_talk_flow_v1",
+      "target": "small talk: openers, reciprocity, recovery from lulls",
+      "dimensions": [
+        { "id": "opener_recovery", "metric": "openers invite response rather than dead-end", "evidence": "utterance quotes", "note": "'how was your weekend?' opens; 'the weather, huh?' closes; both are anchors" },
+        { "id": "reciprocity", "metric": "user shares and asks back, balancing self-disclosure and curiosity", "evidence": "turn pairs", "note": "all-question or all-disclosure sessions both count as imbalance" },
+        { "id": "lull_recovery", "metric": "user repairs silences without interrogating", "evidence": "silence-then-turn sequences", "note": "a lull recovered with a light topic bridge is the target behavior; interrogating the persona is not (RECONSTRUCTED)" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every score carries >=1 evidence quote" }
+    },
+    {
+      "id": "clarity_and_repair_v1",
+      "target": "clarity: detecting ambiguity, asking for clarification, repairing misunderstandings",
+      "dimensions": [
+        { "id": "ambiguity_detection", "metric": "user notices vague/ambiguous answers instead of papering over them", "evidence": "utterance quotes where persona was vague and user responded", "note": "the repair stage exists to practice this; scores anchor to repair-stage turns" },
+        { "id": "clarification_requests", "metric": "user asks for clarification when genuinely unclear", "evidence": "utterance quotes", "note": "requests are specific ('when you say soon, do you mean this week?') not generic ('what do you mean?') — RECONSTRUCTED anchor" },
+        { "id": "repair_grace", "metric": "misunderstandings repaired without blame or awkwardness", "evidence": "repair sequences (error -> repair -> confirmation)", "note": "'oh, I misheard — you said the 3rd, got it' is the anchor behavior" },
+        { "id": "message_clarity", "metric": "user's own messages are clear enough to be understood", "evidence": "persona-check turns (persona confirms or mishears)", "note": "if the persona repeatedly mishears the user, message clarity is the focus; if the persona is vague and the user lets it pass, ambiguity handling is the focus" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every score carries >=1 evidence quote" }
+    }
+  ],
+  "rubric_use_rules": [
+    "rubrics are lenses: scores anchor to quotes, never standalone (lens-not-verdict)",
+    "no rubric score becomes a verdict about the user as a person",
+    "rubric selection matches practice_target; provisional rubrics are marked provisional",
+    "mid-session, rubric dimensions are offered as single-focus hints, never grades; scores belong to the debrief",
+    "debrief template (debrief_template.md) consumes rubric output with evidence sections"
+  ]
+}

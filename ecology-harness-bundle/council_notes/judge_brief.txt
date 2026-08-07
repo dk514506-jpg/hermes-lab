@@ -1,0 +1,17 @@
+You are an independent architecture reviewer (DeepSeek model, independent of the campaign's build process). Critique the Hermes Agent Harness packaging at /home/greenknight/.hermes/hermes-agent/docs/Ecology/Foundation/Hermes_Agent_Harness/.
+
+Read the README.md, skill_graph_index.json, and survey the skills/, lattices/, routines/, evidence/, logs/ layers (list files; sample 2-3 skills' SKILL.md).
+
+Assess:
+1. Packaging completeness for a OneDrive/SharePoint-deployed harness
+2. Layer interconnectivity (lattice → skills → routines → evidence)
+3. Discoverability — can a fresh reader understand and use this without the campaign context?
+4. Governance coherence (empowerment boundary, fade policy, evidence discipline)
+5. Gaps, duplications, inconsistencies
+
+Be specific and honest — name real files. Return a structured critique:
+- What is strong (with evidence)
+- What is weak or missing (with specifics)
+- 3-5 concrete improvement recommendations
+
+Do NOT invent file contents; only report what you actually read. Write your full critique to /home/greenknight/.hermes/hermes-agent/docs/Ecology/Foundation/council_notes/judge_deepseek_harness.txt

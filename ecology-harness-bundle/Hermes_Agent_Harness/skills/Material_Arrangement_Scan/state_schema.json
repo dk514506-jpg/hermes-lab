@@ -1,0 +1,63 @@
+{
+  "target_behavior": {
+    "type": "string",
+    "example": "walk 30 minutes after dinner"
+  },
+  "environment_description": {
+    "type": "string",
+    "example": "running shoes by the door; evening TV in the living room; phone charger on the nightstand"
+  },
+  "materials_inventory": {
+    "type": "array",
+    "items": {
+      "material": "string",
+      "location": "string",
+      "links_to_target": "string"
+    },
+    "note": "scan_materials output — descriptive inventory; the agent proposes, the user rearranges."
+  },
+  "cue_locations": {
+    "type": "array",
+    "note": "scan_materials output — where the cue lives in the environment."
+  },
+  "meanings_inventory": {
+    "type": "array",
+    "items": {
+      "framing": "string",
+      "evidence_quote": "string",
+      "level": "behavioral|identity"
+    },
+    "note": "scan_meanings output — user's framing; meaning-making is user-owned."
+  },
+  "meaning_reframes_candidates": {
+    "type": "array",
+    "note": "scan_meanings output — surfaced, never imposed; identity-level reframes require explicit confirmation (Phase 11 confirmed-Q2)."
+  },
+  "shared_element_map": {
+    "type": "object",
+    "note": "detect_shared_elements output — one element serving two practices (bundles)."
+  },
+  "arrangement_proposals": {
+    "type": "array",
+    "items": {
+      "material": "string",
+      "change": "string",
+      "serves_practice": "string",
+      "evidence_anchor": "string"
+    },
+    "note": "design_novelty_into_routine output — novelty via arrangement, never imposed meaning."
+  },
+  "practice_graph": {
+    "type": "object",
+    "items": {
+      "materials": "array",
+      "competences": "array",
+      "meanings": "array"
+    },
+    "note": "The package's primary output — the practice-theory lens on the routine."
+  },
+  "open_probes": {
+    "type": "array",
+    "note": "Questions the package cannot answer from current evidence — surfaced, never guessed."
+  }
+}

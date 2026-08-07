@@ -1,0 +1,15 @@
+{
+  "target_behavior": { "type": "string", "example": "walk 30 minutes after dinner" },
+  "component_profile": {
+    "type": "array",
+    "items": { "component": "C-Ph|C-Ps|O-Ph|O-So|M-Re|M-Au", "salience": "none|weak|moderate|strong", "evidence_quotes": "array of string", "confidence": "low|medium|high" },
+    "example": "[{\"component\":\"M-Au\",\"salience\":\"strong\",\"evidence_quotes\":[\"I keep meaning to walk but I always forget\"],\"confidence\":\"high\"}]"
+  },
+  "binding_constraint": { "type": "enum", "values": ["C-Ph", "C-Ps", "O-Ph", "O-So", "M-Re", "M-Au", "none"], "example": "M-Au" },
+  "evidence_sufficiency": { "type": "enum", "values": ["insufficient", "partial", "sufficient"], "example": "partial" },
+  "hypothesis_status": { "type": "boolean", "example": true, "note": "always true; the profile is never emitted as fact" },
+  "user_corrections": { "type": "array", "items": { "component": "string", "user_statement": "string", "accepted": "boolean" }, "example": "[{\"component\":\"M-Re\",\"user_statement\":\"It's not that I don't want to, I literally have no slot\",\"accepted\":true}]" },
+  "open_probes": { "type": "array", "items": "string", "example": ["What does the evening routine actually look like on a normal day?"] },
+  "next_skill_candidates": { "type": "array", "items": "string", "example": ["TDF_Barrier_Facilitator_Grid", "Proximal_Practice_Selector"] },
+  "lattice_insights_used": { "type": "boolean", "example": false, "note": "if true, every used insight must be provisional and evidence-cited" }
+}

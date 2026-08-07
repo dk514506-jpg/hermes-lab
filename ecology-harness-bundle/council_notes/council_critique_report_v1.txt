@@ -1,0 +1,317 @@
+# Council Critique — Discord Report Draft v1
+## Target: report_discord_draft_v1.md · Critic: Communications (Nous Discord audience: semi-technical AI researchers)
+### Date: 2026-08-06
+
+---
+
+## 0. Verdict up front
+
+This is a strong draft that is ~80% of the way to publishable — it reads as a
+field report, not a press release, which is the hardest thing to get right for
+this audience and it mostly succeeds. It does not need a rewrite; it needs
+surgery: one keyword fix (L39 repeats the exact overclaim pattern the report
+celebrates catching), one section cut (the philosophy section, L98-107, is
+fully redundant), one section compressed (the Valens method, L23-35), three
+jargon glosses ("estate," "spirit gate," unexpanded acronyms), three honesty
+markers (n=1 acceptance test, who the "user" is, what "verified" means), and
+one addition that would make a Nous researcher lean in: the meta-point about
+an agent-built architecture being judged by independent agents, made explicit
+and self-aware. Details below, line-referenced.
+
+---
+
+## 1. TONE — authentic researcher, with three marketing tells
+
+**What works (keep, do not touch):**
+- L18-21 ("Why we're telling you"): opening with the meta-purpose — "the
+  interesting part isn't the artifacts — it's the process discipline" — is
+  exactly the right move for this audience. It pre-empts the "is this an ad?"
+  reflex before it forms.
+- L19 "we believe it's reusable": "believe" is the right verb. Humility kept.
+- L80-82: the judges "each finding real defects" — the draft reports failures,
+  not a clean sweep. This is the single strongest tone signal in the doc.
+- L74-76: "a system that can't admit its own errors can't be trusted to
+  protect yours" — on-theme, memorable, not slogan-y. Keep verbatim.
+
+**Marketing tells to remove or deflate:**
+
+1. **L68: "The single most impressive artifact is..."** — an authorial
+   superlative; it asks the reader to accept the author's ranking. Nous
+   readers prefer to be shown and allowed to conclude.
+   → Replace with: "The artifact that does the most work is the calibration
+   log: 22 corrections, each recorded as finding → fix → verifier guard."
+
+2. **L78 header: "Outside judges, not self-congratulation"** — defensive, and
+   the denial is itself a small act of the thing denied. The body (L80-85)
+   is already humble; the header doesn't need to argue.
+   → Replace with: "## Three rounds of independent judging"
+
+3. **L95: "The firewall demonstrably held"** — "demonstrably" is doing
+   marketing work, and "firewall" is a metaphor the report never introduces
+   (the gates are named elsewhere: spirit gate, verifiers, boundary). Also
+   "held" is a claim the reader can't check from the prose alone.
+   → Replace with: "The gate held: the spirit gate fired exactly once, at the
+   single technique-without-spirit turn, and never graded it." (Then let the
+   log carry the proof.)
+
+4. **L89: "The architecture was *specified* all day — until the end"** —
+   "specified" is vague jargon (specified how? in docs?) and, as written,
+   undercuts the campaign's own credibility: it sounds like nothing ran.
+   → Replace with: "The architecture lived as documentation and verifiers all
+   day; we ran it once, at the end, as the acceptance test: a live dojo
+   session (an ambivalent persona about starting exercise) through the real
+   model pipeline."
+
+5. Minor: L66 header "The part that might interest you most" is presumptuous
+   but warm — acceptable. If trimming, → "## The calibration log".
+
+**The self-application irony (the biggest tone opportunity — see Adds §6.2).**
+Note that L39's "all machine-verified" is the same overclaim pattern as
+calibration row 1 (L70-71: a README that claimed "all VERIFIED"). An alert
+reader will catch this. Fix the phrase (Cuts §5.3), and optionally surface the
+irony explicitly — that converts a near-mistake into the report's best
+authenticity signal.
+
+---
+
+## 2. STRUCTURE — good arc, one ordering risk, one redundant section
+
+**The arc:** hook → one-sentence version → why-we're-telling-you → method →
+artifacts → calibration log → judges → runtime proof → philosophy → next
+steps. This is sound, and the runtime proof (L87-96) is correctly the climax.
+The footer (L119-121) is the right landing.
+
+**Hook strength:** The title (L1) is excellent — concrete, provocative without
+being hype-y ("Refuses to Steal Agency" is a claim a researcher will want to
+test, which is what you want). The subtitle (L2) "One day, eight phases, and a
+2000-year-old method" is a good hook but over-promises in one specific way:
+the Valens framing must then deliver fast or it reads as mysticism (see
+below). The one-sentence version (L11-14) is one long 3-line sentence that
+front-loads two unexplained terms — "motivational ecology" in scare quotes
+(L11) and "safety estate" (L12). The quotes signal "we know this term needs
+explaining" and then it never gets explained anywhere in the report.
+→ Tighten to two sentences, lead with the claim + the proof:
+  "We spent today building a governed agent architecture on Hermes whose
+  central rule is: the agent proposes and the human disposes — enforced in
+  code, verifiers, and logs, not promised in prose. Eight phases, one day,
+  independently judged; the strongest artifact is a log of the campaign's own
+  errors."
+(And define "motivational ecology" once, in a clause — see Adds §6.5.)
+
+**Ordering risk:** The Valens method (L23-35) sits before any concrete
+artifact. A semi-technical reader who bounces on astrology — or on the dense
+five-item sentence stack at L26-30 — never reaches the calibration log, which
+is the best content. Two options: (a) swap sections so the artifacts/calibration
+log come first and the method follows as "why it's shaped this way"; or (b)
+compress L23-35 to ~4 lines so the payoff arrives faster. Given the subtitle
+primes the method, option (b) is safer. Compressed replacement:
+
+  "Vettius Valens wrote a 10-book astrological anthology that survives in
+  partly-corrupted manuscripts. Reconstructing it demands a brutal discipline:
+  preserve conflicting witnesses instead of harmonizing them, label every
+  claim source-vs-inference, quarantine untrustworthy claims, refuse premature
+  coherence, treat worked examples as test vectors. Stripped of the astrology,
+  that is exactly the discipline you want in an agent that must support a
+  human's agency rather than erode it — so we ran the campaign on it,
+  transposing ten recovered Valens principles into machine-checkable form."
+
+Note: the Valens framing is compelling, not gimmicky, *as long as* the
+substance leads. The two places it tips toward gimmick are the subtitle's
+"2000-year-old method" (fine as a hook, must be repaid fast) and L114-115's
+"formally melding the Valens corpus with the Ecology estate" — for a
+researcher, "melding a corpus with an estate" sounds like ceremony.
+→ Reground: "transposing the remaining Valens principles into verifier rules
+and guards" (and keep the 31-design-questions detail, which is nicely
+concrete).
+
+**Redundancy:** The philosophy section (L98-107) restates claims already made:
+"agent proposes / user disposes" (L13-14), "hypothesis-status" (L48-51),
+"ambivalence as halt state" (L105-106). Only L100-102 (skill preservation as a
+measured objective) is new content — and it is good content. Cut the section
+to one line or delete it and fold L107's "Structurally, not stylistically"
+into the one-sentence version, where it lands harder. (See Cuts §5.1.)
+
+**Missing structural beat:** there is no "what we didn't do / where it's
+weak" beat. For this audience, a two-line honesty pass before "What's next"
+(L109) would land harder than the philosophy section. See Adds §6.3.
+
+---
+
+## 3. ABSTRACTION LEVEL — right for semi-technical, four unglossed terms
+
+The level is broadly correct: no code walls, no theory dumping, verbs
+grounded in artifacts. Four specific gaps:
+
+1. **L41: "COM-B, SDT, MI, TDF"** — unexpanded acronyms. COM-B/TDF are
+   behavioral-science jargon; even semi-technical AI researchers may not know
+   them. SDT and MI are cheap to expand.
+   → "8 behavioral-change frameworks (COM-B, self-determination theory,
+   motivational interviewing, …) distilled into a theory matrix with every
+   link evidence-flagged."
+
+2. **L12 / L52 / L60: "estate"** — used three times ("safety estate," "the
+   estate's rulebook," "installable estate") before ever being defined; at L52
+   it reads as a legal metaphor. Add one gloss at first use:
+   → "a safety estate — the whole governed package: skills, dojos, safeguards,
+   logs — whose central commitment…"
+
+3. **L58: "spirit gate"** — vivid, but unexplained at first use; the payoff
+   doesn't come until L91-92. One clause fixes it:
+   → "a spirit gate that refuses to grade technique without the
+   motivational-interviewing spirit (partnership, empathy, evocation)."
+
+4. **L111-113: "diagnostic spine," "boundary pass"** — "boundary pass" is
+   self-explanatory; "diagnostic spine" is not. → "the diagnostic layer."
+   Also L112 "wiring the boundary gate at the execution layer" is fine and
+   worth keeping — it honestly states that the boundary is not yet enforced at
+   the execution layer (see Adds §6.3c).
+
+L53's "ACT/SCAFFOLD/ASK/DEFER/STOP" needs no gloss — the names carry
+themselves. L47's four-noun stack "atomic operations, state schemas, edge
+maps, recovery operations" is a mild jargon wall for semi-technical readers;
+→ "each with atomic operations and recovery paths."
+
+---
+
+## 4. SPECIFICITY — mostly excellent; four credibility tripwires
+
+**What is vivid and should not change:** the three calibration examples
+(L70-74: README "all VERIFIED" + regex guard; graph divergence caught by an
+outside judge; the nine-verifiers-ran-three gate) — these are the gold
+standard of concrete; the judge detail at L85 ("independently verifying four
+citations against publishers live, including confirming a retraction") —
+superb; the runtime proof details (L91-96: "fired exactly once," the outcome
+field reading "pending — user arbitrates every pass," the approval "in the
+record") — excellent, do not touch; and the numbers everywhere (78 sources,
+90 files, 22 corrections, 8 packages, 5 dojos, 31 design questions, 4.7/5).
+
+**Four credibility tripwires:**
+
+1. **L39: "all machine-verified"** — see Cuts §5.3. Beyond the irony, it is
+   also imprecise: the judges found real defects (L81-82), so "machine-
+   verified" can only mean "the verifier gates passed," which is a weaker
+   claim than the phrase suggests.
+   → "Eight phases, one day, each phase gated by its own verifier:"
+
+2. **L43: "78 sources fetched and verified against live journal APIs"** — a
+   one-day campaign "verifying" 78 sources is a credibility tripwire for any
+   researcher who has done literature work. Scope the verb:
+   → "78 sources fetched and checked against live journal APIs (existence +
+   retraction status — not full-text review); retracted papers exiled to a
+   register; opinion articles and preprints honestly flagged."
+
+3. **L89-96, the acceptance test is n=1.** The draft never says so. A
+   researcher reads "acceptance test" and thinks "sample size = 1." Own it —
+   it converts a vulnerability into a trust signal:
+   → Append to L96: "Honest caveat: the runtime evidence is one session, one
+   approval. The gates are mechanical and the log is append-only, but the
+   runtime sample is n=1 — read the log and judge whether that matters."
+
+4. **L94: "the user approved it"** — who is the user? If the approver is the
+   author, an independent-minded reader will discount the approval; better to
+   state it plainly than to let them infer it.
+   → "Then the user approved it (the author, in this case — stated plainly) —
+   and that approval is in the record, verbatim."
+
+Minor: L85's retraction detail would be even stronger with the paper named
+(one clause), but it works as is. L89-90 "through the real model pipeline" —
+one concrete word (which model?) would nail it, but is optional.
+
+---
+
+## 5. CUTS (numbered, line-referenced)
+
+1. **L98-107, philosophy section — cut to one line or delete.** Fully
+   redundant with L13-14, L48-51, L105-106. Fold L107's "Structurally, not
+   stylistically" into the one-sentence version. If any bullet survives, keep
+   L100-102 (skill preservation as measured objective — the only new one).
+2. **L23-35, Valens section — compress ~40%** per §2's replacement. Break the
+   L26-30 five-item stack into bullets or cut to three items.
+3. **L39 — "all machine-verified" must go** (see §4.1). Highest-priority fix
+   in the document: it is an unwitting instance of the report's own headline
+   lesson.
+4. **L4-5 — "see the package accompanying this report"** is circular; a
+   Discord post must link, not gesture. Replace with the actual repo name/path
+   (and put the link in the opening message — see Adds §6.6).
+5. **L68 — remove "The single most impressive artifact is"** (§1.1).
+6. **L66 — header trim** to "## The calibration log".
+7. **L78 — retitle** to "## Three rounds of independent judging" (§1.2).
+8. **L47 — tighten** "each with atomic operations, state schemas, edge maps,
+   recovery operations" → "each with atomic operations and recovery paths."
+9. **L114-115 — "formally melding the Valens corpus with the Ecology estate"**
+   → "transposing the remaining Valens principles into verifier rules and
+   guards" (keep the 31-design-questions detail).
+10. **L95 — drop "firewall demonstrably held"** (§1.3).
+
+---
+
+## 6. ADDS (numbered, with suggested copy)
+
+1. **The meta-point, made explicit (highest-value add).** The draft gestures
+   at self-application (L74-76) but never lands the full loop, which is the
+   thing a Nous researcher will lean in on. Suggested paragraph to close the
+   calibration-log section or the judging section:
+   "The loop that keeps us up: the architecture was designed by an agent,
+   audited by other agents — Claude and DeepSeek, fresh contexts, detailed
+   rubrics — and its integrity proof is mechanical: a regex that fails the
+   build, an append-only log, a gate that refuses to grade. Can agent-
+   supervised agents be made non-circular? We think partly — by externalizing
+   the guards — and the calibration log is the evidence either way. We'd
+   rather you find the 23rd error than praise the 22 fixes."
+   The "find the 23rd error" line is the specific, self-deprecating invitation
+   this community rewards.
+2. **The self-application irony, surfaced honestly.** After L39 is fixed
+   (§5.3), optionally add one line at the end of the calibration-log section:
+   "Fun fact: the first draft of this report said 'all machine-verified.'
+   Row 1 of the calibration log is about a README that did exactly that. We
+   fixed the report. The discipline is hard even when you're the one
+   enforcing it — which is the whole point of making it structural."
+   This converts a near-mistake into the report's best authenticity signal.
+3. **A "what we didn't do" honesty beat** before "What's next" (L109), two
+   lines: (a) the acceptance test is n=1 (§4.3); (b) the boundary gate is not
+   yet enforced at the execution layer — Phase 9 (L111) exists precisely
+   because of that; saying it first pre-empts the "declared firewall ≠
+   working firewall" critique any security-minded reader will raise.
+4. **A concrete invitation to attack**, in the footer (L119-121): name the
+   files — "calibration log, judge verdicts, acceptance-test runtime log —
+   the log is the fastest way in." Specific file names signal the artifacts
+   are real and checkable.
+5. **Define "motivational ecology"** in one clause at L11 (it appears in
+   scare quotes and is never unpacked): "a 'motivational ecology' — an
+   environment of motivation-support skills, safeguards, and evidence designed
+   as a governed system rather than a pile of prompts."
+6. **Discord format note:** this reads best as a thread, not a single post.
+   Message one = title + L11-21 (hook, one-sentence version, why-we're-
+   telling-you) + the repo link. Then one message per section. The 8-phase
+   list (L41-64) is one message; the calibration log and runtime proof are
+   the two messages most likely to be quoted back. Single long posts get
+   skimmed; threads get read.
+
+---
+
+## 7. What to keep (the kernel — do not touch)
+
+- L18-21 "Why we're telling you" — the meta-purpose opening.
+- L70-74 the three calibration examples — the best concrete content in the
+  report.
+- L80-85 the judging section's honesty (defects found, not a clean sweep;
+  the live citation check including the retraction).
+- L91-96 the runtime proof's detail density — "pending — user arbitrates
+  every pass" is the best single line in the document.
+- L107 "Structurally, not stylistically" — relocate, don't lose.
+- The numbers (78 / 90 / 22 / 8 / 5 / 4.7 / 31) — this audience trusts
+  counts over adjectives.
+
+---
+
+## 8. One-sentence verdict
+
+A credible field report that already has the right voice, the right proof
+artifacts, and the right humility — it "kicks up" one level when the report
+stops repeating the overclaim its own calibration log caught (L39), cuts the
+redundant philosophy section, compresses the Valens section so the method
+repays the subtitle's promise fast, adds the three honesty markers (n=1,
+who the user is, what "verified" means), and says the meta-thing out loud:
+an agent-built architecture, judged by agents, whose best evidence is a log
+of its own errors — and that we'd rather you find the 23rd than praise the
+22nd.

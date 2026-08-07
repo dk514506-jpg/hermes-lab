@@ -1,0 +1,12 @@
+You are an independent evaluation-design reviewer. Critique the Phase 8 Evaluation artifacts of the Motivational Ecology Agent Architecture at /home/greenknight/.hermes/hermes-agent/docs/Ecology/Foundation/Phase8_Evaluation/.
+
+Read all five files: Evaluation_Rubric.md, Skill_Package_QA_Checklist.md, Motivational_Lattice_QA_Checklist.md, Practice_Dojo_QA_Checklist.md, Calibration_Log.md. Also read the review rubric at /home/greenknight/.hermes/hermes-agent/docs/Ecology/Foundation/council_notes/review_rubric.md (the whole-project rubric).
+
+Assess:
+1. Do the 10 evaluation criteria actually DISCRIMINATE quality (would a weak artifact score 0 and a strong one score 2)?
+2. Are the QA checklists ANSWERABLE from the artifacts they reference (can a rater actually check each item by reading the named files)?
+3. Is the scoring/aggregation protocol sound (median scoring, disagreement reconciliation, PASS/WARN/FAIL bands, per-artifact floor)?
+4. Is the Calibration_Log complete and honest as a correction history?
+5. What is MISSING from the evaluation design that a rigorous evaluator would add?
+
+Return a structured critique: what is strong (with evidence), what is weak or missing (with specifics), and 5 concrete improvement recommendations. Do NOT invent file contents; only report what you actually read. Write your full critique to /home/greenknight/.hermes/hermes-agent/docs/Ecology/Foundation/council_notes/judge_claude_phase8.txt

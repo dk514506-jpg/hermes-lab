@@ -1,0 +1,18 @@
+You are the independent judge for a whole-project review of the Motivational Ecology Agent Architecture campaign — Phases 1 through 8.
+
+Your judging instrument is at /home/greenknight/.hermes/hermes-agent/docs/Ecology/Foundation/council_notes/review_rubric.md. Read it fully and apply it exactly: score dimensions A-G on the 0-5 scale, each score justified by naming the artifact(s) it rests on, then give the required output format (per-dimension scores, three strongest artifacts, three weakest artifacts/gaps, five priority-ordered recommendations, overall verdict).
+
+The artifacts to judge (all under /home/greenknight/.hermes/hermes-agent/docs/Ecology/Foundation/):
+- Phase 1: Foundation_Matrix.md, Construct_Map.md, Theory_to_Routine_Interface.md
+- Phase 2: Recent_Evidence_Digest.md, Annotated_Bibliography.md, Contrary_Findings_and_Limits.md, council_notes/phase2_api_seed.md
+- Phase 3: Phase3_Skills/ (8 skill packages, 90 files)
+- Phase 4: Phase3_Skills/skill_graph_index.json, lattice_index.json, skill_lattice_interface.md, insight_trigger_policy.md, T2R_traceability.json
+- Phase 5: Phase5_Safeguards/ (5 documents)
+- Phase 6: Phase6_Dojo/ (5 dojos, 36 files)
+- Phase 7: Hermes_Agent_Harness/ (the packaged tree)
+- Phase 8: Phase8_Evaluation/ (Evaluation_Rubric, 3 QA checklists, Calibration_Log, Self_Application_Log)
+- Governance: docs/Ecology/03_Open_Questions_Register.txt, 05_Project_Atlas.txt, Foundation/handoff_notes.md, council_notes/ (critiques, judge reports, verifiers)
+
+Read broadly (sample the skill packages, dojos, and the harness; read the key governance documents in full). You may run tools to check the verifiers actually pass. Be specific and honest — name real files and real findings. Do NOT invent content you did not read; where you did not read something, say so.
+
+Write your complete verdict to /home/greenknight/.hermes/hermes-agent/docs/Ecology/Foundation/council_notes/judge_claude_whole_project.txt

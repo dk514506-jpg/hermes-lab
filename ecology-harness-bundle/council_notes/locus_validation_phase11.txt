@@ -1,0 +1,101 @@
+LOCUS VALIDATION — PHASE 11 (BCW/BCT intervention layer + skill_load->trend)
+Role: Locus (validator-steward), 7-check discipline (FAOS locus_review_spec).
+Date: 2026-08-07 (retry — prior Locus attempt died on upstream API 503; this
+run is fully local, no API dependency).
+Artifacts validated (all read in full):
+  1. Foundation/Phase11_Plan.md (contract: decisions 3C, Q7/2a, handoffs, D1-D4)
+  2. Foundation/Phase11_Intervention/phase11_intervention.py
+  3. Foundation/Phase11_Intervention/verify_phase11.py
+  4. Foundation/Phase11_Intervention/witness_run_phase11.py
+  5. GitHub_PoC/skills/COMB_Behavioral_Diagnosis/atomic_ops.json (17 ops)
+  6. GitHub_PoC/lattices/T2R_traceability.json (49 entries)
+Cross-checks: Calibration_Log.md (Q7 row 59, decision 3C section 2b — the
+decision SOURCE, not just the plan's summary), FAOS_Ecology_Integration_Memo.md
+section 7 (premature-coherence yardstick), Phase10_Integration/faos_ecology_
+engine.py GateContext (steady vs flat drift), council_notes/verify_all.py
+VERIFIERS list (chaining claim), COMB edge_map.json + state_schema.json,
+acceptance_test_001/002 files (activation trigger), non-op registry sweep.
+
+Execution grounding (real output, cited):
+  - python3 Phase11_Intervention/phase11_intervention.py — self-test exit 0:
+    canvass-no-select, Q7 deny/allow/exception, retrocode gap, trend enum,
+    stepwise+selector+halt, confirmed-Q2 + user-rejected-outranks all pass.
+  - python3 Phase11_Intervention/verify_phase11.py — 31/31 PASS exit 0,
+    including legacy: Phase 10 integration PASS, FAOS canonical "ALL LAYERS
+    PASSED" (run in-script, not on faith).
+  - python3 Phase11_Intervention/witness_run_phase11.py — 16/16 PASS exit 0;
+    record written to GitHub_PoC/logs/witness_phase11_20260807-204527Z/
+    witness.json; gate W2 proven live: skill_load_trend=falling -> mode=DEFER
+    (ACT blocked) against the real Phase 10 engine.
+  - python3 council_notes/verify_all.py — FULL CAMPAIGN GATE 12/12 verifiers
+    PASS exit 0, verify_phase11.py chained at position 11 (chaining claim TRUE
+    on disk AND in execution; no recursion — phase11 runs verify_integration
+    directly, documented).
+
+Per-check outcomes:
+1. DECISION FIDELITY — ADMISSIBLE. 3C honored: 3 successor ops live IN COMB
+   (17 = 14+3, "(decision 3C)" markers in atomic_ops; no 9th package, no
+   de-scope); Q7/2a verbatim to Calibration Log Q7 row ("NEVER auto-selected;
+   explicit user request + Deci-undermining risk disclosed; Eisenberger &
+   Cameron 1996 exception path, never default") and machine-enforced in code +
+   verifier (checks 3a-3d); handoff items present (stepwise S0-S9 + selector
+   promotion; confirmed-Q2) and execution-proven; D3 T2R#9 instantiated with
+   2026-08-07 stamp; activation trigger grounded (acceptance_test_001/002 on
+   disk).
+2. INTERNAL CONSISTENCY — REVISE. Op names + Q7 ruling vocabulary
+   (user_requested/exception_path/DENIED_never_auto_selected/standard)
+   consistent across plan/code/JSON/verifier/witness/T2R; HEB trend drift
+   HANDLED (SkillLoadTrend docstring records 'steady'->'flat' schema-drift fix;
+   W2 gate value-compatible, falling->DEFER proven) — but: T2R
+   canonical_state_variables.skill_load.action still reads "UNIFY in Phase 4 —
+   add conversion or single variable" though D3 closed it; T2R package_op
+   "derive_skill_load_trend" names no symbol (actual entry point
+   SkillLoadTrend.convert; module docstring says skill_load_to_trend — three
+   names, one op); plan D3 wording retains "rising/steady/falling" vs canonical
+   "rising|flat|falling"; T2R header/date still POST-PHASE-4 2026-08-06.
+3. EVIDENCE LADDER — ADMISSIBLE. EXAMPLE_RANGE explicitly disclosed as a
+   stand-in, twice, in the module ("Real deployments populate from the estate's
+   TDF/BCW mapping tables"; "stands in for the mapping in deterministic
+   tests") — not presented as the real mapping; anchors cite estate-verified
+   literature (Deci 1999 VERIFIED, E&C 1996 Contrary A3 per Q7 record); witness
+   record asserts only input-derivable facts; no Phase-10-style canned close
+   strings. Note: the disclosure lives in the module only — atomic_ops.json
+   canvass_full_range reads "full BCTv1 technique range" and witness.json lacks
+   the stand-in note; propagate it (one line each) for registry honesty.
+4. QUARANTINE DISCIPLINE — ADMISSIBLE. Enforcement in CODE, proven by
+   execution: Q2 blocked by default (self-test/verifier/witness), allowed only
+   with user_confirmed, user_rejected=True outranks confirmation
+   (assert_use_licensed raises), unknown tiers raise FaosConfigError, fail-
+   closed default unchanged.
+5. NON-OPERATIONAL REGISTRY — ADMISSIBLE. Full-file reads + sweep of all three
+   Phase 11 scripts: zero temporal-echo/planetary framing; no symbolic framing
+   used as evidence anywhere in the 6 artifacts; registry bars (Phase 10,
+   previously proven) untouched.
+6. PREMATURE COHERENCE — ADMISSIBLE. canvass never selects (proven, no
+   selection field); witness honestly deterministic + scenario-labeled +
+   input-derivable (ACT-blocked is real engine output, not a canned string);
+   T2R instantiated flips honest (runnable code exists; mapping stand-in
+   disclosed in module); plan claim "closes the last uninstantiated T2R entry
+   not blocked on a deferred package" verified TRUE (remaining 6 UNINSTANTIATED
+   entries all blocked on Material_Arrangement_Scan/Feedback_Ecology_Map);
+   absence register not in scope (Phase 10's intact). Note: "schema-drift fix
+   recorded in Phase 11" has its durable record in code comment + T2R;
+   Calibration_Log Phase 11 rows pending post-judge (campaign convention).
+7. CLOSE COMPLETENESS — ADMISSIBLE. All named deliverables present and proven:
+   3 ops in COMB atomic_ops/edge_map/state_schema (verifier PASS), Q7 machine-
+   enforced, skill_load->trend op, stepwise S0-S9, confirmed-Q2, verifier
+   31/31, witness 16/16, T2R select_bct arbitration record, legacy suites pass
+   (verify_all gate 12/12). Shape deviations noted, substance judged: plan's
+   per-op field list (preconditions/failure modes/Q7-gate flag) not literal in
+   the JSON — new ops conform to the existing atomic_ops schema (governing
+   clause); Q7 rule carried in select_bct guardrails + code + verifier;
+   diagnosis-existence precondition prose-only, consistent with gateway
+   runtime out-of-scope.
+
+LOCUS VERDICT: REVISE — two concrete, low-cost items, no BLOCKED findings:
+(a) propagate the EXAMPLE_RANGE stand-in disclosure into atomic_ops.json's
+canvass_full_range description and the witness record; (b) reconcile T2R
+staleness (canonical_state_variables.skill_load action field,
+derive_skill_load_trend package_op naming, header status) and sync plan D3's
+"steady" wording to canonical "flat". All binding decisions (3C, Q7-2a,
+handoffs) faithfully implemented and execution-proven.

@@ -1,0 +1,41 @@
+{
+  "target_behavior": {
+    "type": "string",
+    "example": "walk 30 minutes after dinner"
+  },
+  "normalization_state": {
+    "type": "object",
+    "items": {
+      "coherence": {
+        "meaning": "string",
+        "differentiation": "string",
+        "internalization": "low|medium|high"
+      },
+      "evidence_quotes": "array"
+    },
+    "note": "assess_coherence output — the user's stated sense-making; user defines meaning."
+  },
+  "coherence_questions": {
+    "type": "array",
+    "note": "assess_coherence output — the agent asks, never supplies."
+  },
+  "cmo_hypotheses": {
+    "type": "array",
+    "items": {
+      "context": "string",
+      "mechanism": "coherence|cognitive_participation|collective_action|reflexive_monitoring",
+      "outcome": "string",
+      "evidence_quote": "string",
+      "hypothesis_status": "hypothesis"
+    },
+    "note": "form_cmo_hypothesis output — hypotheses at claim level, never verdicts (Valens P4/P10)."
+  },
+  "embedding_feedback_loops": {
+    "type": "array",
+    "note": "The package's secondary map — where the routine's embedding is reinforced or stalled."
+  },
+  "open_probes": {
+    "type": "array",
+    "note": "Questions the package cannot answer from current evidence — surfaced, never guessed."
+  }
+}

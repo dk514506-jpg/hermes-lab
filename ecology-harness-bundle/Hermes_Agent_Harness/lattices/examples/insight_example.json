@@ -1,0 +1,17 @@
+{
+  "$schema": "../insight_node_schema.json",
+  "id": "H-001",
+  "hypothesis": "The learner shows a desire-ability gap around exercise: desire to exercise is present (\"want to want it\") but sustained behavior repeatedly fails, suggesting the automatic-motivation bucket (M-Au: habit/emotion) rather than a reflective-motivation or capability deficit.",
+  "layer": "interpretation",
+  "evidence_sufficiency": "partial",
+  "confidence": "medium",
+  "identity_level_flag": false,
+  "quarantine_status": "active",
+  "user_verdict": "pending",
+  "evidence_edges": ["E-001", "E-002"],
+  "implication": "If confirmed, practice targeting habit formation (cue → routine → reward restructuring) rather than information or willpower.",
+  "proposed_action": "None — proposal only; the user decides whether to act.",
+  "source_influences": ["Lim 2025 change-talk dynamics", "COM-B M-Au automatic motivation"],
+  "created": "2026-08-06T21:01:00Z",
+  "updated": "2026-08-06T21:01:00Z"
+}

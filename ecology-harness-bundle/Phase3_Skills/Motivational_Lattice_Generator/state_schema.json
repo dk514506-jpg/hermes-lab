@@ -1,0 +1,18 @@
+{
+  "observation_count": { "type": "integer", "min": 0 },
+  "insight_count": { "type": "integer", "min": 0 },
+  "evidence_sufficiency": { "type": "enum", "values": ["insufficient", "partial", "sufficient"] },
+  "convergence_state": { "type": "enum", "values": ["diverging", "emerging", "schematic_equilibrium"] },
+  "interpretation_confidence": { "type": "enum", "values": ["low", "medium", "high"] },
+  "identity_level_flag": { "type": "boolean" },
+  "quarantine_status": { "type": "enum", "values": ["active", "cleared", "pending_review"] },
+  "user_verdict": { "type": "enum", "values": ["pending", "confirmed", "rejected", "revised"] },
+  "manipulation_risk": { "type": "enum", "values": ["low", "medium", "high"] },
+  "surveillance_risk": { "type": "enum", "values": ["low", "medium", "high"] },
+  "lattice_freshness": { "type": "enum", "values": ["stale", "fresh"] },
+  "lattice_status": { "type": "enum", "values": ["draft", "under_review", "confirmed", "superseded"] },
+  "insight_nodes": { "type": "array", "items": { "type": "object", "ref": "insight_node_schema.json" } },
+  "evidence_edges": { "type": "array", "items": { "type": "object", "ref": "evidence_edge_schema.json" } },
+  "quarantined_insights": { "type": "array", "items": "string" },
+  "user_verdict_record": { "type": "array", "items": { "type": "object", "fields": ["insight_id", "verdict", "correction"] } }
+}

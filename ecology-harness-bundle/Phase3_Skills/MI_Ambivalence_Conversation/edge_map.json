@@ -1,0 +1,252 @@
+{
+  "skill_id": "MI_Ambivalence_Conversation",
+  "edges": [
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "spirit_gate",
+      "type": "decomposes_to",
+      "order": 1,
+      "rationale": "Hard gate: no technique without spirit (partnership/acceptance/compassion/evocation); MI without spirit is not MI (TTRI quarantine)."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "open_question",
+      "type": "decomposes_to",
+      "order": 2,
+      "rationale": "OARS; >=70% open questions (Engaging)."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "affirm",
+      "type": "decomposes_to",
+      "order": 3,
+      "rationale": "OARS; specific and genuine."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "reflect",
+      "type": "decomposes_to",
+      "order": 4,
+      "rationale": "OARS; complex reflections >=50% (Aimi/MISC-2)."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "summarize",
+      "type": "decomposes_to",
+      "order": 5,
+      "rationale": "OARS; a checkpoint, not a closure."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "elicit_change_talk",
+      "type": "decomposes_to",
+      "order": 6,
+      "rationale": "Evoking; DARN preparatory language (Desire/Ability/Reasons/Need)."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "tag_change_talk",
+      "type": "decomposes_to",
+      "order": 7,
+      "rationale": "DARN-CAT coding; change talk vs sustain talk."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "track_commitment_slope",
+      "type": "decomposes_to",
+      "order": 8,
+      "rationale": "Amrhein 2003: commitment-language slope is prognostic."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "run_fidelity_gate",
+      "type": "decomposes_to",
+      "order": 9,
+      "rationale": "Ratio ~0.84, complex >=50% (Aimi/MISC-2; Shenoi 2026)."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "explore_sustain_talk",
+      "type": "decomposes_to",
+      "order": 10,
+      "rationale": "Never argue against resistance; sustain talk explored, not fought."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "plan_when_ready",
+      "type": "decomposes_to",
+      "order": 11,
+      "rationale": "Readiness-gated planning (Karve 2025 ceiling; Eiroa-Solans 2025 decay)."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "record_mi_session",
+      "type": "decomposes_to",
+      "order": 12,
+      "rationale": "fidelity_log[] write; coded, never self-reported (Miller & Mount 2001)."
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "COMB_Behavioral_Diagnosis",
+      "type": "can_follow",
+      "rationale": "Ambivalence resolved -> diagnosis refines",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "can_follow",
+      "rationale": "M-Re/M-Au ambiguity opens evocation; bidirectional with register's MI->COMB (mirror of COMB map note)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "SDT_Need_Support_Check",
+      "type": "can_follow",
+      "rationale": "Need-support audit precedes or follows evocation work",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Human_Empowerment_Boundary",
+      "type": "can_follow",
+      "rationale": "Boundary governance during conversation",
+      "flag": "RECONSTRUCTED (Phase 3 governance)"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "COMB_Behavioral_Diagnosis",
+      "type": "supports",
+      "rationale": "M-Re reflective-motivation evidence from change talk (TTRI M-Re row)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Proximal_Practice_Selector",
+      "type": "supports",
+      "rationale": "Readiness verdict gates practice timing",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Proximal_Practice_Selector",
+      "type": "compatible_with",
+      "rationale": "Conversation and practice co-scheduled on readiness",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "ConvoDojo_Practice_Sparring",
+      "type": "compatible_with",
+      "rationale": "MI skills practiced in sparring mode",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Feedback_Ecology_Map",
+      "type": "compatible_with",
+      "rationale": "Feedback loops inform sustain-talk exploration",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Motivational_Lattice_Generator",
+      "type": "compatible_with",
+      "rationale": "Change-talk transition dynamics inform the lattice (Lim 2025)",
+      "flag": "RECONSTRUCTED (Lim 2025 grounding)"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Post_Close_Calibration_Debrief",
+      "type": "compatible_with",
+      "rationale": "Session fidelity feeds calibration",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "Return_To_Spirit",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "recovers_with",
+      "rationale": "Restore partnership after technique-without-spirit",
+      "kind": "internal"
+    },
+    {
+      "source": "Explore_Resistance_Openly",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "recovers_with",
+      "rationale": "Name resistance without judgment",
+      "kind": "internal"
+    },
+    {
+      "source": "Downgrade_To_Reflection",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "recovers_with",
+      "rationale": "Ratio low -> a question becomes a reflection",
+      "kind": "internal"
+    },
+    {
+      "source": "Defer_Planning",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "recovers_with",
+      "rationale": "Readiness low -> back to evoking",
+      "kind": "internal"
+    },
+    {
+      "source": "Reopen_Ambivalence",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "recovers_with",
+      "rationale": "Premature closure -> reopen both sides",
+      "kind": "internal"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "SDT_Need_Support_Check",
+      "type": "recovers_with",
+      "rationale": "Discord -> autonomy-support repair",
+      "flag": "RECONSTRUCTED",
+      "kind": "cross-skill",
+      "note": " [Phase 4: direction normalized to source=recovered-skill, target=recovery-provider]"
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "can_follow",
+      "rationale": "Intentions/Emotions/Behavioural-Regulation barriers \u2192 evocation (mirror of TDF map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "MI_Ambivalence_Conversation",
+      "target": "Proximal_Practice_Selector",
+      "type": "can_follow",
+      "rationale": "Readiness verdict gates practice timing (mirror of PPS map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "supports",
+      "rationale": "Autonomy support conditions evocation quality (mirror of SDT map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "source": "SDT_Need_Support_Check",
+      "target": "MI_Ambivalence_Conversation",
+      "type": "compatible_with",
+      "rationale": "Need support sustains the MI relational pathway (mirror of SDT map)",
+      "flag": "RECONSTRUCTED"
+    },
+    {
+      "order": 13,
+      "source": "MI_Ambivalence_Conversation",
+      "target": "agree_direction",
+      "type": "decomposes_to",
+      "kind": "internal"
+    },
+    {
+      "order": 14,
+      "source": "MI_Ambivalence_Conversation",
+      "target": "prioritize",
+      "type": "decomposes_to",
+      "kind": "internal"
+    }
+  ]
+}

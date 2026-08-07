@@ -1,0 +1,43 @@
+{
+  "schema": "ecology-dojo/dialogue_state_machine/0.1",
+  "description": "Staged dialogue control for ConvoDojo practice. Stages have entry/exit conditions; the coach module controls transitions; the persona module only generates turns within the active stage.",
+  "stages": [
+    {
+      "id": "engage",
+      "entry_conditions": ["scenario_active", "persona_active", "user_ready"],
+      "exit_conditions": ["rapport_marker_count >= 2", "user_engaged", "no_overwhelm_signal"],
+      "coach_rules_ref": "in_session_coaching_rules.md#engage"
+    },
+    {
+      "id": "explore",
+      "entry_conditions": ["stage_engage_exited"],
+      "exit_conditions": ["topic_surface_complete", "user_initiated_direction OR user_declined_direction"],
+      "coach_rules_ref": "in_session_coaching_rules.md#explore"
+    },
+    {
+      "id": "challenge",
+      "entry_conditions": ["stage_explore_exited", "intensity_agreed"],
+      "exit_conditions": ["pushback_absorbed OR user_requested_pause"],
+      "coach_rules_ref": "in_session_coaching_rules.md#challenge"
+    },
+    {
+      "id": "consolidate",
+      "entry_conditions": ["stage_challenge_exited"],
+      "exit_conditions": ["summary_offered", "user_response_received"],
+      "coach_rules_ref": "in_session_coaching_rules.md#consolidate"
+    },
+    {
+      "id": "close",
+      "entry_conditions": ["stage_consolidate_exited"],
+      "exit_conditions": ["debrief_started"],
+      "coach_rules_ref": "in_session_coaching_rules.md#close"
+    }
+  ],
+  "transition_policy": {
+    "advance_requires": "exit_conditions_met",
+    "retreat_requires": ["user_request", "overwhelm_signal", "coach_recommendation_with_user_consent"],
+    "loop_guard": "same_stage_reentry_max_3_times_then_restage",
+    "interrupt_handling": "coach_interrupt_preserves_stage_state; resume_from_stage"
+  },
+  "custom_stages": { "allowed": true, "require_entry_and_exit_conditions": true }
+}

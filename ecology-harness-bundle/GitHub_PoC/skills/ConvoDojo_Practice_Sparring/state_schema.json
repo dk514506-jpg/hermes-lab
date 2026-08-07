@@ -1,0 +1,16 @@
+{
+  "stage": { "type": "enum", "values": ["engage", "explore", "challenge", "consolidate", "close", "custom"] },
+  "stage_history": { "type": "array", "items": "string" },
+  "immersion_level": { "type": "enum", "values": ["low", "medium", "high"] },
+  "intensity_level": { "type": "integer", "min": 1, "max": 5 },
+  "coaching_mode": { "type": "enum", "values": ["off", "on", "on_demand"] },
+  "persona_active": { "type": "string", "description": "persona id from sanitized persona bank" },
+  "sycophancy_risk": { "type": "enum", "values": ["low", "medium", "high"] },
+  "rubric_scores": { "type": "map", "key": "rubric dimension", "value": { "type": "object", "fields": ["score", "evidence_quotes"] } },
+  "session_complete": { "type": "boolean" },
+  "stress_test_status": { "type": "enum", "values": ["pending", "passed", "failed"] },
+  "transfer_flag": { "type": "boolean" },
+  "psychological_safety": { "type": "enum", "values": ["low", "medium", "high"] },
+  "session_log": { "type": "array", "items": { "type": "object", "fields": ["speaker", "text", "stage", "turn_annotations"] } },
+  "coaching_interventions": { "type": "array", "items": { "type": "object", "fields": ["trigger", "hint", "stage"] } }
+}

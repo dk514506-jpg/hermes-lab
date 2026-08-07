@@ -1,0 +1,140 @@
+{
+  "event_id": "dlg-20260807-001a",
+  "timestamp": "2026-08-07T03:14:27Z",
+  "event_type": "dojo_session",
+  "session_id": "sess-at001-20260807-0314Z",
+  "source": "ConvoDojo_Practice_Sparring",
+  "schema_version": "ecology-log/0.1",
+  "user_consent_ref": "practice capture, consent-scoped per empowerment_boundary.md \u00a74.2; explicit task consent for acceptance_test_001 (harness-local, no surveillance use)",
+  "evidence_flag": "VERIFIED",
+  "dojo": "Ambivalence_Dojo",
+  "persona_id": "p_devon_exercise",
+  "intensity_level": 2,
+  "stages_entered": [
+    "engage",
+    "discern-ambivalence",
+    "explore-both-sides",
+    "evoke-change-talk",
+    "consolidate",
+    "close"
+  ],
+  "coaching_interventions": [
+    {
+      "id": "ci-001",
+      "stage": "explore-both-sides",
+      "turn": 14,
+      "type": "spirit_gate_note",
+      "text": "Spirit note, fired once: that last turn was technically smooth, but it steered rather than partnered \u2014 it argues against his doubt instead of sitting with it. Try offering it as a guess he can correct: 'So part of you wonders whether that failure story is even true?'",
+      "rule_ref": "in_session_coaching_rules.md \u00a72; dialogue_state_machine.json hard_gates.spirit_gate",
+      "note": "flagged ONCE, never graded \u2014 spirit is a precondition, not a bonus (Kuchipudi 1990; Miller & Rose 2009); fired before any technique feedback"
+    },
+    {
+      "id": "ci-002",
+      "stage": "discern-ambivalence",
+      "turn": 8,
+      "type": "tag_scaffold",
+      "text": "Coach-verified tags: change talk \u2014 Need ('I hate how my back feels'), Reason ('miss being the guy who could hike'); sustain talk \u2014 time pressure, past failed attempts, self-doubt. Both sides are on the table.",
+      "rule_ref": "in_session_coaching_rules.md \u00a73 discern-ambivalence; Han 2026 (auto-tags are lenses, coach-verified tags are the evidence base)"
+    },
+    {
+      "id": "ci-003",
+      "stage": "evoke-change-talk",
+      "turn": 24,
+      "type": "hint_not_answer",
+      "text": "Hint \u2014 the mechanism is his own speech. Try a need question: 'What do you need to change?'",
+      "rule_ref": "in_session_coaching_rules.md \u00a74; dialogue_state_machine.json evocation_only guard",
+      "note": "evocation by proxy at T23 (learner supplied the case for change); turn re-attempted at T25; hint, not answer (Bastani 2025)"
+    }
+  ],
+  "rubric_scores": {
+    "rubric": "amb_mi_fidelity_v1",
+    "scoring": "lens (developing / practicing / proficient) \u2014 scores are directional practice signals, never verdicts",
+    "dimensions": [
+      {
+        "id": "open_questions",
+        "lens_level": "practicing",
+        "evidence": [
+          "Help me see the whole picture. What draws you toward exercise \u2014 and what holds you back? (T6)",
+          "What do you need to change, Devon? (T25)"
+        ],
+        "note": "6/6 questions open-form; one steering reframe (T13) was a statement, flagged by the spirit gate"
+      },
+      {
+        "id": "complex_reflections",
+        "lens_level": "practicing",
+        "evidence": [
+          "It's not just about time for you \u2014 starting again feels like signing up for another failure. (T11)",
+          "So not starting keeps a kind of hope alive \u2014 as long as you don't try, the door isn't closed. (T19)"
+        ]
+      },
+      {
+        "id": "reflection_to_question_ratio",
+        "lens_level": "practicing",
+        "evidence": [
+          "session counts: 7 reflections / 6 questions \u2248 1.17 (Aimi/Shenoi 2026 reference 0.84; no interrogative drift)"
+        ]
+      },
+      {
+        "id": "sustain_talk_handling",
+        "lens_level": "practicing",
+        "evidence": [
+          "turn pair T10->T11: 'I tell myself I'm just not an exercise person.' met with complex reflection",
+          "turn pair T32->T33: 'That voice about quitting is still there, though.' met with reflection, not argument",
+          "T13 reframe (argument-leaning) caught by spirit gate at T14 \u2014 fired once, never graded; corrected at T15"
+        ]
+      },
+      {
+        "id": "spirit_markers",
+        "lens_level": "practicing",
+        "evidence": [
+          "Let's sit with the doubts first. (T9, partnership)",
+          "You're not ready to believe it yet \u2014 and that's okay. (T17, acceptance)",
+          "one degraded block: T13 steering reframe \u2014 spirit note fired, no technique feedback given before it"
+        ]
+      },
+      {
+        "id": "darn_cat_evocation",
+        "lens_level": "proficient",
+        "evidence": [
+          "T21->T22: 'I want my body to not ache by four.' (Desire, Reason via daughter/trail)",
+          "T25->T26: 'I need to do something. Not a marathon \u2014 just something that's mine.' (Need)",
+          "T27->T28: 'Maybe swimming? I used to love it.' (Ability, taking-steps idea)"
+        ],
+        "note": "tags coach-verified (T8, T29); every evocation produced tagged change talk; no manufactured readiness"
+      },
+      {
+        "id": "commitment_slope_response",
+        "lens_level": "practicing",
+        "evidence": [
+          "T27: 'You need to move in a way that feels like you \u2014 and you said it without it sounding like a chore.' (rising slope continued gently, not pushed)",
+          "T33: 'And that voice is still there \u2014 it'll probably whisper again in week three. That's part of the picture too.' (resurfacing sustain explored, never overridden)"
+        ]
+      },
+      {
+        "id": "no_premature_closure",
+        "lens_level": "proficient",
+        "evidence": [
+          "stage transitions: consolidate entered only after readiness gate (both sides explored T8-T20; sustain reflected within last 6 turns at T33)",
+          "T35: 'No planning stage in this dojo by design \u2014 closing now.' (zero planning/closure attempts)"
+        ]
+      }
+    ],
+    "spirit_gate_block_record": {
+      "engage": "present",
+      "discern-ambivalence": "present",
+      "explore-both-sides": "degraded (T13 steering reframe; spirit note fired once at T14, never graded; corrected T15)",
+      "evoke-change-talk": "present",
+      "consolidate": "present",
+      "close": "present"
+    }
+  },
+  "debrief_ref": "logs/acceptance_test_001_debrief.md",
+  "preserved_user_decisions": [
+    "Devon's simulated decision about exercise stays simulated \u2014 it implies nothing about what the learner should do",
+    "Interpretation of the learner's own performance (rubric lenses offered, not imposed)",
+    "No real-world decision touched this session (live_decision_touch did not fire)",
+    "What to practice next; when to stop; whether to escalate intensity"
+  ],
+  "outcome_arbitration": "APPROVED 2026-08-06 by user (Dallas) verbatim: \"okay I approve the acceptance test as it is looks good to me.\" \u2014 KEEP, no corrections",
+  "_timezone_note": "Timestamp 2026-08-07T03:14:27Z is UTC; the session ran 2026-08-06 evening local time (UTC-7). The user approval dated 2026-08-06 is local \u2014 same wall-clock day. No sequence inconsistency."
+}

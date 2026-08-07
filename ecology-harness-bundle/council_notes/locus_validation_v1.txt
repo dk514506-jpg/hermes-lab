@@ -1,0 +1,87 @@
+# LOCUS Validation v1 — Discord Report Draft + GitHub PoC Package vs. Primary Campaign Files
+
+Validator: LOCUS (peer validator, Dallas → Pip → Locus chain)
+Date: 2026-08-06
+Scope: council_notes/report_discord_draft_v1.md (Discord report) and GitHub_PoC/ package
+(README.md, docs/{architecture,safeguards,verification,valens-principles}.md,
+evidence/{Calibration_Log.md, judge_verdict_summary.md, acceptance_test_001.json + _debrief.md}, LICENSE)
+against the primary archive at docs/Ecology/Foundation/.
+Method: read every cited primary file; ran the full verifier gate (verify_all.py) and
+verify_phase6.py myself; counted entries/rows/questions programmatically; diffed package
+copies against archive originals. No files were edited.
+
+---
+
+## PART 1 — Verification table (the 10 listed claims)
+
+| # | Claim | Verdict | Evidence |
+|---|-------|---------|----------|
+| 1 | 8 skill packages / 90 files in Phase3_Skills/ | **VERIFIED** | `Phase3_Skills/` contains exactly 8 package dirs each with a SKILL.md (COMB_Behavioral_Diagnosis, ConvoDojo_Practice_Sparring, Human_Empowerment_Boundary, MI_Ambivalence_Conversation, Motivational_Lattice_Generator, Proximal_Practice_Selector, SDT_Need_Support_Check, TDF_Barrier_Facilitator_Grid). File counts per package: 9+16+14+9+15+9+9+9 = **90** (find output). The 90 excludes top-level tooling (verify_packages.py, _verify_skills.py, 5 index/md/json files) and `__pycache__` (98 total − 7 tooling − 1 pyc = 90). Corroborated: council_notes/verify_all.py:17 ("Phase 3 structural (8×9 files...)"), GitHub_PoC/docs/architecture.md:22 ("8 packages, 90 files"). Gate run: verify_phase3.py PASS. |
+| 2 | 78 sources in Annotated_Bibliography.md | **VERIFIED (count) / DISCREPANCY (qualifier)** | Count: 78 numbered entries `### [1]`–`### [78]`, no gaps (programmatic count; Annotated_Bibliography.md:32–510). **But** the report's phrasing "78 sources fetched and verified against live journal APIs" (report_discord_draft_v1.md:43) is FALSE as stated: only 69 entries are VERIFIED; 4 are RECONSTRUCTED ([22],[27],[39],[40]), 2 UNVERIFIED ([28],[75]), and 3 are canonical anchors NOT fetched ([76] Maturana/Varela, [77] Beer, [78] Morozov — lines 498/504/510). The file's own header says "70+ sources fetched" (line 5). This is precisely the overclaim class the campaign itself caught in Calibration_Log row 1 (README:33-34 "all VERIFIED" was false) — the report draft regresses to it. |
+| 3 | 22 calibration rows in Phase8_Evaluation/Calibration_Log.md | **VERIFIED** | Table header at line 19; data rows #1–#22 at lines 21–42 (22 rows). (Note: the whole-project judge's own text says "20-row record" — judge_deepseek_whole_project.txt:92,149 — because rows 21–22 were added from that judge round's own findings; the current file has 22.) |
+| 4 | 9 verifiers in the verify_all.py chain | **VERIFIED** | council_notes/verify_all.py:34–44 — VERIFIERS list has 9 entries (verify_packages, phase3, critique_revisions, phase4, phase5, phase6, phase7, phase8, verify_harness in-tree); docstring lines 15–24. I ran it: all 9 PASS, exit 0 ("FULL CAMPAIGN GATE: ALL VERIFIERS PASS"). Corroborated: judge_deepseek_whole_project.txt:18–20. |
+| 5 | verify_phase6 = 257 checks | **VERIFIED** | Ran `python3 council_notes/verify_phase6.py`: 257 `[PASS]` lines, 0 `[FAIL]`. Corroborated: judge_deepseek_whole_project.txt:147 ("verify_phase6 executes 257 checks"); GitHub_PoC/docs/verification.md:17. |
+| 6 | Spirit gate fired once at T14 in the acceptance debrief | **VERIFIED** | acceptance_test_001.json:25–29 — coaching_interventions ci-001, turn 14, type `spirit_gate_note`, "Spirit note, fired once... flagged ONCE, never graded"; json:83 "caught by spirit gate at T14 — fired once, never graded; corrected at T15"; json:125 "spirit note fired once at T14, never graded; corrected T15"; debrief:12 "The spirit gate FIRED as designed (T14)"; debrief:63 "gate fired exactly once". Nuance: the offending turn is T13 (the reframe); the gate fired at T14 — the report's "at T14" matches the log. Harness and GitHub_PoC copies are byte-identical. |
+| 7 | Acceptance log outcome_arbitration = APPROVED by user | **VERIFIED** | acceptance_test_001.json:138 (both harness and PoC copies, identical): `"outcome_arbitration": "APPROVED 2026-08-06 by user (Dallas) verbatim: \"okay I approve the acceptance test as it is looks good to me.\" — KEEP, no corrections"`. Debrief:54–57 (user verdict section, verbatim quote; "outcome_arbitration (log field) resolved: user-approved"). |
+| 8 | Judge verdict 4.7/5 DEPLOY in judge_deepseek_whole_project.txt | **VERIFIED** | council_notes/judge_deepseek_whole_project.txt:196 "Overall weighted score (high: A/B/E, medium: C/D/F, low-medium: G): 4.7 / 5." and :296 "DEPLOY — for the stated purpose...". Four live citation spot-checks documented at :21–29 (Bastani, Budzyń, Brynjolfsson, Wang & Fan retraction). GitHub_PoC/evidence/judge_verdict_summary.md:41 agrees. |
+| 9 | Five action modes ACT/SCAFFOLD/ASK/DEFER/STOP | **VERIFIED** | Primary file Phase5_Safeguards/empowerment_boundary.md:24 "Mode precedence... `STOP > DEFER > ASK > SCAFFOLD > ACT`" with per-mode sections at :32 (ACT), :44 (SCAFFOLD), :54 (ASK), :62 (DEFER) and STOP. GitHub_PoC/docs/safeguards.md:13 restates it. Judge corroboration: judge_deepseek_whole_project.txt:108–109, 210. |
+| 10 | 31 design questions in Valens_Meld_Design_Questions.md | **VERIFIED** | Q1:5 + Q2:5 + Q3:5 + Q4:5 + Q5:5 + Q6:6 = **31** (Q1.1–Q1.5 at lines 28–45, Q2.1–2.5 :53–68, Q3.1–3.5 :76–91, Q4.1–4.5 :98–114, Q5.1–5.5 :121–132, Q6.1–6.6 :139–161; answer sheet lines 168–173 confirms the 31 keys). |
+
+Result: **9 of 10 claims fully verified; claim 2 verified as a count but its "fetched and verified" qualifier is a discrepancy.** Also confirmed by my own execution: the full 9-verifier gate passes exit 0 today.
+
+---
+
+## PART 2 — Unsupported / overstated claims found in the report or package (with caveats to add)
+
+1. **"78 sources fetched and verified against live journal APIs" — report_discord_draft_v1.md:43. OVERSTATED (the row-1 class).**
+   Truth: 78 numbered entries; 69 VERIFIED, 4 RECONSTRUCTED, 2 UNVERIFIED, 3 canonical anchors not fetched (Annotated_Bibliography.md:5 "70+ sources fetched"; entry statuses at [22],[27],[28],[39],[40],[75],[76]–[78]). The campaign's own Calibration_Log row 1 corrected this exact wording in the README.
+   → Caveat: "78 sources catalogued with per-entry flags (69 VERIFIED, 4 RECONSTRUCTED, 2 UNVERIFIED, 3 canonical anchors not fetched); ~70 fetched and checked against live journal APIs."
+
+2. **"evidence/Calibration_Log.md — 22 corrections, each recorded as finding → fix → verifier guard" — GitHub_PoC/README.md:91, 137. OVERSTATED as a package contents claim.**
+   Truth: the shipped PoC file is a **curated 11-row extract** (rows 1,5,6,7,9,10,15,17,18,19,22); the full 22-row log lives only in the archive (Phase8_Evaluation/Calibration_Log.md). The PoC file itself is honest (GitHub_PoC/evidence/Calibration_Log.md:3 "The full 22-row log lives in the working archive"), but a package reader counting rows will find 11, contradicting the README's "22 corrections... ← the 22-row finding→fix→guard record".
+   → Caveat: "evidence/Calibration_Log.md — curated extract (11 of the 22 rows); full log in the archive."
+
+3. **"Quick start" is not executable from the package — GitHub_PoC/README.md:145–156. UNSUPPORTED.**
+   Truth: the package ships only README, docs/, evidence/, LICENSE (package tree, README:129–141; find output). `cp -r skills/* ~/.hermes/skills/` and `python3 verify/verify_harness.py` reference `skills/` and `verify/` directories that **do not exist in the package** (they live in Hermes_Agent_Harness/ in the archive).
+   → Caveat: "Quick start requires the full estate from the archive (skills/ and verify/ do not ship in this PoC extract)" — or ship them.
+
+4. **"the spirit gate, intensity profile, and preserved-user-decision debrief are all runtime enforced by the artifacts themselves" — GitHub_PoC/README.md:154–156. OVERSTATED.**
+   Truth: the artifacts *declare* these invariants; there is no execution layer. Q11 (boundary-gate execution) is explicitly open (judge_deepseek_whole_project.txt:226–231 "A declared firewall is not a working firewall"; PoC Calibration_Log standing item Q11 "DECISIONED (wire it, Phase 9)"); the coach/persona module "is specified but not implemented as code — it is a Hermes-skill contract" (judge:191); verify_phase6 checks file presence/flags, not runtime behavior.
+   → Caveat: "enforced at the artifact/spec level; execution-layer enforcement is Phase 9 (Q11)."
+
+5. **"Phase 1–8: COMPLETE and verified" — GitHub_PoC/README.md:171. OVERSTATED without the judge's own caveats.**
+   Truth: 9/9 build verifiers are green (confirmed by my run), but the judge's verdict explicitly caps the runtime claims: "the harness has never run... The runtime layer (Q11 gate execution, first dojo sessions, live logs...)" (judge:308–310); lattice is SEED with zero insight instances, no skill_load_snapshot (judge:233–239); BCW/BCT intervention layer UNINSTANTIATED (judge:241–249).
+   → Caveat: "Phase 1–8 complete at the specification/verification level; runtime layer has one acceptance session, rest unexercised (Q11, C5/C7 pending)."
+
+6. **"the unexercised runtime layer (closed by the acceptance test the same day)" — GitHub_PoC/evidence/judge_verdict_summary.md:59. OVERSTATED.**
+   Truth: the acceptance test produced ONE user-approved simulated session — the first runtime record, not closure of the gap. The judge's own recommendation 2 required N=5 dojo sessions plus rubric re-run before C5/C7 could be re-scored (judge:262–267).
+   → Caveat: "runtime layer opened by the acceptance test (1 session); C5/C7 re-evaluation pending N=5."
+
+7. **"The firewall demonstrably held, and the system refused to arbitrate for the human even in its own acceptance test" — report_discord_draft_v1.md:95–96. PARTIALLY SUPPORTED; rhetoric exceeds evidence.**
+   Truth: the spirit gate fired once and never graded (verified), and the debrief records "No real-world decision was touched this session (live_decision_touch did not fire)" (debrief:49; JSON:135). But the session's interlocutor is a **simulated persona (Devon)** — no real human decision was at stake, so "refused to arbitrate for the human" is demonstrated structurally, not under live pressure. Also, the "pending — user arbitrates every pass" outcome-field narrative (report:93–94) is the *pre-approval/provisional* state (design: log_schema.md:49 "the user's verdict on the session (user arbitrates every pass)"; debrief_template.md "provisional until the user reviews it"); the field as shipped now reads APPROVED (JSON:138).
+   → Caveat: "refusal-to-arbitrate demonstrated in a simulated session with no live decision in play; outcome field as shipped reads APPROVED (pending was the pre-approval design state)."
+
+8. **"all machine-verified" — report_discord_draft_v1.md:39. MINOR OVERSTATEMENT.**
+   Truth: 9/9 structural verifiers pass, but ~47 content-level checks are review-enforced, not machine-checked (GitHub_PoC/docs/verification.md:45; judge:158).
+   → Caveat: "all machine-verified at the structural level; ~47 content-level checks review-enforced per the Tier 1–3 rubric protocol."
+
+9. **"a live dojo session ... through the real model pipeline" — report_discord_draft_v1.md:89–91. CAUTION.**
+   The only evidence is the self-authored log (evidence_flag VERIFIED, JSON:9); no raw model call transcripts or session artifacts accompany it, and the judge's verdict (written before the session, 2026-08-06 vs session date 2026-08-07) states nothing had executed at runtime. Not contradicted, but not independently observable from the package.
+   → Caveat: "single self-logged session; 'real model pipeline' is asserted by the record, not independently reproducible from the package."
+
+---
+
+## PART 3 — Consistency notes (non-blocking)
+
+- Package copies of acceptance_test_001.json and acceptance_test_001_debrief.md are byte-identical to the archive originals. ✓
+- GitHub_PoC/evidence/Calibration_Log.md intentionally differs (curated extract; see finding 2). ✓ documented.
+- LICENSE is a standard MIT license (GitHub_PoC/LICENSE). ✓
+- Report claim "8 behavioral-change frameworks (COM-B, SDT, MI, TDF...)" — Foundation_Matrix.md:11–13 lists 8 (COM-B, BCW, BCT v1, TDF, Implementation Science/NPT+realist, SDT, MI, Practice Theory). ✓
+- Report claim "five conversational practice environments" — Phase6_Dojo/ has Ambivalence, Coaching, Conflict, Conversation, Workplace. ✓
+- Report claim "22 corrections" and "a verification gate that claimed nine verifiers but ran three" — Calibration_Log rows 1–22 and row 17 respectively. ✓
+
+## Bottom line
+
+The Discord report and PoC package are substantially truthful: 9 of 10 listed claims verify exactly against primary files, and the headline numbers (8×90, 78, 22, 9, 257, 4.7/5 DEPLOY, 31) are all real and reproducible — I re-ran the gate myself (9/9, exit 0) and the acceptance record is internally consistent down to the verbatim user quote. The material defects are the *qualifiers*: claim 2's "78 fetched and verified" regresses to the exact overclaim the campaign's own row 1 corrected, and the package overstates itself in four places (the 22-row calibration log is an 11-row extract; the quick start references files the package doesn't ship; "runtime enforced" and "COMPLETE" outrun the unexercised runtime layer). All fixable with the caveats above; nothing rises to fabrication.
+
+— LOCUS (peer validator), 2026-08-06

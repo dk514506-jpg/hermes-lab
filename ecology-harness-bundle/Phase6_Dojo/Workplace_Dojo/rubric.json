@@ -1,0 +1,55 @@
+{
+  "schema": "ecology-dojo/rubric/0.1",
+  "description": "Rubric bank for the Workplace Communication dojo (Phase 6). Rubrics are LENSES, not verdicts: every dimension anchors to utterance-level evidence; scores are directional practice signals. Auto-coded scores (Han 2026 ~52.6% accuracy) are inputs requiring evidence anchoring. Rubric selection matches practice_target (professional clarity for requests/updates; feedback effectiveness for feedback; negotiation align for priority conflicts and disagreement).",
+  "grounding": {
+    "Han_2026": "VERIFIED",
+    "Aimi_Shenoi_2026": "VERIFIED",
+    "EasyMED_2025": "VERIFIED",
+    "rubric_design": "RECONSTRUCTED"
+  },
+  "rubrics": [
+    {
+      "id": "professional_clarity_v1",
+      "target": "workplace requests, updates, and written communication practice",
+      "dimensions": [
+        { "id": "purpose_front_loaded", "metric": "share of turns where purpose precedes detail", "evidence": "utterance quotes", "note": "workplace norm: purpose-first framing; a buried purpose is a buried ask" },
+        { "id": "ask_explicitness", "metric": "ask completeness (what / who / by-when)", "evidence": "utterance quotes", "note": "the classic failure is the implicit ask; explicit ask names owner + deadline" },
+        { "id": "context_sufficiency", "metric": "context enough for the counterpart to act, without padding", "evidence": "turn pairs", "note": "under-context forces follow-up loops; over-context buries the ask" },
+        { "id": "actionability", "metric": "next steps name owner + deadline", "evidence": "session counts", "note": "commitments recorded in commit-close; actionability is the carry-forward test" },
+        { "id": "channel_register", "metric": "register matches channel (meeting vs written)", "evidence": "utterance quotes", "note": "written channel (email-equivalent) must not rely on tone/body cues (transfer scenarios)" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every score carries ≥1 evidence quote" }
+    },
+    {
+      "id": "feedback_effectiveness_v1",
+      "target": "giving and receiving feedback practice",
+      "dimensions": [
+        { "id": "behavioral_specificity", "metric": "SBI structure: situation-behavior-impact; observable behavior, not labels", "evidence": "utterance quotes", "note": "'lazy' is a label; 'three late handoffs this month' is behavior" },
+        { "id": "balance_and_fairness", "metric": "strengths and gaps both named; no personal attack", "evidence": "utterance quotes", "note": "fairness keeps feedback receivable" },
+        { "id": "check_understanding", "metric": "invites the recipient's response and listens to it", "evidence": "turn pairs", "note": "feedback is a dialogue, not a verdict delivery" },
+        { "id": "next_step_collaboration", "metric": "improvement plan co-created, not dictated", "evidence": "utterance quotes", "note": "co-created next steps survive; dictated ones do not" },
+        { "id": "receiving_skills", "metric": "receive-mode: non-defensive response, clarification questions, appreciation", "evidence": "turn pairs", "note": "applies when persona delivers feedback (p_daniel_manager_feedback)" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every score carries ≥1 evidence quote" }
+    },
+    {
+      "id": "workplace_negotiation_align_v1",
+      "target": "priority alignment, delegation, and professional disagreement practice",
+      "dimensions": [
+        { "id": "interest_discovery", "metric": "names underlying interests (both sides), not just positions", "evidence": "utterance quotes", "note": "interest-based: position 'no' hides an interest that may be met another way" },
+        { "id": "option_generation", "metric": "≥2 options explored before committing", "evidence": "session counts", "note": "single-option proposals read as ultimatums" },
+        { "id": "professional_tone_under_pressure", "metric": "no escalation at stress levels; disagreement stays respectful", "evidence": "stress-test turns", "note": "disagree-professionally stage; tone survives intensity" },
+        { "id": "tradeoff_explicitness", "metric": "names what each side gives and gets", "evidence": "utterance quotes", "note": "alignment is a trade, and the trade must be visible" },
+        { "id": "agreement_quality", "metric": "commitment specific, owned by the user, followable", "evidence": "utterance quotes", "note": "vague agreement is future conflict" }
+      ],
+      "scoring": { "type": "lens", "levels": ["developing", "practicing", "proficient"], "anchoring": "every score carries ≥1 evidence quote" }
+    }
+  ],
+  "rubric_use_rules": [
+    "rubrics are lenses: scores anchor to quotes, never standalone",
+    "no rubric score becomes a verdict about the user as a person",
+    "rubric selection matches practice_target; provisional rubrics are marked provisional",
+    "debrief template (debrief_template.md) consumes rubric output with evidence sections",
+    "power-gradient note: when the persona outranks the user, over-deference markers are flagged in the feedback_effectiveness / negotiation rubrics, never scored as proficiency"
+  ]
+}

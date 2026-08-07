@@ -1,0 +1,68 @@
+{
+  "skill_id": "Material_Arrangement_Scan",
+  "edges": [
+    {
+      "source": "Material_Arrangement_Scan",
+      "target": "scan_materials",
+      "type": "decomposes_to",
+      "order": 1,
+      "rationale": "Practice-theory materials inventory: 'Where does the cue live in your environment?' (T2R row 115)."
+    },
+    {
+      "source": "Material_Arrangement_Scan",
+      "target": "scan_meanings",
+      "type": "decomposes_to",
+      "order": 2,
+      "rationale": "Practice-theory meanings inventory: user's framing of activities (T2R row 96); meaning-making is user-owned."
+    },
+    {
+      "source": "Material_Arrangement_Scan",
+      "target": "detect_shared_elements",
+      "type": "decomposes_to",
+      "order": 3,
+      "rationale": "Bundles: one competence serving two practices (T2R row 116) — the economy of rearrangement."
+    },
+    {
+      "source": "Material_Arrangement_Scan",
+      "target": "design_novelty_into_routine",
+      "type": "decomposes_to",
+      "order": 4,
+      "rationale": "Novelty enters via arrangement, never by imposing meaning; cues supplement, not replace, practice."
+    },
+    {
+      "source": "scan_materials",
+      "target": "design_novelty_into_routine",
+      "type": "feeds",
+      "order": 1,
+      "rationale": "Materials inventory is the raw material for arrangement proposals."
+    },
+    {
+      "source": "scan_meanings",
+      "target": "design_novelty_into_routine",
+      "type": "feeds",
+      "order": 2,
+      "rationale": "Meanings inventory constrains what novelty may touch (never impose meaning)."
+    },
+    {
+      "source": "detect_shared_elements",
+      "target": "design_novelty_into_routine",
+      "type": "feeds",
+      "order": 3,
+      "rationale": "Shared-element map makes rearrangement economical (change one, benefit two)."
+    },
+    {
+      "source": "COMB_Behavioral_Diagnosis",
+      "target": "Material_Arrangement_Scan",
+      "type": "compatible_with",
+      "order": 1,
+      "rationale": "O-Ph evidence from practice complements the component profile (was quarantined; activated Phase 12)."
+    },
+    {
+      "source": "TDF_Barrier_Facilitator_Grid",
+      "target": "Material_Arrangement_Scan",
+      "type": "compatible_with",
+      "order": 2,
+      "rationale": "domain 11 environmental barriers connect to materials/arrangement scan (was quarantined; activated Phase 12)."
+    }
+  ]
+}
