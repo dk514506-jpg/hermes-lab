@@ -1,0 +1,34 @@
+# Monstare harness state & file map (as of 2026-08-13)
+
+## Canonical files (persist under /opt/data)
+- **Evidence matrix (THE database):** `/opt/data/Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx`
+  Sheets: Source Pass Summary, Guide & Legend, Source Discovery Log, Dashboard (44 formulas), Evidence Matrix (129 rows × 35 cols), Source Patch Log.
+- **Continuity frame:** `/opt/data/Monstare_Context_Window_Handoff_Package_v3.txt` (build spec §5; handoff prompt §7; disciplines §6; patch law §8).
+- **Role prompts (canonical, refined):** `/opt/data/Monstare_role_prompts/` — Locus, Evidence_Librarian, Methodologist, Cosmotechnic_Purist, Phenomenologist, Ethics_Auditor, Data_Steward `_prompt.md`.
+- **Role reports:** `/opt/data/Monstare_role_reports/` (B1_*/B2_* per batch).
+- **Batch artifacts:** `Monstare_batch_{1,2}_charting_drafts.md`, `Monstare_batch_{1,2}_charting_final.json`, `Monstare_batch_{1,2}_rows.json`, `Monstare_batch_{1,2}_findings_faultlines_memo.md`.
+- **Source extracts:** `/opt/data/Monstare_batch1_sources/`, `/opt/data/Monstare_batch2_sources/`, `/opt/data/Monstare_source_audit_cache/` (verified PDFs), `/opt/data/cache/web/*.md` (firecrawl full-text caches).
+- **Audit artifacts:** `Monstare_source_link_audit_2026-08-13.csv/.md`, `Monstare_source_verification_FINAL_2026-08-13.md/.csv`, `Monstare_bad_source_links_2026-08-13.md`.
+- **Reusable scripts:** `/opt/data/scripts/monstare_link_audit.py` (257-URL audit), `monstare_consolidate.py`, `monstare_patch_matrix.py`, `monstare_patch_charting.py` (+ `_b2`), `monstare_extract_reading.py`, `monstare_batch2_rows.py`, `monstare_batch2_reading.py`.
+- **Local Hui copy:** `/opt/data/machine and sovereignty yuk hui.pdf` (UMN 2024 OA edition, 352p — HUI-2024 charting text).
+
+## Harness state
+- Harness BUILT and executed (was "not yet built" per v3): smoke test CORE-01 passed; batch 1 (motivational/cosmotechnic spine: CORE-01, 02, 04, 05, 06, 08, A1-01, HUI-2024) fully charted with full role QC; batch 2 (workday-protocol spine: A9-01, 02, 04, 05, 06, CORE-09, 10, 15) fully charted (memo: Monstare_batch_2_findings_faultlines_memo.md). Do NOT claim the harness doesn't exist in handoffs.
+- Batch 3 (CORE completion: 03/11/12/13/14/16/17/18/19/20) COMPLETE 2026-08-13 — all 10 rows charted (CORE block now 26/26 across batches 1-3), full 7-role QC (Locus: proportionate-but-only-just burden; zero quantitative payload this batch; CORE-16 re-charted per Phenomenologist). Memo: /opt/data/Monstare_batch_3_findings_faultlines_memo.md. Key outcomes: 4 causal-status downgrades (CORE-13/19/20; CORE-12 qualified), 2 wrong-article URL catches on CORE-19 (readable AND landing), CORE-16 felt-record re-chart, CORE-10/11 never-sum rule, CORE-16<->CORE-19 junction named (flow states vs MRT decision points), 4 verification debts gated to the artifact pass (CORE-12 full text, CORE-17 phase conventions, CORE-16 canonical copy, CORE-20 ES-import prohibition). Source-pass decisions recorded there: CORE-12 + CORE-17 chart at ABSTRACT-LEVEL (documented decisions — archive lending only; Kazdin 2021 JEAB paywalled); CORE-19 Readable+Landing URLs REPLACED (PMC5820391 = Aasdahl 2018 AND 10.1016/j.cct.2015.07.003 = Broglio et al. — double wrong-article; new: ambujtewari.com author PDF + doi.org/10.1037/hea0000305, verified); CORE-14 landing DOI replaced (019823682X.003.0002 dead → 10.1093/analys/58.1.7); CORE-16 charted from course-hosted full-book mirror (timothydavidson.com, 312p, text verified — rights caveat, archive lending stays canonical); CORE-20 PMC2062525 live (CSV 404 was a superseded URL); CORE-13/18/20 full texts cached under /opt/data/cache/web/; CORE-18 readable updated to doi.org/10.1037/arc0000026.
+- Silvey's quality rule: if a referenced capability still does not exist, say so explicitly — the harness now exists, so apply that honesty to other claims.
+
+## Batch-1 key adjudications (carry forward)
+- Causal statuses: CORE-04 causal→**conceptual** (charted via 1994 companion chapter; 1997 book is archive-lending-only); CORE-05 **causal (lab-bounded)**; CORE-06 **correlational (narrative review)**; all framework rows conceptual.
+- Evidence types: CORE-05 review→**meta-analysis**; CORE-06 review→**narrative review (non-systematic, advocacy-adjacent)**; distinguish meta-analysis/systematic review/narrative review/theoretical/philosophical — "review" alone is too coarse.
+- ES conventions: never import external effect sizes not in the charted source (Stajkovic & Luthans 1998 anachronism removed); CORE-05 d-values pinned verbatim (free-choice −0.40/−0.36/−0.28; self-report −0.15/−0.17; feedback +0.33/+0.31).
+- Pilot rules: c_C = direction + bounded band (|d| ≈ 0.15–0.40), never a point estimate; no-reward baseline required (single-subject studies without controls were excluded from the meta); code crowd-in conditions; lambda (M4d) structural/presence-based, never a calibrated scalar; M2 need-support profile = design heuristic, not validated manipulation; SCED logic for the pilot.
+- Weight: CORE-01/02/04/06 → supporting; load-bearing = CORE-05, CORE-08, A1-01, HUI-2024 (Locus).
+- Cosmotechnic-Purist rule: A1-01/HUI-2024 supply the CRITERION, not the verdicts; cosmotechnic-failure verdicts are Tier-P applications under a stated criterion.
+- Ethics follow-ups (artifact pass): CORE-08 card needs environmental-responsibility clause + revocation affordance for self-constraints (S10); CORE-02 telos-remains-the-person's-own; HUI-2024 audit criteria (technodiversity, organology/proportion, prosthesis-vs-replacement, locality/localism) must be operationalized before the Cosmotechnic Audit Card is usable.
+
+## Link-replacement ledger (batch 1, 2026-08-13)
+17 rows patched: CORE-04 (archive.org lending + 1994 companion), CORE-06 (bsfrey.ch replacement PDF; correct DOI 10.1111/1467-6419.00150 — old DOI 10.1023/… was dead), CORE-07 (ERIC ED084210 — final-report version of the overjustification study), CORE-09 (weebly course copy + PubMed 7134324), CORE-10 (ubalt copy + PubMed 12237980), CORE-15 (PubMed abstract-level), CORE-20 (PMC OA), A1-05 (Univocal 2016 trans. + rybn.org alternate), A1-06 (philpapers + Google Books preview; no open full text), A1-07 (monoskop PDF + archive lending), A1-08/A1-09 (archive.org lending), A2-05 (Cambridge UP 2025 book landing), A3-04 (UCI mirror), A3-05 (MIT alumni author copy), A3-09 (ACM DL + Semantic Scholar records — was NO_URL), A4-02 (jonides-lab copy).
+Still bot-hostile (manual retrieval needed): A2-06, A3-03, A3-06, A3-08, A4-03, A4-04, A7-06, A7-09.
+
+## Next-batch agenda (from batch-1 memo)
+Batch 2 = workday-protocol spine (in flight). After it: batch 3 candidates per priority/area gaps; keep Phenomenologist for any Area 5/8/9 rows; collapsed Pip+Locus config for purely conceptual ≤4-row batches (apparatus burden is a stake).
