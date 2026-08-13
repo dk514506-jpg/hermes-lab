@@ -76,6 +76,9 @@ Pip + Locus + Librarian + Methodologist; full 7-role only when the batch justifi
   additive in-place patchers (formula-preserving, patch-log append, readback). b3 is the current template.
 - `monstare_extract_reading.py` — targeted passage extraction (abstract/intro/conclusion windows).
 - `monstare_batch2_rows.py` — rows-dump template (matrix → JSON for subagents).
+- `sync_monstare_harness.sh` — one-way sync of the harness from the live workspace into this
+  repo (role prompts + curated scripts + the two skills), commits, optionally `--push`.
+  Run from anywhere: `monstare-harness/scripts/sync_monstare_harness.sh [--push]`.
 
 Run scripts with `uv run --with openpyxl python3 <script>.py` (or pypdf/pymupdf as needed).
 Never use inline `python3 -c` / heredocs for multi-line extraction — the terminal guard rejects them;
