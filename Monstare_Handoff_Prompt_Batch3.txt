@@ -1,0 +1,45 @@
+Good morning Pip. You are resuming the Monstare research project (Tier-P cosmotechnic research instrument) in a fresh chat window. Monstare's purpose is productivity-supporting cosmotechnic cultivation, NOT output maximization. The v6 fork is settled: FORGE, DO NOT MERELY RESTORE.
+
+## Step 0 — Read these files in order (treat the Evidence Matrix as the operational database; everything else is continuity frame)
+
+1. /opt/data/Monstare_Context_Window_Handoff_Package_v3.txt — the operating law: build spec for the agentic harness (§5), role prompts (§5.3), cost controls (§5.4: 100k session envelope, per-role budgets, collapse economy, hard stops), non-negotiable disciplines (§6), patch law for matrix edits, batch-level Locus check.
+2. /opt/data/Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx — the single canonical database (6 sheets; Evidence Matrix = source of truth, NOT the Dashboard; Source Patch Log now has 6 entries through 2026-08-13).
+3. /opt/data/Monstare_batch_1_findings_faultlines_memo.md and /opt/data/Monstare_batch_2_findings_faultlines_memo.md — the two completed charting passes (16 rows charted total: motivational/cosmotechnic spine + workday-protocol spine), their fault lines, pilot rules, weight reclassifications, and the next-session agenda.
+4. /opt/data/Monstare_role_prompts/ — the 7 refined role prompts (Locus, Evidence Librarian, Methodologist, Cosmotechnic-Purist, Phenomenologist, Ethics & Cosmotechnic Auditor, Data & Instrumentation Steward). They carry batch-1/2 refinements; honor them.
+5. /opt/data/Monstare_source_link_audit_2026-08-13.csv and /opt/data/Monstare_source_verification_FINAL_2026-08-13.md — per-URL status and readability verdicts for all 257 matrix URLs.
+6. Working sources: /opt/data/Monstare_batch1_sources/, /opt/data/Monstare_batch2_sources/, /opt/data/Monstare_source_audit_cache/ (verified PDFs and reading extracts), /opt/data/Monstare_role_reports/ (prior QC reports as precedent).
+
+## Current state (2026-08-13)
+- 129 matrix rows; 16 charted (CORE-01/02/04/05/06/08, A1-01, HUI-2024 in batch 1; A9-01/02/04/05/06, CORE-09/10/15 in batch 2). All charted rows passed full role QC. CORE-04 is provenance-tagged (charted via Bandura 1994 companion chapter; 1997 book is archive-lending-only). HUI-2024 has a verified local copy at /opt/data/machine and sovereignty yuk hui.pdf.
+- Source discovery complete for all rows; 15 dead links replaced with verified alternatives; 8 rows remain bot-hostile (A2-06, A3-03, A3-06, A3-08, A4-03, A4-04, A7-06, A7-09 — live links, need manual/institutional retrieval; do not re-hunt them).
+- Gated verification debts (resolve before those rows become load-bearing): A9-06 open RWTH PDF (browser-stack fetch), A9-04 + CORE-15 institutional full texts (currently abstract-level charted).
+
+## Step 1 — Verify the harness
+delegate_task is available in your parent session (leaf children do NOT have it — role prompts must be self-contained with inline file paths). Concurrency max is 3 children. If delegate_task is unavailable, fall back to the collapsed Pip + Locus configuration — the disciplines still hold.
+
+## Step 2 — Set the session budget
+100,000-token envelope (v3 §5.4.1). Track and record actual spend in the batch memo.
+
+## Step 3 — Batch 3: complete the CORE rows
+Recommended split into two sub-batches per v3 §5.2 (collapse economy; full 7-role harness only when conditions justify it):
+- **Batch 3a (5 rows): CORE-03** (Vansteenkiste, Williams & Resnicow — SDT/MI integration; SDT PDF, readable), **CORE-11** (Ordonez et al. — Goals Gone Wild; open PDF, readable — pairs with CORE-10), **CORE-12** (Ferster & Skinner — Schedules of Reinforcement; landing-only — browser-stack or abstract-level), **CORE-13** (Staddon & Cerutti — operant conditioning review; stub/captcha — needs replacement hunt or browser-stack), **CORE-14** (Clark & Chalmers — Extended Mind; open HTML, readable). Config: Pip + Locus + Evidence Librarian + Methodologist; spawn others only if a specific concern arises (CORE-12/13 may carry Cosmo Rel. considerations — check the matrix).
+- **Batch 3b (5 rows): CORE-16** (Csikszentmihalyi — Flow; landing-only — Phenomenologist REQUIRED, flow is the archetypal phenomenological row), **CORE-17** (Kazdin — Single-Case Research Designs; landing-only), **CORE-18** (Tate et al. — SCRIBE 2016 reporting guideline; open HTML), **CORE-19** (Klasnja et al. — Micro-randomized trials; stub — replacement hunt or browser-stack), **CORE-20** (Collins, Murphy & Strecher — MOST/SMART; PMC OA, browser-stack readable — directly feeds the Tier-C pilot; Methodologist attention on the optimization-trial logic). Config: Pip + Locus + Evidence Librarian + Methodologist + Phenomenologist (CORE-16); Ethics Auditor if protected-floor stakes arise.
+- Before charting each row: verify the current source URL against the audit CSV/verification report; hunt replacements for any dead/stub links (verify HTTP + text layer before recording, per batch-1/2 convention); abstract-level charting is acceptable ONLY with a documented decision and a caveat note.
+
+## Step 4 — Role QC per convention
+Wave 1: Evidence Librarian + Methodologist (+ Phenomenologist where triggered). Wave 2: Cosmotechnic-Purist if any row has Cosmo Rel. = high or a cosmotechnic claim; Ethics & Cosmotechnic Auditor if Fail Modes or protected-floor stakes are touched; Data & Instrumentation Steward ALWAYS when writing matrix edits. Locus batch check last. Apply the refined prompt lessons: criterion-not-verdict, define-or-demote cosmos vocabulary, evidence-type taxonomy (systematic vs narrative review), capture-order checks, no external effect-size imports, truthful edit classification.
+
+## Step 5 — Deliverables (per pass, NO new knowledge bases)
+1. Patch the SAME canonical matrix in place, additive only: fill charting cells (or instructed upgrades of seeded text), set Verif. = "Charted - <date>", append Discovery Notes (CHARTED tag + caveats + Locus weight tags), update Access Type/Evidence Type only when QC directs it. Load with openpyxl WITHOUT data_only (preserve the 44 Dashboard formulas; Excel recalculates on open — LibreOffice is unavailable in this container). One truthful Source Patch Log entry per pass (distinguish pure fills from instructed upgrades; 0 rows removed, 0 formulas touched).
+2. Memo: /opt/data/Monstare_batch_3_findings_faultlines_memo.md (findings, fault lines, pilot rules, weight changes, next-session agenda, actual spend).
+3. Save any role-prompt refinements back to /opt/data/Monstare_role_prompts/.
+
+## Operating law (non-negotiable)
+Citation is not evidence. Tier-P stays visible. Protected floors S1 Telic / S7 Moral / S10 Reversibility are never traded. H2 is a vector, never a scalar. Phenomenology-before-calibration is law. Locus checks interfaces (source -> claim -> matrix row -> design implication -> stake consequence -> artifact/pilot rule). Burden is itself a stake. Do not regenerate the workbook, do not remove URLs/formulas/comments, do not flatten anything. Do not create v4 handoff packages or parallel knowledge bases — memos + the matrix carry continuity.
+
+## Environment notes
+- Terminal guard: do NOT use inline `python3 -c` or heredocs — write script files and run `uv run --with openpyxl python3 script.py` (or pymupdf/pypdf as needed; uv provides them).
+- Deliver files to the user with explicit paths and dashboard download links (https://persona-sol-9522.agents.nousresearch.com/api/files/download?path=<relative-path-under-opt-data>); MEDIA: markers do not render as links on this TUI.
+- Subagent results are self-reports: verify critical claims (file writes, JSON contents) yourself before trusting them — a subagent misread a JSON key in batch 1 and was caught by direct verification.
+
+Proceed with reasonable assumptions where the memos leave choices open. Maintain rigorous anti-drift standards with focused attention and disciplined note-taking.

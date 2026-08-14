@@ -1,0 +1,1099 @@
+SOURCE: HUI-2024 | pages 352
+
+machine and sovereignty
+for a planetary thinking
+machine and sovereignty
+machine and sovereignty
+for a planetary thinking
+yuk hui
+Machine and Sovereignty
+This page intentionally left blank
+Machine and Sovereignty
+For a Planetary Thinking
+Yuk Hui
+University of Minnesota Press
+Minneapolis
+London
+The University of Minnesota Press gratefully acknowledges support for the open-­access 
+edition of this book from the Hong Kong Research Grants Council.
+Copyright 2024 by the Regents of the University of Minnesota
+Machine and Sovereignty: For a Planetary Thinking is licensed under a Creative Commons 
+Attribution-NonCommercial-NoDerivatives 4.0 International License: https://
+creativecommons.org/licenses/by-nc-nd/4.0.
+Published by the University of Minnesota Press
+111 Third Avenue South, Suite 290
+Minneapolis, MN 55401-­2520
+http://www.upress.umn.edu
+ Available as a Manifold edition at manifold.umn.edu
+ISBN 978-­1-­5179-­1740-­1 (hc)
+ISBN 978-­1-­5179-­1741-­8 (pb)
+A Cataloging-­in-­Publication record for this book is available from the Library of Congress.
+Printed in the United States of America on acid-­free paper
+The University of Minnesota is an equal-­opportunity educator and employer.
+33  32  31  30  29  28  27  26  25  24
+10  9  8  7  6  5  4  3  2  1
+For Ben, my dear brother
+This page intentionally left blank
+Contents
+Preface  /  ix
+Introduction: For a Planetary Thinking  /  1
+§1.	 On the Planetary Condition  /  3
+§2.	 Planetary Thinking as Political Epistemologies  /  9
+§3.	 Search for a Planetary Politics beyond the Nation-­State  /  14
+§4.	 Toward a Tractatus Politico-­Technologicus of the Planetary  /  18
+1.	 World Spirit as Planetary Thinking  /  23
+§5.	 Individuation of the Spirit as Historical Process  /  27
+§6.	 World Spirit as Planetary Thinking and the  
+Place of Reason in History  /  32
+§7.	 Freedom as the Drive of the Transitions of Political Forms  /  43
+§8.	 Recursivity of Reason and Freedom in the Modern State  /  50
+2.	 The Organism of the State and Its Limit  /  57
+§9.	 Spirit and the Organic Becoming of the Externalized  /  59
+§10.	Organism of the State versus Organism of the Animal  /  63
+§11.	The Impasse from the State to Planetary Freedom  /  74
+3.	 From Noetic Reflection to Planetary Reflection  /  85
+§12.	Noetic Reflection: Consciousness and Life  /  88
+§13.	Bioeconomical Reflection: Georgescu-­Roegen Reads Hegel  /  93
+§14.	Cybernetic Reflection: Toward the Consciousness  
+of Machines  /  101
+§15.	Noospheric Reflection: In Search of a Planetary Freedom?  /  108
+4.	 Mechanism, Organism, or Decisionism  /  117
+§16.	From Political Theology to Political Epistemology  /  118
+§17.	Machine and Organism in The Leviathan in the  
+State Theory of Thomas Hobbes  /  124
+§18.	Political Epistemology in Hobbes’s Leviathan  /  128
+§19.	Catholicism and the Logic of Complexio Oppositorum  /  136
+§20.	The Death of Hegel and the Triumph of Political Vitalism  /  147
+5.	 Nomos of the Digital Earth  /  153
+§21.	First Deconstruction on the Contingency of Sovereignty  /  154
+§22.	Second Deconstruction on the Contingency  
+of Friend and Enemy  /  161
+§23.	Sovereignty and the Elementary Philosophy of Space  /  167
+§24.	Großräume as Post-­Static Political Form and  
+the Problem of Pluralism  /  174
+§25.	Giving Colonialism, New Großräume,  
+and Digital Sovereignty  /  182
+6.	 An Organology of Wars  /  191
+§26.	The Disproportion of Organs and the Hubris of Wars  /  193
+§27.	From a Cybernetics of Freedom to an  
+Organology of Differences  /  197
+§28.	The Conflict of Tendencies and the  
+Recurrence of Mysticism  /  203
+§29.	The Dynamics of the Technical  
+Tendency and Technical Fact  /  209
+§30.	On the Organological Relation between  
+Technology and Democracy  /  215
+§31.	Biodiversity, Noodiversity, and Technodiversity  /  220
+7.	 Toward an Epistemological Diplomacy  /  229
+§32.	Acceleration, Automation, and the Prosthetic Future  /  230
+§33.	Universality Seen from the Perspective of Technodiversity  /  234
+§34.	Sovereignty Seen from the Perspective of Technodiversity  /  242
+§35.	Technodiversity Analyzed via an 
+Anatomy of Technical Objects  /  247
+§36.	Technodiversity as Epistemological Diplomacy  /  255
+Notes  /  265
+Bibliography  /  307
+Index  /  323
+ix
+Preface
+In August 2022, I invited Professor Carl Mitcham to deliver the Bernard 
+Stiegler memorial lecture; Carl asked if it would be possible to develop a 
+Tractatus Politco-­Technologicus after Leo Strauss. This question was driven 
+by the belief that Strauss did not explicitly address the question of technol-
+ogy in his political philosophy and that philosophy of technology hasn’t 
+yet engaged with political philosophy in a profound way. Today, it has be-
+come both inevitable and necessary to take technology into consideration 
+in political philosophy; however, this relationship has yet to be thoroughly 
+examined and comprehensively contemplated. Coincidently, I had been 
+working on a similar project since I finished the manuscript of Recursivity 
+and Contingency in summer 2018. I was tempted to explore the implication 
+of the epistemological questions raised in the book in political thought, 
+especially in view of the process of technological planetarization. However, 
+due to various reasons, I was not ready to pursue the project right after Re-
+cursivity and Contingency (2019). Therefore, the current work is preceded 
+by Art and Cosmotechnics (2021), which I consider the second volume of 
+Recursivity and Contingency. Machine and Sovereignty is the third and the 
+last volume of this series that has taken me more than a decade. It will be 
+also my initial response to Carl’s question.
+A large part of this book was written during the Covid-­19 pandemic 
+when the geopolitical drift became overwhelming: the upsurge of national-
+ism and identity politics, the intensification of border control, the increasing 
+tension of wars and the worsening climate crisis. These shocks were existen-
+tial especially when I had just relocated from Europe to the unrestful Hong 
+Kong. Reading Hegel and Schmitt became equally an uncanny experience: 
+abstract concepts became not only concrete but also intimate, and at the 
+same time intimidating and disturbing. The thinking of Hegel and Schmitt 
+embody two modern political forms—­the nation-­state and the Großraum—­
+and a future planetary thinking will have to surpass both. We will have to 
+forcefully open new perspectives for planetary thinking and a new concept 
+of history to come. In order to do so, one cannot avoid respecting them as 
+x
+Preface
+·
+philosophical adversaries, meticulously engaging with their thinking while 
+seeking moments to break through and take leaps. Not being trained as a 
+specialist in political and legal thought, this study was more than labori-
+ous; meanwhile, I had to develop my own method of reading the classics 
+of politi­cal philosophy, which I term political epistemology. Political episte-
+mology is central to the megamachine of Lewis Mumford, as it legitimates 
+and guides the operation of the megamachine. It is our Ariadne’s thread for 
+exploring the planetary. The first parts of this study endeavor to lay down the 
+epistemological foundation of Hegel’s and Schmitt’s political thought and 
+the two political forms they wanted to justify. The later part of the book 
+elaborates on the agenda of technodiversity, a concept that I developed in 
+Recursivity and Contingency. This historical-­epistemological study is, how-
+ever, far from being complete. Despite its obvious limitations, I hope that it 
+can still provide some insights to conceive a planetary thinking capable of 
+addressing some of the current impasses.
+This project would not be possible without the support of various in-
+stitutions: the City University of Hong Kong, especially Professor Richard 
+William Allen from its School of Creative Media; the Hong Kong ­Research 
+Grant Council, for its Social Sciences and Humanities Prestigious Fel-
+lowship (2023), which allowed me to take time off from teaching and focus 
+on completing the book and sponsored this book to be open access; the 
+­Berggruen Institute’s support of my research on the planetary between 
+2021 and 2022.
+I want to thank the following friends and colleagues who have engaged 
+with this writing process. Pieter Lemmens and Anders Dunker have given 
+feedback on several chapters. Colleagues from the Centre for Critical 
+Thought and the Law School, University of Kent, including Jose ­Bellido, 
+Alex Damianos, Maria Drakopoulou, Gian-­Giacomo Fusco, Conor ­Heaney, 
+Philipp Kender, and Connal Parsley, have organized reading groups to 
+comment on various chapters and gave critical feedback regarding legal 
+thought and international relations. Milan Stürmer spent more than a year 
+with me reading Hegel’s Grundlinien der Philosophie des Rechts sentence 
+by sentence every week online. I want to equally thank Pieter Martin from 
+the University of Minnesota Press for finding this project a home, the two 
+anonymous reviewers for their constructive comments, and Joel White for 
+copyediting and commenting on the manuscript.
+Yuk Hui
+Summer 2024, Rotterdam/Tokyo
+1
+Introduction
+For a Planetary Thinking
+The current work immodestly calls for a planetary thinking—­a thinking 
+that Kostas Axelos already announced in view of the domination of plane­
+tary technology and the threshold of a new epoch to come during the 
+1960s. The rationale behind this call is simple: we do not yet think plane­
+tarily and must learn to think planetarily, even though this may well take 
+a considerable amount of time to come. The planetary is viewed as such, 
+but it remains the unthought.1 To think planetarily doesn’t necessarily 
+mean proclaiming or defining the sovereignty of outer space, or delving 
+into terraforming and geoengineering, even though such topics might be 
+anticipated in a book dedicated to planetary thinking. To think planetarily, 
+first of all, means thinking beyond the configuration of modern nation-­
+states, which have not been able to move away from vicious economic and 
+military competition; second, it means formulating a language of coexis-
+tence that will allow diverse people and species to live on the same planet; 
+and third, developing a new framework that will enable us to go beyond 
+the question of territory, respond to the current ecological crisis, and re-
+verse the accelerated entropic process of the Anthropocene. The task of 
+plane­tary thinking resonates with the idea of perpetual peace as proposed 
+by Abbé de Saint-­Pierre and then later by Kant, Fichte, and others. One 
+must note that when these authors were writing, modern nation-­states 
+were still young in Europe, and thus the nation-­state could be considered 
+the most appropriate political form. Industrial capitalism was still in its 
+infancy, and the damage of planetarization was not yet foreseeable.2 Or-
+ganic nature, captured by two key concepts, community and reciprocity, 
+stands as the model for perpetual peace because different parts constitute 
+the whole, and every part will be conditioned by each other and the whole. 
+Therefore, Kant enthusiastically claims that perpetual peace will be “guar-
+anteed by an equilibrium of forces and a most vigorous rivalry” between 
+2
+Introduction
+·
+the states.3 This is why, instead of looking at the world from the lens of the 
+nation-­state and nature, we demand a new framework for the planetary. 
+Considering there have been many excellent studies on the planetary from 
+philosophers,4 historians, designers, and Marxist scholars,5 we propose to 
+take a different path to carry out this inquiry.
+Following my previous works, this treatise will attempt to bring tech-
+nology to the forefront of political thought. For planetary thinking to be 
+possible, we cannot avoid and ignore the long tradition of political phi-
+losophy, but we must likewise read the history of political thought through 
+a new lens: the question of technology. We might again, immodestly, call 
+this attempt a search for a Tractatus Politico-­Technologicus. A Tractatus 
+Politico-­Technologicus means that our inquiry no longer sees politics and 
+technology as separate spheres; instead, we have a rather urgent task be-
+fore us: bringing technology to the centrality of political philosophy, or, in 
+other words, to ground a political philosophy in technology. This under-
+lines our intention of reading political thought and its history. However, 
+this task is both trivial and enormous. It is trivial because one could hardly 
+fail to recognize that today technology is the main battlefield where dif-
+ferent nation-­states enter into conflict. Indeed, military offenses have now 
+been transformed into information warfare. It is an enormous philosophi-
+cal task because to achieve it successfully, one must laboriously retrieve 
+the concept and the role of technology from Plato to contemporary po-
+litical philosophers, as was the task of deconstruction, especially Jacques 
+Derrida’s and Bernard Stiegler’s work. Deconstruction shows that philoso-
+phy, since the beginning, repressed (verdrängt)—­in the Freudian sense—­
+the question of technology. Therefore, it is necessary to make visible the 
+centrality of technology in philosophy as the unthought that is, nonethe-
+less, indispensable to thinking. Therefore, from the point of view of de-
+construction, a political philosophy that ignores technology is defective 
+and has to be rethought anew through the lens of technology. A Tractatus 
+Politico-­Technologicus would be necessary for political philosophy if we 
+follow the school of deconstruction.
+However, what does it mean to say that technology is central to political 
+thought? Do we mean that technology is a necessary tool of governance or 
+that politics must respond to any technological development that brings 
+new dynamics to communities? Or do we need an ethics of technology 
+for every apparatus or application—­for example, to make Amazon Alexa’s 
+way of addressing children more ethical? This way of posing the question 
+3
+Introduction ·
+still takes technology and politics as two spheres: one sphere acts or reacts 
+to another. A Tractatus Politico-­Technologicus suggests that the political 
+and the technical are not two separate spheres. Nomos is, first of all, a tech-
+nical activity before being jurisprudential. Moreover, one could conceive 
+the political as a technological phenomenon—­a phenomenon in the sense 
+that political forms such as the polis, empire, the modern state, and the 
+Großraum are particular manifestations of technological progress and its 
+imagination while, at the same time, technology is contained and con-
+strained by these different political forms. These forms are manifestations 
+of what Lewis Mumford called megamachines. The first megamachine 
+emerged from the end of the fourth millennium, which we see in Egypt, 
+Mesopotamia, India, China, and Peru, where various components—­
+political, economic, military, bureaucratic, and royal—­assembled into a 
+gigantic machine according to the division of labor.6 Mumford provided 
+us with a grand history of the megamachine, passing by absolute monarchy, 
+which, in his view, aligns with the megamachine sustained by a mecha­
+nistic epistemology. With the idea of a Tractatus Politico-­Technologicus in 
+mind, we start our journey.
+§1. On the Planetary Condition
+Technology has brought about a new human condition that exceeds Hannah 
+Arendt’s observation from 1958, when the launch of Sputnik struck the 
+political theorist with a new form of alienation of man from Earth. On 
+the first page of The Human Condition, Arendt wrote that the launch of 
+Sputnik was “second in importance to no other, not even to the splitting of 
+the atom.”7 We should also remind ourselves of the shock that Heidegger 
+received when he saw the image of the Earth taken from the moon in 1966, 
+which confirmed his analysis in the lecture “The Age of the World Picture” 
+(1938) and led to his lament of a technological catastrophe in the interview 
+“Only a God Can Save Us” (1966).8 The Earth being grasped as an image 
+of the globe symbolizes the zeitgeist of the second half of the twentieth 
+century. One could consider it a spatial revolution in various senses; first, 
+it constitutes the first time that the Earth was observed from outer space, 
+not the other way around, and before human beings even observed it. This 
+observation of observation, so to speak, reverses how outer space was per-
+ceived in everyday experience: the Earth is no longer the ground upon 
+which we stand and look into the sky since now it exists in the form of an 
+4
+Introduction
+·
+artifact available for manipulation. It resonates with what Marshall McLu-
+han said about Sputnik during an interview in the 1970s: “Sputnik created 
+a new environment for the planet. . . . Nature ended, and Ecology was 
+born. ‘Ecological’ thinking became inevitable as soon as the planet moved 
+up into the status of a work of art.”9 Nature disappears since it is no longer 
+enchanted and mysterious but only part of a much larger artifact. This 
+artifact is not static. Instead, it is understood as a dynamic system. Ecology, 
+a term coined by the biologist and zoologist Ernst Haeckel (1834–­1919) to 
+describe “the entire science of the relationships of the organism to its sur-
+rounding external world,”10 hence acquired a technological and political 
+meaning.
+Space is no longer a geometrical representation; instead, space, thus con-
+ceived, is now a dynamic system in which different forces and factors re-
+ciprocally act on each other. James Lovelock was one of the first to have 
+studied the dynamic between the geosphere, biosphere, and atmosphere. 
+His early Gaia theory (before the collaboration with Lynn Margulis) tells 
+us that the Earth is a cybernetic system capable of homeostatic functions.11 
+One of the most provocative caricatures of the Earth as a machine comes 
+from Richard Buckminster Fuller’s description of it as a spaceship. Earth 
+is a spaceship, and we, the Earth’s inhabitants, are only its passengers. 
+This image of the spaceship was illuminated in the novella The Wandering 
+Earth written by the science-­fiction writer Liu Cixin, which was made into 
+a film in 2019, the sequel of which, in 2022, was infiltrated with a “patriotic 
+cosmopolitanism.”12 The passengers must anticipate the wreckage one day 
+in the future. For a few decades now, we have already heard the alarm 
+of climate change and ecological crisis, and this alarm is getting louder 
+and more frequent. The Intergovernmental Panel on Climate Change con-
+stantly warned us about the necessity of immediate action: it’s “now or 
+never!”13 In response, entrepreneurs such as Elon Musk have been explor-
+ing the possibility of emigrating to Mars or escaping to another galaxy—­
+although in the name of humanity and its dream of “being among the 
+stars”; of course, this would be only for the ultrarich who could afford it.
+Besides Plan B, that is, to escape to the other planets, Plan A is to steer 
+the spacecraft to a safer place. If the Earth is a spaceship, this also means 
+that one can modify its structure, improve its speed, and energize it. Ter-
+raforming is a manifestation of the power of modern technologies capable 
+of engineering the planet’s atmosphere, biosphere, and geosphere. Simi-
+lar voices are also heard, for example, in the “Ecomodernist Manifesto” 
+5
+Introduction ·
+signed by people such as Stewart Brand and his colleagues from the Break-
+through Institute, who claim that more advanced technologies can repair 
+the damage caused by technology on Earth. As such, the key to the sur-
+vival of planet Earth is the further advancement of technology. The same 
+wish can be seen at work for the transhumanists who see the possibility 
+of endless enhancement of the human body and intelligence in technol-
+ogy. Eco-­modernism, transhumanism, and prometheanism join hand in 
+hand in this technological epoch, where anthropocentrism has surged to 
+a historical height. Both Plan A and B are an objectification of the Earth 
+as artifact, as something subject to engineering and design. These forms 
+of planetarization are a consequence of modernity, yet they are not the 
+planetary thinking that we are aspiring to.
+Retrospectively we could identify the process of planetarization with 
+that of technological globalization—­in the sense that modern Western 
+technology becomes a global phenomenon and the common aim of human 
+development. That is to say, science and technology have detached them-
+selves from the scientific community of the West and become the foun-
+dation of global communities consisting of researchers from everywhere. 
+This resonates with Heidegger’s 1964 article “The End of Philosophy and 
+the Task of Thinking,” in which he famously indicates two meanings of 
+the end of philosophy. First, it means “the triumph of the manipulable 
+arrangement [steuerbare Einrichtung] of a scientific-­technological world 
+and of the social order proper to this world”—­in other words, society will 
+be grasped as a cybernetic model because the term steuerbare ­Einrichtung 
+refers explicitly to cybernetics. Second, the “beginning of the world-­
+civilization will be based on Western European thinking.”14 Heidegger did 
+not mean that Western European thinking is superior than other forms of 
+thinking and that, as such, it will become the base of world civilization. 
+What he means is that Western European thinking finds its completion 
+in cybernetics, and that cybernetics, the synonym of modern technol-
+ogy for him, will be a planetary phenomenon. Therefore, it is because of 
+and through cybernetics that the progress of the world civilization is now 
+based on Western European thinking. This verdict of Heidegger’s became 
+even more evident after the fall of the Berlin Wall and the collapse of the 
+Soviet Union, when a thermodynamic ideology started ruling the globe. 
+By thermodynamic ideology we mean an epistemology that originated from 
+physics and then penetrated the economic and political sphere, becoming 
+its operating principle.15 A thermodynamic ideology is closely associated 
+
+[---MIDDLE OMITTED---]
+332
+INDEX
+·
+145–46, 148, 156, 197, 200–206, 
+209–10, 221–23, 227, 230, 232–35, 
+244–46, 250, 254, 265–66, 284–85, 
+287, 291; administrative, 149, 183; 
+cybernetic, 13, 105–6, 114, 197, 200, 
+210; mechanical, 65, 94, 114, 118, 
+128, 141, 210, 266; organic, 12–14, 88, 
+107, 232, 266
+Macron, Emmanuel, 244, 304
+magic unity; See under unity
+Malabou, Catherine, 29, 63, 71, 270, 
+277–78; Au voleur!, 277; The Future 
+of Hegel, 270, 277–78
+Mann, Geoff, and Joel Wainwright, 17, 
+260, 267–68, 305
+Mao Zedong, 150–51, 216
+Marder, Michael, 139, 271, 290; 
+Groundless Existence, 139; Hegel’s 
+Energy, 271
+Margulis, Lynn, 4, 112, 223, 267, 284
+Marinetti, Filippo Tommaso, 194, 300; 
+“Futurist Manifesto,” 194
+market and infrastructure, 184–85
+Mars, 4, 112, 179
+Marx, Karl, 10, 13, 20, 41–43, 46, 48, 
+59–60, 62, 67–68, 70, 72–73, 75–76, 
+81, 88, 93, 182, 184, 201, 216, 233, 235, 
+266–68, 271–74, 276–79, 281, 293, 
+299, 303; Critique of Hegel’s Philoso-
+phy of Right, 13, 59, 267, 271, 273–74; 
+Poverty of Philosophy, 20, 268
+Marx and Engels, Manifesto of the 
+Communist Party, 272
+Marxism, 6, 123, 205
+Maxwell, James Clerk, 98
+Maxwell’s demon, 98, 102
+McLuhan, Marshall, 4, 265
+mechanical arts, 193
+mechanical science, 193, 204
+mechanics, 65, 83, 98, 119, 130, 136–37, 
+140, 146, 285–86; classical, 93, 104
+mechanism, 12–13, 15, 20–21, 23–26, 
+56, 58, 63, 68–69, 88, 93–94, 104, 
+106, 114, 117–52, 191–92, 194–95, 197, 
+199, 202–3, 207–10, 216, 230–32, 
+237, 246, 275, 284–85, 287–89; ab-
+solute, 63; and freedom, 24, 68; in 
+Hobbes, 135, 288; and organism, 12, 
+15, 23–24, 57, 100, 106, 114, 118, 120, 
+125, 128, 136–37, 141, 143–44, 147, 
+149–50, 153, 161, 195, 231, 264; to 
+organism, 12, 93, 124; and organism 
+opposition, 203, 289
+mechanistic epistemology, 3, 93
+mechanization, 24, 114, 119, 124, 
+126–27, 136, 139, 142–43, 146, 191, 
+193, 204, 206–7, 209–10; of spirit, 
+195, 203
+mechano-organicism, 26, 89, 104
+megamachine, 3, 11, 24, 63, 73, 78, 87, 
+107, 114, 135, 145, 189, 193, 201, 227, 
+231, 242–44, 246–47, 260
+Mesopotamia, 3
+metaphysical force, 142, 145, 147, 222, 
+234
+metaphysics, 28, 46, 78, 107, 114, 118, 
+144–45, 229, 232, 257–58, 274
+milieu; associated, 204–5; external, 
+211–12, 221; internal, 80, 211–13; 
+technical, 211, 213
+Mill, John Stuart, 233
+Mirowski, Philip, 102, 282
+models; mechanical, 58, 254; organis-
+mic, 103
+modern European philosophy, 106, 118, 
+128, 147
+modern nation-states, 1
+modern state, 3, 12, 19, 48, 50, 54, 57, 
+60–61, 63, 69, 72–74, 80–83, 86, 122, 
+134, 229, 252, 272, 275–76
+modern technology, 4–5, 147, 212, 247, 
+255
+333
+INDEX ·
+monism, 173, 181, 292
+Monod, Jean-Claude, 123, 286
+Monroe Doctrine, 16, 79, 172, 178, 185, 
+187–88, 279, 298
+Montesquieu, Charles de, 100, 125, 
+131–32, 287
+Moreno, Jacob, 252
+Morris, William, 235
+Mou Zongsan, 20, 82–83, 280–81
+Müller, Adam, 67, 125
+multitude, 14–15, 62, 130, 135
+Mumford, Lewis, 3, 12, 63, 87, 89, 
+114–15, 142, 147, 193, 227, 265–66, 
+284, 303; attack on Teilhard, 114; 
+The Myth of the Machine, 12, 63, 114, 
+265–66, 284, 303; “New Organum,” 
+12, 147
+Musk, Elon, 4, 209
+mysticism, 69, 76, 203, 207–10, 237; 
+pantheist, 43
+mystic life, 207, 209–10
+Nachträglichkeit, 42
+Nagasaki, 178
+Nail, Thomas, 267
+Napoleon, 40, 75, 81, 84, 271–72, 
+279–80
+nationalism, 162, 198, 221, 247–48
+National Socialism, 17, 118, 128, 144, 
+148
+nation-state, 1–2, 9–12, 14–17, 19–20, 
+80–81, 83–84, 86–87, 93, 111, 114–15, 
+172, 178, 188, 193, 197, 201, 216, 218, 
+220–21, 231, 240, 242–43, 256, 262; 
+individual, 17, 178; limits of, 222; 
+and nature, 2
+nation-state-capital, 14, 176, 260
+nation-state-sovereignty, 177
+natural law; See under laws
+natural law traditions, 16, 154–55
+nature, 2, 4, 24–26, 29, 42–43, 45, 
+49–51, 54, 59–60, 63, 66, 68, 70–72, 
+84–85, 89–91, 96, 98, 112–13, 126, 
+129, 131–33, 138–39, 142, 154–55, 157, 
+159–60, 210, 220, 223–24, 226–27, 
+256–57, 278, 281–82, 288–89, 293; 
+first state of, 131; inorganic, 96, 278; 
+organic, 1, 25, 70, 227; second, 25, 
+36, 71, 225
+nature and technology, 224, 226
+necessity, 4, 19, 27, 30, 50, 52–55, 61, 
+65, 71–72, 79–82, 86, 119, 124, 132, 
+163, 166, 176, 180, 215, 223, 262, 267, 
+281, 289, 296; absolute, 27, 269; 
+epistemological, 90; formal, 269; 
+historical, 84; inner, 72; internal, 
+74; moral, 76; of contingency, 52, 
+269; of organicity, 119; real, 269; of 
+sovereignty, 163; of spirit, 30
+Needham, Joseph, 89, 276
+negation, 29, 33, 60–61, 77, 161, 222, 
+255, 273, 276, 288–89
+negativity, 29, 32–33, 122, 150
+negentropic, 36, 242
+Negri, Antonio, 14, 201, 267, 300; The 
+End of Sovereignty, 267, 300
+network, 256; global, 197; planetary, 
+245
+neoliberalism, 6, 89, 177, 193
+neutralization, 16, 123, 140–41, 144, 146, 
+153, 166, 290–91, 297; and depoliti-
+cization, 144; of politics, 141, 146; 
+technological, 152
+Newton, Sir Issac, 104
+Newtonian mechanics, 94, 254
+Newtonian time, 105
+new vocation of machines, 210, 233
+Nietzsche, Friedrich, 40–41, 45, 122, 
+272, 279; Untimely Meditations, 40, 
+272, 279
+nihilism, 224, 226, 264
+Nishitani, Keiji, 297, 299
+334
+INDEX
+·
+noesis, 108
+Noetic Reflection, 21, 85–115, 281
+noetic soul, 90
+nomos, 3, 7, 14, 16, 18, 62, 150–84, 222, 
+245, 266, 280, 287, 293, 295–96
+noodiversity, 20–21, 220, 223–26, 229, 
+255, 263–64; and technodiversity, 
+224–25
+noosphere, 108–13, 225, 231, 283
+noospheric reflection, 87, 93, 108, 
+112–13, 225
+norms, 57–58, 120, 153, 159–61, 163, 
+180, 294; communitarian, 46; legis-
+lative, 125; positive legal, 294
+nothingness, 161; absolute, 196
+noumenon, 156, 162
+nous, 28, 108, 225
+Novalis, 24, 117, 125, 241, 269, 284; 
+Christianity or Europe, 269; Glauben 
+und Lieben, 117; Schriften, 284
+object, 32, 35, 38, 55, 61, 89–90, 106, 
+109, 129, 156–57, 160, 207, 211–12, 
+214, 233, 236, 238–39, 253, 275, 294, 
+304; concrete, 234; natural, 82
+objective spirit, 36–37, 53, 60, 62, 90, 
+109
+objectivity, 51, 62
+Ōgai, Mori, 7
+ontogenesis, 18, 27, 269
+Onuf, Nicholas, 155, 293
+operation, 11, 26, 55, 70, 73, 90, 93, 
+95, 106, 127, 188, 199, 205, 208, 215, 
+230, 235, 243, 245, 249, 251, 253, 
+258, 283; cybernetic, 197; linear, 24; 
+logical, 52, 244; mechanical, 149; 
+organismic, 56; reflective, 56, 275
+order, 15, 36, 45, 48, 56, 97–98, 103, 
+120, 135, 140, 146, 158, 167–68, 173, 
+176, 180–81, 193, 255, 282; autono-
+mous, 168; complex, 97; concrete, 
+15; new geopolitical, 14; oceanic, 
+170; planetary, 172; religious, 7; 
+social, 5; temporal, 90
+Ordnung, 167–68, 179–80, 296
+organ projection, 31, 68, 170
+organic, 58, 67, 88, 143, 203, 261, 289; 
+condition, 12, 24, 26, 57, 107, 137, 
+264; form, 12, 24, 49, 63–65, 85, 93, 
+96–97, 105, 138–39; state, 13, 84–85, 
+88, 119, 123, 182, 191, 232; structure, 
+54, 70, 280; totality, 99, 108, 110, 241, 
+255; unity, 67, 73–74, 79, 82, 96, 99, 
+107–8, 118, 130, 148, 197, 268
+organicism, 12, 88–89, 97, 105, 114, 140, 
+142, 149, 192, 294; political, 76, 84, 
+192, 229; romantic, 136
+organicity, 13, 48, 55, 57–60, 65–68, 
+73–76, 117–19, 125, 149, 227, 241, 
+257; of international relations, 13; 
+and reflectivity, 74
+organic organs, 194, 202
+organic state theory, 136
+organic unity, effective, 66
+organism, 4, 12–13, 15, 20–21, 23–26, 
+42, 55–84, 87–89, 92–93, 96–98, 
+100, 105–6, 114, 117–53, 161, 192, 
+195, 199, 230–31, 237, 264, 266, 
+269, 274–75, 284; animal, 71, 88, 
+231, 278; living, 90, 105, 284; and 
+mechanism, 24, 26, 125, 136, 142, 
+231–32; planetary, 231; universal, 96
+organismic epistemology, 21, 85, 124
+organismic paradigm, 89
+organismic philosophy, 88
+organization, 11, 13, 24, 26, 57, 63, 71, 
+90, 105, 119, 127, 130, 204, 215, 230, 
+269, 301
+organized inorganic, 68, 199
+organizing inorganic, 199
+organological critique, 192, 202, 227
+organological expansion, 193, 222, 245
+335
+INDEX ·
+organological problem, 195–96, 227
+Organology, 20–21, 68, 192–93, 202, 
+227, 230, 255; negative, 20, 194, 209; 
+of Wars, 21, 191–227, 300
+organs, 8, 31, 68, 90, 92, 109, 192–94, 
+203, 213, 230, 244; artificial, 20, 115, 
+191–92, 194, 202–4; artificial exter-
+nal, 195; exosomatic, 194
+Ortung, 167–68, 170, 177, 179–80, 296
+paganism, 121–22
+paleontology, 89, 92, 109
+Pandora’s box, 142, 246, 304
+Paris Commune, 226
+participation, 34, 44, 217, 251; civic, 65; 
+intentional, 54; social, 60
+particularity, 38–39, 46, 75, 79, 86, 210, 
+242, 274
+πάσχειν, 28
+peace, 9, 75–77, 151
+Peisistratus, 45
+perception, 63, 119, 208
+perpetual peace, 1, 10, 75–77, 85, 
+226–27, 230, 256, 258, 261, 263, 265, 
+279, 305. See also Kant, Immanuel 
+Peru, 3
+Peterson, Erik, 121
+pharmacology, 177
+pharmacology of sovereignty, 177
+phenomenon, 3, 6, 27, 33–35, 50, 60, 
+90–92, 100, 113–14, 156, 234–35, 238, 
+276, 283; of exosomatization, 92; 
+immunological, 239; of planetariza-
+tion, 6; planetary, 5, 97; of reflec-
+tion, 90; social, 155; technological, 
+3, 8, 169, 230
+philosophy; elementary, 170, 245; 
+mechanist, 136, 144; modern, 57, 
+199; of nature, 29, 72, 112; specula-
+tive, 42–43; of technology, 31, 57, 
+68, 92, 169, 278; of world history, 35
+planet, 1, 4, 6, 9–10, 18–19, 41, 43, 74, 
+76, 78, 85–87, 101, 110, 178–80, 
+223–24, 226, 241
+planetarization, 1, 5–6, 9, 86, 111, 174, 
+176, 178, 224, 243, 265
+planetary condition, 3, 152, 166, 168, 
+181, 184, 220–21, 226
+planetary freedom, 27, 43–44, 54, 59, 
+74, 86, 108, 119
+planetary life form, 112, 284
+planetary politics, 14, 17, 20, 83, 87, 123, 
+165, 170, 218, 222, 254–55
+planetary scale, 81, 108
+planetary supermechanism, 114
+planetary thinking, 1–2, 5–6, 9–20, 
+23–57, 80, 83, 88, 93, 97, 111, 117, 
+154, 180, 197, 221, 227, 232, 264–65, 
+303; addressing, 6, 230
+Plato, 2, 28, 44–46, 120, 155, 158, 214, 
+273; Phaedrus, 28; Republic, 44–45, 
+155, 273
+Platonic form, 31
+pluralism, 127, 164, 173–74, 177–78, 
+180–81, 183, 189, 221, 292
+political economy, 18, 234, 246, 264
+political epistemology, x, 9, 11–13, 15, 
+18, 23–24, 26, 33, 55, 59, 63, 73, 114, 
+117–18, 120, 123–24, 128, 130, 147, 
+192, 229–31, 246, 258, 266
+political forms, 1, 3, 10, 12, 14, 20, 43, 
+46–47, 49, 57, 62–63, 74, 114, 117, 
+138, 167, 189, 215, 218, 229, 231, 237, 
+263
+political life, 156, 196, 286
+political philosophy, 2, 12–13, 18, 25, 43, 
+82–83, 119, 130, 132–33, 230, 285 
+political state, 17–19, 23, 42, 48, 50, 55, 
+57, 59, 64–65, 67–68, 72, 74, 83–86, 
+95, 154, 169, 179, 183, 200, 203, 221, 
+263, 268
+political vital force, 181, 200
+336
+INDEX
+·
+political vitalism, 15–17, 21, 118, 141, 
+147, 149, 163, 180, 192, 229, 231
+postcolonialism, 6
+postmodern, 266
+Popper, Karl, 103
+power, 4, 9, 11, 15–16, 55, 58, 63, 66–67, 
+69, 72–74, 93, 140, 144–45, 147–48, 
+153–56, 161, 165–66, 171, 181, 186–87, 
+189, 201, 204, 208, 220, 230, 234, 240, 
+243–45, 247, 259–60, 286, 291–92, 
+300–302; political, 169, 187; soft, 186
+practical reason; See under reason
+problem; epistemological, 78, 227; im-
+munological, 244–45
+process of externalization, 31
+Prometheus, 142, 246
+Prussian state, 39, 63, 118
+Przyluski, Jean, 212
+Putin, Vladimir, 146, 291
+Quesnay, François, 89
+qi, 175, 241
+Qianlong, 42
+Rasch, William, 136–37, 156, 289, 
+293–95
+Ratzel, Friedrich, 85
+reason, 12–13, 24–27, 32, 35, 38–39, 41, 
+43, 45, 47–48, 50, 52, 54, 57, 61, 63, 
+66–67, 70–71, 74, 76–78, 80–86, 134, 
+157–58, 162, 215–16, 218, 232–34, 
+238–39, 242, 247, 255–58, 261–64, 
+266, 268, 293, 305–6; expansion of, 
+39, 94, 238, 264; practical, 50, 238; 
+speculative, 24, 63; theoretical, 50, 
+238; See also use of reason
+reciprocity, 1, 4, 55, 64, 69, 72, 74, 76, 
+227 
+recognition, mutual, 33, 64, 79, 165, 169
+recollection, 30, 32, 61, 178; See also 
+internalization
+recursivity, 18–19, 28, 36–37, 51–52, 55, 
+57, 73–74, 61, 91, 107, 163, 178, 189, 
+195, 197, 198, 206, 258, 301  
+reflective judgment, 51, 138, 258, 289
+Reich, 148, 180–82, 184, 292, 298
+Rilke, Rainer Maria, 90, 281
+Ritter, Carl, 68, 
+Ritter, Joachim, 45, 56, 273–75, 285; 
+Metaphysik und Politik, 273–75, 285
+Romantics, 25, 93, 117, 122, 125, 136, 
+138–40, 240–41, 274
+Roosevelt, Theodore, 172
+Rousseau, Jean-Jacques, 8, 49, 67, 100, 
+125, 131–32, 136, 154–55, 162, 271, 
+274, 277, 286–89, 293; Discourse 
+on the Origin and Foundations 
+of Inequality Among Mankind, 8, 
+131–32, 136, 287–89; “Discours 
+sur l’économie politique,” 67; and 
+Hobbes, 131; and Kant, 274; Œuvres 
+complètes, 277; The Social Contract 
+and the First and Second Discourses, 
+286–89
+Rousseauist solution, 256
+Rudolph, Moritz, 41
+Sagan, Dorion, 284
+Saint Simon, Henri de, 176
+Santos, Boaventura de Sousa, 255
+Sartre, Jean-Paul, 292; “Existentialism 
+Is a Humanism,” 292
+Schein, 19, 35
+Schelling, Friedrich Wilhelm Joseph, 
+25, 68, 93, 268, 301
+Schiller, Friedrich, 25
+Schlegels, 24, 241
+Schmitt, Carl, 7, 13–21, 41, 49, 77, 
+117–18, 120–28, 130, 135–54, 156, 
+159–64, 166–84, 189, 191, 196, 216, 
+218, 221–22, 229, 231, 245, 256, 263, 
+266–68, 272, 279–80, 285–99, 304; 
+337
+INDEX ·
+“Age of Neutralization and Depo-
+liticizations,” 16, 140, 144, 290–91, 
+297; The Concept of the Political, 
+41, 137, 148, 150, 153, 182, 272, 279, 
+289–92, 297; Constitutional Theory, 
+160, 294; on decisionism, 118, 147; 
+Der Begriff des Politischen, 291; Dia-
+logues on Power and Space, 144, 291; 
+Die drei Arten rechtswissenschaftli-
+chen Denkens, 267; “Die Einheit 
+der Welt,” 174; Ex Captivitate Salus, 
+191, 287, 295; Glossarium, 289–90, 
+294–95; Land and Sea, 179; Law 
+and Judgment, 136; The Leviathan 
+in State Theory of Thomas Hobbes, 
+117–18, 124, 267, 286–87, 289, 291; 
+Meaning and Failure of a Political 
+Symbol, 127; Moralische Energie, 
+183, 299; “The New Nomos of the 
+Earth,” 17, 173, 178, 296; The Nomos 
+of the Earth, 7, 167, 179, 266–67, 
+296–97; Political Romanticism, 125, 
+286, 297; Political Theology, 15, 19, 
+118, 120–25, 147, 161–63, 246, 267, 
+285–86, 289, 291, 293–94; Political 
+Theology II, 122, 285–86; Politische 
+Theologie, 285; Positionen und 
+Begriffen, 298; “Reich, Staat, Bund,” 
+148; Roman Catholicism and Politi-
+cal Form, 138, 290; Staat, Bewegung, 
+Volk, 148; Staat, Großraum, Nomos, 
+267–68, 297–99; on the state of 
+exception, 15, 121, 148, 150, 152–53, 
+162–63, 186–87, 200, 243–44; 
+Theory of the Partisan, 149, 165, 
+292–93; “The Unity of the World,” 
+178; on vitalism, 16, 145, 153–54; 
+“Völkerrechtliche Großraumord-
+nung,” 296–99; “Wisdom of the 
+Cell,” 164
+Schrödinger, Erwin, 92; What Is Life? 
+The Physical Aspect of the Living 
+Cell, 92
+Schumpeter, Joseph, 93
+science and technology, 5, 7, 122, 171
+sea power, 7, 16–17, 49, 144, 151–52, 
+168–73, 175, 179–80, 183–84, 222, 
+231, 296–98; See also land, sea, and 
+air power
+Searle, John; Chinese Room experi-
+ment, 74
+Second World War, 34, 118, 164, 
+178–80, 184, 196, 280, 303
+secularization of theological concepts, 
+121–23, 230
+self-consciousness, 28, 30–33, 35–36, 
+38–39, 42–43, 52, 55, 61, 63, 65, 68, 
+70, 72–73, 82, 90, 92, 300; becom-
+ing, 35, 37, 41
+Shannon, Claude, 102
+Shiva, Vandana, 225
+Simondon, Gilbert, 13, 106, 108, 124, 
+142, 179, 192, 202–5, 208, 232, 
+234–37, 246, 249–50, 254, 268, 283, 
+286, 295, 301, 303–5; Cybernétique 
+et philosophie, 301; “Epistemology 
+of Cybernetics,” 106; On the Mode 
+of Existence of Technical Objects, 
+142, 208, 249, 286, 301, 303–5; Sur la 
+Philosophie, 283
+Skinner, Quentin, 159, 267, 294
+Skordas, Achilles, 304
+Smith, Adam, 106, 215, 266, 283
+smooth planes, 7, 173, 176
+Snowdon, Edward, 187
+social contract, 49, 135, 286–89, 293
+social network, 252, 305
+Socrates, 44, 155
+Sohn-Rethel, Alfred, 235, 303–4; “Das 
+Ideal des Kaputten. Über neapoli-
+tanische Technik,” 235
+Solon, 45
+338
+INDEX
+·
+soul, 15, 28, 34, 71, 90–91, 106–7, 109–
+10, 118, 127, 135–36, 141, 144–46, 148, 
+156, 191, 193–94, 203, 208, 221, 237, 
+250, 269, 288
+sovereign, 14–16, 72, 103, 127, 135–36, 
+141, 143, 145–49, 152–59, 161–63, 
+166, 177, 180, 186–87, 192, 200, 226, 
+242, 287, 293–94
+sovereign power, 136, 147, 187–88, 243, 
+289
+sovereign states, 19, 82–83, 165, 168–69, 
+172, 178, 180, 182, 294
+sovereignty, 1, 15–19, 21, 49, 62, 73–74, 
+79, 117, 120, 126–27, 135, 144, 148, 
+153–56, 159, 161–63, 165–69, 176–78, 
+180, 186–87, 189, 242–43, 247, 254, 
+260, 284, 293–94; planetary, 17; 
+world, 82–83
+Soviet Union, 5, 167, 172, 175, 185, 305
+spatial revolutions, 3, 16–17, 19, 117, 
+154, 170, 179–80, 245
+Spemann-Mangold Experiment, 88
+Spengler, Oswald, 41
+Spinoza, Benedict de, 18, 29, 52, 135, 
+270–71, 275
+spirit, 23, 25, 27, 29–33, 35–43, 51, 53, 
+55–57, 59–61, 63–64, 66, 70–72, 
+75, 77–78, 80–81, 87, 89, 91–92, 
+96–97, 99, 107, 109, 125–26, 139–42, 
+148–49, 177–78, 195, 201, 203–4, 
+233–34, 269–72, 276–78, 281–82, 
+285; See also Geist
+Sputnik, 3–4, 180, 265
+Stalin, Joseph, 40, 81, 271
+state, 1–2, 9, 11–15, 17–21, 24–26, 34–35, 
+41–42, 46–47, 49, 54–88, 103, 
+107–8, 117–19, 121–27, 129–30, 132, 
+135–37, 141, 143, 145–52, 159, 165, 
+168–69, 177–83, 185–89, 192–93, 195, 
+200–201, 215–18, 220–21, 229–32, 
+243–45, 252, 256–60, 262, 268–69, 
+274–78, 286–88, 291–95, 302; ad-
+ministration, 141, 189, 192, 197–98, 
+200; individual, 75–77, 79, 178, 181; 
+machine, 12, 24, 69; mechanical, 69, 
+136, 141, 145, 191; sovereignty, 82, 
+244, 247, world, 19–20, 258–59, 268
+state of nature, 131–33, 138–39, 154, 261, 
+288–89
+Stengers, Isabelle, 19, 267
+Stiegler, Bernard, 2, 8, 158, 186, 192–93, 
+203, 214, 264, 266, 268, 294–95, 
+299, 304; Technics and Time 1: The 
+Fault of Epimetheus, 8, 266, 304
+Strauss, Leo, 25, 133, 135, 143, 145, 155, 
+267, 269, 274–75, 288–89, 291, 293; 
+Natural Right and History, 155, 288, 
+293; “Note on the Concept of the 
+Political,” 135; On Hegel, 274, 291; Po-
+litical Philosophy of Hobbes, 288, 291
+Suess, Eduard, 108
+Suganami, Hidemi, 294
+syllogisms, 27, 29, 281
+synchronization, 6–8, 19, 111, 243, 266
+systematic unity of reason, 257, 306
+Tang, Audrey, 15
+Taubes, Jacob, 123, 286
+Taylor, Charles, 274–75, 300–301
+technē, 44, 246, 304
+technical element, 205
+technical ensemble, 205
+technical fact, 209–12
+technical knowledge, 235, 304
+technical individuals, 204–5
+technical objects, 36, 62, 109, 142, 200, 
+204, 208, 234–38, 247, 249–51, 254, 
+286, 301, 303–5
+technical tendency, 210–13; See also 
+tendency
+technics, 7–8, 45, 208, 225, 236, 266, 
+304
+339
+INDEX ·
+technodiversity, 20–21, 212, 215, 220, 
+223–27, 229–30, 234, 238, 240–42, 
+247, 252–56, 264
+technological acceleration, 20, 112–13, 
+178, 180, 194–95, 222, 227
+technological advancement, 16, 60, 111, 
+151, 169, 173–74, 231
+technological apocalypses, 225, 242, 249
+technological development, 2, 112, 145, 
+210, 223, 242, 254
+technological determinism, 20, 251
+technological epoch, 1, 5–6, 9, 46, 113, 
+124, 146, 189, 196, 199, 205, 209, 221, 
+226, 243–43, 246, 249, 300
+technological innovations, 200, 244, 
+306
+technological progress, 3, 117, 180, 197, 
+225
+technological systems, 199–203, 205
+technological thinking, 234, 236
+technology, 2–3, 5–11, 14, 16, 18, 20, 
+68–69, 78–79, 87, 92, 94, 106–7, 
+109–10, 115, 141–42, 144–47, 151, 
+153–54, 166–67, 169, 171, 174–77, 
+179–80, 182–83, 189, 192, 194–97, 
+211–15, 218–19, 221–26, 234, 236–38, 
+240–42, 244–46, 248–51, 254–55, 
+260–64, 278, 281, 286; democratiza-
+tion of, 218–19, 221; military, 213, 
+226; planetary, 1; and politics, 3, 6, 
+115
+Teilhard de Chardin, Pierre, 14, 88, 93, 
+108–15, 176, 197, 225, 255, 283–84; 
+The Future of Man, 283; Human 
+Phenomenon, 110, 283–84; omega 
+point, 14, 110, 114, 225
+tendency, 97, 101–3, 130, 132, 135–36, 
+161, 176, 194, 200, 207–20, 246–47, 
+255, 262; See also technical 
+tendency
+terraforming, 1, 4
+thermodynamic ideology, 5, 9, 87, 186, 
+204, 266
+Thiel, Peter, 34, 151, 185, 293, 299
+tianxia, 82–83, 280
+time, 1, 3, 6–8, 10, 12–13, 15, 28–33, 
+35–36, 38, 40–41, 50–53, 55, 
+59–60, 65–66, 72–73, 86–87, 94, 96, 
+99–101, 105, 109, 113, 115, 123–24, 
+128, 130, 135–36, 140–43, 145, 170, 
+174, 176–81, 191–95, 202, 204–5, 
+231–34, 242, 244–46, 251–52, 301–4
+Tönnies, Ferdinand, 136
+Toynbee, Arnold, 175, 213, 268, 281, 
+297
+Tractatus Politico-Technologicus, 2–3, 
+16, 18, 20, 230, 255
+transhumanists, 5, 110, 115, 176, 255
+travail, 60–61, 271
+Trump, Donald, 76, 186
+Turing, Alan, 199
+unhappy consciousness, 33–35, 80
+United Nations, 74, 78, 259–60, 265
+United States, 13, 26, 84, 165, 167, 
+172–73, 175, 184, 186–87, 262, 
+297–98, 304–5
+unity, 11, 27, 29, 34–35, 37, 48–49, 56, 
+60, 66–67, 82, 84, 86, 135, 156, 168, 
+172, 174, 176–78, 180, 208, 236–38, 
+241, 256–58, 268–70, 276; magic, 
+208, 236, 237
+universal, the, 27, 46, 63, 65–67, 90, 
+182, 213, 238–40, 242, 258, 275, 289; 
+and freedom, 54; concrete, 32, 35, 
+38, 65, 80, 174, 238
+universalism, 17, 172, 173, 177, 192
+universalization, 17, 171, 215, 242, 263
+use of reason, 257–58, 305; apodictic, 
+258; hypothetic, 258; theoretical-
+speculative, 257; practical-moral, 
+257
+340
+INDEX
+·
+Van Gogh, Vincent, 221
+Varela, Francisco, 198–99, 201, 245, 
+300; “Steps to a Cybernetics of 
+Autonomy,” 198
+Vernadsky, Vladimir, 108, 225, 283; The 
+Biosphere, 283
+Vernünftig, 35, 53, 85, 87, 238, 255, 271
+Vieweg, Klaus, 74, 279
+vitalism, 13, 20, 105–6, 140, 148–49, 161, 
+192, 202, 227, 230–31, 290
+Viveiros de Castro, Eduardo, 223
+Volksgeist, 40, 87
+Voltaire, 239
+von Gierke, Otti, 136
+von Neumann, John, 198–99, 253
+Wahl, Jean, 34–35, 271; Le malheur de 
+la conscience, 34–35, 271
+war, 20–21, 74, 77, 80–81, 85, 111, 119, 
+130–33, 141, 147, 150–51, 156, 164, 
+167, 169, 173, 178, 183, 191–227, 
+230–31, 256, 261–62, 280, 284, 291, 
+293, 295–96, 300; civil, 127, 134, 143, 
+153, 183
+Watt, James, 106
+Weber, Max, 142, 155
+Weltgeist, 23, 27, 32, 40–43, 238
+Western philosophy, 41, 107, 148, 255
+Western technology, 9, 80, 175, 196
+Whitehead, Alfred North, 88, 93, 96, 
+97, 142
+Wiener, Norbert, 13, 104, 106, 110, 
+114, 198–99, 201–2, 282–83, 301; 
+Cybernetics, 104; God and Golem, 
+301; Human Use of Human Beings, 
+282; “Newtonian and Bergsonian 
+Time.,” 104; “Some Moral and Tech-
+nical Consequences of Automa-
+tion,” 201, 301
+Wirklichkeit, 56, 271
+work, 61, 68–69, 72
+world civilization, 5, 36, 38
+world history, 8, 10–11, 23, 25, 32, 35, 
+37–40, 43, 77, 80, 174, 191, 242, 
+258–59, 266, 268, 273–74, 276, 292, 
+305
+world market, 9, 11, 42, 201
+world powers, 167, 197, 256
+world republic, 10, 19, 258–59, 303
+world revolutions, 19, 81
+world spirit, 14, 20, 23–56, 76–80, 82, 
+174, 177, 201, 268
+World War I. See First World War
+World War II. See Second World War
+Xi Jinping, 123
+Zhao Tingyang, 20, 82, 280; A Possible 
+World of All-Under-Heaven System, 
+280
+Žižek, Slavoj, 275, 284; Hegel in a 
+Wired Brain, 275
+zoe; and bio, 150
+YUK HUI is professor of philosophy at Erasmus University Rotterdam and 
+professor at City University of Hong Kong. He is author of On the Existence 
+of Digital Objects (Minnesota, 2016), The Question Concerning Technology 
+in China: An Essay in Cosmotechnics, Recursivity and Contingency, and Art 
+and Cosmotechnics (Minnesota, 2021).

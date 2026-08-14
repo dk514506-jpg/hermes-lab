@@ -1,0 +1,4 @@
+URL: https://www.uky.edu/~eushe2/Bandura/Bandura1997SE.pdf
+TITLE: 
+ERROR: Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl request timed out', 'details': {'source': 'firecrawl', 'method': 'POST', 'pathname': '/v2/scrape', 'targetUrl': 'https://api.firecrawl.dev/v2/scrape', 'networkError': {'name': 'FetchTimeoutError', 'message': 'fetch_timeout'}, 'timeoutMs': 20000}} - No additional error details provided.
+

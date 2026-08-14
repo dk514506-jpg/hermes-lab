@@ -1,0 +1,106 @@
+{
+ "A2-06": {
+  "url": "https://www.academia.edu/9958013/Self_Tracking_for_Health_and_the_Quantified_Self_Re_articulating_Autonomy_Solidarity_and_Authenticity_in_an_Age_of_Personalized_Healthcare",
+  "ok": false,
+  "err": "Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl re",
+  "chars": 0,
+  "title": "",
+  "head": ""
+ },
+ "A3-03": {
+  "url": "https://dl.acm.org/doi/pdf/10.1145/3242587.3242643",
+  "ok": false,
+  "err": "Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl re",
+  "chars": 0,
+  "title": "",
+  "head": ""
+ },
+ "A3-06": {
+  "url": "https://www.morganclaypool.com/doi/pdf/10.2200/S00438ED1V01Y201207HCI015",
+  "ok": false,
+  "err": "Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl re",
+  "chars": 0,
+  "title": "",
+  "head": ""
+ },
+ "A3-08": {
+  "url": "https://salford-repository.worktribe.com/preview/1493547/The20Walkthrough20Method20-20Final20Pre-print20version1.pdf",
+  "ok": false,
+  "err": "Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl re",
+  "chars": 0,
+  "title": "",
+  "head": ""
+ },
+ "A4-03": {
+  "url": "https://www.researchgate.net/publication/223552061_Defining_place_attachment_A_tripartite_organizing_framework",
+  "ok": false,
+  "err": "Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl re",
+  "chars": 0,
+  "title": "",
+  "head": ""
+ },
+ "A4-04": {
+  "url": "https://repositorio.udd.cl/bitstream/11447/6275/1/Place%20attachment%20and%20identification%20as%20predictors%20of%20expected%20landscape%20restorativeness.pdf",
+  "ok": false,
+  "err": "Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl re",
+  "chars": 0,
+  "title": "",
+  "head": ""
+ },
+ "A5-09": {
+  "url": "https://direct.mit.edu/books/monograph/2097/Subjectivity-and-SelfhoodInvestigating-the-First",
+  "ok": true,
+  "err": null,
+  "chars": 2822,
+  "title": "Subjectivity and Selfhood: Investigating the First-Person Perspective | Books Ga",
+  "head": "![MIT Press Direct, home](https://mitp.silverchair-cdn.com/UI/app/svg/umbrella/logo.svg)_Open Menu_  Search Dropdown Menu  header search  Search input auto sugg"
+ },
+ "A6-05": {
+  "url": "https://www.researchgate.net/profile/Raja-Parasuraman/publication/11596569_A_model_for_types_and_levels_of_human_interaction_with_automation_IEEE_Trans_Syst_Man_Cybern_Part_A_Syst_Hum_303_286-297/links/0fcfd50c098e2edd75000000/A-model-for-types-and-levels-of-human-interaction-with-automation-IEEE-Trans-Syst-Man-Cybern-Part-A-Syst-Hum-303-286-297.pdf",
+  "ok": true,
+  "err": null,
+  "chars": 2864,
+  "title": "A model for types and levels of human interaction with automation - Systems, Man",
+  "head": "286  # A Model for Types and Levels of Human Interaction with Automation  Raja Parasuraman, Thomas B. Sheridan*, Fellow, IEEE*, and Christopher D. Wickens  ***A"
+ },
+ "A7-05": {
+  "url": "https://doaj.org/article/e98b82c211794158848a4c1363de1847",
+  "ok": true,
+  "err": null,
+  "chars": 2193,
+  "title": "\nThe concept of hybrid human-AI regulation: Exemplifying how to support young le",
+  "head": "This website uses cookies to ensure you get the best experience. [Learn more about DOAJ\u2019s privacy policy.](https://doaj.org/privacy/)  Hide this message  [Skip "
+ },
+ "A7-06": {
+  "url": "https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf",
+  "ok": false,
+  "err": "Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl re",
+  "chars": 0,
+  "title": "",
+  "head": ""
+ },
+ "A7-09": {
+  "url": "https://research.aalto.fi/files/42021453/Oulasvirta_Combinatorial_optimization_of_Graphical_user_interface.pdf",
+  "ok": false,
+  "err": "Unexpected error during scrape: Status code 504. {'code': 'UPSTREAM_ERROR', 'message': 'firecrawl re",
+  "chars": 0,
+  "title": "",
+  "head": ""
+ },
+ "A9-07": {
+  "url": "http://erichorvitz.com/CHI_2007_Iqbal_Horvitz.pdf",
+  "ok": true,
+  "err": null,
+  "chars": 2848,
+  "title": "CHI_2007_Iqbal_Horvitz.pdf",
+  "head": "Disruption and Recovery of Computing Tasks:       Field Study, Analysis, and Directions  Shamsi T. Iqbal  Department of Computer Science  University of Illinois"
+ },
+ "HUI-2024": {
+  "url": "https://philpapers.org/archive/HUIMAS.pdf",
+  "ok": true,
+  "err": null,
+  "chars": 2877,
+  "title": "",
+  "head": "## YUK HUI  ## machine and sovereignty machine and sovereignty machine and sovereignty  ## for a planetary thinking for a planetary thinking  * * *  _Machine an"
+ }
+}

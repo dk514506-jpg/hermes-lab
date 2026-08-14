@@ -1,0 +1,197 @@
+URL: https://selfdeterminationtheory.org/SDT/documents/2005_MarklandRyanTobinRollnick_MotivationalInterviewing.pdf
+TITLE: 24(6).vp
+ERROR: None
+
+## MARKLAND ET AL. MOTIVATIONAL INTERVIEWING
+
+# MOTIVATIONAL INTERVIEWING AND SELF–DETERMINATION THEORY
+
+DAVID MARKLAND
+University of Wales, Bangor
+
+RICHARD M. RYAN
+University of Rochester, NY
+
+VANNESSA JAYNE TOBIN
+University of Wales, Bangor
+
+STEPHEN ROLLNICK
+University of Wales College of Medicine
+
+Motivational interviewing has become widely adopted as a counseling style for promoting behavior change; however, as yet it lacks a coherent theoretical framework
+for understanding its processes and efficacy. This article proposes that self–determination theory (SDT) can offer such a framework. The principles of motivational interviewing and SDT are outlined and the parallels between them are drawn out. We
+show how both motivational interviewing and SDT are based on the assumption that
+humans have an innate tendency for personal growth toward psychological integration, and that motivational interviewing provides the social–environmental facilitating factors suggested by SDT to promote this tendency. We propose that adopting an
+SDT perspective could help in furthering our understanding of the psychological
+processes involved in motivational interviewing.
+
+Motivational interviewing has become widely adopted as a counseling
+style for facilitating behavior change. Having evolved originally from
+clinical experience in the treatment of problem drinking, motivational interviewing was first described by Miller (1983). Its principles and clinical
+procedures were expanded upon by Miller and Rollnick (1991, 2002). Motivational interviewing and adaptations of motivational interviewing
+
+Please address correspondence to David Markland, PhD, C. Psychol., University of
+Wales, Bangor; School of Sport, Health and Exercise Sciences; George Building; Holyhead
+Road; Bangor, Gwynedd, UK; LL57 2PZ; E–mail: [d.a.markland@bangor.ac.uk](mailto:d.a.markland@bangor.ac.uk).
+
+* * *
+
+(AMIs) have been extended to a wide range of behavior change contexts,
+including other drugs of misuse (e.g., van Bilsen, 1991; Saunders,
+Wilkinson, & Allsop, 1991; Stephens, Roffman, & Curtin, 2000), HIV prevention among drug users (Baker, Kochan, Dixon, Heather, & Wodak,
+1994), smoking cessation (e.g., Rollnick, Butler, & Stott, 1997; Butler et al.,
+1999), sex offending (Garland & Dougher, 1991), and a variety of other
+health behaviors, particularly in medical settings (e.g., Jensen, 1996;
+Rollnick, Kinnersley, & Stott, 1993; Rollnick, Mason, & Butler, 1999; Stott,
+Rollnick, Rees, & Pill, 1995). Systematic reviews of the efficacy of motivational interviewing and AMIs (Burke, Arkowitz, & Dunn, 2002; Dunn,
+DeRoo, & Rivara, 2001; Noonan & Moyers, 1997; Resnicow et al., 2002)
+have concluded that, despite methodological problems in many of the
+studies, the literature provides converging evidence for reasonably consistent and robust effects of AMIs across a variety of behavioral domains,
+particularly those involving alcohol and other drugs.
+
+Miller (1983) described motivational interviewing as being based on the
+principles of experimental social psychology, drawing on the concepts of
+causal attributions, cognitive dissonance, and self–efficacy. Motivational
+interviewing has been also closely aligned with Prochaska and
+DiClemente’s (1983) transtheoretical model of behavior change
+(DiClemente & Velasquez, 2002; Miller & Rollnick, 1991) and the concept
+of readiness to change (Rollnick & Miller, 1995). However, while various
+aspects of the principles and practice of motivational interviewing have
+been linked to a variety of social psychological and social cognitive models, this has been largely on a piecemeal and descriptive basis. Motivational interviewing has been criticized for being essentially atheoretical
+(Draycott & Dabbs, 1998). Indeed, Miller (1994, 1996, 1999) has acknowledged that so far little attention has been paid to developing a theoretical
+underpinning to motivational interviewing and that as yet there is no satisfactory explanation as to how and why it can be effective. More recently,
+Foote et al. (1999) and Ginsberg, Mann, Rotgers, and Weekes (2002) proposed that motivational interviewing can be conceptualized and informed by self–determination theory (SDT; Deci & Ryan, 1985, 1991). The
+aim of this paper is to expand on their suggestions and argue that SDT offers the possibility of providing a useful theoretical framework for understanding motivational interviewing’s efficacy. Furthermore, it is proposed that a consideration of motivational interviewing from a
+self–determination theory perspective will help in reaching a better
+understanding of the processes involved, which could inform future
+developments and research into its methods and applications.
+
+* * *
+
+## THE PRINCIPLES OF MOTIVATIONAL INTERVIEWING
+
+Motivational interviewing is defined as a “client–centered, directive
+method for enhancing intrinsic motivation to change by exploring and resolving ambivalence” (Miller & Rollnick, 2002, p. 25). Thus the recognition of client ambivalence plays a central role in motivational
+interviewing. It is assumed that most clients entering counseling will hold
+conflicting motivations. On the one hand they have good reasons to
+change their current behaviors but on the other hand they are aware that
+there are benefits and costs associated with both changing and staying the
+same. This decisional conflict can result in the client being stuck in a state
+in which they are unable to change despite there being incentives to do so,
+or to alternate between engaging in a new behavior pattern and relapsing
+to old behaviors. It is claimed that attempting to directly persuade a client
+to change will be ineffective because it entails taking one side of the conflict which the client is already experiencing. The result is that the client
+may adopt the opposite stance, arguing against the need for change,
+thereby resulting in increased resistance and a reduction in the likelihood
+of change (Miller & Rollnick, 1991; Miller, Benefield & Tonigan, 1993;
+Rollnick & Miller, 1995). Instead, motivational interviewing allows the client to overtly express their ambivalence in order to guide them to a satisfactory resolution of their conflicting motivations with the aim of
+triggering appropriate behavioral changes (Rollnick & Miller, 1995).
+
+A key assumption underlying motivational interviewing, then, is that
+it is not the counselor’s function to directly persuade or coerce the client
+to change. Rather it is the client’s responsibility to decide for themselves
+whether or not to change and how best to go about it. The counselor’s
+role in the process is to help the client locate and clarify their motivation
+for change, providing information and support and offering alternative
+perspectives on the problem behavior and potential ways of changing
+(Miller, 1983).
+
+It follows that motivational interviewing is by definition a client–centered counseling style, and Miller and Rollnick (1991, 2002) acknowledge the debt it owes to Carl Rogers’ person–centered psychotherapy.
+Motivational interviewing differs, however, from the traditional
+Rogerian approach in that it is also intentionally directive (Miller and
+Rollnick, 1991, 2002; Resnicow et al., 2002; Resnicow, Baskin, Rahetop,
+Periasamy, & Rollnick, 2004). The aim of motivational interviewing is to
+guide the client toward a resolution of ambivalence and inconsistencies
+in their behaviors in order to build motivation for change, usually in a
+particular direction.
+Miller and Rollnick (2002) described four general principles of moti-
+
+vational interviewing which underpin its specific techniques and strate- gies: the expression of empathy, the development of discrepancy, rolling
+with resistance, and support for self–efficacy. Although by no means exclusive to motivational interviewing, an emphasis on the importance of
+the expression of empathy by a counselor is a fundamental and defining
+feature of the method (Miller & Rollnick, 1991, 2002). Drawing explicitly
+on the work of Rogers (e.g., Rogers, 1957, 1959, 1964) and Carkhuff
+(1969), and extensive research that indicates that therapist empathy is
+predictive of treatment success (e.g., Davies, 1981; Miller & Baca, 1983;
+Miller, Taylor, & West, 1980; Swenson, 1971; Truax & Carkhuff, 1967;
+Truax & Mitchell, 1971; Valle, 1981), motivational interviewing is centered on the position that behavior change is only possible when the client feels personally accepted and valued. Thus counselor empathy is
+seen as crucial in providing the conditions necessary for a successful
+exploration of change to take place (Miller & Rollnick, 1991, 2002).
+
+The directiveness of motivational interviewing is evident in its second
+principle, the development of discrepancy. This involves exploring the
+pros and cons of the client’s current behaviors and of changes to current
+behaviors, within a supportive and accepting atmosphere, in order to
+generate or intensify an awareness of the discrepancy between the client’s current behaviors and his or her broader goals and values. Miller
+(1994) describes this process as the active ingredient underlying motivational interviewing’s efficacy and argues that developing discrepancy
+elicits movement toward consistency between the client’s behaviors and
+their core values. This process was originally couched within the framework of Festinger’s (1957) cognitive dissonance theory (Miller, 1983).
+Draycott and Dabbs (1998) have also discussed the principles and practice of motivational interviewing from a dissonance arousal perspective;
+however, Miller (1999) and Miller and Rollnick (2002) have since argued
+that this is an unnecessarily narrow conception of discrepancy development in motivational interviewing. Instead, discrepancy development is
+seen as an aspect of the more general strategy of aiding the client in
+clarifying conflicts concerning change and his or her potential choices.
+
+While motivational interviewing is directive, in the sense that it aims
+to help the client become aware of the discrepancies inherent in their
+current behaviors and to lead them toward considering change, the
+avoidance of arguing for change is seen as critical in successful counseling (Miller & Rollnick, 1991). Miller and Rollnick (1991, 2002) describe
+the process of not engaging in conflict or trying to counter a client’s arguments against change as “rolling with resistance,” the third general principle of motivational interviewing. It is proposed that direct argumentation for change will provoke reactance in the client and a tendency to
+exhibit greater resistance, which will further reduce the likelihood of
+change. Instead, ambivalence and resistance are accepted as normal and respected by the counselor. Rather than imposing goals or strategies, the
+counselor encourages the client to consider alternative perspectives on
+the problem. Clients may actively dispute the need for change but the
+aim is not to try to subdue the client and render him or her a passive recipient of the counselor’s point of view through the force of argument.
+The intention is to transfer the responsibility for arguing for change to
+the client by eliciting what is termed _change talk_ (formerly referred to as
+
+[... middle omitted — see footer ...]
+
+\*Psychology, 65,\*586–596.
+Saunders, B., Wilkinson, C., & Allsop, S. (1991). Motivational interviewing with heroin users attending a methadone clinic. In W.R. Miller & S. Rollnick (Eds.), _Motivational in-_ _terviewing: Preparing people to change addictive behavior_ (pp. 279 –292). New York:
+Guilford Press.
+Stephens, R.S., Roffman, R.A., & Curtin, L. (2000). Comparison of extended versus brief
+treatments for marijuana use. _Journal of Consulting and Clinical Psychology, 68_,
+898–908.
+Stott, N.C.H., Rollnick, S., Rees, M.R., & Pill, R.M. (1995). Innovation in clinical method: Diabetes care and negotiation skills. \*Family Practice, 12,\*413–418.
+Swenson, C.H. (1971). Commitment and the personality of the successful therapist. _Psycho-_
+\*therapy: Theory, Research and Practice, 8,\*31–36.
+Truax, C.B., & Carkhuff, R.R. (1967). _Toward effective counselling: Training and practice_. Chicago: Aldine Publishing.
+Truax, C.B., & Mitchell, K.M. (1971). Research on certain therapist interpersonal skills in relation to process and outcome. In A.E. Bergin & S.L. Garfield (Eds.), _Handbook of psy-_ _chotherapy and behavior change: An empirical analysis_(pp. 299–344). New York: Wiley.
+Valle, S.K. (1981). Interpersonal functioning of alcoholism counselors and treatment outcome. \*Journal of Studies on Alcohol, 42,\*783–790.
+Vallerand, R.J. (2001). A hierarchical model of intrinsic and extrinsic motivation in sport
+and exercise. In G.C. Roberts (Ed.), _Advances in motivation in sport and exercise_ (pp.
+263–319). Champaign, IL: Human Kinetics.
+van Bilsen, H.P.J.G. (1991). Motivational interviewing: Perspectives from the Netherlands,
+with particular emphasis on heroin–dependent clients. In W.R. Miller & S. Rollnick
+(Eds.), _Motivational interviewing: Preparing people to change addictive behavior_ (pp.
+214–224). New York: Guilford Press.
+Weiss, L.A., & Grolnick, W.S. (1991, April). _The roles of parental involvement and support for_ _autonomy in adolescent symptomatology_. Paper presented at the biennial meeting of
+the Society for Research in Child Development, Seattle, WA.
+White, R.W. (1963). _Ego and reality in psychoanalytic theory_. New York: International Universities Press.
+Williams, G.C, Grow, V.M., Freedman, Z.R., Ryan, R.M., & Deci, E.L. (1996). Motivational
+predictors of weight–loss and weight–loss maintenance. _Journal of Personality and_
+\*Social Psychology, 70,\*115–126.
+
+* * *
+
+Williams, G.C., Deci, E.L., & Ryan, R.M. (1998). Building health–care partnerships by supporting autonomy: Promoting maintained behavior change and positive health
+outcomes In P. Hinton–Walker, A.L. Suchman, & R. Botelho (Eds.), _Partnerships,_ _power and process: Transforming health–care delivery_ (pp. 67–88). Rochester, NY: University of Rochester Press.
+Williams, G.C, Rodin, G.C., Ryan, R.M, Grolnick, W.S., & Deci, E.L. (1998). Autonomous
+regulation and long–term medication adherence in adult outpatients. _Health Psy-_
+\*chology, 17,\*269–276.
+Williams, G.C., Minicucci, D.S., Kouides, R.W., Levesque, C.S., Chirkov, V.I., Ryan, R.M.,
+et al. (2002). Self–determination, smoking, diet, and health. _Health Education Re-_
+\*search, 17,\*512–521.
+Williams, G.C., McGregor, H.A., Zeldman, A., Freedman, Z.R., & Deci, E.L. (2004). Testing
+a self–determination theory process model for promoting glycemic control through
+diabetes self–management. \*Health Psychology, 23,\*58–66.
+Zeldman, A., Ryan, R. M., & Fiscella, K. (2004). Client motivation, autonomy support and
+entity beliefs: Their role in methadone maintenance treatment. _Journal of Social and_
+\*Clinical Psychology, 23,\*675–696.
+
+──────── [TRUNCATED] ────────
+Showing 11,188 chars (head) + 3,611 chars (tail) of 57,592 total clean characters.
+Full text saved to: /opt/data/cache/web/selfdeterminationtheory.org-7831918ae8.md
+To read the omitted middle: read_file path="/opt/data/cache/web/selfdeterminationtheory.org-7831918ae8.md" offset=143 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

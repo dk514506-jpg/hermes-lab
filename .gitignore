@@ -1,0 +1,11 @@
+.cache/
+.env
+.hermes/
+.hermes_history
+.local/
+.npm/
+.ssh/
+node_modules/
+lazy-packages/
+lsp/
+*.log

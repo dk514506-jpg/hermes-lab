@@ -1,0 +1,345 @@
+MONSTARE CONTEXT-WINDOW HANDOFF PACKAGE v2
+Normalized against: Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx
+Prepared by Pip with Locus/Council operating posture
+Date: 13 August 2026
+
+PURPOSE
+This handoff package is designed to let a future chat window resume Monstare research execution with minimal context loss. It supersedes the older v1 handoff where it conflicts with the current evidence matrix. The active operational database is now:
+
+- Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx
+
+The handoff is not the database. The Evidence Matrix is the database. This document is the continuity frame, operating law, and next-context briefing.
+
+CORE UPDATE FROM v1
+The earlier handoff still assumed that source discovery was incomplete and that future work should continue locating readable sources for queued Priority A citations. That is no longer the right instruction.
+
+Current matrix state:
+- Evidence Matrix contains 129 source rows and 35 columns.
+- All rows now have at least one readable source URL, source landing URL, legal access path, or authoritative source path recorded.
+- Priority distribution is: 77 Priority A rows, 44 Priority B rows, and 8 Priority C rows.
+- Source discovery is complete enough for charting to begin.
+- Charting is not complete. No row should be treated as fully charted until Key Finding / Thesis, Effect Size / Strength, Limitations, and Disconfirming Implication have been filled from the actual source.
+- The current Source Patch Log records that v3 was an additive patch: 38 previously queued or missing rows were source-located, five staleness columns were added, zero rows were removed, and zero existing source cells were removed.
+
+IMPORTANT CORRECTION
+Do not continue the next chat by source-hunting Priority A rows as the main task. The next task is charting.
+
+Source discovery remains useful only for:
+- replacing weak or provisional source paths;
+- resolving rights or edition caveats;
+- correcting ambiguous row labels;
+- refreshing fast-moving AI/current-work rows according to the staleness schedule.
+
+PROJECT UNDERSTANDING TO CARRY FORWARD
+Monstare is a Tier-P cosmotechnic focus/research instrument. Its purpose is not output maximization. Its telos is productivity-supporting cosmotechnic cultivation: the technical activity of the tool should unify a picture of how attention is, how the user ought to relate to attention/world/environment, and the practical grammar by which action proceeds.
+
+The current v6 fork is settled as: FORGE, DO NOT MERELY RESTORE.
+
+- The older arousal/flow/task-switching base is metabolized as empirical anchor, not reinstated as the cosmos itself.
+- The cosmos is native to the home-lab and symbolic/cognitive world-model practice.
+- The tool must remain a locality capable of revision, not a localism hardened into identity.
+
+The operative stack is:
+COSMOS -> ETHIC -> GRAMMAR -> ARTIFACT -> PILOT / EVIDENCE
+
+The current built cosmos uses The Sky:
+- Windy: parsing/novelty/task-switch pull.
+- Heavy/Low: felt ceiling, effort cost, arousal/load image only.
+- Flat: skill/challenge mismatch, flow as image only.
+- Storm: salience conflict, deferred emotion x executive-control anchor.
+- Returning: attention as governed return.
+
+The current proportion guard is The Monstrance of Proportion:
+- Watch for tool-load rising while ownership/willingness falls.
+- Default trigger is outgrowing-the-day across three of the last four closes.
+- It is a mirror, not a leash. It shows; it does not command.
+
+NON-NEGOTIABLE PROJECT DISCIPLINES
+1. Citation is not evidence.
+A matrix row is not charted until readable-source identity has been verified and the row has been read enough to populate key finding/thesis, strength/effect size where applicable, limitations, and disconfirming implication.
+
+2. Tier-P must stay visible.
+Do not treat Monstare as empirically established. It is plausible and architecturally grounded, not proven.
+
+3. Protected-floor stakes govern decisions.
+S1 Telic, S7 Moral, and S10 Reversibility cannot be traded away for gains on other stakes.
+
+4. Do not collapse H2 into productivity.
+H2 is a vector of quality, judgment, ecology, technology, phenomenology, and reversibility, not a scalar output measure.
+
+5. Phenomenology-before-calibration remains law.
+Operation is experiential. Capture is phenomenological. Calibration is refinement. Do not interpret while capturing or reduce lived experience to data before preservation.
+
+6. Locus must check interfaces.
+Every artifact should identify its modular interfaces: source -> claim, claim -> matrix row, matrix row -> design implication, design implication -> stake consequence, stake consequence -> artifact or pilot rule.
+
+7. Burden is itself a stake.
+If the research apparatus becomes too heavy to use, S9 fires. Do not solve rigor by adding uncontrolled mass.
+
+OPERATING ROLES FOR FUTURE CHAT
+Pip
+- Execution coordinator, synthesist, artifact builder.
+- Maintains continuity and produces user-facing outputs.
+
+Locus
+- Frame-keeper, quality-control steward, interface auditor.
+- Checks telos, source-to-claim discipline, burden, and overreach.
+
+Evidence Librarian
+- Maintains source identity, access-path quality, source-status caveats, and source checked dates.
+- In the next phase, supports charting by confirming source identity before claims are extracted.
+
+Methodologist
+- Checks causal status, evidence type, limitations, effect-size claims, SCED/pilot logic.
+- Prevents false generalization from N-of-1 evidence or from weak/correlational papers.
+
+Cosmotechnic-Purist
+- Guards against false cosmotechnics, veneer, nostalgia, localism, and productivity optimization in cosmotechnic language.
+
+Phenomenologist
+- Protects lived-experience fidelity, order-of-capture, and the non-rational remainder.
+
+Ethics & Cosmotechnic Auditor
+- Owns cross-stake collisions and protected-floor breaches.
+
+Data & Instrumentation Steward
+- Maintains workbook usability, source-link fields, reversibility, and anti-overload constraints.
+- Ensures future edits are additive patches only unless the user explicitly authorizes restructuring.
+
+CURRENT EVIDENCE MATRIX STRUCTURE
+Active workbook:
+Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx
+
+Sheets:
+- Source Pass Summary
+- Guide & Legend
+- Source Discovery Log
+- Dashboard
+- Evidence Matrix
+- Source Patch Log
+
+Evidence Matrix columns:
+- ID
+- Citation
+- Readable Source URL
+- Source Landing URL
+- Access Type
+- Source Discovery Status
+- Discovery Notes
+- Suggested Search Query
+- Scholar/Web Search URL
+- Source Checked Date
+- Verif.
+- Area
+- WS
+- Pri
+- Function
+- Evidence Type
+- Domain
+- Causal Status
+- Cosmo Rel.
+- Key Finding / Thesis
+- Effect Size / Strength
+- Limitations
+- Disconfirming Implication
+- H1
+- H2
+- Design Implication
+- Cosmotechnic Implication
+- Fail Mode
+- Artifact Affected
+- Open Charge
+- Staleness Domain
+- Re-search Interval
+- Last Verified Date
+- Re-search By
+- Staleness Status
+
+Source columns added before v3:
+- Readable Source URL
+- Source Landing URL
+- Access Type
+- Source Discovery Status
+- Discovery Notes
+- Suggested Search Query
+- Scholar/Web Search URL
+- Source Checked Date
+
+Staleness columns added in v3:
+- Staleness Domain
+- Re-search Interval
+- Last Verified Date
+- Re-search By
+- Staleness Status
+
+CURRENT MATRIX STATUS
+Rows:
+- 129 total evidence rows.
+- 77 Priority A.
+- 44 Priority B.
+- 8 Priority C.
+
+Source discovery:
+- 0 rows lack both a readable URL and a landing/source path.
+- 77 rows are marked Located - readable source.
+- 24 rows are marked Located - restricted readable.
+- 9 rows are marked Readable source found.
+- 6 rows are marked Located - source landing.
+- The remainder use specialized caveat statuses such as preview, partial, landing, gated/account, corrective source needed, or companion source.
+
+Verification/charting:
+- 77 rows carry Verif. = Located (not charted).
+- 52 rows carry Verif. = Pending.
+- 0 rows should be treated as fully charted.
+
+Staleness:
+- 97 rows are Current - re-search on schedule.
+- 32 rows are Current - located, access/fit caveat.
+- Fast-moving AI/digital/work-trend rows use a 6-month re-search interval.
+- Empirical/applied rows generally use 24 months.
+- Methods/reporting standards generally use 36 months.
+- Philosophical/historical/theoretical rows generally use 60 months.
+
+DASHBOARD CAUTION
+The Dashboard sheet may not be the governing view for progress in the next chat. Use the Evidence Matrix sheet, Source Pass Summary, and Source Patch Log as the source of truth unless the dashboard formulas are explicitly rechecked. The dashboard was originally built for charting progress, while the current phase is transitioning from source-discovery completion into first charting.
+
+SOURCE-DISCOVERY STATE
+Source discovery has moved from “incomplete” to “complete enough to begin charting.” This does not mean all source paths are perfect.
+
+Rows with caveats should be handled as follows:
+- Restricted readable: legal controlled-access path is recorded; use institutional/library/borrowed access before charting deeply.
+- Source landing only: source identity is located, but full text may require institution, publisher, ACM, IEEE, JSTOR, or library access.
+- Rights/edition caution: use a legal copy where possible and note exact edition during charting.
+- Corrective source needed: source was located provisionally, but row label may be too vague or needs replacement before it becomes load-bearing.
+- Companion source: HUI-2024 is materially important to the v6 design memo and should remain visible unless the user explicitly returns to a narrower Rev 5 scope.
+
+CURRENT COMPANION SOURCE
+HUI-2024: Hui — Machine and Sovereignty: For a Planetary Thinking
+Status: companion source found; treated as a governing source in the design memo and handoff ecology.
+Use: primary v6 cosmotechnic scaffold and anti-veneer standard.
+Do not delete or demote casually.
+
+NEXT WORK: CHARTING PHASE
+Recommended next task:
+Begin charting the Priority A spine in small batches, not more than 8-12 rows per pass.
+
+Do not chart by merely paraphrasing matrix seed text. For each row:
+1. Open the readable source or authoritative landing/access path.
+2. Confirm exact bibliographic identity.
+3. Read at minimum: abstract, introduction, conclusion, and methods/results if empirical.
+4. Populate:
+   - Key Finding / Thesis
+   - Effect Size / Strength
+   - Limitations
+   - Disconfirming Implication
+5. Confirm or revise H1/H2 relevance.
+6. Revise Design Implication only after evidence extraction.
+7. Revise Cosmotechnic Implication only after evidence extraction.
+8. Adjust Causal Status if the source does not support the seeded status.
+9. Move Verif. only when source identity is confirmed.
+10. Leave visible caveats for inaccessible, ambiguous, excerpt-only, or source-landing-only rows.
+
+Recommended first charting batch:
+Start with a compact load-bearing core that governs the motivational/ethical spine:
+- CORE-01 Ryan & Deci — Self-Determination Theory
+- CORE-02 Markland, Ryan, Tobin & Rollnick — MI + SDT
+- CORE-04 Bandura — Self-efficacy
+- CORE-05 Deci, Koestner & Ryan — extrinsic rewards meta-analysis
+- CORE-06 Frey & Jegen — motivation crowding theory
+- CORE-08 Reijula & Hertwig — self-nudging and citizen choice architect
+- A1-01 Hui — The Question Concerning Technology in China
+- HUI-2024 Hui — Machine and Sovereignty: For a Planetary Thinking
+
+Reason for this batch:
+It sets the telic, autonomy, motivation-quality, self-authorship, and cosmotechnic standard before the system moves into HCI, automation ethics, offloading, ritual, interruption, and cross-cultural technodiversity.
+
+Alternative first charting batch if the user wants the workday protocol improved first:
+- A9-01 Mark, Gudith & Klocke — The Cost of Interrupted Work
+- A9-02 Gonzalez & Mark — Multi-tasking Craziness
+- A9-04 Leroy — Attention Residue
+- A9-05 Arnold, Goldschmitt & Rigotti — Information Overload
+- A9-06 Rick et al. — Work Interruptions of Office Workers
+- CORE-09 Carver & Scheier — self-regulation/control theory
+- CORE-10 Locke & Latham — goal-setting theory
+- CORE-15 Gross — emotion regulation timeline
+
+Recommended batch discipline:
+- Batch size: 8-12 rows.
+- After each batch, run Locus check.
+- Do not use charting to prematurely revise artifacts unless the user explicitly asks for artifact revision.
+- If charting destabilizes a design assumption, mark it as a finding/fault line first.
+
+LOCUS CHECK FOR EACH CHARTED BATCH
+After each batch, answer:
+- What claim became stronger?
+- What claim weakened or became more conditional?
+- What design implication is now forbidden?
+- Which stake moved, if any?
+- Did any protected-floor stake strain?
+- Did the apparatus become heavier than the evidence gained?
+- Did the source introduce a contrary indicator or disconfirming implication?
+- Does the cosmotechnic telos remain structural, or has it become decorative?
+- Did any source fail to justify the seeded matrix implication?
+- Should any row be downgraded from load-bearing to supporting/contextual?
+
+DO NOT DO NEXT
+- Do not regenerate the spreadsheet entirely.
+- Do not rebuild the workbook from scratch.
+- Do not remove URLs, formulas, comments, fields, or formatting unless explicitly instructed.
+- Do not treat Dashboard output as authoritative without checking formulas.
+- Do not continue source-hunting as if Priority A sources were still missing.
+- Do not mark rows Verified merely because a source link exists.
+- Do not mark rows Charted unless the evidence columns are completed from reading.
+- Do not flatten H2 into productivity.
+- Do not let artifact production substitute for reading and evidence extraction.
+
+PATCH LAW FOR FUTURE MATRIX EDITS
+Future matrix edits should be additive patches unless the user explicitly authorizes restructuring.
+
+Permitted by default:
+- filling blank charting cells;
+- adding notes;
+- improving source links;
+- adding caveats;
+- adding batch logs;
+- updating staleness dates/statuses;
+- correcting row labels with a visible note.
+
+Not permitted without explicit user instruction:
+- deleting rows;
+- deleting source URLs;
+- deleting comments or notes;
+- removing formulas;
+- reordering the whole matrix;
+- changing the schema;
+- flattening the workbook into static values;
+- replacing the canonical workbook with a rebuilt table.
+
+CURRENT OPEN ISSUES
+1. Charting is the primary gap.
+The matrix is source-located but not evidence-charted. The key finding, effect size/strength, limitations, and disconfirming implication fields still need source-based extraction.
+
+2. Some source paths carry access or edition caveats.
+Restricted-access monographs, publisher landings, archive-lending records, research-gate copies, preview PDFs, and potentially unofficial PDFs should be handled with care.
+
+3. Some row labels may need correction.
+Example: A7-09 is marked as a provisional Oulasvirta offloading/interface-design source and may require replacement or clarification before it becomes load-bearing.
+
+4. Current AI/digital rows stale quickly.
+Rows in AI autonomy, GenAI, Work Trend Index, and digital-offloading domains have 6-month re-search intervals.
+
+5. S4 and S6 instrumentation gaps remain.
+This handoff does not solve those gaps. It preserves them as design/research gaps.
+
+6. HUI-2024 remains a companion/governing source.
+Future chats should not delete it unless the user explicitly narrows the matrix scope.
+
+7. Source discovery is not charting.
+The matrix is now ready to chart, not ready to conclude.
+
+HANDOFF PROMPT FOR THE NEXT CHAT WINDOW
+Use this prompt:
+
+Good morning Pip. Please read the attached Monstare_Context_Window_Handoff_Package_v2.txt and the current Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx. Treat the Evidence Matrix as the operational database and the handoff package as the continuity frame. The previous source-locating phase is complete enough to begin charting: all rows have a readable source URL, landing page, legal access path, or authoritative source path, but no rows should be treated as fully charted yet. Begin with a small Priority A charting batch, preferably the motivational/cosmotechnic spine: CORE-01, CORE-02, CORE-04, CORE-05, CORE-06, CORE-08, A1-01, and HUI-2024, unless Dallas directs a workday-protocol batch instead. For each row, open the source, verify source identity, extract key finding/thesis, effect size or strength, limitations, and disconfirming implication, then revise H1/H2, design implication, and cosmotechnic implication only after reading. Use Locus as frame-keeper and coordinate Evidence Librarian, Methodologist, Cosmotechnic-Purist, Phenomenologist, Ethics & Cosmotechnic Auditor, and Data & Instrumentation Steward. Preserve Tier-P status, protected-floor stakes S1 Telic, S7 Moral, and S10 Reversibility, and the rule that citation is not evidence. Do not regenerate the spreadsheet. Make additive patches only. Mark unresolved source/edition/access caveats visibly. Produce an updated matrix plus a short findings/fault-lines memo and next handoff note. Maintain rigorous anti-drift standards by devoting effort toward focused attention and disciplined note-taking habits.
+
+END OF HANDOFF PACKAGE v2

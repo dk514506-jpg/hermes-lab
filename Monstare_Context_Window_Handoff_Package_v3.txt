@@ -1,0 +1,829 @@
+MONSTARE CONTEXT-WINDOW HANDOFF PACKAGE v3
+Normalized against: Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx
+Prepared by Pip with Locus/Council operating posture
+Date: 13 August 2026
+Agentic harness status: NOT YET BUILT — this package contains the build instructions
+
+───────────────────────────────────────────────────────────────────────────────
+PURPOSE
+───────────────────────────────────────────────────────────────────────────────
+This handoff package lets a future chat window resume Monstare research execution
+with minimal context loss. It supersedes v1 and v2 where they conflict with the
+current evidence matrix. The active operational database is:
+
+  Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx
+
+The handoff is not the database. The Evidence Matrix is the database. This
+document is the continuity frame, operating law, orchestration build spec, and
+next-context briefing.
+
+───────────────────────────────────────────────────────────────────────────────
+CORE UPDATE FROM v2
+───────────────────────────────────────────────────────────────────────────────
+The v2 handoff described an agentic role structure (Pip, Locus, Evidence Librarian,
+Methodologist, Cosmotechnic-Purist, Phenomenologist, Ethics & Cosmotechnic Auditor,
+Data & Instrumentation Steward) as if it were a functioning operating posture. It is
+not. Those roles are a design, not a running system. No Monstare-specific orchestration
+harness exists yet. The kanban board at /opt/data/kanban/ is a Poplar.agency board.
+The hermes-lab repo (github.com/dk514506-jpg/hermes-lab) is a general skill library
+with multi-agent pipeline skills but no Monstare orchestrator.
+
+Current matrix state:
+- Evidence Matrix contains 129 source rows and 35 columns.
+- All rows now have at least one readable source URL, source landing URL, legal access
+  path, or authoritative source path recorded.
+- Priority distribution: 77 Priority A rows, 44 Priority B rows, 8 Priority C rows.
+- Source discovery is complete enough for charting to begin.
+- Charting is not complete. No row should be treated as fully charted until Key Finding
+  / Thesis, Effect Size / Strength, Limitations, and Disconfirming Implication have been
+  filled from the actual source.
+- The current Source Patch Log records that v3 was an additive patch: 38 previously
+  queued or missing rows were source-located, five staleness columns were added, zero
+  rows were removed, and zero existing source cells were removed.
+
+───────────────────────────────────────────────────────────────────────────────
+IMPORTANT CORRECTION
+───────────────────────────────────────────────────────────────────────────────
+Do not continue the next chat by source-hunting Priority A rows as the main task.
+The next task is charting, AND the first sub-task is assembling the agentic
+orchestration that will do the charting under discipline.
+
+Source discovery remains useful only for:
+- replacing weak or provisional source paths;
+- resolving rights or edition caveats;
+- correcting ambiguous row labels;
+- refreshing fast-moving AI/current-work rows according to the staleness schedule.
+
+───────────────────────────────────────────────────────────────────────────────
+PROJECT UNDERSTANDING TO CARRY FORWARD
+───────────────────────────────────────────────────────────────────────────────
+Monstare is a Tier-P cosmotechnic focus/research instrument. Its purpose is not output
+maximization. Its telos is productivity-supporting cosmotechnic cultivation: the technical
+activity of the tool should unify a picture of how attention is, how the user ought to
+relate to attention/world/environment, and the practical grammar by which action proceeds.
+
+The current v6 fork is settled as: FORGE, DO NOT MERELY RESTORE.
+
+- The older arousal/flow/task-switching base is metabolized as empirical anchor, not
+  reinstated as the cosmos itself.
+- The cosmos is native to the home-lab and symbolic/cognitive world-model practice.
+- The tool must remain a locality capable of revision, not a localism hardened into identity.
+
+The operative stack is:
+  COSMOS -> ETHIC -> GRAMMAR -> ARTIFACT -> PILOT / EVIDENCE
+
+The current built cosmos uses The Sky:
+- Windy: parsing/novelty/task-switch pull.
+- Heavy/Low: felt ceiling, effort cost, arousal/load image only.
+- Flat: skill/challenge mismatch, flow as image only.
+- Storm: salience conflict, deferred emotion x executive-control anchor.
+- Returning: attention as governed return.
+
+The current proportion guard is The Monstrance of Proportion:
+- Watch for tool-load rising while ownership/willingness falls.
+- Default trigger is outgrowing-the-day across three of the last four closes.
+- It is a mirror, not a leash. It shows; it does not command.
+
+───────────────────────────────────────────────────────────────────────────────
+AGENTIC ORCHESTRATION — BUILD SPEC (NEW IN v3)
+───────────────────────────────────────────────────────────────────────────────
+This section tells the next chat window how to assemble the role-based agentic harness
+that the project design expects. The harness is built from the Hermes delegate_task tool
+plus this package's role prompts. It is not pre-built. Build it before charting.
+
+## 5.1  Orchestration model
+
+The harness is a **coordinated batch of leaf subagents**, each bound to one role, plus a
+**main Hermes session (Pip)** that owns orchestration, prioritization, synthesis, decision-
+making, and delivery. The roles are not independent agents with their own conversations;
+they are delegates spawned on demand by Pip, each given a bounded task, a role prompt, a
+token budget, and a return format. Pip reconciles their outputs.
+
+```
+  Pip (main session, orchestrator)
+   ├── Locus        (frame-keeper, QC steward, interface auditor)
+   ├── Evidence Librarian   (source identity, access-path quality, source-status caveats,
+   │                         source-checked dates; supports charting by confirming source
+   │                         identity before claims are extracted)
+   ├── Methodologist        (causal status, evidence type, limitations, effect-size claims,
+   │                         SCED/pilot logic; prevents false generalization from N-of-1 or
+   │                         weak/correlational papers)
+   ├── Cosmotechnic-Purist  (guards against false cosmotechnics, veneer, nostalgia,
+   │                         localism, and productivity optimization in cosmotechnic language)
+   ├── Phenomenologist      (protects lived-experience fidelity, order-of-capture, and the
+   │                         non-rational remainder)
+   ├── Ethics & Cosmotechnic Auditor  (owns cross-stake collisions and protected-floor breaches)
+   └── Data & Instrumentation Steward  (workbook usability, source-link fields, reversibility,
+       anti-overload constraints; ensures future edits are additive patches only unless user
+       explicitly authorizes restructuring)
+```
+
+## 5.2  When to build the full harness vs. a collapsed version
+
+Build the full harness only when the charting batch is large enough to justify the overhead
+and when the sources are diverse enough that role specialization catches things a single
+reader would miss. Use the decision table:
+
+| Condition | Action |
+|---|---|
+| Charting batch ≤ 4 rows, all from one area, all readable PDFs | Collapse to Pip + Locus only. Pip reads, charts, and runs the Locus check against its own output. |
+| Batch 5-8 rows, mixed areas or mixed access types | Build Pip + Locus + Evidence Librarian + Methodologist. Spawn the other roles only if a specific concern arises (e.g. cosmotechnic claim → Cosmotechnic-Purist). |
+| Batch 9-12 rows, or any batch touching a protected-floor stake | Build the full harness. Every role except Phenomenologist is spawned for the batch. Phenomenologist is spawned only when a row has a phenomenological capture dimension (A5, A9, ritual rows). |
+| Token budget for the session is below the per-batch floor (see 5.4) | Defer the batch. Do not run a batch that cannot afford its QC layer. A charted row without QC is worse than an uncharted row. |
+| A role's subagent returns unusable output (off-topic, truncated, hallucinated) | Mark the row as "QC failed — re-chart required," do not patch over it, and log the failure in the Source Patch Log under a new "QC failures" note. |
+
+## 5.3  Role prompts and return contracts
+
+Each role is spawned via `delegate_task` with a self-contained prompt. The prompt must
+carry: (a) the role's mandate, (b) the specific rows or claims it is responsible for, (c)
+the evidence matrix columns or claims it should examine, (d) the return format, and (e) the
+token budget. Do not rely on the subagent remembering anything from the parent session —
+pass the needed context inline.
+
+The canonical role prompts live in this package's `references/role-prompts/` directory
+(added by the next chat window when it builds the harness). The prompts below are the
+minimum viable version; refine them after the first batch and save the refined versions
+as the canonical prompts.
+
+### 5.3.1  Pip (main session — NOT a subagent)
+
+Pip is the parent session. Pip does not get spawned. Pip's responsibilities:
+- Decompose the charting batch into per-row tasks.
+- Decide which roles to spawn for the batch per the decision table in 5.2.
+- Spawn each role with its prompt, budget, and context.
+- Collect role outputs, reconcile contradictions, and populate the matrix columns.
+- Run the batch-level Locus check (see 5.5) after all roles return.
+- Produce the findings/fault-lines memo and the next handoff note.
+- Maintain the token budget across the whole batch (see 5.4).
+
+### 5.3.2  Locus (frame-keeper / QC steward)
+
+Spawn prompt (minimum viable):
+```
+You are Locus, the frame-keeper and quality-control steward for the Monstare evidence
+matrix charting pass.
+
+Your job: read the charting output Pip produced for the batch, and check it against the
+project disciplines and the source material. You are NOT re-reading the sources — you are
+checking whether Pip's charting is internally consistent, discipline-compliant, and
+adequately sourced.
+
+Inputs you will be given:
+- The batch's rows (IDs, citations, source URLs).
+- Pip's charting draft for those rows (Key Finding/Thesis, Effect Size/Strength,
+  Limitations, Disconfirming Implication, H1/H2, Design Implication, Cosmotechnic
+  Implication, Causal Status).
+- The relevant project disciplines (Tier-P status, protected-floor stakes S1/S7/S10,
+  citation-is-not-evidence, H2-as-vector, phenomenology-before-calibration, burden-as-stake).
+
+Return a structured report with exactly these fields:
+1. claims_stronger: list of (row_id, what became stronger, why)
+2. claims_weaker: list of (row_id, what became more conditional, why)
+3. forbidden_implications: list of (row_id, design/cosmotechnic implication that is now
+   forbidden, which discipline forbids it)
+4. stakes_moved: list of (stake, direction, evidence) or "none"
+5. protected_floor_strain: list of (stake, strain detail) or "none"
+6. apparatus_burden: one paragraph — did the QC apparatus become heavier than the evidence
+   gained? yes/no with rationale.
+7. contrary_indicators: list of (row_id, disconfirming signal from the source or from the
+   charting itself)
+8. cosmotechnic_telos_check: structural or decorative? one paragraph.
+9. rows_to_downgrade: list of row_ids that should move from load-bearing to supporting/
+   contextual, with reason.
+10. re_chart_required: list of row_ids where charting is insufficient and must be redone.
+
+Budget: 8,000 tokens. Return only the structured report. No preamble.
+```
+
+### 5.3.3  Evidence Librarian
+
+Spawn prompt (minimum viable):
+```
+You are the Evidence Librarian for the Monstare evidence matrix charting pass.
+
+Your job: for each row in the batch, confirm that the source identity is what the matrix
+claims it is, that the access path is what the matrix says it is, and that any caveat
+(restricted, landing-only, preview, gated, corrective-source-needed, companion-source) is
+still accurate. You are the gate before claims are extracted — if source identity is not
+confirmed, the row must not be charted yet.
+
+Inputs you will be given:
+- The batch's rows (IDs, citations, Readable Source URL, Source Landing URL, Access Type,
+  Source Discovery Status, Discovery Notes, Verif., Staleness Status).
+- For each URL, you may attempt to confirm identity by checking the landing page, DOI
+  resolution, or repository metadata where accessible. Do NOT download full PDFs unless the
+  source is short (< 30 pages) and the budget allows. Prefer metadata checks.
+
+Return a structured report with exactly these fields:
+1. identity_confirmed: list of (row_id, confirmed_bibliographic_identity, confidence_high/
+   medium/low, basis)
+2. identity_problems: list of (row_id, problem, suggested_correction)
+3. access_path_updates: list of (row_id, current_access, recommended_access, note)
+4. caveats_to_revise: list of (row_id, current_caveat, recommended_caveat, reason)
+5. source_checked_date_updates: list of (row_id, new_date) for rows you actually checked.
+6. rows_blocked_from_charting: list of row_ids that must not be charted yet because source
+   identity is not confirmed or access is insufficient.
+
+Budget: 12,000 tokens. Return only the structured report. No preamble.
+```
+
+### 5.3.4  Methodologist
+
+Spawn prompt (minimum viable):
+```
+You are the Methodologist for the Monstare evidence matrix charting pass.
+
+Your job: for each row in the batch where Pip has drafted a Key Finding/Thesis, check
+whether the seeded Causal Status (causal / correlational / conceptual / contested) is
+still defensible given what the source actually is, whether the Evidence Type is correctly
+categorized, and whether any effect-size or strength claim Pip extracted is proportionate
+to what the source supports. Prevent false generalization from N-of-1 evidence or from
+weak/correlational papers. Flag SCED/pilot logic issues for rows that feed the Tier-C pilot.
+
+Inputs you will be given:
+- The batch's rows (IDs, citations, Evidence Type, Causal Status, Domain, Function).
+- Pip's charting draft for those rows (Key Finding/Thesis, Effect Size/Strength, Limitations,
+  Disconfirming Implication).
+- Access to the source abstract/introduction/conclusion (provide the URL or the extracted
+  text; do not require full PDF download unless the row is load-bearing and the source is
+  short).
+
+Return a structured report with exactly these fields:
+1. causal_status_changes: list of (row_id, current_status, recommended_status, reason)
+2. evidence_type_misclassifications: list of (row_id, current_type, recommended_type, reason)
+3. effect_size_checks: list of (row_id, claimed_strength, supported_strength, note) — use
+   "not_quantifiable" where the source does not support a number.
+4. generalization_risks: list of (row_id, risk, why_it_matters)
+5. sced_pilot_flags: list of (row_id, flag) for rows touching the Tier-C pilot logic.
+6. limitations_missed: list of (row_id, limitation_Pip_missed, source_basis)
+7. rows_where_claim_exceeds_source: list of row_ids where Pip's key finding goes beyond what
+   the source supports.
+
+Budget: 10,000 tokens. Return only the structured report. No preamble.
+```
+
+### 5.3.5  Cosmotechnic-Purist
+
+Spawn prompt (minimum viable):
+```
+You are the Cosmotechnic-Purist for the Monstare evidence matrix charting pass.
+
+Your job: read Pip's charting draft for the batch, with special attention to the
+Cosmotechnic Implication and H2 columns, and check whether the claims stay inside the
+cosmotechnic frame or drift into productivity-optimization language, nostalgia, localism,
+veneer, or false cosmotechnics. Guard against using cosmotechnic language as decoration.
+
+Inputs you will be given:
+- The batch's rows (IDs, citations, Cosmo Rel., Cosmotechnic Implication, H2).
+- Pip's charting draft for those rows.
+- The governing cosmotechnic sources: A1-01 (Hui — The Question Concerning Technology in
+  China), HUI-2024 (Hui — Machine and Sovereignty), and any other cosmotechnic rows in the
+  batch. Provide the source abstracts or key passages where available.
+
+Return a structured report with exactly these fields:
+1. veneer_flags: list of (row_id, passage, why_it_looks_decorative, recommended_rewrite)
+2. false_cosmotechnics: list of (row_id, claim, why_it_is_false_or_unsanctioned)
+3. nostalgia_localism_risks: list of (row_id, risk) or "none"
+4. productivity_optimization_disguised: list of (row_id, passage, why) or "none"
+5. cosmotechnic_implication_revisions: list of (row_id, current_implication, recommended_
+   implication, reason)
+6. h2_vector_check: for each row with H2 = yes or partial, confirm H2 is treated as a vector
+   (quality, judgment, ecology, technology, phenomenology, reversibility) and not collapsed
+   into a scalar productivity claim.
+7. governing_source_alignment: one paragraph — do the batch's cosmotechnic claims align with
+   Hui 2024 and A1-01, or do they drift?
+
+Budget: 10,000 tokens. Return only the structured report. No preamble.
+```
+
+### 5.3.6  Phenomenologist
+
+Spawn prompt (minimum viable):
+```
+You are the Phenomenologist for the Monstare evidence matrix charting pass.
+
+Your job: protect lived-experience fidelity, order-of-capture, and the non-rational remainder
+in any row that has a phenomenological capture dimension. This role is spawned only when the
+batch includes rows from Area 5 (Phenomenological methods), Area 9 (Work productivity ecology
+— arousal/flow/interruption/attention-capture rows), or Area 8 (Ritual/symbolic practice).
+For other rows, this role is not needed.
+
+Inputs you will be given:
+- The subset of the batch that has a phenomenological dimension (row IDs, citations, Function,
+  Evidence Type, H2).
+- Pip's charting draft for those rows.
+- The relevant phenomenological sources (A5-01 Varela, A5-02 Petitmengin, A5-05 Hurlburt &
+  Heavey, A8-01 Hobson et al., A9-01 Mark et al., etc.) — provide abstracts or key passages.
+
+Return a structured report with exactly these fields:
+1. capture_order_check: for each row, is the charting respecting phenomenology-before-
+   calibration? (yes/no with note)
+2. lived_experience_fidelity: list of (row_id, concern) or "none"
+3. non_rational_remainder: list of (row_id, what_is_being_lost_in_the_charting) or "none"
+4. phenomenological_source_alignment: list of (row_id, alignment_note)
+5. rows_where_phenomenology_was_flattened: list of row_ids where the charting reduced lived
+   experience to data before preservation.
+
+Budget: 8,000 tokens. Return only the structured report. No preamble.
+```
+
+### 5.3.7  Ethics & Cosmotechnic Auditor
+
+Spawn prompt (minimum viable):
+```
+You are the Ethics & Cosmotechnic Auditor for the Monstare evidence matrix charting pass.
+
+Your job: own cross-stake collisions and protected-floor breaches for the batch. Check every
+row against the protected-floor stakes S1 Telic, S7 Moral, and S10 Reversibility. Confirm
+that no gain on another stake was traded away for one of these. Check whether any row's
+Design Implication or Cosmotechnic Implication creates a cross-stake collision.
+
+Inputs you will be given:
+- The batch's rows (IDs, citations, Function, Fail Mode, Artifact Affected, Open Charge,
+  H1, H2, Design Implication, Cosmotechnic Implication).
+- Pip's charting draft for those rows.
+- The protected-floor stake definitions: S1 Telic (the tool's purpose must remain
+  productivity-supporting cosmotechnic cultivation, not output maximization), S7 Moral (the
+  tool must not produce morally hollow productivity), S10 Reversibility (the tool must remain
+  a locality capable of revision, not a localism hardened into identity).
+
+Return a structured report with exactly these fields:
+1. protected_floor_breaches: list of (stake, row_id, breach_detail) or "none"
+2. cross_stake_collisions: list of (row_id, stakes_in_collision, detail)
+3. design_implications_that_fail_floor: list of (row_id, implication, which_floor_it_fails)
+4. reversibility_threats: list of (row_id, threat) or "none"
+5. moral_hollowing_risks: list of (row_id, risk) or "none"
+6. auditor_verdict: one paragraph — does the batch pass the protected-floor audit, or does it
+   require a revision before the matrix is updated?
+
+Budget: 8,000 tokens. Return only the structured report. No preamble.
+```
+
+### 5.3.8  Data & Instrumentation Steward
+
+Spawn prompt (minimum viable):
+```
+You are the Data & Instrumentation Steward for the Monstare evidence matrix charting pass.
+
+Your job: before Pip writes any matrix update, check that the proposed edits are additive
+patches only (unless the user explicitly authorizes restructuring), that no source URLs,
+formulas, comments, or fields are removed, that the workbook remains usable, and that the
+staleness dates/statuses are updated where you actually checked a source.
+
+Inputs you will be given:
+- The proposed matrix edits for the batch (which cells Pip intends to fill, which statuses
+  Pip intends to change, which notes Pip intends to add).
+- The current Source Patch Log entries for the session.
+
+Return a structured report with exactly these fields:
+1. edit_audit: list of (proposed_edit, permitted_or_not, reason) — every edit must be
+   classified as permitted (additive patch) or not permitted without explicit user instruction.
+2. forbidden_edits_detected: list of any proposed edit that would delete a row, delete a URL,
+   delete a comment/note, remove a formula, reorder the matrix, change the schema, flatten the
+   workbook, or replace the canonical workbook. If none, return "none".
+3. staleness_updates: list of (row_id, new_last_verified_date, new_research_by_date, new_
+   staleness_status) for rows you actually checked.
+4. workbook_usability_check: one paragraph — will the proposed edits keep the workbook usable?
+5. patch_log_entry: the exact text to add to the Source Patch Log for this batch.
+
+Budget: 4,000 tokens. Return only the structured report. No preamble.
+```
+
+## 5.4  Cost-control measures (NEW IN v3)
+
+The orchestration has a real token cost. Without explicit controls, a 12-row batch with a
+full 7-role QC layer can burn through a session budget in one pass. The following measures
+are mandatory, not advisory.
+
+### 5.4.1  Per-session budget envelope
+
+- Set a session token budget before starting. The recommended default for a charting session
+  is 100,000 tokens total (input + output combined). Adjust upward only if the user explicitly
+  authorizes it.
+- Track spend as you go. After each batch, record actual spend in the handoff note.
+- If spend reaches 80% of the session budget, stop spawning new roles and finish the current
+  batch with Pip + Locus only. If spend reaches 95%, stop entirely and write the handoff note
+  with the session's partial progress.
+
+### 5.4.2  Per-role token budgets
+
+Each role spawn carries its own budget. The budgets below are defaults; adjust per batch size
+and source complexity. Do not exceed them without a deliberate decision recorded in the handoff
+note.
+
+| Role | Default budget per batch | When to increase | When to decrease |
+|---|---|---|---|
+| Locus | 8,000 tokens | Batch touches a protected-floor stake or a cosmotechnic claim | Single-area batch ≤ 4 rows |
+| Evidence Librarian | 12,000 tokens | Row has a restricted/gated/landing-only source that needs identity confirmation | All rows are open PDFs with clear DOIs |
+| Methodologist | 10,000 tokens | Row is load-bearing (Priority A) and empirical | Priority C rows |
+| Cosmotechnic-Purist | 10,000 tokens | Row has Cosmo Rel. = high and a Cosmotechnic Implication | Cosmo Rel. = low rows |
+| Phenomenologist | 8,000 tokens | Batch includes Area 5 / Area 8 / arousal-flow rows | Batch has no phenomenological rows |
+| Ethics & Cosmotechnic Auditor | 8,000 tokens | Batch touches S1/S7/S10 or a Fail Mode | Batch is all Priority C |
+| Data & Instrumentation Steward | 4,000 tokens | Any batch that writes matrix edits | N/A — this role is cheap and always worth it |
+
+### 5.4.3  Batch-size discipline
+
+- Batch size is 8-12 rows max, per the handoff. Do not exceed this.
+- For each row in the batch, the total cost is approximately:
+  (source access cost) + (Pip read + chart cost) + (role spawn costs for the roles active on
+  that batch).
+- If a batch's estimated cost exceeds 15% of the session budget, split it into two smaller
+  batches.
+- Priority A rows get the full QC layer. Priority B rows get Pip + Locus + Methodologist at
+  minimum. Priority C rows get Pip + Locus only unless a specific concern arises.
+
+### 5.4.4  Source access cost control
+
+- Do not download full PDFs for every row. For most rows, reading the abstract, introduction,
+  conclusion, and methods/results (if empirical) is enough for charting. Use web_extract or a
+  targeted read, not a full PDF pull, unless the row is load-bearing and the source is short.
+- For open PDFs under 30 pages, a full read is acceptable if the budget allows.
+- For restricted/gated sources, do not burn budget trying to bypass the gate. Record the
+  caveat and move on. Return to it only if the user provides access or explicitly prioritizes
+  the row.
+- For fast-moving AI/digital/work-trend rows (6-month re-search interval), prefer the most
+  recent available source and record the access date. Do not chase multiple versions in one
+  batch.
+
+### 5.4.5  Role-collapse economy
+
+The full 7-role harness is the expensive case. The economy comes from collapsing roles when
+the batch doesn't need them. The decision table in 5.2 is the control. Do not spawn a role
+"just in case." Spawn a role because the batch condition in 5.2 says to.
+
+If after spawning you find that a role's output is low-signal (e.g. the Cosmotechnic-Purist
+returns "none" across all fields for a batch of non-cosmotechnic rows), record that in the
+handoff note and consider collapsing that role for the next batch of similar rows.
+
+### 5.4.6  Model-tier guidance
+
+- Pip (main session) should run on the default session model.
+- Role subagents should run on the same model family unless a role explicitly benefits from a
+  different tier. Do not mix models inside a single batch unless there is a documented reason
+  (e.g. Methodologist on a reasoning-heavy model for empirical rows, Cosmotechnic-Purist on a
+  model with strong philosophical comprehension).
+- If the session model is a lower-tier model, increase the per-role budget slightly to compensate
+  for the extra turns a weaker model may need to produce usable structured output.
+- Do not use a more expensive model for a collapsed (Pip + Locus only) batch — that is the
+  economy case, and a stronger model doe not substitute for the missing QC roles.
+
+### 5.4.7  Hard stop conditions
+
+Stop the charting session immediately if any of these occur:
+1. A protected-floor breach is detected by the Ethics & Cosmotechnic Auditor and cannot be
+   resolved by revising the matrix implication. Escalate to the user rather than patching over
+   it.
+2. The session token budget is exhausted (95% reached).
+3. Two consecutive batches produce QC failures (rows marked "re-chart required") without a clear
+   fix. Pause and diagnose before continuing.
+4. The Data & Instrumentation Steward flags a proposed edit as forbidden and the user does not
+   authorize it.
+
+───────────────────────────────────────────────────────────────────────────────
+NON-NEGOTIABLE PROJECT DISCIPLINES
+───────────────────────────────────────────────────────────────────────────────
+1. Citation is not evidence.
+   A matrix row is not charted until readable-source identity has been verified and the row
+   has been read enough to populate key finding/thesis, strength/effect size where applicable,
+   limitations, and disconfirming implication.
+
+2. Tier-P must stay visible.
+   Do not treat Monstare as empirically established. It is plausible and architecturally
+   grounded, not proven.
+
+3. Protected-floor stakes govern decisions.
+   S1 Telic, S7 Moral, and S10 Reversibility cannot be traded away for gains on other stakes.
+
+4. Do not collapse H2 into productivity.
+   H2 is a vector of quality, judgment, ecology, technology, phenomenology, and reversibility,
+   not a scalar output measure.
+
+5. Phenomenology-before-calibration remains law.
+   Operation is experiential. Capture is phenomenological. Calibration is refinement. Do not
+   interpret while capturing or reduce lived experience to data before preservation.
+
+6. Locus must check interfaces.
+   Every artifact should identify its modular interfaces: source -> claim, claim -> matrix row,
+   matrix row -> design implication, design implication -> stake consequence, stake consequence
+   -> artifact or pilot rule.
+
+7. Burden is itself a stake.
+   If the research apparatus becomes too heavy to use, S9 fires. Do not solve rigor by adding
+   uncontrolled mass. The cost-control measures in 5.4 exist to keep the apparatus usable.
+
+───────────────────────────────────────────────────────────────────────────────
+CURRENT EVIDENCE MATRIX STRUCTURE
+───────────────────────────────────────────────────────────────────────────────
+Active workbook:
+  Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx
+
+Sheets:
+- Source Pass Summary
+- Guide & Legend
+- Source Discovery Log
+- Dashboard
+- Evidence Matrix
+- Source Patch Log
+
+Evidence Matrix columns:
+ID | Citation | Readable Source URL | Source Landing URL | Access Type |
+Source Discovery Status | Discovery Notes | Suggested Search Query |
+Scholar/Web Search URL | Source Checked Date | Verif. | Area | WS | Pri |
+Function | Evidence Type | Domain | Causal Status | Cosmo Rel. |
+Key Finding / Thesis | Effect Size / Strength | Limitations |
+Disconfirming Implication | H1 | H2 | Design Implication |
+Cosmotechnic Implication | Fail Mode | Artifact Affected | Open Charge |
+Staleness Domain | Re-search Interval | Last Verified Date | Re-search By |
+Staleness Status
+
+Source columns added before v3:
+Readable Source URL | Source Landing URL | Access Type | Source Discovery Status |
+Discovery Notes | Suggested Search Query | Scholar/Web Search URL | Source Checked Date
+
+Staleness columns added in v3:
+Staleness Domain | Re-search Interval | Last Verified Date | Re-search By | Staleness Status
+
+───────────────────────────────────────────────────────────────────────────────
+CURRENT MATRIX STATUS
+───────────────────────────────────────────────────────────────────────────────
+Rows:
+- 129 total evidence rows.
+- 77 Priority A.
+- 44 Priority B.
+- 8 Priority C.
+
+Source discovery:
+- 0 rows lack both a readable URL and a landing/source path.
+- 77 rows are marked Located - readable source.
+- 24 rows are marked Located - restricted readable.
+- 9 rows are marked Readable source found.
+- 6 rows are marked Located - source landing.
+- The remainder use specialized caveat statuses such as preview, partial, landing,
+  gated/account, corrective source needed, or companion source.
+
+Verification/charting:
+- 77 rows carry Verif. = Located (not charted).
+- 52 rows carry Verif. = Pending.
+- 0 rows should be treated as fully charted.
+
+Staleness:
+- 97 rows are Current - re-search on schedule.
+- 32 rows are Current - located, access/fit caveat.
+- Fast-moving AI/digital/work-trend rows use a 6-month re-search interval.
+- Empirical/applied rows generally use 24 months.
+- Methods/reporting standards generally use 36 months.
+- Philosophical/historical/theoretical rows generally use 60 months.
+
+Dashboard caution:
+The Dashboard sheet may not be the governing view for progress in the next chat. Use the
+Evidence Matrix sheet, Source Pass Summary, and Source Patch Log as the source of truth unless
+the dashboard formulas are explicitly rechecked. The dashboard was originally built for
+charting progress, while the current phase is transitioning from source-discovery completion
+into first charting.
+
+───────────────────────────────────────────────────────────────────────────────
+SOURCE-DISCOVERY STATE
+───────────────────────────────────────────────────────────────────────────────
+Source discovery has moved from "incomplete" to "complete enough to begin charting." This does
+not mean all source paths are perfect.
+
+Rows with caveats should be handled as follows:
+- Restricted readable: legal controlled-access path is recorded; use institutional/library/
+  borrowed access before charting deeply.
+- Source landing only: source identity is located, but full text may require institution,
+  publisher, ACM, IEEE, JSTOR, or library access.
+- Rights/edition caution: use a legal copy where possible and note exact edition during charting.
+- Corrective source needed: source was located provisionally, but row label may be too vague or
+  needs replacement before it becomes load-bearing.
+- Companion source: HUI-2024 is materially important to the v6 design memo and should remain
+  visible unless the user explicitly returns to a narrower Rev 5 scope.
+
+───────────────────────────────────────────────────────────────────────────────
+CURRENT COMPANION SOURCE
+───────────────────────────────────────────────────────────────────────────────
+HUI-2024: Hui — Machine and Sovereignty: For a Planetary Thinking
+Status: companion source found; treated as a governing source in the design memo and handoff
+ecology.
+Use: primary v6 cosmotechnic scaffold and anti-veneer standard.
+Do not delete or demote casually.
+URL: https://philpapers.org/archive/HUIMAS.pdf (open access) and
+      https://manifold.umn.edu/projects/machine-and-sovereignty (online book)
+
+───────────────────────────────────────────────────────────────────────────────
+FIRST-SESSION AGENDA (NEW IN v3)
+───────────────────────────────────────────────────────────────────────────────
+The next chat window should execute in this order:
+
+Step 0 — Read this handoff package and the evidence matrix in full. Treat the Evidence Matrix
+as the operational database and this handoff package as the continuity frame.
+
+Step 1 — Build the agentic orchestration. Using the build spec in section 5, instantiate the
+role prompts (save them to references/role-prompts/), confirm that delegate_task spawns work,
+and run a 1-row smoke test (CORE-01 Ryan & Deci) with the collapsed Pip + Locus configuration
+to confirm the harness produces usable structured output. Record the smoke-test result in the
+handoff note. Do not proceed to the full batch until the smoke test passes.
+
+Step 2 — Confirm the session token budget. Set the session budget envelope per 5.4.1 and
+record it in the handoff note. If no budget is specified by the user, use the default.
+
+Step 3 — Chart the first batch. Recommended: the motivational/cosmotechnic spine:
+  CORE-01 Ryan & Deci — Self-Determination Theory
+  CORE-02 Markland, Ryan, Tobin & Rollnick — MI + SDT
+  CORE-04 Bandura — Self-efficacy
+  CORE-05 Deci, Koestner & Ryan — extrinsic rewards meta-analysis
+  CORE-06 Frey & Jegen — motivation crowding theory
+  CORE-08 Reijula & Hertwig — self-nudging and citizen choice architect
+  A1-01 Hui — The Question Concerning Technology in China
+  HUI-2024 Hui — Machine and Sovereignty: For a Planetary Thinking
+
+This is an 8-row batch. Per 5.2, this is a "5-8 rows, mixed areas" batch, so the minimum
+harness is Pip + Locus + Evidence Librarian + Methodologist, with Cosmotechnic-Purist spawned
+because A1-01 and HUI-2024 carry Cosmo Rel. = high. Phenomenologist is not needed for this
+batch (no Area 5 / Area 8 / arousal-flow rows). Ethics & Cosmotechnic Auditor is spawned
+because this batch touches the motivational/ethical spine and protected-floor stakes. Data &
+Instrumentation Steward is always spawned when writing matrix edits.
+
+If the user wants the workday-protocol batch first instead, use:
+  A9-01 Mark, Gudith & Klocke — The Cost of Interrupted Work
+  A9-02 Gonzalez & Mark — Multi-tasking Craziness
+  A9-04 Leroy — Attention Residue
+  A9-05 Arnold, Goldschmitt & Rigotti — Information Overload
+  A9-06 Rick et al. — Work Interruptions of Office Workers
+  CORE-09 Carver & Scheier — self-regulation/control theory
+  CORE-10 Locke & Latham — goal-setting theory
+  CORE-15 Gross — emotion regulation timeline
+
+Step 4 — Run the batch-level Locus check (see 5.5) after all roles return.
+
+Step 5 — Produce the updated matrix (additive patches only), a short findings/fault-lines memo,
+and the next handoff note. Record actual token spend for the session.
+
+Step 6 — Save the refined role prompts back to references/role-prompts/ if the smoke test or
+the batch revealed improvements.
+
+───────────────────────────────────────────────────────────────────────────────
+BATCH-LEVEL LOCUS CHECK (REFINED FROM v2)
+───────────────────────────────────────────────────────────────────────────────
+After each batch, answer:
+
+- What claim became stronger?
+- What claim weakened or became more conditional?
+- What design implication is now forbidden?
+- Which stake moved, if any?
+- Did any protected-floor stake strain?
+- Did the apparatus become heavier than the evidence gained? (If yes, the cost-control
+  measures in 5.4 were insufficient — record that and adjust the next batch's budget.)
+- Did the source introduce a contrary indicator or disconfirming implication?
+- Does the cosmotechnic telos remain structural, or has it become decorative?
+- Did any source fail to justify the seeded matrix implication?
+- Should any row be downgraded from load-bearing to supporting/contextual?
+- Did any QC role return a "re_chart_required" flag? If yes, which row and why?
+
+───────────────────────────────────────────────────────────────────────────────
+DO NOT DO NEXT
+───────────────────────────────────────────────────────────────────────────────
+- Do not regenerate the spreadsheet entirely.
+- Do not rebuild the workbook from scratch.
+- Do not remove URLs, formulas, comments, fields, or formatting unless explicitly instructed.
+- Do not treat Dashboard output as authoritative without checking formulas.
+- Do not continue source-hunting as if Priority A sources were still missing.
+- Do not mark rows Verified merely because a source link exists.
+- Do not mark rows Charted unless the evidence columns are completed from reading.
+- Do not flatten H2 into productivity.
+- Do not let artifact production substitute for reading and evidence extraction.
+- Do not spawn the full 7-role harness for a batch that qualifies for a collapsed configuration
+  under 5.2 — that is a cost-control violation.
+- Do not exceed the session token budget. If the budget is exhausted, stop and write the
+  handoff note with partial progress.
+- Do not skip the smoke test (Step 1) before charting the full batch.
+
+───────────────────────────────────────────────────────────────────────────────
+PATCH LAW FOR FUTURE MATRIX EDITS
+───────────────────────────────────────────────────────────────────────────────
+Future matrix edits should be additive patches unless the user explicitly authorizes
+restructuring.
+
+Permitted by default:
+- filling blank charting cells;
+- adding notes;
+- improving source links;
+- adding caveats;
+- adding batch logs;
+- updating staleness dates/statuses;
+- correcting row labels with a visible note.
+
+Not permitted without explicit user instruction:
+- deleting rows;
+- deleting source URLs;
+- deleting comments or notes;
+- removing formulas;
+- reordering the whole matrix;
+- changing the schema;
+- flattening the workbook into static values;
+- replacing the canonical workbook with a rebuilt table.
+
+───────────────────────────────────────────────────────────────────────────────
+CURRENT OPEN ISSUES
+───────────────────────────────────────────────────────────────────────────────
+1. Charting is the primary gap.
+   The matrix is source-located but not evidence-charted. The key finding, effect size/strength,
+   limitations, and disconfirming implication fields still need source-based extraction.
+
+2. Some source paths carry access or edition caveats.
+   Restricted-access monographs, publisher landings, archive-lending records, research-gate
+   copies, preview PDFs, and potentially unofficial PDFs should be handled with care.
+
+3. Some row labels may need correction.
+   Example: A7-09 is marked as a provisional Oulasvirta offloading/interface-design source and
+   may require replacement or clarification before it becomes load-bearing.
+
+4. Current AI/digital rows stale quickly.
+   Rows in AI autonomy, GenAI, Work Trend Index, and digital-offloading domains have 6-month
+   re-search intervals.
+
+5. S4 and S6 instrumentation gaps remain.
+   This handoff does not solve those gaps. It preserves them as design/research gaps.
+
+6. HUI-2024 remains a companion/governing source.
+   Future chats should not delete it unless the user explicitly narrows the matrix scope.
+
+7. Source discovery is not charting.
+   The matrix is now ready to chart, not ready to conclude.
+
+8. The agentic orchestration harness is not built.
+   This is new in v3. The next chat window must build it per section 5 before charting the full
+   batch. The role prompts in section 5.3 are minimum viable versions; refine them after the
+   first batch and save the refined versions as canonical.
+
+───────────────────────────────────────────────────────────────────────────────
+HANDOFF PROMPT FOR THE NEXT CHAT WINDOW
+───────────────────────────────────────────────────────────────────────────────
+Use this prompt:
+
+Good morning Pip. Please read the attached Monstare_Context_Window_Handoff_Package_v3.txt and
+the current Monstare_Evidence_Matrix_Source_Links_v3_Staleness_Patched_artifact.xlsx. Treat the
+Evidence Matrix as the operational database and the handoff package as the continuity frame. The
+previous source-locating phase is complete enough to begin charting: all rows have a readable
+source URL, landing page, legal access path, or authoritative source path, but no rows should be
+treated as fully charted yet.
+
+IMPORTANT: The agentic orchestration harness does not yet exist. Build it first per the build
+spec in section 5 of the handoff package. Save the role prompts to references/role-prompts/,
+run a 1-row smoke test (CORE-01) with the collapsed Pip + Locus configuration, and confirm
+usable structured output before charting the full batch.
+
+Begin with the Priority A motivational/cosmotechnic spine (CORE-01, CORE-02, CORE-04, CORE-05,
+CORE-06, CORE-08, A1-01, HUI-2024) unless Dallas directs a workday-protocol batch instead. For
+each row, open the source, verify source identity, extract key finding/thesis, effect size or
+strength, limitations, and disconfirming implication, then revise H1/H2, design implication, and
+cosmotechnic implication only after reading. Use the cost-control measures in section 5.4: set a
+session token budget before starting, collapse roles per the decision table in 5.2, and stop if
+the budget is exhausted. After each batch, run the Locus check in section 5.5. Preserve Tier-P
+status, protected-floor stakes S1 Telic, S7 Moral, and S10 Reversibility, and the rule that
+citation is not evidence. Do not regenerate the spreadsheet. Make additive patches only. Mark
+unresolved source/edition/access caveats visibly. Produce an updated matrix plus a short
+findings/fault-lines memo, a next handoff note, and a record of actual token spend. Maintain
+rigorous anti-drift standards by devoting effort toward focused attention and disciplined note-
+taking habits.
+
+───────────────────────────────────────────────────────────────────────────────
+DIAGNOSTIC PROBE NOTES (from subagent deleg_1131ee68, run 2026-08-13 16:27)
+───────────────────────────────────────────────────────────────────────────────
+A leaf subagent probe was run to independently verify the orchestration environment. Its
+findings are preserved here for the next chat window, with one correction noted.
+
+What the probe confirmed:
+- The kanban board at /opt/data/kanban/ is real and was used: a poplar-agency board with
+  kanban.db (127 KB SQLite), 4 task attachment directories with real markdown files, and 4
+  task logs showing real agentic work on Aug 11. The board is a Poplar.agency board only — no
+  Monstare board exists.
+- agent.log shows delegate_task completions on Aug 8, Aug 10, Aug 11 (3 completions), and
+  Aug 13 (the probe itself), with subagent sessions spawned via run_agent on thread
+  async-delegate_0. On Aug 11, the kanban dispatcher spawned 4 subagents through the board.
+  The harness infrastructure has been used.
+- From the leaf child's perspective, delegate_task is NOT directly callable (tool_search finds
+  no match, tool_describe and tool_call both reject it as "not a deferrable tool"). This is
+  EXPECTED for a leaf child — leaf subagents do not inherit the parent's delegate_task tool.
+  This is why role prompts must carry full context inline. The parent (orchestrator) session
+  DOES have delegate_task and used it to spawn this probe.
+- agent.log contains 14 warnings of the form "check_fn _check_kanban_orchestrator_mode
+  returned False; dependent tools will be unavailable this turn" across Aug 7–13. These
+  warnings coexist with delegate_task completions on the same days (Aug 8, 10, 11, 13 all show
+  both), so this check is NOT a hard gate on delegate_task. It likely gates a different set of
+  kanban-orchestrator-specific tools, not the async delegation path used here.
+- cronjob is listed in the parent session's system prompt tool array. A leaf subagent could not
+  confirm its runtime behavior because it does not have cronjob either.
+
+The probe's "delegate_task is gated/unavailable" conclusion is a misread. Correct interpretation:
+delegate_task is functional in the parent (orchestrator) session — this very subagent was
+dispatched by it. The probe could not call it because the probe is a leaf child, which is the
+intended design. The harness build spec in section 5 is viable: Pip (main session) has
+delegate_task and can spawn role subagents; role subagents do not have delegate_task, so their
+prompts must be self-contained with inline context, which is what section 5.3 specifies.
+
+Caveat for the next chat window: confirm delegate_task works with a 1-row smoke test (CORE-01)
+in Step 1 before trusting the full harness. The probe confirms the infrastructure exists and has
+been used, but session state can change between chats. If delegate_task is unavailable in the
+next chat window for any reason, fall back to the collapsed Pip + Locus configuration and chart
+manually — the project disciplines in section 6 still hold, and the matrix still gets charted,
+just without the role QC layer.

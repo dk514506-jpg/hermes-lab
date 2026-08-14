@@ -1,0 +1,244 @@
+URL: https://nudging-for-sdgs.eu/wp-content/uploads/2023/12/Self-nudging-and-the-citizen-choice-architect.pdf
+TITLE: None
+ERROR: None
+
+# Self-nudging and the citizen choice architect
+
+SAMULI REIJULA ID\*
+
+University of Helsinki, Helsinki, Finland
+
+RALPH HERTWIG
+
+Max Planck Institute for Human Development, Berlin, Germany
+
+## Abstract:
+
+This article argues that nudges can often be turned into self-nudges:
+empowering interventions that enable people to design and structure their own
+decision environments – that is, to act as citizen choice architects. Self-nudging
+applies insights from behavioral science in a way that is practicable and costeffective, but that sidesteps concerns about paternalism or manipulation. It has
+the potential to expand the scope of application of behavioral insights from
+the public to the personal sphere (e.g., homes, offices, families). It is a tool for
+reducing failures of self-control and enhancing personal autonomy; specifically,
+self-nudging can mean designing one’s proximate choice architecture to
+alleviate the effects of self-control problems, engaging in education to
+understand the nature and causes of self-control problems and employing
+simple educational nudges to improve goal attainment in various domains. It
+can even mean self-paternalistic interventions such as winnowing down one’s
+choice set by, for instance, removing options. Policy-makers could promote
+self-nudging by sharing knowledge about nudges and how they work. The
+ultimate goal of the self-nudging approach is to enable citizen choice
+architects’ efficient self-governance, where reasonable, and the self-determined
+arbitration of conflicts between their mutually exclusive goals and preferences.
+
+Submitted 15 May 2019; revised 19 November 2019; accepted
+15 January 2020
+
+## Introduction
+
+Homer’s Odyssey tells the story of Greek hero Odysseus and his long journey
+home from the Trojan War. The goddess Circe warns him about the Sirens,
+beautiful but deadly enchantresses whose singing lures sailors to their deaths
+
+- Correspondence to: Samuli Reijula, Theoretical Philosophy, PL 24, 00014 University of Helsinki,
+  Helsinki, Finland. E-mail: [samuli.reijula@iki.fi](mailto:samuli.reijula@iki.fi)
+
+1
+
+* * *
+
+2
+
+on the rocky shores of their island. Reconciling Circe’s advice with his own curiosity about the Sirens’ song, Odysseus instructs his men to plug their ears with
+beeswax and tie him to the mast of the ship, leaving him there no matter what he
+says. As they pass the island, Odysseus – bewitched by the Sirens’ song – begs
+his men to untie him. Unable to hear the song, the crew see the Sirens for what
+they are: dangerous monsters. Acting on Odysseus’s orders, they ignore their
+spellbound captain and row the ship, and Odysseus, to safety.
+
+Informed by Circe’s advice and aware of his limited capacity for self-control
+(or, to use older terminology, willpower), Odysseus resisted temptation by
+making strategic adjustments to the external world. He manipulated the physical environment by having his men tie him to the mast. In addition, he harnessed the social environment by first inoculating his crew against
+temptation (having them plug their ears with wax), then recruiting them as
+guards. The literature on self-control contains numerous examples of strategies
+that counteract a lack of self-control by modifying physical and social aspects
+of a person’s external world or mental aspects of a person’s internal world.
+Schelling (1984) offered the example of pregnant women, who, anticipating
+a temporary shift in their preferences for pain relief during labor, ask hospital
+staff not to have nitrous oxide available in the delivery room. Building on
+Ainslie (1992, 2001) and Rachlin (2000), Bénabou and Tirole (2004) examined self-control strategies that rely on manipulating the mental environment;
+they found that good habits and personal rules in organizing one’s mental
+space can help people avoid impulsive behavior.
+
+Many modern temptations are no less insidious than those faced by
+Odysseus. Environments created by market economies that rely on consumption-based growth often exploit people’s biological, psychological, social and
+economic vulnerabilities, making it ever easier for people to overconsume
+(e.g., Swinburn et al., 2011; Roberto et al., 2015; Wu, 2016). Take, for instance,
+the ubiquity of high-caloric, low-cost processed foods and sweetened sodas
+(Nestle, 2013, 2015). Highly engineered, mass-produced foods and drinks
+have unleashed novel surges of pleasure – and addiction (Cross & Proctor,
+2014). Most of the world’s population now lives in countries in which overweight and obesity kill more people than underweight does (Swinburn et al.,
+1999). In 2016, 39% of adults worldwide were overweight and 13% were
+obese (WHO, 2018), and in 2012, problematic dietary habits were estimated
+to be associated with around 45% of cardiometabolic deaths in the USA
+(Micha et al., 2017). The manipulative information environment is another pervasive modern temptation. The information ecology – defined by the Internet,
+smartphones, social media, email and other online technologies – has created
+a “check-in” impulse, a “mental itch constantly in need of being scratched”
+(Wu, 2016, p. 186). Like junk food, a low-quality information product offering
+
+* * *
+
+3
+
+affirmation, sensationalism and instant gratification tends to be cheaper and
+more readily available than high-quality information (Johnson, 2015).
+
+People with more self-control (i.e., the “effortful regulation of the self by the
+self”; Duckworth, 2011, p. 2639) seem better able to achieve their long-term
+goals, as measured in terms of health, wealth and other dimensions of
+human flourishing. According to Moffitt et al. (2011), the capacity for selfcontrol in the first decade of life predicts adult outcomes including income,
+savings, occupational prestige and physical and mental health. Against this
+background, how best can society, individuals and policy-makers respond to
+the incessant challenges to self-control that characterize the modern world?
+Policy-makers’ traditional tools include economic incentives and disincentives
+such as taxation (e.g., taxing sugary drinks), subsidies (e.g., promoting healthy
+food consumption; see Thow et al., 2014) and regulations (e.g., limiting access
+to sugary drinks in schools). Our focus here is not on these traditional tools for
+steering citizens’ behavior, but on self-deployed control strategies (see
+Duckworth et al., 2018). Rigid strategies in the spirit of having oneself tied
+to the mast are impractical for regulating the intake of food, drinks, drugs
+and information. For instance, most people are reliant on digital technology
+in their working lives, meaning that a radical digital detox (as suggested by
+commentators such as Otto, 2016) is out of the question. Legal means of
+self-regulation are also limited; in many countries, the law does not allow individuals to enter into binding agreements with their future selves (e.g., banning
+themselves from casinos). And research into the effectiveness of voluntary strategies for self-control – from saving loose change to joining Weight Watchers –
+shows mixed results and relatively low adherence rates (Dansinger et al., 2005).
+
+In this article, we take another approach, arguing that insights from behavioral science often associated with nudging (see Thaler & Sunstein, 2008) offer
+a rich repertoire of tools for self-deployed strategies of self-control. We begin
+by outlining our notion of self-nudging. We then distinguish categories of
+nudges and summarize the ethical and practical problems of nudging that
+others have identified. Subsequently, we describe self-nudging as a way of
+translating behavioral science insights into policy, showing how it can contribute to the discussion on bounded rationality and failures of self-control.
+Finally, we relate this new approach to the boosting program (Hertwig &
+Grüne-Yanoff, 2017), discussing practical issues associated with the delivery
+and implementation of self-nudging interventions.
+
+## From nudging to self-nudging
+
+For me, the cues are aural (the ping, the French horn) and visual (pop-ups on
+the screen). I already knew that putting the phone on silent wasn’t enough to
+
+* * *
+
+4
+
+break the habit, but … out of sight could be out of mind. In the mornings,
+preparing breakfast, I found that it helped to leave the phone in another
+room. In the car, it went in the glove compartment. When walking around,
+I’d put it in a zippered pocket.
+
+– Jerome Groopman (2019)
+
+Nudges are non-regulatory and non-monetary interventions that steer individuals’ behaviors toward their ultimate goals (e.g., being healthier, wealthier
+and happier) without eliminating any options or significantly changing the eco-
+1
+nomic incentives. Consider Thaler and Sunstein’s(2008) school cafeteria
+example: acting as a choice architect, the fictional director of food services
+for a large city’s schools attempts to guide students toward making healthy
+food choices (without changing the options available) by manipulating psychologically important but economically insignificant aspects of the choice architecture. She rearranges the order of items so that healthy options are
+positioned early in the line and unhealthy desserts and French fries are
+moved away from eye-level shelves (for systematic reviews of positional
+influences and nudge effects on food choice, see Bucher et al., 2016; Broers
+et al., 2017). As in this example, nudges target aspects of the choice architecture
+toward which a fully rational Homo economicus would be indifferent (e.g.,
+order, defaults, framing), but which matter a great deal to real-world
+decision-makers. Nudges have been applied in domains as diverse as savings,
+highway safety, consumer protection, energy use, climate change, obesity,
+education, poverty and health (Sunstein, 2016).
+
+Importantly, the individual being nudged need not be aware of the nudge,
+let alone of the psychological mechanisms harnessed by the choice architect.
+In fact, some interventions may be more effective if people know nothing of
+the intervention or how it works (Holden et al., 2016; but see Loewenstein
+et al., 2015). Take the effect of changes in food placement on food choice.
+Food placement is a prominent nudging strategy that follows the rationale
+that people are less likely to eat food that is harder to reach; simply moving
+it further away will reduce its consumption (Bucher et al., 2016). Altering
+placement is the nudging intervention with the largest effect on fruit and/or
+vegetable choice (with d = 0.39) featured in Broers et al.’s(2017) meta-analysis.
+We consulted all 12 articles (14 studies) that were included in their meta-analysis (their table 1). In no single study were participants informed about the
+specific changes that experimenters made to the choice architecture, nor were
+they told about the psychological mechanism underlying this strategy.
+Consider another example: “by changing the size of dishware, portion sizes
+
+1 For a careful analysis of the concept(s) of nudge, see Mongin and Cozic (2018).
+
+* * *
+
+5
+
+may be reduced leading to unconscious changes in actual food intake” (Bucher
+et al., 2016, p. 2253). Those being nudged are not necessarily aware of it, and
+they are even less aware of the psychological mechanisms at work (see also
+
+[... middle omitted — see footer ...]
+
+American Economic Review, 74(2): 1–11.
+Schelling, T. C. (1985), ‘Enforcing rules on oneself’, Journal of Law, Economics and Organization, 1:
+357–374.
+Schultz, P. W., J. M. Nolan, R. B. Cialdini, N. J. Goldstein and V. Griskevicius (2007), ‘The constructive, destructive, and reconstructive power of social norms’, Psychological Science, 18: 429–
+434.
+Schwartz, L. M., S. Woloshin and H. G. Welch (2009), ‘Using a drug facts box to communicate drug
+benefits and harms: Two randomized trials’, Annals of Internal Medicine, 150(8): 516–527.
+Service, O. and R. Gallagher (2017), Think small: The surprisingly simple ways to reach big goals,
+London, England: Michael O’Mara Books.
+Sunstein, C. R. (2015), ‘The ethics of nudging’, Yale Journal on Regulation, 32(2): 413–450.
+Sunstein, C. R., (2016), ‘The council of psychological advisers’, Annual Review of Psychology, 67:
+13–37.
+Sussman, A. B., E. Sharma and A. L. Alter (2015), ‘Framing charitable donations as exceptional
+expenses increases giving’, Journal of Experimental Psychology: Applied, 21(2): 130–139.
+
+* * *
+
+Swinburn, B., G. Egger and F. Raza (1999), ‘Dissecting obesogenic environments: The development
+and application of a framework for identifying and prioritizing environmental interventions
+for obesity’, Preventive Medicine, 29(6): 563–570.
+Swinburn, B. A., G. Sacks, K. D. Hall, K. McPherson, D. T. Finegood, M. L. Moodie and S. L.
+Gortmaker (2011), ‘The global obesity pandemic: Shaped by global drivers and local environments’, The Lancet, 378(9793): 804–814.
+Thaler, R. H. (1999), ‘Mental accounting matters’, Journal of Behavioral Decision Making, 12(3):
+183–206.
+Thaler, R. H. and C. Sunstein (2008), Nudge: Improving decisions about health, wealth, and
+happiness, New Haven, CT: Yale University Press.
+Thow, A. M., S. Downs and S. Jan (2014), ‘A systematic review of the effectiveness of food taxes
+and subsidies to improve diets: Understanding the recent evidence’, Nutrition Reviews, 72
+(9): 551–565.
+Torma, G., J. Aschelmann-Witzel and J. Thøgersen (2016), ‘I nudge myself: Exploring ‘self-nudging’
+strategies to drive sustainable consumption behaviour’, International Journal of Consumer
+Studies, 42(1): 141–154.
+Twain, M. (1876/1980), The Adventures of Tom Sawyer, Tom Sawyer Abroad, and Tom Sawyer,
+Detective: Adventures of Tom Sawyer. Berkeley, CA: University of California Press.
+Van Epps, E. M., J. S. Downs and G. Loewenstein (2016), ‘Advance ordering for healthier eating?
+Field experiments on the relationship between the meal order–consumption time delay and
+meal content’, Journal of Marketing Research, 53(3): 369–380.
+Van Gestel, L. C., F. M. Kroese and D. T. D. De Ridder (2018), ‘Nudging at the checkout counter: A
+longitudinal study of the effect of a food repositioning nudge on healthy food choice’,
+Psychology & Health, 33(6): 800–809.
+Wansink, B., D. R. Just and C. R. Payne (2009), ‘Mindless eating and healthy heuristics for the
+irrational’, American Economic Review, 99(2): 165–169.
+Wertenbroch, K. (1998), ‘Consumption self-control by rationing purchase quantities of virtues and
+vice’, Marketing Science, 17(4): 317–337.
+White, M. (2013), The manipulation of choice: Ethics and libertarian paternalism, New York, NY:
+Palgrave Macmillan.
+Whitman, D. G. and M. J. Rizzo (2015), ‘The problematic welfare standards of behavioral paternalism’, Review of Philosophy and Psychology, 6(3): 409–425.
+WHO (2018), Obesity and overweight: Fact sheet. Retrieved from [http://www.who.int/mediacentre/](http://www.who.int/mediacentre/)
+factsheets/fs311/en/
+Wu, T. (2016), The attention merchants: The epic scramble to get inside our heads, New York, NY:
+Vintage.
+
+──────── [TRUNCATED] ────────
+Showing 11,229 chars (head) + 3,647 chars (tail) of 90,184 total clean characters.
+Full text saved to: /opt/data/cache/web/nudging-for-sdgs.eu-6022329462.md
+To read the omitted middle: read_file path="/opt/data/cache/web/nudging-for-sdgs.eu-6022329462.md" offset=181 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

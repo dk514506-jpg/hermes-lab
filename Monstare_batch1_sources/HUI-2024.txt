@@ -1,0 +1,432 @@
+URL: https://philpapers.org/archive/HUIMAS.pdf
+TITLE: None
+ERROR: None
+
+## YUK HUI
+
+## machine and sovereignty machine and sovereignty machine and sovereignty
+
+## for a planetary thinking for a planetary thinking
+
+* * *
+
+_Machine and Sovereignty_
+
+* * *
+
+_This page intentionally left blank_
+
+* * *
+
+## Machine and Sovereignty
+
+_For a Planetary Thinking_
+
+Yuk Hui
+
+* * *
+
+The University of Minnesota Press gratefully acknowledges support for the open-access
+edition of this book from the Hong Kong Research Grants Council.
+
+Copyright 2024 by the Regents of the University of Minnesota
+
+_Machine and Sovereignty: For a Planetary Thinking_ is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License: https://
+creativecommons.org/licenses/by-nc-nd/4.0.
+
+Published by the University of Minnesota Press
+111 Third Avenue South, Suite 290
+Minneapolis, MN 55401-2520
+[http://www.upress.umn.edu](http://www.upress.umn.edu/)
+
+## [http://www.upress.umn.edu](http://www.upress.umn.edu/) [http://www.upress.umn.edu](http://www.upress.umn.edu/)
+
+Available as a Manifold edition at manifold.umn.edu
+
+ISBN 978-1-5179-1740-1 (hc)
+ISBN 978-1-5179-1741-8 (pb)
+
+A Cataloging-in-Publication record for this book is available from the Library of Congress.
+
+Printed in the United States of America on acid-free paper
+
+The University of Minnesota is an equal-opportunity educator and employer.
+
+33 32 31 30 29 28 27 26 25 24
+
+10 9 8 7 6 5 4 3 2 1
+
+* * *
+
+_For Ben, my dear brother_
+
+* * *
+
+_This page intentionally left blank_
+
+* * *
+
+## Contents
+
+Preface / ix
+
+Introduction: For a Planetary Thinking / 1
+§1\. On the Planetary Condition / 3
+§2\. Planetary Thinking as Political Epistemologies / 9
+§3\. Search for a Planetary Politics beyond the Nation-State / 14
+§4\. Toward a _Tractatus Politico-Technologicus_ of the Planetary / 18
+
+1. World Spirit as Planetary Thinking / 23
+   §5\. Individuation of the Spirit as Historical Process / 27
+   §6\. World Spirit as Planetary Thinking and the
+   Place of Reason in History / 32
+   §7\. Freedom as the Drive of the Transitions of Political Forms / 43
+   §8\. Recursivity of Reason and Freedom in the Modern State / 50
+
+2. The Organism of the State and Its Limit / 57
+   §9\. Spirit and the Organic Becoming of the Externalized / 59
+   §10\. Organism of the State versus Organism of the Animal / 63
+   §11\. The Impasse from the State to Planetary Freedom / 74
+
+3. From Noetic Reflection to Planetary Reflection / 85
+   §12\. Noetic Reflection: Consciousness and Life / 88
+   §13\. Bioeconomical Reflection: Georgescu-Roegen Reads Hegel / 93
+   §14\. Cybernetic Reflection: Toward the Consciousness
+   of Machines / 101
+   §15\. Noospheric Reflection: In Search of a Planetary Freedom? / 108
+
+4. Mechanism, Organism, or Decisionism / 117
+   §16\. From Political Theology to Political Epistemology / 118
+   §17\. Machine and Organism in _The Leviathan in the_ _State Theory of Thomas Hobbes_ / 124
+   §18\. Political Epistemology in Hobbes’s _Leviathan_ / 128
+   §19\. Catholicism and the Logic of _Complexio Oppositorum_ / 136
+   §20\. The Death of Hegel and the Triumph of Political Vitalism / 147
+
+
+* * *
+
+5. _Nomos_ of the Digital Earth / 153
+
+§21\. First Deconstruction on the Contingency of Sovereignty / 154
+
+§22\. Second Deconstruction on the Contingency
+of Friend and Enemy / 161
+
+§23\. Sovereignty and the Elementary Philosophy of Space / 167
+
+§24\. _Großräume_ as Post-Static Political Form and
+the Problem of Pluralism / 174
+
+§25\. Giving Colonialism, New _Großräume,_
+and Digital Sovereignty / 182
+
+6. An Organology of Wars / 191
+
+§26\. The Disproportion of Organs and the Hubris of Wars / 193
+§27\. From a Cybernetics of Freedom to an
+Organology of Differences / 197
+§28\. The Conflict of Tendencies and the
+Recurrence of Mysticism / 203
+§29\. The Dynamics of the Technical
+Tendency and Technical Fact / 209
+§30\. On the Organological Relation between
+Technology and Democracy / 215
+§31\. Biodiversity, Noodiversity, and Technodiversity / 220
+
+7. Toward an Epistemological Diplomacy / 229
+
+§32\. Acceleration, Automation, and the Prosthetic Future / 230
+
+§33\. Universality Seen from the Perspective of Technodiversity / 234
+
+§34\. Sovereignty Seen from the Perspective of Technodiversity / 242
+
+§35\. Technodiversity Analyzed via an
+Anatomy of Technical Objects / 247
+
+§36\. Technodiversity as Epistemological Diplomacy / 255
+
+Notes / 265
+
+Bibliography / 307
+
+Index / 323
+
+* * *
+
+## Preface
+
+In August 2022, I invited Professor Carl Mitcham to deliver the Bernard
+Stiegler memorial lecture; Carl asked if it would be possible to develop a
+_Tractatus Politco-Technologicus_ after Leo Strauss. This question was driven
+by the belief that Strauss did not explicitly address the question of technology in his political philosophy and that philosophy of technology hasn’t
+yet engaged with political philosophy in a profound way. Today, it has become both inevitable and necessary to take technology into consideration
+in political philosophy; however, this relationship has yet to be thoroughly
+examined and comprehensively contemplated. Coincidently, I had been
+working on a similar project since I finished the manuscript of _Recursivity_ _and Contingency_ in summer 2018. I was tempted to explore the implication
+of the epistemological questions raised in the book in political thought,
+especially in view of the process of technological planetarization. However,
+due to various reasons, I was not ready to pursue the project right after _Re-_ _cursivity and Contingency_ (2019). Therefore, the current work is preceded
+by _Art and Cosmotechnics_ (2021), which I consider the second volume of
+_Recursivity and Contingency. Machine and Sovereignty_ is the third and the
+last volume of this series that has taken me more than a decade. It will be
+also my initial response to Carl’s question.
+
+A large part of this book was written during the Covid-19 pandemic
+when the geopolitical drift became overwhelming: the upsurge of nationalism and identity politics, the intensification of border control, the increasing
+tension of wars and the worsening climate crisis. These shocks were existential especially when I had just relocated from Europe to the unrestful Hong
+Kong. Reading Hegel and Schmitt became equally an uncanny experience:
+abstract concepts became not only concrete but also intimate, and at the
+same time intimidating and disturbing. The thinking of Hegel and Schmitt
+embody two modern political forms— the nation-state and the _Großraum_—
+and a future planetary thinking will have to surpass both. We will have to
+forcefully open new perspectives for planetary thinking and a new concept
+of history to come. In order to do so, one cannot avoid respecting them as
+
+**ix**
+
+* * *
+
+**x**
+
+philosophical adversaries, meticulously engaging with their thinking while
+seeking moments to break through and take leaps. Not being trained as a
+specialist in political and legal thought, this study was more than laborious; meanwhile, I had to develop my own method of reading the classics
+of political philosophy, which I term _political epistemology._ Political epistemology is central to the megamachine of Lewis Mumford, as it legitimates
+and guides the operation of the megamachine. It is our Ariadne’s thread for
+exploring the planetary. The first parts of this study endeavor to lay down the
+epistemological foundation of Hegel’s and Schmitt’s political thought and
+the two political forms they wanted to justify. The later part of the book
+elaborates on the agenda of technodiversity, a concept that I developed in
+_Recursivity and Contingency._ This historical-epistemological study is, however, far from being complete. Despite its obvious limitations, I hope that it
+can still provide some insights to conceive a planetary thinking capable of
+addressing some of the current impasses.
+
+This project would not be possible without the support of various institutions: the City University of Hong Kong, especially Professor Richard
+William Allen from its School of Creative Media; the Hong Kong Research
+Grant Council, for its Social Sciences and Humanities Prestigious Fellowship (2023), which allowed me to take time off from teaching and focus
+on completing the book and sponsored this book to be open access; the
+
+Berggruen Institute’s support of my research on the planetary between 2021 and 2022.
+
+I want to thank the following friends and colleagues who have engaged
+with this writing process. Pieter Lemmens and Anders Dunker have given
+feedback on several chapters. Colleagues from the Centre for Critical
+Thought and the Law School, University of Kent, including Jose Bellido,
+Alex Damianos, Maria Drakopoulou, Gian-Giacomo Fusco, Conor
+Philipp Kender, and Connal Parsley, have organized reading groups to Heaney,
+comment on various chapters and gave critical feedback regarding legal
+thought and international relations. Milan Stürmer spent more than a year
+with me reading Hegel’s _Grundlinien der Philosophie des Rechts_ sentence
+by sentence every week online. I want to equally thank Pieter Martin from
+the University of Minnesota Press for finding this project a home, the two
+anonymous reviewers for their constructive comments, and Joel White for
+copyediting and commenting on the manuscript.
+
+Yuk Hui
+
+Summer 2024, Rotterdam/Tokyo
+
+* * *
+
+## Introduction
+
+_For a Planetary Thinking_
+
+The current work immodestly calls for a planetary thinking—a thinking
+that Kostas Axelos already announced in view of the domination of plane
+tary technology and the threshold of a new epoch to come during the
+1960s. The rationale behind this call is simple: we do not yet think plane
+tarily and must learn to think planetarily, even though this may well take
+a considerable amount of time to come. The planetary is viewed as such,
+but it remains the unthought.1 To think planetarily doesn’t necessarily
+mean proclaiming or defining the sovereignty of outer space, or delving
+into terraforming and geoengineering, even though such topics might be
+anticipated in a book dedicated to planetary thinking. To think planetarily,
+first of all, means thinking beyond the configuration of modern nationstates, which have not been able to move away from vicious economic and
+military competition; second, it means formulating a language of coexistence that will allow diverse people and species to live on the same planet;
+and third, developing a new framework that will enable us to go beyond
+the question of territory, respond to the current ecological crisis, and reverse the accelerated entropic process of the Anthropocene. The task of
+planetary thinking resonates with the idea of perpetual peace as proposed
+by Abbé de Saint-Pierre and then later by Kant, Fichte, and others. One
+must note that when these authors were writing, modern nation-states
+were still young in Europe, and thus the nation-state could be considered
+the most appropriate political form. Industrial capitalism was still in its
+infancy, and the damage of planetarization was not yet foreseeable.2 Organic nature, captured by two key concepts, community and reciprocity,
+stands as the model for perpetual peace because different parts constitute
+the whole, and every part will be conditioned by each other and the whole.
+
+[... middle omitted — see footer ...]
+
+226; planetary, 1; and politics, 3, 6,
+115
+
+Teilhard de Chardin, Pierre, 14, 88, 93,
+108–15, 176, 197, 225, 255, 283–84;
+_The Future of Man,_ 283; _Human_ _Phenomenon,_ 110, 283–84; omega
+point, 14, 110, 114, 225
+
+tendency, 97, 101–3, 130, 132, 135–36,
+161, 176, 194, 200, 207–20, 246–47,
+255, 262; _See also_ technical
+tendency
+terraforming, 1, 4
+
+thermodynamic ideology, 5, 9, 87, 186,
+204, 266
+
+_tianxia,_ 82–83, 280
+
+Thiel, Peter, 34, 151, 185, 293, 299
+
+time, 1, 3, 6–8, 10, 12–13, 15, 28–33,
+35–36, 38, 40–41, 50–53, 55,
+59–60, 65–66, 72–73, 86–87, 94, 96,
+99–101, 105, 109, 113, 115, 123–24,
+128, 130, 135–36, 140–43, 145, 170,
+174, 176–81, 191–95, 202, 204–5,
+231–34, 242, 244–46, 251–52, 301–4
+
+Tönnies, Ferdinand, 136
+
+Toynbee, Arnold, 175, 213, 268, 281,
+297
+
+_Tractatus Politico-Technologicus,_ 2–3,
+16, 18, 20, 230, 255
+
+transhumanists, 5, 110, 115, 176, 255
+
+_travail,_ 60–61, 271
+
+Trump, Donald, 76, 186
+
+Turing, Alan, 199
+
+unhappy consciousness, 33–35, 80
+
+United Nations, 74, 78, 259–60, 265
+
+United States, 13, 26, 84, 165, 167,
+172–73, 175, 184, 186–87, 262,
+297–98, 304–5
+
+unity, 11, 27, 29, 34–35, 37, 48–49, 56,
+60, 66–67, 82, 84, 86, 135, 156, 168,
+172, 174, 176–78, 180, 208, 236–38,
+241, 256–58, 268–70, 276; magic,
+208, 236, 237
+
+universal, the, 27, 46, 63, 65–67, 90,
+182, 213, 238–40, 242, 258, 275, 289;
+and freedom, 54; concrete, 32, 35,
+38, 65, 80, 174, 238
+
+universalism, 17, 172, 173, 177, 192
+
+universalization, 17, 171, 215, 242, 263
+
+use of reason, 257–58, 305; apodictic,
+258; hypothetic, 258; theoreticalspeculative, 257; practical-moral,
+257
+
+* * *
+
+**340**
+
+Van Gogh, Vincent, 221
+
+Varela, Francisco, 198–99, 201, 245,
+300; “Steps to a Cybernetics of
+Autonomy,” 198
+
+Vernadsky, Vladimir, 108, 225, 283; _The_ _Biosphere,_ 283
+
+_Vernünftig,_ 35, 53, 85, 87, 238, 255, 271
+
+Vieweg, Klaus, 74, 279
+
+vitalism, 13, 20, 105–6, 140, 148–49, 161,
+192, 202, 227, 230–31, 290
+
+Viveiros de Castro, Eduardo, 223
+
+_Volksgeist,_ 40, 87
+
+Voltaire, 239
+
+von Gierke, Otti, 136
+
+von Neumann, John, 198–99, 253
+
+Wahl, Jean, 34–35, 271; _Le malheur de_ _la conscience,_ 34–35, 271
+
+war, 20–21, 74, 77, 80–81, 85, 111, 119,
+130–33, 141, 147, 150–51, 156, 164,
+167, 169, 173, 178, 183, 191–227,
+230–31, 256, 261–62, 280, 284, 291,
+293, 295–96, 300; civil, 127, 134, 143,
+153, 183
+
+Watt, James, 106
+
+Weber, Max, 142, 155
+
+_Weltgeist,_ 23, 27, 32, 40–43, 238
+
+Western philosophy, 41, 107, 148, 255
+
+Western technology, 9, 80, 175, 196
+
+Whitehead, Alfred North, 88, 93, 96,
+97, 142
+
+Wiener, Norbert, 13, 104, 106, 110,
+
+114, 198–99, 201–2, 282–83, 301;
+_Cybernetics,_ 104; _God and Golem,_
+301; _Human Use of Human Beings,_
+282; “Newtonian and Bergsonian
+Time.,” 104; “Some Moral and Technical Consequences of Automation,” 201, 301
+
+_Wirklichkeit,_ 56, 271
+
+work, 61, 68–69, 72
+
+world civilization, 5, 36, 38
+
+world history, 8, 10–11, 23, 25, 32, 35,
+37–40, 43, 77, 80, 174, 191, 242,
+258–59, 266, 268, 273–74, 276, 292,
+305
+world market, 9, 11, 42, 201
+world powers, 167, 197, 256
+world republic, 10, 19, 258–59, 303
+world revolutions, 19, 81
+world spirit, 14, 20, 23–56, 76–80, 82,
+174, 177, 201, 268
+
+World War I. _See_ First World War
+
+World War II. _See_ Second World War
+
+## Xi Jinping, 123
+
+Zhao Tingyang, 20, 82, 280; _A Possible_ _World of All-Under-Heaven System,_
+280
+
+Žižek, Slavoj, 275, 284; _Hegel in a_ _Wired Brain,_ 275
+
+_zoe_; and _bio,_ 150
+
+* * *
+
+**YUK HUI** is professor of philosophy at Erasmus University Rotterdam and
+professor at City University of Hong Kong. He is author of _On the Existence_ _of Digital Objects_ (Minnesota, 2016), _The Question Concerning Technology_ _in China: An Essay in Cosmotechnics_, _Recursivity and Contingency,_ and _Art_ _and Cosmotechnics_ (Minnesota, 2021).
+
+──────── [TRUNCATED] ────────
+Showing 11,203 chars (head) + 3,731 chars (tail) of 891,174 total clean characters.
+Full text saved to: /opt/data/cache/web/philpapers.org-155e02226e.md
+To read the omitted middle: read_file path="/opt/data/cache/web/philpapers.org-155e02226e.md" offset=255 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

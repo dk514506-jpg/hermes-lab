@@ -1,0 +1,130 @@
+RowID,Citation,FinalStatus,ReadableURL,ReadableDetail,Fix
+CORE-01,Ryan & Deci — Self-Determination Theory (needs),READY,https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf,"PDF 11p, text layer OK (18832 chars in first 4p)",
+CORE-02,"Markland, Ryan, Tobin & Rollnick — MI + SDT",READY,https://selfdeterminationtheory.org/SDT/documents/2005_MarklandRyanTobinRollnick_MotivationalInterviewing.pdf,"PDF 21p, text layer OK (9230 chars in first 4p)",
+CORE-03,"Vansteenkiste, Williams & Resnicow — SDT/MI integration",READY,https://selfdeterminationtheory.org/wp-content/uploads/2014/04/2012_VansteenkisteWilliamsResnicow_InterventionDevelopment_IJBNPA.pdf,"PDF 11p, text layer OK (18851 chars in first 4p)",
+CORE-04,Bandura — Self-efficacy,DEAD,https://www.uky.edu/~eushe2/Bandura/Bandura1997SE.pdf,"Readable URL redirects to motivation.uky.edu homepage (source gone). Needs a replacement copy of Bandura 1997 (book, W.H. Freeman). Known legal path: APA PsycBooks / library.",NEEDS REPLACEMENT
+CORE-05,"Deci, Koestner & Ryan — extrinsic rewards meta-analysis",OCR_READY,https://selfdeterminationtheory.org/wp-content/uploads/2014/04/1999_DeciKoestnerRyan_Meta.pdf,"PDF is scanned (no text layer per pypdf+pymupdf, 42p) BUT OCR pipeline verified: Firecrawl extracted full text incl. abstract statistics",
+CORE-06,Frey & Jegen — motivation crowding theory,READY,https://www.bsfrey.ch/articles/C_317_01.pdf,"Matrix URL DEAD (redirects to publications listing, not the paper). VERIFIED replacement PDF: https://www.bsfrey.ch/wp-content/uploads/2021/08/motivation-crowding-theory.pdf (23p, text layer OK). Correct DOI is 10.1111/1467-6419.00150 (matrix DOI 10.1023/A:1017564312479 is dead).",REPLACEMENT URL VERIFIED
+CORE-07,"Lepper, Greene & Nisbett — over-justification",DEAD,https://selfdeterminationtheory.org/SDT/documents/1973_LepperGreeneNisbett.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+CORE-08,Reijula & Hertwig — self-nudging & citizen choice architect,READY,https://nudging-for-sdgs.eu/wp-content/uploads/2023/12/Self-nudging-and-the-citizen-choice-architect.pdf,"PDF 31p, text layer OK (10249 chars in first 4p)",
+CORE-09,Carver & Scheier — self-regulation / control theory,DEAD,https://stuff.mit.edu/afs/athena/course/9/9.00/readings/CarverScheier1982.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+CORE-10,Locke & Latham — goal-setting theory,DEAD,https://home.ubalt.edu/tmitch/642/Articles%20syllabus/Locke%20Latham%202002%20building%20theory%20goal%20setting%20Am%20Psych.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+CORE-11,Ordonez et al. — Goals Gone Wild,READY,https://www.hbs.edu/ris/Publication%20Files/09-083.pdf,"PDF 28p, text layer OK (3308 chars in first 4p)",
+CORE-12,Ferster & Skinner — Schedules of Reinforcement,CAVEAT,https://archive.org/details/schedulesofreinf0000fers,HTML 6218 chars; markers: ['log in'],
+CORE-13,Staddon & Cerutti — operant conditioning review,CAVEAT,https://pmc.ncbi.nlm.nih.gov/articles/PMC1473025/,"HTML stub, only 143 chars; markers: ['captcha']",
+CORE-14,Clark & Chalmers — The Extended Mind,READY,https://consc.net/papers/extended.html,HTML 33493 chars,
+CORE-15,Gross — emotion regulation timeline,DEAD,https://spl.stanford.edu/pdfs/1998%20Gross%20-%20The%20Emerging%20Field%20of%20Emotion%20Regulation.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+CORE-16,Csikszentmihalyi — Flow,CAVEAT,https://archive.org/details/flowpsychologyof0000csik,"HTML 6246 chars; markers: ['log in', 'purchase']",
+CORE-17,Kazdin — Single-Case Research Designs,CAVEAT,https://archive.org/details/singlecaseresear00alan,HTML 6453 chars; markers: ['log in'],
+CORE-18,Tate et al. — SCRIBE 2016 reporting guideline,READY,https://www.equator-network.org/reporting-guidelines/scribe-statement/,HTML 3626 chars,
+CORE-19,Klasnja et al. — Micro-randomized trials,CAVEAT,https://pmc.ncbi.nlm.nih.gov/articles/PMC5820391/,"HTML stub, only 143 chars; markers: ['captcha']",
+CORE-20,Collins — Multiphase Optimization Strategy (MOST),DEAD,https://methodology.psu.edu/wp-content/uploads/2020/05/Collins-2018-MOST-Overview.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A1-01,Hui — The Question Concerning Technology in China,READY,https://ia800505.us.archive.org/20/items/cyclonopedia-negarestani-reza/The_Question_Concerning_Technology_in_China--_Yuk_Hui.pdf,"Text layer confirmed via pymupdf (front-matter pages are scans; body text OK, 348p)",
+A1-02,Hui — Cosmotechnics as Cosmopolitics,CAVEAT,https://www.e-flux.com/journal/86/161887/cosmotechnics-as-cosmopolitics/,HTML 7314 chars; markers: ['subscribe'],
+A1-03,Hui — Art and Cosmotechnics,CAVEAT,https://www.e-flux.com/books/327526/art-and-cosmotechnics,HTML 4764 chars; markers: ['subscribe'],
+A1-04,Hui & Lemmens (eds.) — Cosmotechnics (Anthropocene),READY,https://api.pageplace.de/preview/DT0400.9781000396324_A40918824/preview-9781000396324_A40918824.pdf,"PDF 17p, text layer OK (2075 chars in first 4p)",
+A1-05,Simondon — On the Mode of Existence of Technical Objects,DEAD,https://archive.org/details/onmodeofexistenc0000simo,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A1-06,Simondon — Individuation (Form and Information),DEAD,https://archive.org/details/individuationinl0000simo,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A1-07,Stiegler — Technics and Time v1 (Fault of Epimetheus),DEAD,https://monoskop.org/images/6/6c/Stiegler_Bernard_Technics_and_Time_1_The_Fault_of_Epimetheus.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A1-08,Feenberg — Questioning Technology,DEAD,https://www.sfu.ca/~andrewf/Feenberg_Questioning_Technology.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A1-09,Ihde — Technology and the Lifeworld,DEAD,https://archive.org/details/technologylifewo0000ihde,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A1-10,Verbeek — What Things Do,CAVEAT,https://archive.org/details/whatthingsdophil0000verb,"HTML 6615 chars; markers: ['log in', 'purchase']",
+A1-11,Winner — The Whale and the Reactor,READY,https://ratical.org/ratville/AoS/WhaleAndReactor.pdf,"Text layer confirmed via pymupdf (front matter scanned; body text OK, 216p)",
+A1-12,Latour — Where Are the Missing Masses?,READY,https://www.bruno-latour.fr/node/258.html,HTML 3514 chars,
+A1-13,Borgmann — Technology and the Character of Contemporary Life,CAVEAT,https://archive.org/details/technologycharac0000borg,HTML 6255 chars; markers: ['log in'],
+A1-14,Mitcham — Thinking Through Technology,CAVEAT,https://archive.org/details/thinkingthrought0000mitc,"HTML 6317 chars; markers: ['log in', 'purchase']",
+A1-15,Heidegger — The Question Concerning Technology,READY,https://monoskop.org/images/6/67/Heidegger_Martin_1962_1977_The_Question_Concerning_Technology.pdf,"PDF 39p, text layer OK (7658 chars in first 4p)",
+A1-16,Mumford — Technics and Civilization,CAVEAT,https://archive.org/details/technicsciviliza0000lewi,HTML 5851 chars; markers: ['log in'],
+A1-17,Ellul — The Technological Society,CAVEAT,https://archive.org/details/technologicalsoc0000ellu,HTML 6491 chars; markers: ['log in'],
+A1-18,Haraway — A Cyborg Manifesto,READY,https://www.sfu.ca/~decaste/OISE/page2/files/HarawayCyborg.pdf,"PDF 28p, text layer OK (12225 chars in first 4p)",
+A1-19,Verbeek — Moralizing Technology,CAVEAT,https://archive.org/details/moralizingtechno0000verb,"HTML 7530 chars; markers: ['log in', 'signin']",
+A2-01,"Li, Dey & Forlizzi — Stage-Based Model of Personal Informatics",READY,https://www.ianli.com/publications/2010-ianli-chi-stage-based-model.pdf,"PDF 10p, text layer OK (19288 chars in first 4p)",
+A2-02,Lupton — The Quantified Self,OCR_READY,https://bpb-us-e2.wpmucdn.com/sites.middlebury.edu/dist/b/5028/files/2020/02/lupton-quantified-self-ch1.pdf,"Scanned chapter PDF (no text layer, 16p); OCR pipeline verified (Firecrawl extracted full chapter text)",
+A2-03,Neff & Nafus — Self-Tracking,CAVEAT,https://archive.org/details/selftracking0000neff,"HTML 6289 chars; markers: ['log in', 'purchase']",
+A2-04,"Rapp, Cena & Marcengo — QS/PI special issue editorial",CAVEAT,https://link.springer.com/content/pdf/10.1007/s00779-017-1093-x.pdf,"HTML stub, only 190 chars; markers: []",
+A2-05,Grinberg — Ethnography of an Interface,DEAD,https://digitalassets.lib.berkeley.edu/anthpubs/ucb/text/kas061_003-006.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A2-06,Sharon — Self-Tracking for Health and the QS,BOT_HOSTILE,https://www.academia.edu/9958013/Self_Tracking_for_Health_and_the_Quantified_Self_Re_articulating_Autonomy_Solidarity_and_Authenticity_in_an_Age_of_Personalized_Healthcare,"academia.edu — bot-hostile (403 curl, 504 Firecrawl). Needs manual browser session.",NEEDS MANUAL ACCESS
+A2-07,Whittaker — critiques of QS/personal informatics,READY,https://external.dandelon.com/download/attachments/dandelon/ids/CH001C626918F45F6881DC1258006003EC0A8.pdf,"PDF 2p, text layer OK (424 chars in first 2p)",
+A2-08,Rapp & Tirassa — PI for sport and healthy behavior,READY,https://iris.unito.it/retrieve/handle/2318/1679773/447148/POST-PRINT.pdf,"PDF 34p, text layer OK (9135 chars in first 4p)",
+A2-09,Elsden et al. — making sense of personal data,CAVEAT,https://elsden.me/publications/,"HTML 6285 chars; markers: ['log in', 'signin', 'subscribe']",
+A2-10,Selke — Lifelogging,CAVEAT,https://link.springer.com/content/pdf/10.1007/978-3-658-10416-0.pdf,"HTML stub, only 190 chars; markers: []",
+A3-01,"Limerick, Coyle & Moore — Experience of Agency in HCI (review)",CAVEAT,https://pmc.ncbi.nlm.nih.gov/articles/PMC4140386/,"HTML stub, only 143 chars; markers: ['captcha']",
+A3-02,"Bennett, Metatla, Roudaut & Mekler — HCI Agency/Autonomy",READY,https://arxiv.org/pdf/2301.12490,"PDF 18p, text layer OK (20552 chars in first 4p)",
+A3-03,Schroeder et al. — Goal-Directed Self-Tracking,BOT_HOSTILE,https://dl.acm.org/doi/pdf/10.1145/3242587.3242643,"ACM DL — bot-hostile (403 curl, 504 Firecrawl). Institutional/ACM access.",NEEDS MANUAL ACCESS
+A3-04,Baumer & Silberman — When the Implication Is Not to Design,DEAD,https://wtf.tw/ref/baumer.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A3-05,"Sengers, Boehner, David & Kaye — Reflective Design",DEAD,https://people.csail.mit.edu/rcm/papers/ReflectiveDesign_CHI2005.pdf,HTTP 404 (BAD_DEAD),NEEDS REPLACEMENT
+A3-06,Bardzell & Bardzell — Humanistic HCI,BOT_HOSTILE,https://www.morganclaypool.com/doi/pdf/10.2200/S00438ED1V01Y201207HCI015,Morgan & Claypool — unreachable from container (000); landing 404. Needs manual access.,NEEDS MANUAL ACCESS
+A3-07,Friedman & Kahn — Value Sensitive Design,READY,https://nissenbaum.tech.cornell.edu/papers/Value_Sensitive_Design.pdf,"PDF 27p, text layer OK (12522 chars in first 4p)",
+A3-08,"Light, Burgess & Duguay — The Walkthrough Method",BOT_HOSTILE,https://salford-repository.worktribe.com/preview/1493547/The20Walkthrough20Method20-20Final20Pre-print20version1.pdf,Worktribe repository — 403 even with browser UA. Needs manual download.,NEEDS MANUAL ACCESS
+A3-09,Pierce — Undesigning Technology,NO_URL,,(no readable URL in matrix),NEEDS SOURCE DISCOVERY
+A3-10,Rapp & Boldi — open issues in persuasive technologies,READY,https://iris.unito.it/retrieve/handle/2318/2014670/1377111/HCII24-ready-v50-final.pdf,"PDF 20p, text layer OK (9105 chars in first 4p)",
+A4-01,Kaplan & Kaplan — The Experience of Nature,CAVEAT,https://archive.org/details/experienceofnatu0000kapl,HTML 6961 chars; markers: ['log in'],
+A4-02,"Berman, Jonides & Kaplan — Cognitive Benefits of Nature",DEAD,https://www.umich.edu/~jlabpsyc/pdf/2008_2.pdf,HTTP 500 (BAD_DEAD),NEEDS REPLACEMENT
+A4-03,Scannell & Gifford — Place Attachment (tripartite framework),BOT_HOSTILE,https://www.researchgate.net/publication/223552061_Defining_place_attachment_A_tripartite_organizing_framework,ResearchGate — bot-hostile. Needs manual session.,NEEDS MANUAL ACCESS
+A4-04,Menatti et al. — Place Attachment & Landscape Restorativeness,BOT_HOSTILE,https://repositorio.udd.cl/bitstream/11447/6275/1/Place%20attachment%20and%20identification%20as%20predictors%20of%20expected%20landscape%20restorativeness.pdf,UDD repository — 403. Needs manual download.,NEEDS MANUAL ACCESS
+A4-05,Yoon et al. — Perceived Restorativeness & Place Attachment,READY,https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1201112/pdf,"PDF 14p, text layer OK (18900 chars in first 4p)",
+A4-06,Chang et al. — Place Attachment & Pro-Environmental Intentions,CAVEAT,https://pmc.ncbi.nlm.nih.gov/articles/PMC12832409/,"HTML stub, only 143 chars; markers: ['captcha']",
+A4-07,Hartig et al. — Perceived Restorativeness Scale,READY,https://blogs.ubc.ca/2017wufor200/files/2017/02/Perceived-Restorativeness-Scale-Hartig-et-al-1997.pdf,"PDF 3p, text layer OK (3478 chars in first 3p)",
+A4-08,Korpela — restorative environments & self-regulation,READY,https://aaltodoc.aalto.fi/bitstreams/006d5f9f-b0e8-42fe-accb-15491d28b58e/download,"PDF 12p, text layer OK (16314 chars in first 4p)",
+A4-09,Lewicka — Place Attachment: 40 years,CAVEAT,https://docslib.org/doc/6265744/place-attachment-how-far-have-we-come-in-the-last-40-years,HTML 29405 chars; markers: ['log in'],
+A4-10,Gibson — The Ecological Approach to Visual Perception,CAVEAT,https://archive.org/details/ecologicalapproa0000gibs,HTML 6253 chars; markers: ['log in'],
+A5-01,Varela — Neurophenomenology,CAVEAT,https://docslib.org/doc/729945/neurophenomenology-a-methodological-remedy-for-the-hard-problem-francisco-j,"HTML 30293 chars; markers: ['log in', 'purchase']",
+A5-02,Petitmengin — Describing Experience in the Second Person,READY,https://clairepetitmengin.fr/AArticles%20versions%20finales/PCS%20-%20Second%20Person.pdf,"PDF 41p, text layer OK (10577 chars in first 4p)",
+A5-03,Petitmengin et al. — micro-phenomenology studies,READY,https://hal.science/hal-02264833v1/file/PCS%20-%20Article%20analyse.pdf,HTML 1026 chars,
+A5-04,Valenzuela-Moguillansky & Vasquez-Rosati — Analysis Procedure,CAVEAT,https://constructivist.info/14/2/123.valenzuela.pdf,"HTML 12379 chars; markers: ['log in', 'login', 'not logged in']",
+A5-05,Hurlburt & Heavey — Descriptive Experience Sampling,READY,http://www.hurlburt.faculty.unlv.edu/hurlburt-akhter-2006.pdf,"PDF 31p, text layer OK (10314 chars in first 4p)",
+A5-06,Bass-Krueger et al. — DES vs Micro-Phenomenological Interviews,READY,https://www.indecs.eu/2024/indecs2024-pp84-106.pdf,"PDF 23p, text layer OK (11616 chars in first 4p)",
+A5-07,"Depraz, Varela & Vermersch — On Becoming Aware",CAVEAT,https://openlibrary.org/books/OL3570652M/On_becoming_aware,HTML 1648 chars; markers: ['log in'],
+A5-08,Csikszentmihalyi & Larson — Experience Sampling Method,CAVEAT,https://link.springer.com/content/pdf/10.1007/978-94-017-9088-8_3.pdf,"HTML stub, only 190 chars; markers: []",
+A5-09,Zahavi — Subjectivity and Selfhood,READY,https://direct.mit.edu/books/monograph/2097/Subjectivity-and-SelfhoodInvestigating-the-First,curl 403 but browser-stack reads MIT Press gateway page (abstract-level; book is paywalled),
+A5-10,Gallagher & Zahavi — The Phenomenological Mind,CAVEAT,https://archive.org/details/phenomenological0000gall,HTML 7251 chars; markers: ['log in'],
+A6-01,Laitinen & Sahlgren — AI Systems and Respect for Human Autonomy,READY,https://trepo.tuni.fi/bitstream/handle/10024/220970/AI_systems_Laitinen_Sahlgren.pdf?sequence=1,HTML 1026 chars,
+A6-02,AI and Human Autonomy: A Literature Review,CAVEAT,https://link.springer.com/content/pdf/10.1007/s43681-025-00958-4.pdf,"HTML stub, only 190 chars; markers: []",
+A6-03,Shneiderman — Human-Centered AI,READY,https://arxiv.org/pdf/2002.04087,"PDF 21p, text layer OK (9176 chars in first 4p)",
+A6-04,"Parasuraman & Riley — Use, Misuse, Disuse, Abuse",OCR_READY,https://web.mit.edu/16.459/www/parasuraman.pdf?source=post_page---------------------------,"Scanned PDF (no text layer, 12p); OCR pipeline verified (Firecrawl extracted full text)",
+A6-05,"Parasuraman, Sheridan & Wickens — Levels of Automation",READY,https://www.researchgate.net/profile/Raja-Parasuraman/publication/11596569_A_model_for_types_and_levels_of_human_interaction_with_automation_IEEE_Trans_Syst_Man_Cybern_Part_A_Syst_Hum_303_286-297/links/0fcfd50c098e2edd75000000/A-model-for-types-and-levels-of-human-interaction-with-automation-IEEE-Trans-Syst-Man-Cybern-Part-A-Syst-Hum-303-286-297.pdf,curl 403 but browser-stack extraction reads full paper text (ResearchGate PDF mirror),
+A6-06,Eubanks — Automating Inequality,CAVEAT,https://archive.org/details/automatinginequa0000euba,"HTML 7325 chars; markers: ['log in', 'purchase']",
+A6-07,Nissenbaum — Privacy in Context,CAVEAT,https://archive.org/details/privacyincontext0000niss,"HTML 6924 chars; markers: ['log in', 'purchase']",
+A6-08,Mittelstadt et al. — The Ethics of Algorithms,READY,https://www.sfu.ca/~palys/MittelstadtEtAl-2016-TheEthicsOfAlgorithms.pdf,"PDF 21p, text layer OK (16889 chars in first 4p)",
+A6-09,"Wachter, Mittelstadt & Floridi — transparent/explainable AI",READY,https://discovery.ucl.ac.uk/id/eprint/10038294/,HTML 1918 chars,
+A6-10,Calo — Robotics and the Lessons of Cyberlaw,READY,https://techpolicylab.uw.edu/wp-content/uploads/2018/06/Robotics-Lessons-Cyberlaw-Calo.pdf,"PDF 52p, text layer OK (8078 chars in first 4p)",
+A7-01,Risko & Gilbert — Cognitive Offloading,READY,https://discovery.ucl.ac.uk/id/eprint/1508770/1/gilbert_TiCS_OFFLOADING_RPS.pdf,"PDF 37p, text layer OK (4728 chars in first 4p)",
+A7-02,"Sparrow, Liu & Wegner — Google Effects on Memory",CAVEAT,https://pubmed.ncbi.nlm.nih.gov/21764755/,HTML 5788 chars; markers: ['log in'],
+A7-03,Zhu et al. — Dependent vs Autonomous Offloading to GenAI,READY,https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1878629/pdf,"PDF 16p, text layer OK (19584 chars in first 4p)",
+A7-04,Chirayath et al. — Cognitive Offloading or Overload?,READY,https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1699320/pdf,"PDF 6p, text layer OK (20861 chars in first 4p)",
+A7-05,Molenaar — Regulation of Learning and AI,READY,https://doaj.org/article/e98b82c211794158848a4c1363de1847,curl 403 but browser-stack reads DOAJ article page (abstract-level; full text links out),
+A7-06,Zimmerman — Self-Regulated Learning,BOT_HOSTILE,https://www.leiderschapsdomeinen.nl/wp-content/uploads/2016/12/Zimmerman-B.-2002-Becoming-Self-Regulated-Learner.pdf,Host unreachable from container (000). Transient or geo-blocked.,NEEDS MANUAL ACCESS
+A7-07,"Salomon, Perkins & Globerson — Partners in Cognition",READY,http://www.acousticslab.org/dots_sample/module5/SalomonEtAl1991.pdf,"PDF 8p, text layer OK (22636 chars in first 4p)",
+A7-08,Kirsh — The Intelligent Use of Space,CAVEAT,https://adrenaline.ucsd.edu/kirsh/Articles/Space/intelligent_useof_space.pdf,"Scanned PDF (no text layer, 38p); OCR attempt timed out — needs local OCR or retry",
+A7-09,Oulasvirta — offloading and interface design,BOT_HOSTILE,https://research.aalto.fi/files/42021453/Oulasvirta_Combinatorial_optimization_of_Graphical_user_interface.pdf,Aalto Pure portal — 403 (Elsevier Pure blocks bots). Needs manual download.,NEEDS MANUAL ACCESS
+A7-10,Recent GenAI & perceived self-regulated learning (empirical),CAVEAT,https://www.nature.com/articles/s41599-026-07924-3.pdf,"HTML 8820 chars; markers: ['log in', 'sign in']",
+A8-01,"Hobson, Schroeder, Risen, Xygalatas & Inzlicht — Psychology of Rituals",CAVEAT,https://escholarship.org/uc/item/88p7357w,"HTML stub, only 0 chars; markers: []",
+A8-02,Norton & Gino — Rituals Alleviate Grieving,READY,https://www.hbs.edu/ris/Publication%20Files/norton%20gino%202014_e44eb177-f8f4-4f0d-a458-625c1268b391.pdf,"PDF 7p, text layer OK (22834 chars in first 4p)",
+A8-03,Van Gennep — The Rites of Passage,CAVEAT,https://archive.org/details/ritesofpassage00genn,HTML 5938 chars; markers: ['log in'],
+A8-04,Turner — The Ritual Process,READY,https://monoskop.org/images/9/90/Turner_Victor_The_Ritual_Process_Structure_and_Anti-Structure.pdf,"PDF 222p, text layer OK (3191 chars in first 4p)",
+A8-05,"Bell — Ritual Theory, Ritual Practice",READY,https://web.vu.lt/rstc/a.pazeraite/files/2014/09/Catherine-Bell-Ritual-Theory-Ritual-Practice-Oxford-University-Press-USA-2009.pdf,"Text layer confirmed via pymupdf (front matter scanned; body text OK, 289p)",
+A8-06,Xygalatas — Ritual (2022),READY,https://www.xygalatas.com/copy-of-books,HTML 4415 chars,
+A8-07,Tian et al. — Enacting Rituals to Improve Self-Control,READY,https://www.hbs.edu/ris/download.aspx?name=Enacting%20Rituals%20to%20Improve%20Self-Control.pdf,"PDF 26p, text layer OK (20900 chars in first 4p)",
+A8-08,McCauley & Lawson — Bringing Ritual to Mind,CAVEAT,https://archive.org/details/bringingritualto0000mcca,HTML 7411 chars; markers: ['log in'],
+A8-09,Durkheim — The Elementary Forms of Religious Life,READY,https://www.gutenberg.org/ebooks/41360,HTML 2342 chars,
+A8-10,Whitehouse — Modes of Religiosity,CAVEAT,https://archive.org/details/modesofreligiosi0000whit,"HTML 6734 chars; markers: ['log in', 'purchase']",
+A9-01,"Mark, Gudith & Klocke — The Cost of Interrupted Work",READY,https://ics.uci.edu/~gmark/chi08-mark.pdf,"PDF 4p, text layer OK (18091 chars in first 4p)",
+A9-02,Gonzalez & Mark — Multi-tasking Craziness (working spheres),READY,https://ics.uci.edu/~gmark/CHI2004.pdf,"PDF 8p, text layer OK (18119 chars in first 4p)",
+A9-03,"Mark, Gonzalez & Harris — No Task Left Behind?",READY,https://ics.uci.edu/~gmark/CHI2005.pdf,"PDF 10p, text layer OK (19371 chars in first 4p)",
+A9-04,Leroy — Attention Residue,CAVEAT,https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue,HTML 7691 chars; markers: ['login'],
+A9-05,"Arnold, Goldschmitt & Rigotti — Information Overload (review)",CAVEAT,https://pmc.ncbi.nlm.nih.gov/articles/PMC10322198/,"HTML stub, only 143 chars; markers: ['captcha']",
+A9-06,Rick et al. — Work Interruptions of Office Workers,CAVEAT,https://publications.rwth-aachen.de/record/962254/files/962254.pdf,"HTML stub, only 0 chars; markers: []",
+A9-07,Iqbal & Horvitz — Disruption and Recovery of Computing Tasks,READY,http://erichorvitz.com/CHI_2007_Iqbal_Horvitz.pdf,curl 403 but browser-stack extraction reads full paper text (erichorvitz.com PDF),
+A9-08,Bailey & Konstan — On the Need for Attention-Aware Systems,READY,https://www.interruptions.net/literature/Bailey-CHB06_1.pdf,"PDF 24p, text layer OK (11438 chars in first 4p)",
+A9-09,Microsoft Work Trend Index (reports),CAVEAT,https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization,HTML 31640 chars; markers: ['signin'],
+A9-10,Newport — Deep Work,CAVEAT,https://archive.org/details/deepworkrulesfor0000newp,"HTML 7844 chars; markers: ['log in', 'purchase']",
+A9-11,Allen — Getting Things Done,CAVEAT,https://archive.org/details/gettingthingsdon0000alle_g8s9,"HTML 6794 chars; markers: ['log in', 'purchase']",
+A10-01,"Chirkov, Ryan, Kim & Kaplan — Autonomy vs Individualism",READY,https://selfdeterminationtheory.org/SDT/documents/2003_ChirkovRyanKimKaplan.pdf,"PDF 14p, text layer OK (22990 chars in first 4p)",
+A10-02,"Nalipay, King & Cai — Autonomy Across East and West",READY,https://selfdeterminationtheory.org/wp-content/uploads/2020/02/2020_NalipayaKingbCai_UniversalityofSDT.pdf,"PDF 6p, text layer OK (15268 chars in first 4p)",
+A10-03,"Beyers, Soenens & Vansteenkiste — Autonomy in Adolescence",READY,https://selfdeterminationtheory.org/wp-content/uploads/2024/03/2024_BeyersSoenensVansteenkiste_EJODP.pdf,"PDF 21p, text layer OK (9169 chars in first 4p)",
+A10-04,Markus & Kitayama — Culture and the Self,READY,https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Influence_Compliance/Markus_Kitayama_1991_Culture_and_the_self.pdf,"PDF 30p, text layer OK (21207 chars in first 4p)",
+A10-05,"Henrich, Heine & Norenzayan — The Weirdest People in the World?",READY,https://www2.psych.ubc.ca/~henrich/pdfs/WeirdPeople.pdf,"PDF 75p, text layer OK (20029 chars in first 4p)",
+A10-06,Schweder — Thinking Through Cultures,CAVEAT,https://archive.org/details/thinkingthroughc0000unse,HTML 7295 chars; markers: ['log in'],
+A10-07,Nisbett — The Geography of Thought,CAVEAT,https://archive.org/details/geographyofthoug00nisb,"HTML 7748 chars; markers: ['log in', 'purchase']",
+A10-08,Technodiversity project / ITS Rio (white paper & library),READY,https://itsrio.org/wp-content/uploads/2016/12/WhitePaper-Technodiversity.pdf,"PDF 15p, text layer OK (7465 chars in first 4p)",
+HUI-2024,Hui — Machine and Sovereignty: For a Planetary Thinking,READY,https://philpapers.org/archive/HUIMAS.pdf,curl gets 403 but browser-stack extraction reads the FULL book text (verified 891k chars). PhilPapers blocks curl; note-taking OK via web_extract/browser.,

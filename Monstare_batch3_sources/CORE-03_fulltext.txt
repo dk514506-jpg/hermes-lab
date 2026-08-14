@@ -1,0 +1,1255 @@
+METHODOLOGY
+Open Access
+Toward systematic integration between Self-
+Determination Theory and Motivational
+Interviewing as examples of top-down and
+bottom-up intervention development: Autonomy
+or volition as a fundamental theoretical principle
+Maarten Vansteenkiste1*, Geoffrey C Williams2 and Ken Resnicow3
+Abstract
+Clinical interventions can be developed through two distinct pathways. In the first, which we call top-down, a well-
+articulated theory drives the development of the intervention, whereas in the case of a bottom-up approach,
+clinical experience, more so than a dedicated theoretical perspective, drives the intervention. Using this dialectic,
+this paper discusses Self-Determination Theory (SDT) [1,2] and Motivational Interviewing (MI) [3] as prototypical
+examples of a top-down and bottom-up approaches, respectively. We sketch the different starting points, foci and
+developmental processes of SDT and MI, but equally note the complementary character and the potential for
+systematic integration between both approaches. Nevertheless, for a deeper integration to take place, we contend
+that MI researchers might want to embrace autonomy as a fundamental basic process underlying therapeutic
+change and we discuss the advantages of doing so.
+An important goal for public health and behavioral
+medicine researchers and practitioners is to develop
+effective behavior change interventions [4]. A key com-
+ponent of inducing long term behavior change is build-
+ing sustained motivation, such that people not only
+engage in the health behaviors during the initial inter-
+vention period but afterwards as well.
+Researchers and practitioners may follow quite differ-
+ent trajectories in developing effective motivational inter-
+ventions [5]. In the top-down approach, theoretically
+oriented researchers generate a theory for understanding
+behavior, emotion and/or cognition, and then construct
+an intervention rooted in their theoretical perspective. In
+this approach, theory drives intervention. Alternatively,
+in a bottom-up approach, clinical intuition and clinical
+experience drive the intervention more than any particu-
+lar theoretical framework, although developers of a prac-
+tice driven intervention may turn to existing theories to
+understand how and why their intuitive interventions
+work.
+Self-Determination Theory (SDT) [1,2] and the inter-
+ventions it has spawned, might be considered as a pro-
+totypical example of the top-down approach, as it
+represents a broad-band theory on personality and
+human functioning in social context, whereas Motiva-
+tional Interviewing [3,6] could be considered an example
+of the bottom-up approach, as it primarily grew out of
+clinical practice and necessity rather than out of any
+particular theory. Indeed, as noted by Miller and Roll-
+nick [7], “MI was not a product of rationale deduction
+from [such] theories. Rather it represented a clinical
+method, and later a growing body of empirical findings,
+in need of theoretical explanation” (p. 134).
+Below we compare and contrast these two approaches;
+although we focus on SDT and MI as examples of the two
+developmental trajectories, we propose some general
+guidelines that might inform both research and clinical
+practice beyond these two examples. Several scholars have
+argued that SDT can be used as a de facto framework for
+* Correspondence: Maarten.Vansteenkiste@ugent.be
+1Department of Psychology, Ghent University, Ghent, Belgium
+Full list of author information is available at the end of the article
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+© 2012 Vansteenkiste et al; licensee BioMed Central Ltd. This is an Open Access article distributed under the terms of the Creative
+Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and
+reproduction in any medium, provided the original work is properly cited.
+
+understanding why MI works [8,9]. Nevertheless, we
+believe that the potential for systematic integration of
+these two approaches has not been fully exploited. By
+describing the different starting points and different devel-
+opmental histories of SDT and MI as prototypical exam-
+ples of top-down and bottom-up research, we try to
+provide the basis for how the two can be more clearly
+understood with respect to each other. We hope this will
+promote greater integration and differentiation based on
+areas of overlap and uniqueness, and further the science of
+motivation, and the effectiveness of clinical interventions.
+In particular, we argue that MI adherents might benefit
+from more fully embracing the theoretical principle of
+autonomy, as emphasized in SDT.
+SDT’s Top-Down Approach
+Lewin’s [10] statement that “there is nothing more prac-
+tical than a good theory” might be used to characterize
+the top-down approach. It is assumed that the develop-
+ment of an internally coherent theory is important, not
+just for its theoretical elegance, but also because it
+allows for hypothesis driven research to test mechan-
+isms underlying behavior change. Once these pathways
+and processes are identified, interventions can be devel-
+oped. A key advantage in the top-down approach is that
+it lends itself to understanding how and why an inter-
+vention works, not only if.
+The starting point of top-down development often
+involves a clear articulation of a meta-theoretical foun-
+dation, that is, a view on human kind that serves as a
+philosophical underpinning of one’s theorizing. To illus-
+trate, within SDT [11], an organismic viewpoint is
+embraced. It is assumed that individuals have a natural
+inclination to be active and to move their lives in
+desired and specific directions rather than being passive
+and completely subjected to environmental forces that
+push them around (e.g., through the use of punishments
+and rewards). Through this activity, people would move
+towards increased integration, growth and wellness
+given sufficient supportive circumstances. As growth-
+oriented organisms, individuals stand in a continual
+interface with the social environment, which can either
+support and facilitate the unfolding of this natural
+growth process or block it by frustrating people’s basic
+psychological needs [1] for autonomy (i.e., experiencing
+a sense of psychological freedom), competence (i.e.,
+experiencing a sense of effectance) and relatedness (i.e.,
+experiencing a sense of intimacy and connectedness).
+The articulation of this meta-theory provides the foun-
+dation for developing a formal theory in a systematic,
+research-driven way within the top-down approach. New
+ideas get naturally and steadily integrated into the theory
+following sufficient empirical support, which helps the
+theory to maintain internal consistency. To use a
+metaphor, theory development with the top-down
+approach resembles the construction of a puzzle [12].
+Over the years, new pieces of the puzzle get only added
+once their fit is determined. Such evolution seems to
+typify the development of SDT, whose five mini-theories
+(i.e., cognitive evaluation theory, organismic integration
+theory, causality orientation theory, basic psychological
+need theory, and goal content theory) have been gradu-
+ally developed over the past four decades [12]. As the
+theoretical puzzle is growing, over time, the theory might
+be perceived as highly complex. However, when the
+internal logic of the theory is fully understood, SDT is
+characterized by a sense of parsimony and elegance, as a
+minimum set of concepts is used to explain a wide vari-
+ety of phenomena across age groups, life domains, and
+cultures. This is because new pieces are added to the the-
+ory when (a) the new piece represents a “compelling the-
+oretical necessity”, that is, when a clear and meaningful
+argument can be provided for the enlargement of the
+theory, and (b) when sufficient empirical support is gath-
+ered for the theoretical claim. To illustrate, whereas the
+satisfaction of the basic needs for autonomy and compe-
+tence was considered critical for the maintenance and
+development of intrinsic motivation [13], it is only when
+the process of internalization - that is, the personal
+endorsement of externally offered norms, values and reg-
+ulations - was studied that the basic need for relatedness
+received a more prominent place [1]. Indeed, people
+often engage in enjoyable and intrinsically motivating
+activities by themselves (e.g., reading), that is, without
+significant others being present to support them, while
+the development of satisfying relations is critical for indi-
+viduals to fully endorse and willingly subscribe (i.e., inter-
+nalize) to norms and behaviors they don’t particularly
+find interesting, and, as a result would not spontaneously
+engage in [1,12]. Because most health related behaviors
+(e.g., stopping smoking, getting a mammogram to screen
+for cancer) fall into this category, SDT-based interven-
+tions involve the facilitation of internalization through
+the support of relatedness in addition to autonomy and
+competence. Several studies have confirmed the impor-
+tance of relatedness satisfaction for the internalization
+process [1].
+Due to the focus on the explanatory processes underly-
+ing change in the top-down approach, it becomes possi-
+ble to a priori predict specific social-contextual variables
+that promote change. Within SDT, for instance, counse-
+lors are encouraged to support clients’ basic psychologi-
+cal needs as much as possible as the experience of need
+satisfaction leads to a greater integration and anchoring
+of change into one’s life style and values, resulting in
+maintained change [14]. More specifically, the concept of
+basic need satisfaction allows delineating specific moti-
+vating counseling techniques (e.g., shared agenda setting,
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 2 of 11
+
+choice etc.) and orientations (e.g., empathic style, uncon-
+ditional regard) (see Patrick & Williams this issue for a
+more elaborated discussion). Dozens of self-report and
+experimental studies within SDT have studied such spe-
+cific need-supportive practices. To illustrate, choice pro-
+vision is considered as a key strategy to support
+participants’ volition. Such need-supportive strategies
+were first studied in the laboratory where typically uni-
+versity students would serve as study participants [15,16].
+Based on these basic lab-based findings, studies were set
+up to test the role of choice across several real world
+domains where it was found to yield manifold advan-
+tages, including the facilitation of heart disease manage-
+ment among senior women (> 60 years; [17]), the
+reduction of drop-out rates among eating disorder clients
+[18], the promotion of well-being among elderly who stay
+in nursing homes [19], and the increase of vitality among
+students in PE classes [20,21]. Thus, real-life experiments
+complemented the initial laboratory studies, thereby
+increasing the ecological validity of the theory.
+Based on the examination of different experimentally
+isolated need-supportive components (e.g., choice, ratio-
+nale provision, etc.) and the development of reliable mea-
+sures to assess theoretical constructs, SDT scholars more
+recently proceeded to set up controlled clinical trials in
+which a theory-driven intervention is tested against a
+control group. An SDT driven intervention was com-
+posed by combining previously isolated need-supportive
+components. For instance, while rationale provision
+[22,23], empathy [24], and autonomy-supportive vs. con-
+trolling language [25,26] had been examined in isolation
+in experimental studies, these and other need-supportive
+facets were taken together to create a need-supportive
+intervention. Over the past several years, an increasing
+number of SDT based controlled clinical trials in a wide
+variety of domains, including physical activity ([27], For-
+tier, Duda, Guerin, & Teixeira, this issue), tobacco depen-
+dence [28], dental care [29] and weight loss [30] have
+been conducted [31]. The advantage of such controlled
+clinical trials is that they further confirmed the ecological
+(or external) validity of SDT in the real world, and estab-
+lished the efficacy of the interventions.
+However, this intervention research is still in its infancy
+phase and, hence, various issues deserve further atten-
+tion. First, because various need-supportive components
+are simultaneously manipulated in controlled clinical
+trials, it remains unclear which of the components are
+driving the observed effects, an observation that also
+applies to MI. Future studies may want to isolate these
+various need-supportive components, as done by Deci,
+Eghrari, Patrick, and Leone [24] and Sheldon and Filak
+[32] in laboratory studies as to examine main and inter-
+action effects between those isolated components. This
+would help to answer the question whether the whole is
+more than the sum of various need-supportive compo-
+nents; for instance, within SDT, it is maintained that for
+competence support to yield a truly vitalizing effect such
+competence support is best provided in an autonomy-
+supportive rather than controlling way [25], thus suggest-
+ing that positive feedback and autonomy-supportive lan-
+guage can best be simultaneously provided. Second, the
+efficacy and effectiveness of a SDT intervention relative
+to other psychotherapeutic approaches has not exten-
+sively been examined yet, as most of the available con-
+trolled clinical trials contrast the experimental group
+with a no-treatment control group.
+Third, although various key ingredients of a need-sup-
+portive intervention have now been identified (see Patrick
+& Williams, this issue), this list remains open for additions
+and refinements. This is because within a top-down
+approach as SDT cross-fertilization between basic labora-
+tory studies and (experimental) field studies is pursued.
+Through laboratory studies, the effects of isolated need-
+supportive components can be examined, which then
+might provide the basis for refining the intervention
+approach. To illustrate, although choice has on average a
+motivating and vitalizing impact, laboratory studies [33]
+have demonstrated that choice can be provided in a con-
+trolling rather than an informational way such that partici-
+pants do not experience a subjective sense of choice,
+willingness, and psychological freedom in spite of being
+offered an objective array of options to choose from. Also,
+an overload of options to choose from has been found to
+undermine the motivating impact of choice as people are
+less likely to feel effective to make an accurate choice in
+such a case [34].
+Such research is likely to have important counseling
+implications: although a clinician might at the surface
+offer a client who hesitates to stop therapy the choice to
+do so, the client might feel pressured to continue the
+counseling if this choice is provided in a controlling and
+anxiety-provoking way (e.g., “it is up to you to choose to
+leave treatment or to stay but I can tell you that many cli-
+ents who leave treatment fail to make it on their own”).
+Regarding the issue of option overload, although a doctor
+might provide a number of options to a client how to deal
+with his situation, the client, already anxious about his
+health condition, might feel overwhelmed and not have
+the energy to process all of the information independently.
+In such a situation, the autonomy-enhancing effect of
+choice would be diminished by its anxiety-inducing and
+competence-thwarting effects. What is important in such
+a situation is not to take away the choice, but to structure
+the situation such that the provided options become man-
+ageable for the client so that he ultimately feels competent
+to choose and fully endorse one option.
+Such basic experimental research is considered funda-
+mental within SDT as it helps to understand how
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 3 of 11
+
+social-contextual factors can simultaneously affect the
+satisfaction of multiple basic needs. This basic research
+provides more detailed insight in the need-supportive
+practices that are characteristic for a SDT intervention
+and the way how they need to be introduced during
+counseling to be optimally motivating.
+MI’s Bottom-up Approach
+Within a bottom-up approach, the starting point for
+creating interventions is quite different. First, interven-
+tions may be driven by increased prevalence or incidence
+of particular problems or pathologies. For instance, an
+increasing number of individuals have developed a seden-
+tary lifestyle and currently suffer from overweight and
+obesity [35], while a substantial percentage of individuals
+display low body satisfaction [36], anorexia nervosa or
+bulimia [37] and roughly 20% of U.S. adults smoke [38].
+Also, the personal, social and societal costs associated
+with a particular pathology might prompt a call for
+action. A second driver of bottom-up can be intervention
+failure of current approaches or the relative advantage of
+new approaches, which then form the impetus for setting
+up interventions.
+Within the bottom-up approach, developers are very
+open to modify their model as they don’t have a strong
+theoretical foundation. More specifically, bottom-up
+intervention development can involve three different
+approaches to incorporating theory. First, developers
+might adopt an a-theoretical approach, that is, they do
+not concern themselves with why their intervention may
+work instead they may focus solely on whether the inter-
+vention works. Second, developers can incorporate the-
+ory in a discovery-based fashion, that is, they build their
+model as they discover new findings and as their experi-
+ence grows. Third, developers can seek inspiration in
+existing theories to explain why their interventions are
+effective. Different portions of multiple existing theories
+are then eclectically combined into a new model. We use
+MI to illustrate the latter two approaches to theory: MI’s
+development seems to be discovery-based and eclectic at
+the same time, thereby drawing on multiple theories,
+including SDT.
+The term model is often used by scholars and clinicians
+working from the MI perspective [6], which reflects the
+fact that MI primarily is a clinical method and was not
+developed from any dedicated theory. Indeed, the devel-
+opment of MI can, to some extent, be described as a dis-
+covery trip. For instance, MI evolved from the experience
+that confronting alcoholics was counterproductive, while
+being empathic and understanding facilitated abstinence
+[39,40]. Those initial observations resulted in the first
+steps in developing a motivational model to promote
+internally driven change [41]. Over the past two decades
+[6], the key principles characterizing MI (being empathic,
+rolling with resistance, promoting change talk, and
+enhancing self-efficacy) as well as the specific communi-
+cation techniques that help to put those principles in
+practice have been extensively described and elaborated
+(see Resnicow, this issue).
+Further, dozens of randomized controlled trials in very
+diverse populations have demonstrated the effectiveness
+of MI as a clinical method, both in contrast to ‘weak’
+comparison groups (e.g., waitlist or no treatment groups)
+and, in some cases, even compared to active treatments
+rooted in a psychotherapeutic approach (see the meta-
+analyses of [42-46]). Whereas MI was initially tested in
+the fields of alcohol and drug use, the range of domains
+in which it has been tested has been dramatically
+extended to include tobacco dependence, physical activ-
+ity, diabetes, dieting, medication adherence, HIV and STI
+behaviors, heart disease risk reduction, sexual offending,
+and weight loss. Furthermore, MI has been used as a pre-
+lude to various other psychotherapeutic approaches (e.g.,
+CBT; [47,48]). Nonetheless, MI’s bottom-up approach
+seems to have limited its application to health-related or
+clinical situations, while SDT, as a macro-theory of moti-
+vation, has been tested in other life domains as well (e.g.,
+education, sport, parenting, work, etc.).
+Despite the substantial evidence for effectiveness in the
+health care and clinical domain, it is only recently that MI
+scholars have started to pay attention to ‘how and why MI
+works’ [6]. The post-hoc articulation of these underlying
+processes might be more characteristic of models that are
+developed bottom-up, because such models don’t start
+from a strong theoretical foundation. Since Miller and
+Rollnick’s call for process oriented research, the mechan-
+isms that might be responsible for the observed positive
+effects of MI have received more empirical attention
+[49,50]. In our view, these mechanisms were, just as the
+counseling approach itself, discovered posteriori rather
+than being a priori theorized. Having noticed that a MI
+intervention among drug abuse users failed to yield desire
+positive effects [51], Amrhein, a psycholinguist collaborat-
+ing with Miller, deconstructed and analyzed the naturally
+occurring change and resistance talk used by clients. He
+proposed a taxonomy involving different types of change
+talk (e.g., desire, reason, ability, commitment, need and
+readiness), mapping out the moment during a therapeutic
+session when such change talk was expressed as well as its
+rate. Analyses pointed out that an increasing use of com-
+mitment change talk throughout a MI session, with no
+drops toward the end of the session, was predictive of
+abstinence during the subsequent year [52]. The trajectory
+and type of change talk that was most predictive of absti-
+nence was not a priori hypothesized, thus suggesting that
+the mechanism underlying change was also discovered.
+Subsequent work then established further evidence for
+this proposed mechanism of change [50].
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 4 of 11
+
+Considering the Potential for Systematic Integration
+between MI and SDT
+Most recently, Miller and Rose [3] argued that it is time
+to begin to move toward a theory of motivational inter-
+viewing and thus suggested, at least indirectly, that MI
+can move beyond its bottom-up origins to extend beyond
+a practice-driven model. Their call for a theory of MI was
+justified by the fact that both the effectiveness of MI as a
+clinical method and the mechanisms underlying its
+observed positive effects have been established. It is note-
+worthy that Miller and Rose [3] were proposing an
+“emerging theory of MI” (p. 527) because many questions
+still remain unanswered. For instance, as noted by Miller
+and Rose [3]), “if the client elicitation of change talk is
+reliably linked to commitment and behavior change, why
+is that so?” (p. 534; original italizing). To address this
+issue and for MI to become a theory rather than remain
+a model, we believe it is critical to specify its meta-theo-
+retical basis, to clarify its theoretical (dis)similarity with
+existing theories, and to clearly identify the underlying
+psychological mechanism of change.
+Throughout its discovery-driven development, MI has
+been linked to a multitude of theories, including Festin-
+ger’s [53] cognitive dissonance theory, Bem’s [54] self-
+perception theory, and Roger’s [55] client-centered
+approach. For instance, Miller and Rose [3] identify
+therapist empathy and the Rogerian-based spirit of MI as
+one of the active components of MI. Most recently, sev-
+eral scholars [8,9] have argued that SDT and MI can
+potentially be wed because of (a) their complimentary
+character and (b) their shared features. Such a marriage
+would allow for a better understanding of the motiva-
+tional dynamics among a diversity of clinical populations,
+such as clients with acute suicidal ideation [56] and part-
+ner-abusive men [57]. Yet, in our reading of the MI lit-
+erature, the founders of MI have not fully acknowledged
+this potential for systematic integration [3], perhaps
+because they overlooked the papers that argue for such
+an integration.
+Regarding the complimentarity between MI and SDT,
+the motivational communication techniques practiced
+within MI can inform SDT practitioners. On the other
+hand, SDT’s focus on basic need satisfaction and the
+internalization of the reason for change allows one to
+better understand the processes underlying the effective-
+ness of MI [8,9]. In line with these claims, Fuemmeler et
+al. [58] reported that an intervention rooted in MI to
+increase fruit and vegetable consumption promoted a
+more autonomous regulation. Similarly, in a randomized
+trial among counseling clients with type 2 diabetes,
+Rubak et al. [59] found that clients in their MI based
+intervention group had more strongly self-endorsed (i.e.,
+internalized) the importance of diabetes self-management
+behaviors at a one year follow-up compared with the
+clients from the control group. Both groups were being
+taught intensive treatment of their diabetes.
+Notably, MI researchers have not examined the isolated
+effects of various MI communication techniques in their
+controlled clinical trials (but see [60]). Such a decon-
+struction, which has been done in some SDT laboratory
+[24] and field studies [61], would be worthwhile for both
+MI and SDT researchers because it would generate more
+precise insight in the specific components of a MI inter-
+vention that carry the effect on proposed SDT based
+mediators (i.e., basic need satisfaction), MI based media-
+tors (i.e., change talk) and the targeted behavioral and
+health outcomes. This approach would help to gain
+insight in which specific communication techniques
+energize behavior and, as a result, it might lead to refine-
+ment of existing MI techniques, and SDT interventions.
+Regarding their shared theoretical focus, both MI and
+SDT can both be at least partially traced back to their
+humanistic and client-centered underpinnings [6,7,62,63]
+and [64]. Further, in various writings of Miller and Roll-
+nick [6,7] and Deci and Ryan [1] - the founders of MI
+and SDT, respectively - the issue of autonomy and voli-
+tion has been repeatedly emphasized. Yet, we note three
+differences between the SDT and MI view on autonomy.
+A first difference concerns the differentiation between
+autonomy and independence within SDT [65-68], while
+it is unclear whether such a differentiation is made within
+MI. It is important to differentiate autonomy, as defined
+within SDT, from independence, because several clini-
+cians suggest supporting autonomy could be harmful
+because they may interpret autonomy as independent
+decision making [69]. The opposite of independence is
+dependence in which case clients rely on the advice and
+help of counselor to resolve their problems. A smoker
+who decides to and succeeds in quitting smoking by him-
+self functions independently, while the smoker who relies
+on the help and advice of a doctor displays dependent
+functioning. However, both the self-quitter as well as the
+doctor-dependent quitter might be quitting for autono-
+mous and volitional or for controlled and pressuring rea-
+sons. Thus, the opposite of autonomy within SDT is not
+dependence but heteronomy, in which case clients’
+change behaviors are determined by internally or exter-
+nally pressuring forces. More generally, this conceptual
+refinement suggests that it is critical to distinguish the
+source of the decision making process (i.e., deciding by
+oneself vs. deciding with the help of others) from the
+phenomenological experience underlying the decision
+making process. Based on previous research in the
+domains of parenting [67,70] and emerging adulthood
+[71] and SDT, one can predict that especially the autono-
+mous and controlling reasons underlying one’s (in)
+dependent functioning rather than the independent vs.
+dependent functioning per se would be predictive of
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 5 of 11
+
+clinical success. Thus, a doctor-dependent quitter who
+willingly relies on the help of his doctor might be as suc-
+cessful as self-quitter who choose to quit by himself,
+while controlled self- and doctor-dependent quitters are
+more likely to relapse over time.
+Second, because SDT incorporates autonomy (i.e., voli-
+tion) as a critical theoretical process in its own right,
+adherence to externally established behavioral goals is con-
+sidered an incomplete outcome measure. Volitionally non-
+adherent [72] participants need to be included as a positive
+outcome to the volitionally adherent for the effectiveness
+of an SDT intervention to be assessed [73], while it is
+unclear whether a similar position is maintained within
+MI. The argumentation to include autonomous non-
+adherence as a valuable outcome is consistent with medi-
+cine’s professional charter [74] and biomedical ethics [75]
+which include respect for autonomy an equivalent out-
+come to enhancing wellbeing as an outcome. Thus, since
+clients have the right to choose to be non-adherent, the
+outcomes of clinical encounters are positive if the clini-
+cians have supported clients’ autonomous (or informed)
+decisions to not accept recommended treatments, and life-
+style changes [76].
+To achieve the outcome of autonomous disengagement
+clinicians would need to bring the client into a position
+where he can take a well-informed decision. To do so, the
+clinician would collaboratively discuss pros and cons of
+change and provide information among other things so
+that the client can, after reflection, endorse the decision to
+engage either in the recommended behavior change or
+treatment course or postpone the change to a later
+moment. For instance, at the end of a doctor visit a smo-
+ker might decide autonomously not to pursue change in
+the coming three months because he anticipates various
+life stressors that might trigger his smoking behavior. To
+further ensure that the patient acts autonomously, the
+doctor would then ask the client if the doctor provided
+behavioral counseling, interpersonal support, or medica-
+tions to facilitate the client’s perceived competence to suc-
+cessfully manage those stressors without tobacco. If the
+client still declined setting a quit date, the doctor would
+ask permission to bring up the issue of quitting during a
+new visit after this smoking period. By respecting a client
+for autonomously disengaging from change, it might
+become more probable that the client does pursue change
+for autonomous reasons at a later moment [77,38], while
+at the same time fulfilling the highest tenets of medical
+professionalism [74] and biomedical ethics [75]. Interest-
+ingly, this respect for volitional non-adherence is consis-
+tent with MI’s principle of rolling with resistance, and may
+be facilitative of change talk.
+A third difference relates to the way this focus on client
+autonomy has arisen; that is, the importance of client
+autonomy has been emphasized for different reasons.
+Whereas the dynamic of autonomy is said to be univer-
+sally important and is thus completely theoretically
+anchored within SDT’s top-down perspective, the impor-
+tance placed on client autonomy and volition has primar-
+ily grown out of clinical experience within MI’s bottom-
+up approach. That is, client autonomy was perhaps
+valued as it yielded desired outcomes (e.g., less drop-out;
+more progression; less relapse), thus constituting a desir-
+able attribute of clients.
+In spite of the call to incorporate client autonomy,
+when defined as volition, as a theoretical principle rather
+than just a motivating practice in MI [8,9], Miller and
+Rose [3] did not embrace this call in their most recent
+theoretical statement of MI. Instead, Miller and Rose
+emphasized more strongly the importance of change talk
+as one of the active components that drive the effective-
+ness of MI. We argue, however, that for a deeper and sys-
+tematic integration [78] between MI and SDT to take
+place MI scholars might want to accept the idea that cli-
+ent autonomy, when defined as the experience of volition
+and psychological freedom, represents a basic human
+need. The endorsement of the theoretical principle of
+autonomy would imply that MI scholars fully embrace
+SDT’s organismic-dialectical meta-theory. In the follow-
+ing, we discuss the advantages of considering autonomy
+as a fundamental human need.
+The Advantages of Recognizing Autonomy as a
+Fundamental Human Need and a Theoretical Principle
+The recognition that autonomy or volition represent a
+fundamental human need and a theoretical principle (a)
+allows avoiding an instrumental approach of MI and cli-
+ent autonomy, (b) allows analyzing change talk within MI
+in a theory-driven way, thereby distinguishing between
+different types of change talk, and (c) helps to address
+the question of whether all clients benefit from autonomy
+support or whether some clients would benefit more
+from a directive approach based on their personal prefer-
+ence for being directed to recommended behaviors and
+treatments.
+Avoiding an Instrumental Approach of MI and Autonomy
+Over the past decade, MI has attracted a lot of attention
+among counselors coming from different psychothera-
+peutic schools, presumably because MI is perceived as a
+useful approach to increase client adherence. As a result,
+MI has been combined with various psychotherapeutic
+(e.g., cognitive-behavioral) approaches [79]. In those
+cases, a couple of MI sessions serve as an ‘add-on’ or
+‘prelude’ prior to the provision of a series of counseling
+sessions that are grounded in a particular psychothera-
+peutic school.
+Such an approach is fully in line with Miller and
+Rollnick’s argument that MI does not represent a
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 6 of 11
+
+psychotherapeutic school in itself and thus can be used
+in conjunction with various other approaches. Never-
+theless, considering MI as a ‘prelude’ might lead to
+instrumental approach of MI; that is, MI might some-
+times be treated as a means that helps in reaching
+desired ends (i.e., promoting health outcomes) and
+increasing client autonomy is the instrumental pathway
+to do so. When instrumentally approached, MI in gen-
+eral and client autonomy support in particular might
+get reduced to a set of techniques, perhaps, even manip-
+ulations, that one uses to get the client moving in a par-
+ticular direction. However, Miller and Rollnick [7]
+strongly argued against such practice, thereby emphasiz-
+ing that MI does not represent a technique as the mere
+application of MI techniques while ignoring its underly-
+ing spirit does not represent MI. We believe such an
+instrumental approach of MI and client autonomy will
+be more easily avoided if one embraces the idea of
+autonomy as a fundamental basic need that deserves
+respect in its own right, regardless of the outcomes it
+might entail. Indeed, a client might sense that a counse-
+lor is promoting autonomy with the sole aim of increas-
+ing subsequent adherence and, hence, the counselor
+would likely be experienced as controlling, and not be
+experienced as autonomy-supportive, or relationship-
+supportive. Instead, the idea is that the counselor tries
+to support the client’s autonomy as a valuable goal in its
+own right, whether doing so increases the chance for
+adherence to the recommended behavior or not. Client
+autonomy is thus valued as an end, or a outcome, in and
+of itself. The increase in adherence that results from an
+autonomy-supportive style would thus not be the focal
+goal of being autonomy-supportive but it would be a by-
+product that follows from an autonomy-supportive style.
+To avoid such an instrumental approach of MI and
+the concept of autonomy, we believe that it is critical to
+combine MI with psychotherapeutic approaches that
+share a similar meta-theoretical foundation. If not, the
+clinical MI practices in the early sessions might at some
+points conflict with the clinical practices used during
+the subsequent sessions. For instance, although client
+autonomy might be fully respected in the early MI-
+based sessions, some counselors, when trying to ensure
+continued adherence during the subsequent sessions,
+might turn towards rewards or contracting clients,
+which might compromise the client’s autonomy and
+volition. However, counselors who are working within a
+psychotherapeutic school (e.g., client-centered psy-
+chotherapy) that fully endorses the principle of client
+autonomy would not rely on autonomy-thwarting prac-
+tices during the post-MI counseling sessions and, hence,
+no confusion would arise for the clients between the
+initial MI and subsequent sessions grounded in another
+approach.
+A Qualitative Analysis of Change Talk
+As noted, the identification of mediating mechanisms
+accounting for the positive effects of MI largely consti-
+tuted a discovery trip rather than being an a priori theo-
+rized endeavor. For instance, it was discovered that only
+particular types of change talk (i.e., commitment lan-
+guage) were predictive of abstinence [52]. The examina-
+tion of this change talk can, however, also occur in a
+more theory-driven fashion. Several of the change talk
+categories (i.e., commitment, desire, need, readiness, and
+reasons) as distinguished by Amrheim et al. [52] could be
+differently approached from concept of autonomy or
+volition as defined within SDT. For each of these cate-
+gories, Amrheim et al. [52] assigned a greater value if the
+client more strongly verbally expressed his commitment,
+desire, need or readiness to change; thus, a higher value
+reflected a higher level of motivation to pursue change.
+For instance, a verbal change expression as ‘I won’t be
+using’, ‘I need to stop’ and ‘I’m ready to do this’ were
+assigned a high commitment, need and readiness score.
+Although such change talk might be more easily
+expressed by autonomously motivated clients it does not
+need to be the case. From the SDT perspective, change
+talk expressions can also be instigated by controlling
+forces and, hence, change talk does not by definition
+reflect a willing pursuit of change. For instance, a smoker
+who feels guilt for not taking care of his health might
+well say that ‘I won’t be using in the future’ or that
+‘I need to change my smoking behavior’. Also, autono-
+mously and controlled motivated clients might express a
+different kind of change talk, with controlling individuals
+using more pressuring language and being more rigidly
+focused on symptom change (e.g., “I have to lose weight”)
+and autonomous clients using more autonomy-suppor-
+tive change talk and being more focused on the process
+of personality and life style changes (e.g., “It would be
+good if I could exercise more"; see [80,81]). Further,
+autonomous and controlled clients might verbalize the
+same change talk in a different way. For instance, the
+emotional tone underlying the change talk might be dif-
+ferent, with controlled, relative to autonomously, moti-
+vated clients expressing less enthusiasm, more tension
+and more negative emotions. Also, whereas controlled
+motivated clients’ change talk might be fluctuating
+throughout the session, being indicative of self-doubt and
+uncertainty, the change talk of autonomously motivated
+clients might be less susceptible to momentary changes.
+In short, we argue that the concept of autonomy or
+volition vs. control or coercion allows for a qualitative
+analysis of change talk, thereby examining different cate-
+gories of change talk, different ways of expressing change
+talk and formulating predictions regarding the variability
+vs. stability of change talk within and across sessions. If
+future research demonstrates that it is not the quantity of
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 7 of 11
+
+change talk by itself but rather the type of change talk,
+the emotional tone and the variability of change talk that
+predicts outcomes (e.g., abstinence and well being), it
+might suggest that change talk by itself just represents a
+surface manifestation of a more fundamental underlying
+process, that is, a change towards a more integrated and
+volitional model of functioning.
+Do Some Clients Benefit from Directive Counseling?
+One of the issues often discussed within MI is whether
+some clients might benefit from a directive rather than
+an autonomy-supportive counseling style, because the
+latter style does not align with their preference for direc-
+tiveness [82]. Given that autonomy represents an inborn,
+universal need, it is maintained within SDT that all cli-
+ents will benefit from autonomy-supportive counseling.
+The question whether some clients would benefit from
+directive counseling is not easily addressed from the SDT
+perspective, because this term carries multiple meanings.
+Spelling out these different meanings might help to shed
+light on an issue that has attracted considerable attention
+among MI scholars.
+First, directive counseling can refer to coercive counsel-
+ing, in which case clients are pushed to adopt a particular
+way of thinking, behaving or feeling. In this case, the
+term directive counseling is contrasted with autonomy-
+supportive counseling, which has the aim of supporting
+clients’ volition and willingness to pursue change, thereby
+satisfying the basic need for autonomy. Second, the term
+directive can also mean providing structure. Structuring
+clinicians will provide information and help, educate and
+teach skills, thereby supporting the client’s need for com-
+petence. When conceptualized in this way, the opposite
+of directiveness is not autonomy support, but a laissez-
+faire style, where the client is abandoned to himself to
+make it alone.
+Giving this double meaning of directive counseling, the
+question whether some clients might benefit from direc-
+tive counseling can be reconsidered. When yielding the
+meaning of being coercive and controlling, both MI and
+SDT would argue that no client will benefit from being
+pushed around. On the basis of SDT, a theoretical
+account could be provided for this argument because it is
+maintained that all clients possess a basic need for auton-
+omy and volition, which gets thwarted when counselors
+are controlling.
+When directive means providing structure with an
+active involvement of client and practitoner, SDT main-
+tains that clients might benefit from this structure if it is
+provided in an autonomy-supportive rather than a coer-
+cive way [83]. Thus, the style of providing information,
+teaching skills, and educating will determine whether the
+provision of information, education and learning of skills
+is experienced as supportive or as controlling. When
+clients feel controlled, providing the information likely
+prompts a defensive reaction. An example might illus-
+trate this. A dietician could begin educating an obese per-
+son about which high calorie foods to avoid before asking
+what the client knows or if he wants to change. When the
+provided information is redundant or undesired, it is
+more likely that the client will feel externally pressured
+by the dietician to change. Indeed, the structure provided
+in this manner is likely to inhibit internalization of the
+reason for change and may elicit overt resistance. The
+chance then that the client will deeply process the offered
+information and integrate this information into his life-
+style is low. This attempt at competence-support without
+autonomy support is not expected to yield sustained
+motivation for change because it is experienced as con-
+trol. Instead, when the client expresses a preference for
+information, and wants the clinician to tell him what to
+do to achieve his goals, the provided information and
+competence building will be welcomed and, hence, better
+processed and more efficiently applied in practice.
+This suggests that clinicians would do well to first
+explore whether there is a request for information, skill
+teaching or help. This will require empathy and sensitiv-
+ity from the side of the clinician, who tries to fully elicit
+and acknowledge the client’s perspective. Collabora-
+tively, they explore first whether there is willingness to
+pursue change and, if so, what the client needs to make
+change happen. Thus, the initial autonomy and related-
+ness support provided determine whether the counse-
+lor’s recommendations and efforts at skill-building and
+information provision will be experienced as need-sup-
+portive or need-frustrating.
+It is striking to us that a similar view is maintained
+within MI. Specifically, Resnicow (this issue) suggested
+providing information using an ‘elicit-provide-elicit’ frame-
+work. The counselor first elicits the person’s understand-
+ing and desire for information, then provides new
+information in a neutral manner, followed by eliciting
+what this information might mean for the client, using a
+question such as, “What does this mean to you” or “How
+do you make sense of all this?”. MI practitioners avoid try-
+ing to persuade clients with “pre-digested” health messages
+and instead allow clients to process information and find
+what is personally relevant for them. This approach allows
+for competence-building, while at the same type respect-
+ing client autonomy, as the client is asked how much
+information he might desire and what he thinks of newly
+provided information.
+Thus, SDT and MI converge on how clinicians would
+handle the request for information and recommendations
+regarding their health, although they use different voca-
+bulary for doing so. Also, MI is primarily focused on how
+this can be concretely done (e.g., ‘elicit-provide-elicit
+practice’), while SDT scholars provide an account of the
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 8 of 11
+
+processes (i.e., basic need satisfaction) underlying these
+motivational practices. Thus, it might be worthwhile for
+MI scholars to recognize the multiple meanings that the
+term ‘directiveness’ carries and to endorse the concept of
+autonomy as a theoretical principle. Doing so would
+allow researchers in both camps to generate and test
+more precise hypotheses that will inform which counsel-
+ing practices are more motivating for clients, which result
+in greater well being for clients, and why these outcomes
+occurred.
+Conclusion
+Both MI and SDT have received increasing attention in
+the literature, with MI being rapidly spread in various
+health care domains and SDT being tested in health
+care and in a number of additional domains, such as
+work, education, sports and exercise, and ecology. We
+believe that MI and SDT, although characterized by dif-
+ferent starting points and undergoing a different devel-
+opment (i.e., bottom-up vs. top-down), can potentially
+be integrated with continued careful consideration of
+the underlying concepts and their appropriate empirical
+validation. For such systematic integration to occur,
+though, we maintain that autonomy, defined as the cli-
+ents’ experience of a sense of volition and psychological
+freedom, needs to be considered as a fundamental
+human need and theoretical process, and as a clinical
+endpoint by itself. Establishing autonomy as a basic
+human need, which the satisfaction of, together with
+competence and relatedness, energizes human behavior,
+will inform clinicians’ behavior and the structure of
+interventions that will enhance integration, wellness,
+and growth of the human organism.
+Author details
+1Department of Psychology, Ghent University, Ghent, Belgium. 2Departments
+of Medicine and of Clinical and Social Psychology, University of Rochester,
+Rochester, USA. 3School of Public Health, University of Michigan, Michigan,
+USA.
+Authors’ contributions
+MV took the lead in writing the manuscript and GW and KR both provided
+useful comments to improve the contribution. All authors read and
+approved the final manuscript.
+Competing interests
+The authors declare that they have no competing interests.
+Received: 14 July 2010 Accepted: 2 March 2012
+Published: 2 March 2012
+References
+1.
+Deci EL, Ryan RM: The ‘what’ and ‘why’ of goal pursuits: Human needs
+and the self-determination of behavior. Psychological Inquiry 2000,
+11:227-268.
+2.
+Ryan RM, Deci EL: Self-determination theory and the facilitation of
+intrinsic motivation, social development, and well-being. American
+Psychologist 2000, 55:68-78.
+3.
+Miller WR, Rose GS: Toward a theory of motivational interviewing.
+American Psychologist 2009, 64:527-537.
+4.
+Maciosek MV, Edwards NM, Coffield AB, et al: Priorities among effective
+clinical preventive services. American Journal of Preventive Medecine 2006,
+31:90-6.
+5.
+Rothman AJ: “Is there nothing more practical than a good theory?": Why
+innovations and advances in health behavior change will arise if
+interventions are used to test and refine theory. International Journal of
+Behavioral Nutrition and Physical Activity 2004, 1:11.
+6.
+Miller WR, Rollnick S: Motivational interviewing New York: Guilford; 2002.
+7.
+Miller WR, Rollnick S: Ten things that motivational interviewing is not.
+Behavioural and Cognitive Psychotherapy 2009, 37:129-140.
+8.
+Markland D, Ryan RM, Tobin VJ, Rollnick S: Motivational interviewing and
+self-determination theory. Journal of Social and Clinical Psychology 2005,
+24:811-831.
+9.
+Vansteenkiste M, Sheldon KM: ’There is nothing more practical than a
+good theory’: Integrating motivational interviewing and self-
+determination theory. British Journal of Clinical Psychology 2006, 45:63-82.
+10.
+Lewin K: Field theory in social science: selected theoretical papers by Kurt
+Lewin London: Tavistock Publications; 1952.
+11.
+Deci EL, Vansteenkiste M: Self-determination theory and basic need
+satisfaction: Understanding human development in positive psychology.
+Ricerche di Psichologia 2004, 27:17-34.
+12.
+Vansteenkiste M, Niemiec C, Soenens B: The development of the five
+mini-theories of self-determination theory: An historical overview,
+emerging trends, and future directions. In Advances in Motivation and
+Achievement: The Decade Ahead. Volume 16. Edited by: Urdan T, Karabenick
+S. UK: Emerald Publishing; 2010:105-166.
+13.
+Deci EL: Intrinsic motivation New York: Plenum Publishing Co; 1975.
+14.
+Ryan RM, Deci EL: A self-determination approach to psychotherapy: The
+motivational basis for effective change. Canadian Psychology 2008,
+49:186-193.
+15.
+Patall EA, Cooper H, Robinson C: The effects of choice on intrinsic
+motivation and related outcomes: A meta-analysis of research findings.
+Psychological Bulletin 2008, 134:270-300.
+16.
+Zuckerman M, Porac JF, Lathin D, Smith R, Deci EL: On the importance of
+self-determination for intrinsically motivated behavior. Personality and
+Social Psychology Bulletin 1978, 4:443-446.
+17.
+Clark NM, Janz NK, Dodge JA, et al: The effect of client choice of
+intervention on health outcomes. Contemporary Clinical Trials 2008,
+29:679-686.
+18.
+Vandereycken W, Vansteenkiste M: “Let eating disorder clients decide!":
+Providing choice might reduce early drop-out in inclient treatment.
+European Eating Disorder Review 2009, 17:177-183.
+19.
+Philippe FL, Vallerand RJ: Actual environments do affect motivation and
+psychological adjustment: A test of self-determination theory in a
+natural setting. Motivation & Emotion 2008, 32:81-89.
+20.
+Mouratidis A, Vansteenkiste M, Lens W, Sideridis G: Class-to-class variation
+in vitality and intrinsic motivation in physical education as a function of
+the synergistic interaction between need-supportive teaching and
+pupils’ motivational orientations. Journal of Educational Psychology 2011.
+21.
+Ward J, Wilkinson C, Graser SV, Prusak KA: Effects of choice on student
+motivation and physical activity behavior in physical education. Journal
+of Teaching in Physical Education 2008, 27:385-398.
+22.
+Jang H: Supporting students’ motivation, engagement, and learning
+during an uninteresting activity. Journal of Educational Psychology 2008,
+100:798-811.
+23.
+Koestner R, Ryan RM, Bernieri F, Holt K: Setting limits on children’s
+behavior: The differential effects of controlling versus informational
+styles on children’s intrinsic motivation and creativity. Journal of
+Personality 1984, 54:233-248.
+24.
+Deci EL, Eghrari H, Patrick BC, Leone DR: Facilitating internalization: The
+self-determination theory perspective. Journal of Personality 1994,
+62:119-142.
+25.
+Ryan RM: Control and information in the intrapersonal sphere: An
+extension of cognitive evaluation theory. Journal of Personality and Social
+Psychology 1982, 43:450-461.
+26.
+Vansteenkiste M, Simons J, Lens W, Sheldon KM, Deci EL: Motivating
+learning, performance, and persistence: The synergistic role of intrinsic
+goals and autonomy-support. Journal of Personality and Social Psychology
+2004, 87:246-260.
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 9 of 11
+
+27.
+Chatzisarantis NLD, Hagger MS: Effects of an intervention based on Self-
+Determination Theory on self-reported leisure-time physical activity
+participation. Psychology and Health 2009, 24:29-48.
+28.
+Williams GC, McGregor H, Sharp D, Levesque CS, Kouides RW, Ryan RM,
+Deci EL: Testing a self-determination theory intervention for motivating
+tobacco cessation: Supporting autonomy and competence in a clinical
+trial. Health Psychology 2006, 25:91-101.
+29.
+Halvari AEM, Halvari H: Motivational predictors of change in oral health:
+An experimental test of self-determination theory. Motivation and
+Emotion 2006, 30:295-306.
+30.
+Silva MN, Vieira PN, Coutinho SR, Minderico CS, Matos MG, Sardinha LS,
+Teixeira PJ: Using self-determination theory to promote physical activity
+and weight control: a randomized controlled trial in women. Journal of
+Behavioral Medicine 2010, 33:110-122.
+31.
+Ryan RM, Patrick H, Deci EL, Williams GC: Facilitating health behaviour
+change and its maintenance: Interventions based on self-determination
+theory. The European Health Psychologist 2008, 10:2-5.
+32.
+Sheldon KM, Filak V: Manipulating autonomy, competence, and
+relatedness support in a game-learning context: New evidence that all
+three needs matter. British Journal of Social Psychology 2008, 47:267-283.
+33.
+Moller AC, Deci EL, Ryan RM: Choice and ego-depletion: The moderating
+role of autonomy. Personality and Social Psychology Bulletin 2006,
+32:1024-1036.
+34.
+Iyengar SS, Lepper MR: When choice is demotivating: Can one desire too
+much of a good thing? Journal of Personality and Social Psychology 2000,
+79:995-1006.
+35.
+Ogden CL, Yanovski SZ, Carroll MD, Flegal KM: The epidemiology of
+obesity. Gastroenterology 2007, 132:2087-2102.
+36.
+Ricciardelli LA, McCabe P: Dietery restraint and negative affect as
+mediators of body dissatisfaction and bulimic behavior in adolescent
+girls and boys. Behavior Research and Therapy 2001, 39:1317-1328.
+37.
+Hoek HW, van Hoeken D: Review of the prevalence and incidence of
+eating disorders. International Journal of Eating Disorders 2003, 34:383-396.
+38.
+Fiore MC, Jaen CR, Baker TB, Bailey WC, Benowitz NL, Curry SJ, et al: Treating
+Tobacco Use and Dependence: 2008 Update: U.S. Department of Health and
+Human Services; 2008.
+39.
+Miller WR, Baca LM: Two-year follow-up of bibliotherapy and therapist-
+dircted controlled drinking training for problem drinkers. Behavior
+Therapy 1983, 14:441-448.
+40.
+Miller WR, Taylor CA, West JC: Focused versus broad spectrum behavior
+therapy for problem drinkers. Journal of Consulting and Clinical Psychology
+1980, 48:509-601.
+41.
+Miller WR: Motivational interviewing with problem drinkers. Behavioural
+Psychotherapy 1983, 11:147-172.
+42.
+Burke BL, Arkowitz H, Menchola M: The efficacy of motivational
+interviewing: A meta-analysis of controlled clinical trials. Journal of
+Consulting and Clinical Psychology 2003, 71:843-61.
+43.
+Hettema J, Steele J, Miller WR: Motivational interviewing. Annual Review of
+Clinical Psychology 2005, 1:91-111.
+44.
+Lundahl BW, Tollefson D, Kunz C, Brownell C, Burke B: Meta-analysis of
+motivational interviewing: Twenty five years of research. Research on
+Social Work Practice 2010, 20:137-160.
+45.
+Rubak S, Sandboek A, Lauritzen T, Christensen B: Motivational interviewing:
+A systematic review and meta-analysis. British Journal of General Practice
+2005, 81:305-312.
+46.
+Vasilaki EI, Hosier SG, Cox WM: The efficacy of motivational interviewing
+as a brief intervention for excessive drinking: A meta-analytic review.
+Alcohol and Alcoholism 2006, 41:328-335.
+47.
+Brenman L, Walkley J, Fraser SF, Greenway K, Wilks R: Motivational
+interviewing and cognitive behavior therapy in the treatment of
+adolescent overweight and obesity: Study design and methodology.
+Contemporary Clinical Trial 2008, 29:359-375.
+48.
+Dean HY, Touyz SW, Rieger E, Thornton CE: Group motivational
+enhancement therapy as an adjunct to inpatient treatment for eating
+disorders: A preliminary study. European Eating Disorders Review 2008,
+16:256-267.
+49.
+Moyers TB, Martin T: Therapist influence on client language during
+motivational interviewing sessions: Support for a potential causal
+mechanism. Journal of Substance Abuse Treatment 2006, 30:245-251.
+50.
+Moyers TB, Martin T, Christopher PJ, Houck JM, Tonigan JS, Amrhein PC:
+Client language as a mediator of motivational interviewing efficacy:
+Where is the evidence? Alcoholism: Clinical and Experimental Research 2007,
+31:40-47.
+51.
+Miller WR, Yahne CE, Tonigan JS: Motivational interviewing in drug abuse
+services: A randomized clinical trial. Journal of Consulting and Clinical
+Psychology 2003, 71:754-763.
+52.
+Amrhein PC, Miller WR, Yahne CE, Paler M, Fulcher L: Client commitment
+language during motivational interviewing predicts drug use outcomes.
+Journal of Consulting and Clinical Psychology 2001, 71:862-878.
+53.
+Festinger L: A theory of cognitive dissonance Standford, CA: Standford
+University Press; 1957.
+54.
+Bem DJ: Self-perception: An alternative interpretation of cognitive
+dissonance phenomena. Psychological Review 1967, 74:183-200.
+55.
+Rogers CR: Client-centered therapy Boston: Houghton-Mifflin; 1951.
+56.
+Britton PC, Williams GC, Conner KR: Self-determination theory,
+motivational interviewing, and the treatment of clients with acute
+suicidal ideation. Journal of Clinical Psychology 2008, 64:52-66.
+57.
+Neighbors C, Roffman RA, Bmilinyi LF, Edleson JL: Self determination
+theory and motivational interviewing: Complementary models to elicit
+voluntary engagement by partner-abusive men. American Journal of
+Family Therapy 2008, 36:126-136.
+58.
+Fuemmeler BF, Masse LC, Yaroch AL, Resnicow K, Campbell MK, Carr C,
+et al: Psychosocial mediation of fruit and vegetable consumption in the
+Body and Soul effectiveness trial. Health Psychology 2006, 25:474-83.
+59.
+Rubak S, Sandboek A, Lauritzen T, Borch-Johnsen K, Christensen B: General
+practitioners trained in motivational interviewing can positively affect
+the attitude to behaviour change in people with type 2 diabetes.
+Scandinavian Journal of Primary Health Care 2009, 27:172-179.
+60.
+Glynn LH, Moyers TB: Chasing change talk: The clinician’s role in evoking
+client language about change. Journal of Substance Abuse Treatmen 2010,
+39:65-70.
+61.
+Reeve J, Bolt E, Cai Y: Autonomy-supportive teachers: How they teach
+and motivate students. Journal of Educational Psychology 1999, 91:537-548.
+62.
+Patterson PG, Joseph S: Person-centered personality theory: Support from
+self-determination theory and positive psychology. Journal of Humanistic
+Psychology 2007, 47:117-139.
+63.
+Sheldon KM, Kasser T: Goals, congruence, and positive well-being: New
+empirical validation for humanistic ideas. Journal of Humanistic Psychology
+2001, 41:30-50.
+64.
+Williams GC, Frankel RM, Campbell TL, Deci EL: Research on relationship-
+centered care and health-care outcomes from the Rochester
+Biopsychosocial Program: A self-determination theory integration.
+Families, Systems & Health 2000, 18:79-90.
+65.
+Chirkov V, Ryan RM, Kim Y, Kaplan U: Differentiating autonomy from
+individualism and independence: A self-determination theory
+perspective on internalization of cultural orientations and well-being.
+Journal of Personality and Social Psychology 2003, 84:97-110.
+66.
+Ryan RM: Agency and organization: Intrinsic motivation, autonomy and
+the self in psychological development. In Nebraska symposium on
+motivation: Developmental perspectives on motivation. Volume 40. Edited by:
+Jacobs J. Lincoln, NE: University Of Nebraska Press; 1993:1-56.
+67.
+Soenens B, Vansteenkiste M, Lens W, Luyckx K, Beyers W, Goossens L,
+Ryan RM: Conceptualizing parental autonomy support: Adolescent
+perceptions of promoting independence versus promoting volitional
+functioning. Developmental Psychology 2007, 43:633-646.
+68.
+Vansteenkiste M, Zhou M, Lens W, Soenens B: Experiences of autonomy
+and control among Chinese learners: Vitalizing or immobilizing? Journal
+of Educational Psychology 2005, 97:468-483.
+69.
+Epstein RM, Korones DN, Quill TE: Withholding information from patients -
+when less is more. New England Journal of Medicine 2010, 362:380-381.
+70.
+Soenens B, Vansteenkiste M, Sierens E: How are parental psychological
+control and autonomy-support related? Naturally occurring profiles of
+psychological control and two types of autonomy-support. Journal of
+Marriage and the Family 2009, 71:187-202.
+71.
+Kins E, Beyers W, Soenens B, Vansteenkiste M: Patterns of home leaving
+subjective well-being in emerging adulthood: The role of motivational
+processes and parental autonomy support. Developmental Psychology
+2009, 45:1416-1429.
+72.
+Vansteenkiste M, Lens W, Dewitte S, De Witte H, Deci EL: The “why” and
+“why not” of job search behavior: Their relation to searching,
+unemployment experience and well-being. European Journal of Social
+Psychology 2004, 34:345-363.
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 10 of 11
+
+73.
+Ryan RM, Lynch MF, Vansteenkiste M, Deci EL: Motivation and autonomy
+in counseling, psychotherapy, and behavior change: A look at theory
+and practice. Counseling Psychologist 2011, 39:193-260.
+74.
+ABIM Foundation, ACP-ASIM Foundation, European Federation of Internal
+Medicine: Medical professionalism in the new millennium: A physician
+charter. Annals of Internal Medicine 2002, 136:243-6.
+75.
+Beauchamp TL, Childress JF: Principles of biomedical ethics New York: Oxford
+University Press; 2009.
+76.
+Woolf SH, Chan ECY, Harris R, Sheridan SL, Braddock CH, Kaplan RM, et al:
+Promoting informed choice: Transforming health care to dispense
+knowledge for decision making. Annals of Internal Medicine 2005,
+143:293-300.
+77.
+Williams GC, Quill TE, Deci EL, Ryan RM: The facts concerning the recent
+carnival of smoking in Connecticut (and elsewhere). Annals of Internal
+Medicine 1991, 115:59-63.
+78.
+Patterson CH: Foundations for a systematic eclectic psychotherapy.
+Psychotherapy 1989, 26:427-435.
+79.
+Buckner JD, Schmidt NB: A randomized pilot study of motivation
+enhancement therapy to increase utilization of cognitive-behavioral
+therapy for social anxiety. Behaviour Research and Therapy 2009,
+47:710-715.
+80.
+Conroy DE, Coatsworth JD: Coaching behaviors asociated with changes in
+fear of failure: Changes in self-talk and need satisfaction as potential
+mechansims. Journal of Personality 2007, 75:383-419.
+81.
+Oliver EJ, Markland D, Hardy J, Petherick CM: The effects of autonomy-
+supportive versus controlling environments on self-talk. Motivation &
+Emotion 2008, 32:200-212.
+82.
+K Resnicow R, Davis G, Zhang J, Konkel V, Strecher A, Shaikh D, Tolsma J,
+Calvi G, Alexander J, Anderson C, Wiese : Tailoring a fruit and vegetable
+intervention on novel motivational constructs: results of a randomized
+study. Annual Behavioral Medicine 2008, 35:159-169.
+83.
+Sierens E, Vansteenkiste M, Goossens L, Soenens B, Dochy F: The
+synergistic relationship of perceived autonomy-support and structure in
+the prediction of self-regulated learning. British Journal of Educational
+Psychology 2009, 79:57-68.
+doi:10.1186/1479-5868-9-23
+Cite this article as: Vansteenkiste et al.: Toward systematic integration
+between Self-Determination Theory and Motivational Interviewing as
+examples of top-down and bottom-up intervention development:
+Autonomy or volition as a fundamental theoretical principle.
+International Journal of Behavioral Nutrition and Physical Activity 2012 9:23.
+Submit your next manuscript to BioMed Central
+and take full advantage of: 
+• Convenient online submission
+• Thorough peer review
+• No space constraints or color ﬁgure charges
+• Immediate publication on acceptance
+• Inclusion in PubMed, CAS, Scopus and Google Scholar
+• Research which is freely available for redistribution
+Submit your manuscript at 
+www.biomedcentral.com/submit
+Vansteenkiste et al. International Journal of Behavioral Nutrition and Physical Activity 2012, 9:23
+http://www.ijbnpa.org/content/9/1/23
+Page 11 of 11

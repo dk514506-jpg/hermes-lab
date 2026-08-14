@@ -1,0 +1,11 @@
+{
+  "slug": "poplar-agency",
+  "name": "Poplar.agency",
+  "description": "",
+  "icon": "",
+  "color": "",
+  "default_workdir": "/opt/data/repos/poplar.agency",
+  "project_id": null,
+  "created_at": 1786406529,
+  "archived": false
+}

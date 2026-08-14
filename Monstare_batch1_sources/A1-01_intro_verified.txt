@@ -1,0 +1,1138 @@
+A1-01 verified body passages (archive scan): PDF pages 25-50 ~ print pp.18-43.
+Contains: Heidegger-impasse argument (Introduction), §1 The Becoming of Prometheus, §2 Cosmos Cosmology and Cosmotechnics (incl. cosmotechnics definition and Leroi-Gourhan/Gille critiques).
+
+6 
+If communism in China should come to rule, then one can
+assume that only in this way does China become ‘free’ for tech- 
+6 
+nology. What is this process?6
+f­o 
+=>
+§ 
+What does becoming 'free' for technology mean here, if not
+z 
+to fall prey to an inability to reflect upon it and to transform
+it? And indeed, a lack o f reflection upon the question of 
+technology in the East has prevented the emergence of any 
+genuine critique originating from its own cultures: something 
+truly symptomatic o f a detachment between thinking and 
+technology similar to that which Heidegger described during 
+the 19L10 S in Europe. And yet if China, in addressing this ques­
+tion. relies on Heidegger's fundamentally Occidental analysis 
+o f the history of technics, we will reach an impasse— and 
+this, unfortunately, is where we stand today. So what is the 
+question concerning technology fo r non-European cultures 
+prior to modernization? Is it the same question as that of the 
+West prior to modernization, the question of Greek techne? 
+Furthermore, if Heidegger was able to retrieve the question 
+of Being from the Seinsvergessenheit of Western metaphys­
+ics, and if today Bernard Stiegler can retrieve the question 
+of time from the long oubli de la technique in Western phi­
+losophy, w hat m ight Non-Europeans aspire to? If these ques­
+tions are not even posed, then Philosophy o f Technology 
+in China will continue to be entirely dependent upon the 
+work of German philosophers such as Heidegger, Ernst Kapp, 
+Friedrich Dessauer, Herbert Marcuse, and Jurgen Habermas, 
+American thinkers such as Carl Mitcham, Don Ihde, and Albert
+6. 
+'Wenn der Kommunismus in China an die Herrschaft kommen sollte, 
+steht zu vermuten, da8 erst auf diesem Wege China fur die Technik》frei《 
+wird. Was liegt in diesem Vorgang?’ Ibid., 441.
+巳orgmann, and French thinkers such as Jacques Ellul, Gilbert 
+Simondon, and Bernard Stiegler. It seems incapable of moving 
+forward-
+or even backward.
+I believe th a t there is an urgent need to envision and 
+develop a philosophy o f technology in China, for both histori­
+cal and political reasons. China has modernised itself over the 
+past century in order to 'catch up w ith the UK and outstrip the 
+U S '(超英趕美，a slogan proposed by Mao Zedong in 1957); 
+now it seems to be at a turning point, its modernisation having 
+reached a level that allows China to situate itself among the 
+great powers. But at the same time, there is a general sentiment 
+that China cannot continue with this blind modernisation. The 
+great acceleration that has taken place in recent decades has 
+also led to various form s of destruction, cultural, environmental, 
+social, and political. We are now, so geologists tell us, living 
+in a new epoch-
+that o f the Anthropocene-
+which began 
+roughly i nthe eighteenth century with the Industrial Revolution. 
+Surviving the Anthropocene will demand reflection upon— and 
+transformation of— the practices inherited from the modern, in 
+order to overcome modernity i tself. The reconstruction of the 
+question of technology in China outlined here also pertains to 
+this task, aiming to unfold the concept of technics in its plural­
+ity, and to act as an antidote to the modernisation programme 
+by reopening a truly global history of the world. The book is 
+an attem pt both to respond to Heidegger's concept of tech­
+nics, and to sketch out a possible way to construct a properly 
+Chinese philosophy of technology.
+§1. THE BECOMING OF PROMETHEUS
+Is there technological thought in China? At first glance, this 
+is a question that can be easily dismissed, fo r what culture 
+doesn't have technics? Certainly, technics has existed in China
+7
+ 
+T
+H
+m
+g
+m
+c
+o
+^
+I
+N
+G
+ 
+O
+F
+T>
+刀
+OIV1ETHEUS
+o0:
+a.
+LL
+o
+(!)z
+o
+for many centuries, if we understand the concept to denote 
+skills for making artificial products. But responding to this 
+question more fully will require a deeper appreciation o f what 
+is at stake in the question o f technics.
+In the evolution of human as homo faber, the moment of 
+the liberation of the hands also marks the beginning of sys­
+tematic and transmissible practices of making. They emerge 
+firstly from the need fo r survival, to make fire, to hunt. to build 
+dwellings; later, as certain skills are gradually mastered so as 
+to improve living conditions, more sophisticated technics can 
+be developed. As French anthropologist and palaeontolo­
+gist Andre Leroi-Gourhan has argued, at the moment o f the 
+liberation o f the hands. a long history o f evolution opened up, 
+by way o f the exteriorisation o f organs and memory and the 
+interiorisation o f prostheses.7 Now, within this universal techni­
+cal tendency, we observe a diversification o f artefacts across 
+different cultures. This diversification is caused by cultural 
+specificities. butalso reinforces them, in a kindof feedback loop. 
+Leroi-Gourhan calls these specificities 'technical facts’.8 While a 
+technical tendency is necessary, technical facts are accidental: 
+as Leroi-Gourhan writes. they result from the ‘ encounter of the 
+tendency and thousandsof coincidences of the m ilieu? while 
+the invention of the wheel is a technical tendency, whether 
+or not wheels will have spokes is a m atter of technical fact. 
+The early days of the science of making are dominated by the 
+technical tendency, meaning that what reveals itself i n human
+8
+7. 
+A. Lero卜Gourhan, Gesture and Speech (Cambridge, MA and London: 
+MIT Press, 1993).
+8. 
+A. Le「oi-Gou「han, Milieu et Technique (Paris: Albin Michel, 1973), 336­
+40; L'homme et la Matiere (Paris: Albin Michel, 1973), 27-35.
+9. Le「oi-Gou「han, L'homme et la matiere, 27.
+activities-
+for example in the invention of primitive wheels 
+g
+and the use o f flint— are optima丨
+ natural efficiencies. It i s only 
+—
+later on that cultural specificities or technical facts begin to 
+I
+impose themselves more distinctly.10 
+al
+o
+Leroi-Gourhan’s distinction between technical tendency 
+0
+and technical fact thus seeks to provide an explanation for the 
+|
+similarities and differences between technical inventions across 
+0
+different cultures. It sets out from a universal understanding of 
+0
+the process of hominisation characterised by the technical ten-
+~ i
+dency o f invention, as we丨
+丨
+ as the extension o f human organs 
+S
+c
+through technical apparatuses. But how effective is this model 
+Ul
+in explaining the diversification of technologies throughout the 
+world, and the different pace at which invention proceeds in 
+different cultures? It i s in 丨
+ig h to f these questions that 丨
+ hope 
+to bring into the discussion the dimensions of cosmology and 
+metaphysics, which Leroi-Gourhan himself rarely discussed.
+Here is my hypothesis, one which may appear rather 
+surprising to some readers: in China. technics in the sense we 
+understand it today— or at feast as it is defined by certain 
+European philosophers-
+never existed. There is a genera丨
+ 
+misconception that all technics are equal, that all skills and 
+artificial products coming from all cultures can be reduced to 
+one thing called 'technology’. And indeed, it is almost impos­
+sible to deny that technics can be understood as the exten­
+sion o f the body or the exteriorisation of memory. Yet they 
+may not be perceived or reflected upon in the same way in 
+different cultures.
+To put it differently, technics as a general human activity 
+has been present on earth since the time of the Australan- 
+thropos; but the philosophical concept of technics cannot
+10. 
+Ibid.
+oa:0.
+z
+o
+LU
+工
+assumed to be universal. The technics we refer to here is one 
+that is the subject of philosophy, meaning that it is rendered 
+visible through the birth of philosophy. Understood as such, 
+as a philosophical category, technics is also subject to the 
+history of philosophy, and is defined by particular interrogative 
+perspectives. What we mean by 'philosophy o f technology’ in 
+this book is not exactly what in Germany is known as Tech- 
+nikphiiosophie, associated with figures such as Ernst Kapp and 
+Friedrich Dessauer. Rather, it appears w ith the birth of Hellenic 
+philosophy, and constitutes one of philosophy’s core inquiries. 
+And technics thus understood, as an ontological category,丨
+ will 
+argue. must be interrogated in relation to a larger configuration, 
+a 'cosmology’ proper to the culture from which it emerged.
+We know that the birth of philosophy in ancient Greece, 
+as exhibited in the thinking of Thales and Anaximander, was 
+a process o f rationalisation, marking a gradual separation 
+between m yth and philosophy. Mythology is the source and the 
+essential component of European philosophy, which distanced 
+itself from mythology by naturalizing the divine and integrating 
+it as a supplement to rationality. A rationalist may well argue that 
+any recourse to mythology is a 「egression, and that philosophy 
+has been able to completely free itself from its mythological 
+origins. Yet 丨
+ doubt that such a philosophy exists, or ever will. 
+We know th a t this opposition between mythos and logos was 
+explicit in the Athenian Academy: Aristotle was very critical 
+of the 'theologians’ of the school of Hesiod, and Plato before 
+him argued relentlessly against myth. Through the mouth of 
+Socrates in the Phaedo (61a), he says that mythos is not his 
+concern but rather the affair o f the poets (portrayed as liars 
+in the Republic). And yet, as Jean-Pierre Vernant has clearly 
+shown, Plato 'grants an important place in his writings to myth
+10
+LLo
+CD
+as a means o f expressing both those things that lie beyond 
+11
+and those that fa丨
+丨
+ short of strictly philosophical language’.11 
+—
+Philosophy is not the language of blind causa丨
+ necessity, but 
+rather that which at once allows the latter to be spoken, and 
+m
+o
+goes beyond it. The dialectical movement between rational- 
+0
+ity and m yth constitutes the dynamic o f philosophy, w ithout 
+|
+which there would be only positive sciences. The Romantics 
+and German Idealists, writing toward the end of the eighteenth 
+0
+century, were aware of this problematic relationship between 
+philosophy and myth. Thus we read in ‘The Oldest System - 
+S
+c
+Programme o f German 丨
+dealism’— published anonymously in 
+1797, but whose authors are suspected to be, or at 丨
+east to 
+be associated with, the three friends from the Tubingen Stift. 
+Holderlin, Hegel, and Schelling— that 'mythology must become 
+philosophical, and the people rational, and philosophy must 
+become mythological in order to make philosophers sensuous.
+Then eternal unity reigns among u s ^ Not coincidentally, this 
+insight came at a moment o f renewal of philosophical interest 
+h Greek tragedy, chiefly through the works of these three 
+highly influential friends. The implication here is that, in Europe, 
+philosophy’s attem pt to separate itself from mythology is 
+precisely conditioned by mythology, meaning that mythology 
+reveals the germinal form of such a mode of philosophising.
+Every demythologisation is accompanied by a remythologisa- 
+tion, since philosophy is conditioned by an origin from which it 
+can never fully detach itself. Accordingly, in order to interrogate 
+what is at stake in the question of technology, we should turn to
+11. 
+J.P. Vernant. Myth and Society in Ancient Greece, tr. J. Lloyd (New York: 
+Zone Books. 1990). 210-11.
+12. 
+‘The "Oldest System-Programme of German Idealism”’，tr. E. Forster,
+European Journal of Philosophy 3 (1995). 199-200.
+UJ
+工
+1-UJ
+o0:
+(L
+the predominant myths of the origins of technology that have 
+been handed down to us, and at once rejected and extended by 
+Western philosophy. The misconception that technics can be 
+considered as some kind of universal remains a huge obstacle 
+to understanding the global technological condition in general, 
+and in particular the challenge it poses to non-European 
+cultures. W ithout an understanding of this question, we will all 
+remain at a loss, overwhelmed by the homogeneous becoming 
+of modern technology.
+Some recent work has attempted to reclaim what it calls 
+‘Prometheanism’，decoupling the social critique of capitalism 
+from a denigration of technology and affirming the power o f 
+technology to l iberate us from the strictures and contradictions 
+of modernity. This doctrine is often identified with, or at least 
+closely related to, the notion of *accelerationism'.15 But if such 
+a response to technology and capitalism is applied globally, as if 
+Prometheus were a universal cultural figure, it risks perpetuat­
+ing a more subtle form of colonialism.
+So who is Prometheus, and w hat does Prometheanism 
+stand fo r? 14 In Plato’s Protagoras, the sophist tells the story 
+of the Titan Prometheus, also said to be the creator of human 
+beings, who was asked by Zeus to distribute skills to all living 
+beings. His brother Epimetheus took over the job, but having 
+distributed all the skills, found that he had forgotten to provide
+12
+LLo
+13. 
+See R. Mackay and A. Avanessian (eds), ^Accelerate: The Accelerationist 
+Reader (Falmouth and Berlin: U「banomic/Me「ve, 2011), especially Ray 
+Brassier’s essay ‘Prometheanism and its Critics’, 469-87.
+14. 
+According to Ulrich van Wilamowitz-Moellendorff, there are two 
+identities of Prometheus: (1) lonian-Attic Promethos, god of the fire industries, 
+the potter and metalworker honoured in the festival of the Prometheia: and (2) 
+Boeotian-Locrian Prometheus, the Titan whose punishment is part of the great 
+theme of conflict between different generations of the gods. See J.-P. Vernant, 
+Myth and Thought among the Greeks (New York: Zone Books, 2006), 264.
+for human beings. In order to compensate for the fault of 
+his brother Epimetheus. Prometheus stole fire from the god 
+Hephaestus and bestowed it upon man.15 Hesiod told another, 
+slightly different version of the story in his Theogony, in which 
+the Titan challenged the omnipotence ofZeus by playing a trick 
+w ith a sacrificial offering. Zeus expressed his anger by hiding 
+fire and the means o f living from human beings, in revenge 
+for which Prometheus stole fire. Prometheus received his 
+punishment from Zeus: he was chained to th e cliff, and an eagle 
+from Hephaestus came to eat his liver during the daytime and 
+allowed it to grow back at night. The story continues in Works 
+and Days, where Zeus, angered by Prometheus's deception 
+(apate) or fraud (dolos). revenges himself by visiting evil upon 
+human beings. This evil, or dolos. is called Pandora」6 The figure 
+of Pandora, whose name means 'she who gives everything', 
+is tw ofold: firstly, she stands for fertility, since in another 
+ancient account, according to Vernant, she has another name, 
+Anesidora, the goddess o f the earth;v secondly, she stands for 
+idleness and dissipation, since she is a gaster, 'an insatiable 
+belly devouring the bios or nourishment that men procure for 
+themselves through their labor。8
+It is only in Aeschylus that Prometheus becomes the father 
+of all technics and the master of all crafts (didasklos technes 
+pases),9 whereas before he was the one who stole fire. hiding
+-0
+o
+m
+工
+m
+c
+13
+CDm
+z
+15. 
+Plato, ‘Protagoras’，tr. S. Lombardo and K. Bell, in J.M. Cooper (ed.) 
+Complete Works (Indianapolis, IN: Hackett, 1997), 320c-328d.
+16. 
+Vernant emphasises both acts of Prometheus and Zeus as dolos; see 
+Vernant, Myth and Society, 185.
+17. 
+Vernant. Myth and Thought, 266.
+18. 
+Ibid.. 174.
+19. 
+Ibid., 271.
+o0:
+0.LL
+o
+C.'lz
+it in the hollow of a reed? 0 Before Prometheus’s invention of 
+technics, human beings were not sensible beings, since they 
+saw w ithout seeing, listened w ithout hearing, and lived in 
+disorder and confusion.” In Aeschylus’s Prometheus Bound, 
+the Titan declares that 'all the technai that mortals have, come 
+from Prometheus’. What exactly are these technai? 比 would 
+be difficult to exhaust all possible meanings of the word, but it 
+is w orth paying attention to what Prometheus says:
+What's more. for them I invented Number [a厂/thmon], wisdom 
+above all others. And the painstaking putting together of Letters: 
+to be their memory of everything, to be their Muses’ mother, 
+their handmaid.22
+14
+CD
+In assuming a universal Prometheanism. one assumes that 
+all cultures arise from techne, which is originally Greek. But 
+in China we find another m ythology concerning the creation 
+of human beings and the origin of technics, one in which 
+there is no Promethean figure. It tells instead o f three ancient 
+emperors, who were leaders o f ancient tribes (先民）：Fuxi 
+(伏羲) . NOiwa〔女蜗）and Shennong (神農)？3 The female god­
+dess Nuwa, who is represented as a half-human, half-snake 
+figure, created human beings from clay? 4 Nuwa’s brother. and
+20. 
+Ibid., 265.
+21. 
+Ibid.
+22. 
+Aeschylus, Prometheus Bound, tr. C. Herrington and J. Scully (New York: 
+Oxford University Press, 1989), 441-506; quoted by D. Roochnik, Of Art and 
+Wisdom: Plato's Understanding of Techne (University Park, PA: Pennsylvania 
+State University Press, 1996), 33.
+23. 
+There are various accounts of who the three emperors were; the list here 
+is the most commonly used.
+24. 
+Concerning the use of clay, different versions of the tale exist for example,
+later husband, is Fuxi, a half-dragon, half-human figure who 
+15
+invented the b a g w a 〔八圭卜)一the eight trigrams based on a 
+—
+binary structure. Several classical texts document the process 
+^
+whereby Nuwa used five coloured stones to repair the sky in 
+m
+order to stop the water flooding in great expanses and fire 
+0
+blazing out of control.25 Shennong has quite an ambiguous 
+Gl 
+identity, since he is often associated w ith tw o other names, 
+"T1
+Yan Di ( 炎帝）and Lie Shan Shi ( 烈山氏）？6 In this association, 
+0
+Shennong, which literally means 'divine farmer，
+, is also the god 
+m
+of fire, and after his death becomes the god of the kitchen 
+m
+(the character Yan [ : lk ] consists of tw o repeated instances of 
+[J)
+the character for fire [ 火] . It is recognised by historians that it 
+most likely comes from the use of fire in the household, rather 
+than sun worship.)2? As the name indicates, Shennong also 
+invented agriculture, medicine, and other technics. According 
+to the Huainanzi, an ancient Chinese text originating in a 
+series of scholarly debates held at the court of Liu An, King of 
+Huainan ( 1 7 9 - 1 2 2 b c ) sometime before 1 3 9 b c , he risked poi­
+soning himself by trying hundreds of plants so as to distinguish
+according to the Huainanzi, the creation of humans was not only the work of 
+Nuwa but a collective work with other gods: 'The Yellow Emperor produced yin 
+and yang. Shang Pian produced ears and eyes: Sang Lin produced shoulders 
+and arms. NOwa used these to carry out the seventy transformations.' J. S. 
+Major, S. A. Queen, A. S. Meyer, and H. D. Roth (eds, tr.), The Huainanzi: A 
+Guide to the Theory and Practice o f Government in Early Han China, Liu 
+An, King o f Huainan, (New York: Columbia University Press, 2010), 17:25. For 
+Chinese s e e :《淮南子• 說林訓》：黃帝生陰陽.
+上駢生耳目，桑林生臂手：
+ 
+此女媧所以七十化也.
+25. 
+See the Huainanzi, chapter 6: 'Surveying Obscurities', 6.7 ( 《淮南子.
+覽冥篇》）.
+26. 
+Li Gui Min (李桂民)，'The Relation between Shennong, Lie Shan and Yan 
+Di and their Recognition in A n tiq u ity'〔神農氏、烈山氏、炎帝的糾葛與遠古 
+傳說的認識問題)，Theory Journal (理論學刊〕, 3: 217 (March 2012), 108-12.
+2 7 . 丨bid., 109.
+z
+2o
+what is edible from what is poisonous. The broken sky that 
+Nuwa had to repair resulted from a war between Yan Di’s 
+descendant. the god of fire Zhu Rong (祝融）and the god o f 
+water Gong Gong (共工）？8 Note that the gods of agriculture 
+and fire came from different systems of mythology, and that, 
+although they are called gods, they are only recognized as 
+such after their deaths— originally, they were leaders o f the 
+ancient tribes. Unlike Greek mythology, then, in which the 
+Titan revolted against the gods by bestowing fire and means 
+of subsistence upon human beings, thus raising them above 
+animals, h Chinese mythology there was no such rebellion 
+and no such transcendence granted; this endowment is seen 
+instead as owing to the benevolence of the ancient sages.
+In a dialogue with Vernant, French sinologist Jacques 
+Gernet remarked that the radical separation between the 
+world o f the gods and the world o f man tha tw as necessary for 
+the development of Greek rationality didn’t happen in China.29 
+Thought of the Greek type did eventually arrive in China, but 
+it arrived too late to exercise any form ative influence— the 
+Chinese had already 'naturalised the divine'.50 In response, 
+Vernant also pointed out that the polar terms characteristic
+16
+28. 
+Again, in the Chinese mythologiesthereare various accounts which differ 
+as to whether Shennong or Nuwa came first, and whether Zhurong is the 
+descendant of Shennong or Huang Di; here we relate the most well-known 
+version.
+29. 
+Vernant, Myth and Society, 86.
+30. 
+Gernet also commented elsewhere on the difference between God 
+in Judaism and Christianity and the Heaven in Chinese culture: the former 
+(Jewish and Christian) is the god of pastors, he speaks, commands; while the 
+Chinese heaven does not speak, ‘it contents itself to produce the seasons and 
+to act continuously by way of its seasonal influxes'. See J. Gernet, Chine et 
+Christianisme: action et reaction (Paris: Gallimard, 1982), 206, cited also by F. 
+Jullien, Proces ou Creation: une introduction a la pensee des lettres chinois 
+(Paris: Editions du Seuil, 1999). "15.
+of Greek culture-
+man/gods, invisible/visible, eternal/m or­
+tal, permanent/changing, powerful/powerless, pure/mixed, 
+certain/uncertain一were absent h China, and suggested 
+that this might partially explain why it was the Greeks who 
+invented tragedy.51
+I do not mean simply to gesture towards the obvious fact 
+that there are different mythologies concerning creation and 
+technics in China, Japan, India, or elsewhere. The point, rather, 
+is that each of these mythologies gives a different origin for 
+technics, corresponding m each case to different relations 
+between the gods, technics, humans, and the cosmos. Apart 
+from some efforts in anthropology to discuss the variation of 
+practices across cultures, these relations have been ignored, or 
+their impact has not been taken into account, in the discourse 
+on technics and technologies. I propose that it is only by tracing 
+different accounts of the genesis o f technicity52 that we can 
+understand what we mean when we speak of different 'forms 
+o f life’, and thus different relations to technics.
+The effort to relativise the concept of technics challenges 
+existing anthropological approaches as well as historical studies, 
+which rest on the comparison of the advancement o f either 
+individual technical objects or technical systems (in the sense 
+of Bertrand Gille) in different periods among different cultures.55
+os:m
+工
+mc
+17
+s:
+31. 
+Jullien. Proces ou Creation., 98-100.
+32. 
+'Technicity' is a term I borrow from Gilbert Simondon, according to whom 
+technological development should be understood as a lineage of constant 
+bifurcation that begins during the magical phase of human societies.
+33. 
+French historian of technology Bertrand Gille (1920-1980) proposed 
+to analyse the history of technology according to what he calls 'technical 
+systems'. In Histoire des techniques (Paris: Gallimard, 1978), 19, Gille defines a 
+'technical system' as follows: 'All technics are to diverse degrees dependent on 
+one another, and there needs to be a certain coherence between them: this 
+ensemble of the different levels of coherence of all the structures. of all the
+(fJ
+oo
+Scientific and technical thinking emerges under cosmological 
+conditions that are expressed in the relations between humans 
+and their milieus, which are never static. For this reason I would 
+like to call this conception of technics cosmotechnics. One of 
+the most characteristic examples of Chinese cosmotechnics, 
+for example, is Chinese medicine, which uses the same prin­
+ciples and term s found in cosmology, such as Yin-Yang, Wu 
+Xing, harmony, and so on, to describe the body.
+§2. COSMOS, COSMOLOGY, 
+AND COSMOTECHNICS
+Here one may ask w hether Leroi-Gourhan's analysis con­
+cerning technical facts is not already sufficient to explain 
+different technicities. It is true that Leroi-Gourhan brilliantly 
+documented technical tendencies and the diversification of 
+technical facts in his work, documenting different lineages 
+o f technical evolution and the influences o f the milieu on 
+the fabrication of tools and products. Yet Leroi-Gourhan's 
+research has a limit (even if this also constitutes the strength 
+and singularity of his research), one that seems to stem from 
+his focus upon the individualisation o f technical objects so as 
+to construct a technical genealogy and technical hierarchy
+ensembles and of all the procedures, composes what one can call a technical 
+system.’ Technical systems underwent mutation in the face of technological 
+revolutions. for example during the mediaeval period (twelfth and thirteenth 
+centuries), the Renaissance (fifteenth century), and the industrial revolution 
+(eighteenth century). The researchers Yao Dazhi and Per Hogselius accused 
+Gille’s analysis of being Westem-centric, in the sense that Gille used European 
+technical systems as his primary references and, in doing so, ignored Joseph 
+Needham’s observation that Chinese technologies seem to have been more 
+advanced than Europe about two thousand years ago. For the debate see Yao 
+Dazhi and P. HOgselius, ‘Transforming the Narrative of the History of Chinese 
+Technology: East and West in Bertrand Gille’s Histoire des Techniques', Acta 
+Baltica Historiae et Philosophiae Scientiarum 3:1 (Spring 2015), 7-24.
+is
+o
+o
+applicable across different cultures. From this perspective, we 
+can understand why he would have deliberately limited himself 
+to an explanation of technical genesis based on the study of 
+the development o f tools: as he lamented in the postscript to 
+L^homme et la move厂e, written thirty years after its original 
+publication, m ost classic ethnographies dedicate their first 
+chapter to technics, only to turn immediately to social and 
+religious aspects fo r the remainder.34 In Leroi-Gourhan’s work, 
+technics becomes autonomous in the sense that it acts as a 
+'lens’ through which the evolution of the human, civilisation, 
+and culture can be retrieved. However, it is difficult to attribute 
+the singularity of technical facts to the 'milieu’ alone, and 丨
+ do 
+not believe it is possible to avoid the question of cosmology 
+and therefore that of cosmotechnics.
+Allow me to pose this question in the form o f a Kantian 
+antinomy: (1) Technics is anthropologically universal, and since 
+it consists in the extension of somatic functions and the 
+externalisation of memory, the differences produced in d if­
+ferent cultures can be explained according to the degree to 
+which factual circumstances inflect the technical tendency;35 
+⑵ Technics is not anthropologically universal; technologies in 
+different cultures are affected by the cosmological understand­
+ings ofthese cultures, and have autonomy only within a certain 
+cosmological setting-
+technics is always cosmotechnics. The 
+search for a resolution o f this antinomy will be the Ariadne’s 
+thread o f our inquiry.
+丨
+ will give a preliminary definition of cosmotechnics here: 
+it means the unification between the cosmic order and the 
+moral order through technical activities (although the term
+34. 
+Leroi-Gourhan, L'homme et la matiere, 315.
+oen
+o
+o
+19
+35. 
+Ibid., 29-35.
+20
+O
+O
+cosmic order is itself tautological since the Greek word kosmos 
+means order). The concept of cosmotechnics immediately 
+provides us w ith a conceptual tool w ith which to overcome 
+the conventional opposition between technics and nature, and 
+to understand the task of philosophy as that o f seeking and 
+affirming the organic unity o f the two. In the remainder of this 
+Introduction,丨
+ will investigate this concept in the work of the 
+tw entieth-century philosopher Gilbert Simondon and that of 
+some contemporary anthropologists, notably Tim Ingold.
+In the third part o f On the Mode o f Existence o f Technical 
+Objects (1958). Simondon sets out a speculative history of 
+technicity, affirming that it is not sufficient just to investigate 
+the technical lineage of objects; it is also necessary to under­
+stand that it implies 'an organic character of thinking and of 
+the mode of being h the w orld'.56 According to Simondon, the 
+genesis o f technicity begins w ith a 'magical' phase, in which 
+we find an original unity anterior to the subject/object division. 
+This phase is characterised by the separation and cohesion 
+between ground and figure. Simondon took these terms from 
+Gestalt psychology, where the figure cannot be detached 
+from ground, and it is the ground that gives form, while at the 
+same time form also imposing limitations on the ground. We 
+can conceive the technicity o f the magical phase as a field 
+of forces reticulated according to what he calls 'key points' 
+(pointes cles). for example high points such as mountains, 
+giant rocks, or old trees. The primitive magical moment, the 
+original mode of cosmotechnics, is bifurcated into technics 
+and religions, in which the Iatter retain an equilibrium w ith the 
+former, in the continued effort to obtain unity. Technics and 
+religion yield both theoretical and practical parts: in religion,
+O
+(!)
+36. 
+Simondon. Du mode d'existence des objets techniques, 213.
+they are known as ethics (theoretical) and dogma (practical); i n 
+21
+technics. science and technology. The magical phase is a mode 
+—
+in which there is hardly any distinction between cosmology 
+8
+and cosmotechnics, since cosmology only makes sense here 
+§
+when it is part of everyday practice. There is a separation only 
+during the modern period, since the study of technology and 
+the study of cosmology (as astronomy) are regarded as tw o 
+r 
+different disciplines— an indication of the total detachment of 
+technics from cosmology, and the disappearance of any overt 
+Z
+0
+conception of a cosmotechnics. And yet it would not be correct 
+§
+to say that there is no cosmotechnics in our time. There cer-
+§
+tainly is: it is what Philippe Descola calls ‘naturalism1, meaning 
+m
+the antithesis between culture and nature, which triumphed 
+|
+in the W est in the seventeenth century.37. In this cosmotech- 
+nics, the cosmos is seen as an exploitable standing-reserve, 
+according to what Heidegger calls the world picture ( Weltbild).
+Here w e should state that for Simondon, there remains some 
+possibility of reinventing cosmotechnics (although he doesn’t 
+use the term ) for our time. In an interview on mechanology, 
+Simondon talks about the tv antenna. beautifully describing 
+what this convergence (between modern technology and 
+natural geography) should look like. Even though, as far as I 
+am aware. Simondon did not engage further w ith this subject, 
+it will be our task to take what he meant to say further:
+Look at this TV antenna of television as it is [...] it is rigid but it is 
+oriented; we see that it looks into the distance. and that it can 
+receive (signals) from an transmitter far away. For me. it appears 
+to be more than a symbol; it seems to represent a gesture of
+37. 
+P. Descola. Beyond Nature and Culture. tr. J. Lloyd (Chicago and London: 
+Chicago University Press, 2013), 85.
+22
+u
+z工
+[J)
+ou
+UJ
+o
+[J)
+ou
+sorts, an almost magical power of intentionality, a contemporary 
+form of magic. In this encounter between the highest place and 
+the nodal point, which is the point of transmission of hype「f「e- 
+quencies, there is a sort of ‘co-naturality’ between the human 
+network and the natural geography of the region. It has a poetic 
+dimension, as well as a dimension having to do with signification 
+and the encounter between significations.38
+Retrospectively, we may find that Simondon's proposition 
+is incompatible w ith the distinction between magic and sci­
+ence made by Levi-Strauss in The Savage Mind, published 
+a few years later (1962). Magic, or rather the 'science of the 
+concrete’, according to Levi-Strauss cannot be reduced to a 
+stage or phase o f technical and scientific evolution，whereas 
+for Simondon, as we have seen, the magical phase occupies 
+the first stage of the genesis of technicity. The science o f the 
+concrete, according to Levi-Strauss, is event-driven and sign- 
+oriented, while science is structure-driven and concept-ori­
+ented. Thus fo r Levi-Strauss there is a discontinuity between 
+the two, but it seems that this discontinuity is only legitimated 
+when one compares a non-European mythical thought w ith 
+European scientific thought. In Simondon, on the other hand, 
+the magical retains a continuity w ith the development of sci­
+ence and technology. I would suggest that what Simondon 
+hints at in the third part of On the Mode o f Existence o f 
+Technical Objects is precisely a 'cosmotechnics'. Once we 
+accept the concept o f cosmotechnics, instead o f maintaining
+u
+38. 
+G. Simondon, ‘Entretien su「la mechanologie’
+，Revue de synthese 130:6. 
+no. 1 (2〇〇9),1〇3-32: 111.
+39. 
+C. Levi-St「auss, The Savage Mind (London: Weidenfeld and Nicolson, 
+1966), 13.
+the opposition between the magic/mythical and science and 
+a progression between the two, we will be able to see that 
+the former, characterized as the 'speculative organization and 
+exploitation of the sensible world in sensible terms? 0 is not 
+necessarily a regression in relation to the latter.
+Some recent work has suggested that close consideration 
+of non-Western cultures, since it demonstrates a pluralism of 
+ontologies and cosmologies, indicates a way out of the modern 
+predicament. Anthropologists such as Philippe Descola and 
+Eduardo Viveiros de Castro look to Amazonian cultures in 
+order to deconstruct the nature/culture division in Europe. 
+Similarly, philosophers such as Frangois Jullien and Augustin 
+巳erque attem pt to compare European culture w ith Chinese 
+and Japanese culture so as to depict a profound pluralism 
+that cannot be easily classified according to simple schemes, 
+and to reinterpret Western attem pts to overcome modernity. 
+In his seminal work Beyond Nature and Culture, Descola not 
+only suggests that the nature/culture division developed in 
+the Occident is not universal, bu t also maintains th a t it is 
+a marginal case. Descola describes four ontologies: namely, 
+naturalism (the nature/culture division), animism, totemism, 
+and analogism. Each of these ontologies inscribes nature in 
+different ways, and in non-modern practices one finds that 
+the nature/culture division that has been taken fo r granted 
+since European modernity does not hold.41 Descola cites Social 
+anthropologist Tim lngold’s observation that philosophers have 
+seldom asked, 'W hat makes humans animals o f a particular 
+kind?，
+, their typical preferred question about naturalism being
+zo
+oo
+23
+o
+40. 
+Ibid, 16.
+41. 
+See Descola, Beyond Nature and Culture. especially Part Ill.
+24 
+‘What makes humans different in kind from animals? ’
+犯 This
+— 
+is not only the case among philosophers, as Descola points
+0 
+out; for ethnologists also fall into the dogma of naturalism
+0 
+which insists on the uniqueness of the human being, and the
+00 
+assumption tha t humans are differentiated from other beings
+by means of culture.43 In naturalism, one finds discontinuity in
+o
+0 
+interiority and continuity in physicality; in animism, continuity
+in interiority and discontinuity in physicality.糾 We reproduce
+(9 
+Descola’s definitions of the four ontologies below:
+o
+o 
+o 
+0 
+o 
+o0
+Similar
+interiority,
+Dissimilar
+physicality
+Animism
+Totemism
+Similar
+interiority,
+Similar
+physicality
+Dissimilar
+interiority,
+Similar
+physicality
+Naturalism
+Analog ism
+Dissimilar
+interiority,
+Dissimilar
+physicality
+These various ontologies imply different conceptions of nature 
+and different forms of participation; and indeed, as Descola 
+pointed out, the antithesis between nature and culture in 
+naturalism is rejected in other conceptions of ‘nature’. What 
+Descola says about nature might also be said of technics, 
+which in Descola’s writings is abstracted as ‘practice’— a term 
+that avoids the technics/culture division. However, calling it 
+‘practice’ may obscure the role of technics; this is the reason 
+we speak of cosmotechnics rather than cosmology.
+42. 
+Descola, Beyond Nature and Culture, 178.
+43. 
+Ibid., 180.
+44. 
+Ibid., 122.
+Although he does not employ a term analogous to 'cosmo- 
+technics’, Ingold perceives this point clearly. Drawing on Greg­
+ory Bateson, Ingold proposes that there is a unity between 
+practices and the environment to which they belong. This 
+leads to his proposal fo r a sentient ecology,45 which is medi­
+ated and operated according to affective relations between 
+human beings and their environments. One example he gives 
+concerning hunter-gatherer society helps to clarify what he 
+means by 'sentient ecology’：
+ hunter-gatherers’ perception of 
+the environment, he tells us, is embedded h their practices.46 
+Ingold points out that the Cree people of northeastern Canada 
+have an explanation for why reindeers are easy to kill: the 
+animals offer themselves voluntarily 'in a spirit of good will 
+or even love towards the hunter? 7 The encounter between 
+animal and hunter is not simply a question of 'to shoot or not 
+to shoot’, but rather one o f cosmological and moral necessity:
+At that crucial moment of eye-to-eye contact. the hunter felt 
+the overwhelming presence of the animal; he felt as f his own 
+being were somehow bound up or intermingled with that of 
+the animal一a feeling tantamount to love and one that, in the 
+domain of human relations, is experienced in sexual intercourse.48
+Rethinking senses such as vision, hearing, and touch by invok­
+ing Hans Jonas, James Gibson, and Maurice Merleau-Ponty, 
+Ingold attem pts to show that, when w e reinvestigate the
+45. 
+T. Ingold, The Perception of the Environment: Essays on Livelihood, 
+Dwelling and Skill (London: Routledge, 2011), 24.
+46. Ibid.. 10.
+47. 
+Ibid.. 13.
+乃
+ 
+COSMOS.
+ 
+COSMOLOGY.
+ 
+AND
+ 
+COSMOTECHNICS
+48. 
+Ibkl, 25.
+o
+question of the senses, it is possible t o 「eapp「op「iate this 
+sentient ecology, which is totally ignored in modern techno­
+logical development. And yet in this conception of human and 
+environment. the relation between environment and cosmol­
+ogy is not ve「y clea「, and this way o f analysing living beings 
+w ith the environment risks reduction to a cybernetic feedback 
+model such as Bateson’s, thereby undermining the absolutely 
+overwhelming and contingent role of the cosmos.
+Simondon holds a similar view on the relation between 
+human being and the outer world as figure and ground-
+a 
+functioning model of cosmotechnics, since the ground is 
+limited by the figure, and the figure is empowered by the 
+ground. Owing to their detachment, in religion the ground is 
+no longer limited by the figure. and therefore the unlimited 
+ground is conceived as a godlike power; whereas inversely, 
+in technics. the figure overtakes the ground and leads to the 
+subversion of their relation. Simondon therefore proposes a 
+task for philosophical thinking: to produce a convergence that 
+reaffirms the unity o f figure and ground,49 something that could 
+be understood as the search fo r a cosmotechnics. For example, 
+in considering Polynesian navigation一the ability to navigate 
+among a thousand islands without any modern appa ratus-a s 
+a cosmotechnics, we might focus not on this ability as a skill, 
+but rather on thefigure-ground relation that prefigures this skill.
+The comparison between the work o f Ingold and other 
+ethnologists and Simondon indicates tw o different ways in 
+which the question concerning technology in China might be 
+approached. In the first. we are given a way in which to compre­
+hend cosmology, which conditions social and political life; while 
+in the second. philosophical thought i s reconfigured as a search
+26
+49. 
+Simondon, Du mode d'existence des objets techniques, 217—18.
+for the ground of the figure. whose relation seems to be more 
+and more distanced due to the increasing specialization and 
+division of professions in modern societies. The cosmotechnics 
+of ancient China and the philosophical thought developed 
+throughout its history seem to me to reflect a constant effort 
+to bring about precisely such a unification of ground and figure.
+In Chinese cosmology, one finds a sense other than vision. 
+hearing, and touch. It is called Ganying〔感應) .literally meaning 
+'feeling' and 'response', and is often (as h the work of sinolo­
+gists such as Marcel Granet and Angus Graham) understood 
+as 'correlative thinking';50 I prefer to call it resonance, following 
+Joseph Needham. It yields a 'moral sentiment' and further, a 
+'moral obligation' (in social and political terms) which is not 
+solely the product o f subjective contemplation, but rather 
+emerges from the resonance between the Heaven and the 
+human, since the Heaven is the ground o f the moral，1 The 
+existence of such a resonance rests upon the presupposition 
+of unification between the human and the Heaven〔天人合一). 
+and therefore Ganying implies (1) a homogeneity in all beings, 
+and ⑵ an organicity of the relation between part and part,
+50. A. C. Graham. Yin-Yang and the Nature of Correlative Thinking, 
+(Singapore: National University of Singapore, 1986)
+51. 
+Concerning the origin of the moral order. it is difficult, for instance, to find 
+an explanation in Henri Bergson’s The Two Sources of Morality and Religion 
+(tr A. Audra and C. Brereton [London: Macmillan, 1935]). Bergson distinguishes 
+two kinds of morals: one is a closed morals related to social obligation and 
+habitude, while the other is what he calls an open morals related to 'call of 
+the hero [appe' du hero]\ In the latter form, one doesn't yield to pressure, but 
+to fascination; according to Bergson these two forms of the moral coexist, 
+and neither exists in pure form. It would certainly be worthwhile to further 
+examine Bergson’s concept of the moral and its implications for the Chinese 
+cosmotechnics that I attempt to sketch out here, although it seems to me that 
+Bergson’s understanding of the moral is rather limited to the Western tradition, 
+especially the Greeks: in China, the cosmos played a determining role, so that 
+any heroic act could only be an accordance with the Heaven.
+w
+ 
+c
+o
+s
+m
+o
+s
+,
+ 
+Coslvlol-OGY.
+ 
+ANDCOSIVIOTECHNICS
+2s 
+and between part and whole.》This homogeneity can be
+— 
+found already in Zhou Yi— Xi Ci 11,55 where the ancient 巳ao-xi
+u 
+(another name for Fuxi) created the eight trigrams to reflect
+z
+u 
+the connection of a丨
+丨
+ being through these homogeneities:
+Anciently. when 巳ao-xi had come to the rule of all under Heaven. 
+looking up. he contemplated the brilliant forms exhibited in the 
+sky. and looking down he surveyed the patterns shown on the 
+earth. He contemplated the ornamental appearances of birds 
+and beasts and the (different) suitabilities of the soil. Near at 
+hand. in his own person, he found things for consideration. and 
+the same at a distance. in things in general. On this he devised 
+the eight trigrams, to show fully the attributes of the spirit-like 
+and intelligent (operations working secretly), and to classify the 
+qualities of the myriads of things.54
+Words such as 'form s，
+, 'patterns', and ‘appearances’ are essen­
+tial in understanding the resonances between the Heaven 
+and the human. They imply an attitude towards science in 
+China which (according to the organismic readings offered 
+by authors such as Joseph Needham) differs from that of 
+Greece, since it is resonance that 丨
+ends authority to rules and 
+laws, whereas fo r the Greeks laws (nomoi) are closely related
+52. 
+Huang Junjie (黃俊傑)，東亞儒學史的新視野[New Perspectives on 
+the History of Confucianism in East Asia] (Taiwan: Taiwan National University 
+Press, 2015), 267.
+53. 
+According to historical documents, there were three versions of the
+I Ching (易經. or The Book of Changes) in China, but only one, Zhou Yi (周 
+易），has been preserved and circulated. There are seven classic commentaries 
+on the I Ching, known as Yi Zhuan (易傳)，including the Xi Ci quoted below; 
+together, these ten texts (including the lost ones) are known as the 'ten wings'.
+54 
+Xi Ci II, tr. J. Legge, <http://ctext.org/book-of-changes/xi-ci-xia/ens> 
+[emphasis mine].
+2CJ)
+Ou
+2
+u
+to geometry, as Vernant frequently points out. But how is 
+this resonance to be sensed? Confucianism and Daoism both 
+postulate a cosmological ‘heart’ or ‘mind’ (examined in §18 
+below) able to resonate with the external environment (for 
+example in Luxuriant Dew o f the Spring and Autumn Annals)55 
+as well as w ith other beings (for example in Mencius). We 
+will see later how it is this sense that leads to the develop­
+ment of a moral cosmology or moral metaphysics in China, 
+which is expressed in the unification between the Heaven 
+and the human. Importantly for our argument here, in the 
+context o f technics such unification is also expressed as the 
+unification of Qi (^ . literally translated as 'tools’) and Dao (道, 
+often transliterated as ‘tao’). For example, h Confucianism, Qi 
+implies a cosmological consciousness of the relations between 
+humans and nature that is demonstrated in rituals and religious 
+ceremonies. As we discuss in Part 1, the Confucian classic Li 
+Ji (the Book o f Rituals) contains a long section entitled Li Qi ( 
+禮器, 'the vessels of rituals’）documenting the importance of 
+technical objects in the fulfilment of the Li (禮, 'rituals’), and 
+according to which morality can only be maintained through 
+the proper use o f Li Qi.
+It will be the task of Part 1 to elaborate on this 'correlative 
+thinking’ in China, and on the dynamic relation between Qi 
+and Dao. I believe that the concept of cosmotechnics allows 
+us to trace different technicities, and contributes to opening 
+up the plurality of relations between technics, mythology, and 
+cosmology一and thereby to the embracing of the different 
+relations between the human and technics inherited from dif­
+ferent mythologies and cosmologies. Certainly Prometheanism
+55. Authorship of this work is attributed to the important Han Confucian 
+Dong Zhongshu (董仲舒，179-104 BC), who we will discuss below.
+四 
+cosmos, 
+Coslvlol-OGY.
+ 
+AND
+ 
+COSMOTECHNICS
+30
+w
+0
+1 
+N
+ 
+H
+o
+山 
+i
+〇
+ 
+2
+ 
+w
+o
+ 
+0
+Q
+N
+ 
+<
+is one such relation, but it is highly problematic to take it as a 
+universal. However, I am certainly not proposing to advocate 
+any kind of cultural purity here, or to defend it. as origin, against 
+contamination. Technics has served as a means of communica­
+tion between different ethnic groups, which immediately calls 
+into question any concept of an absolute origin. In our tech­
+nological epoch, it is the driving force o f globalisation— in the 
+sense both of a converging force acting through space, and a 
+synchronising force h time. Yet a radical alterity will have to be 
+asserted in order to leave room for heterogeneity, and thereby 
+to develop different epistemes based on traditional metaphysi­
+cal categories, a task which opens the way to the veritable 
+question of locality. I use the term episteme w ith reference to 
+Michel Foucault. fo r whom it denotes a social and scientific 
+structure that functions as a set of criteria of selection, and 
+determines the discourse of tru th .56 In The Order o f Things, 
+Foucault introduces a periodisation of three epistemes in the 
+Occident: Renaissance, Classical, and Modern. Foucault later 
+found that his introduction of the term episteme had led to an 
+impasse, and developed a more general concept, namely that 
+o f the dispositif.口 The transition from episteme to dispositif is 
+a strategic move to a more immanent critique, which Foucault 
+was able to apply i n a more contemporary analysis; looking back
+(!)
+56. 
+M. Foucault. The Order of Things: An Archeology of the Human Sciences 
+(New York: Vintage Books. 1994). xxi: 'What I am attempting to bring to light 
+is the epistemological field. the episteme in which knowledge. envisaged apart 
+from all criteria having reference to its rational value or to its objective forms, 
+grounds its positivity and thereby manifests a history which is not that of 
+its growing perfection, but rather that of its conditions of possibility; in this 
+account. what should appear are those configurations within the space of 
+knowledge which have given rise to the diverse forms of empirical science.’
+57. 
+M. Foucault, 'Le jeu de Michel Foucault (Entretien sur「histoire de la 
+sexualite)1, in Dits et Ecrits Ill (Paris: Gallimard, 1994), 297-329: 301.
+during an interview in 1977, around the time of the publication of 
+the History o f Sexuality, Foucault proposed to define episteme 
+as a form of dispositif: as that 'strategic dispositif which allows 
+the selection, among all possible enunciations, of those that 
+will be acceptable within [...] a field of scientificity of which one 
+can say: this is true or false'.581 take the liberty of reformulating 
+the concept of episteme here: fo r me it is a dispositif which, 
+in the face o f modern technology, may be reinvented on the 
+basis of the traditional metaphysical categories in order to 
+reintroduce a form o f life and to reactivate a locality. Such 
+reinventions can be observed, forexample, following the social, 
+political, and economic crises that occurred in each epoch in 
+China (and w e can surely find examples in other cultures): the 
+decline of the Zhou Dynasty (^22-256 b c ), the introduction 
+o f Buddhism in China, the country's defeat in the Opium Wars, 
+etc. At these points we observe the reinvention of an episteme, 
+which h turn conditions aesthetic, social, and political life. The 
+technical systems that are in the process o f forming today, 
+fuelled by digital technologies (for example, 'smart cities', the 
+'internet of things', social networks, and large-scale automation 
+systems) tend to lead to a homogeneous relation between 
+humanity and technics— that o f intensive quantification and 
+control. But this only makes it more im portant and more 
+urgent for different cultures to reflect on their own history 
+and ontologies in order to adopt digital technologies without 
+being merely synchronized into the homogenous 'global' and 
+'generic' episteme.
+The decisive moment in modern Chinese history came with 
+the tw o Opium Wars in the mid-nineteenth century, in which 
+the Qing dynasty (1644- 1912) was comprehensively defeated
+cosmos, 
+Coslvlol-OGY.
+ 
+AND
+ 
+COSMOTECHNICS
+5 8 . 丨
+bid.

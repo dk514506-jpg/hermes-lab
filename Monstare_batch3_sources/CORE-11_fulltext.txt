@@ -1,0 +1,692 @@
+ 
+Copyright © 2009 by Lisa D. Ordóñez, Maurice E. Schweitzer, Adam D. Galinsky, and Max H. Bazerman 
+Working papers are in draft form. This working paper is distributed for purposes of comment and 
+discussion only. It may not be reproduced without permission of the copyright holder. Copies of working 
+papers are available from the author. 
+ 
+ 
+Goals Gone Wild: The 
+Systematic Side Effects of 
+Over-Prescribing Goal Setting 
+ 
+Lisa D. Ordóñez 
+Maurice E. Schweitzer 
+Adam D. Galinsky 
+Max H. Bazerman 
+ 
+ 
+ 
+Working Paper 
+ 
+09-083 
+ 
+
+  Goals Gone Wild            1 
+ 
+ 
+Goals Gone Wild: The Systematic Side Effects of Over-Prescribing Goal Setting  
+ 
+Lisa D. Ordóñez 
+Eller College of Management, University of Arizona 
+ 
+Maurice E. Schweitzer 
+Wharton School, University of Pennsylvania 
+ 
+Adam D. Galinsky 
+Kellogg School of Management, Northwestern University 
+ 
+Max H. Bazerman 
+Harvard Business School, Harvard University  
+ 
+
+  Goals Gone Wild            2 
+ 
+Abstract 
+ 
+Goal setting is one of the most replicated and influential paradigms in the management literature. 
+Hundreds of studies conducted in numerous countries and contexts have consistently 
+demonstrated that setting specific, challenging goals can powerfully drive behavior and boost 
+performance. Advocates of goal setting have had a substantial impact on research, management 
+education, and management practice. In this article, we argue that the beneficial effects of goal 
+setting have been overstated and that systematic harm caused by goal setting has been largely 
+ignored. We identify specific side effects associated with goal setting, including a narrow focus 
+that neglects non-goal areas, a rise in unethical behavior, distorted risk preferences, corrosion of 
+organizational culture, and reduced intrinsic motivation. Rather than dispensing goal setting as a 
+benign, over-the-counter treatment for motivation, managers and scholars need to conceptualize 
+goal setting as a prescription-strength medication that requires careful dosing, consideration of 
+harmful side effects, and close supervision. We offer a warning label to accompany the practice 
+of setting goals.  
+ 
+ 
+ 
+
+  Goals Gone Wild            3 
+ 
+Goals Gone Wild: The Systematic Side Effects of Over-Prescribing Goal Setting  
+ 
+For decades, goal setting has been promoted as a halcyon pill for improving employee 
+motivation and performance in organizations. Across hundreds of experiments, dozens of tasks, 
+and thousands of participants across four continents, the results are clear (Locke, Latham, Smith, 
+& Wood, 1990). Compared to vague, easy goals (e.g., “Do your best”), specific, challenging 
+goals boost performance. In a review of four decades of goal-setting research, Locke and Latham 
+(2006) claim, “So long as a person is committed to the goal, has the requisite ability to attain it, 
+and does not have conflicting goals, there is a positive, linear relationship between goal difficulty 
+and task performance.” 
+In this article, however, we contend that goal setting has been over-prescribed. In 
+particular, we argue that goal setting has powerful and predictable side effects. Rather than being 
+offered as an “over-the-counter” salve for boosting performance, goal setting should be 
+prescribed selectively, presented with a warning label, and closely monitored. 
+Emblematic Examples of Goals Gone Wild 
+Here are just a few examples of the hazards of indiscriminate goal setting. First, consider 
+Sears, Roebuck and Co.’s experience with goal setting in the early 1990s. Sears set sales goals 
+for its auto repair staff of $147/hour. This specific, challenging goal prompted staff to overcharge 
+for work and to complete unnecessary repairs on a companywide basis (Dishneau, 1992). 
+Ultimately, Sears’ Chairman Edward Brennan acknowledged that goal setting had motivated 
+Sears’ employees to deceive customers. Sears’ “goal setting process for service advisers created 
+an environment where mistakes did occur,” Brennan admitted (Santoro & Paine, 1993). 
+
+  Goals Gone Wild            4 
+ 
+ 
+In the late 1990s, specific, challenging goals fueled energy-trading company Enron’s 
+rapid financial success. Ackman (2002) compares Enron’s incentive system to “paying a 
+salesman a commission based on the volume of sales and letting him set the price of goods sold.” 
+Even during Enron’s final days, Enron executives were rewarded with large bonuses for meeting 
+specific revenue goals. In sum, “Enron executives were meeting their goals, but they were the 
+wrong goals,” according to employee compensation expert Solange Charas. By focusing on 
+revenue rather than profit, Enron executives drove the company into the ground. 
+In the late 1960s, the Ford Motor Company was losing market share to foreign 
+competitors that were selling small, fuel-efficient cars. CEO Lee Iacocca announced the specific, 
+challenging goal of producing a new car that would be “under 2000 pounds and under $2,000” 
+and would be available for purchase in 1970. This goal, coupled with a tight deadline, meant that 
+many levels of management signed off on unperformed safety checks to expedite the 
+development of the car—the Ford Pinto. One omitted safety check concerned the fuel tank, 
+which was located behind the real axle in less than 10 inches of crush space. Lawsuits later 
+revealed what Ford should have corrected in its design process: the Pinto could ignite upon 
+impact. Investigations revealed that after Ford finally discovered the hazard, executives remained 
+committed to their goal and instead of repairing the faulty design, calculated that the costs of 
+lawsuits associated with Pinto fires (which involved 53 deaths and many injuries) would be less 
+than the cost of fixing the design. In this case, the specific, challenging goals were met (speed to 
+market, fuel efficiency, and cost) at the expense of other important features that were not 
+specified (safety, ethical behavior, and company reputation). 
+ 
+As these disasters suggest, the harmful effects of goal setting have received far too little 
+attention in the management literature. Although prior work has acknowledged “pitfalls” of goal 
+
+  Goals Gone Wild            5 
+ 
+setting (Latham & Locke, 2006), we argue that the harmful side effects of goal setting are far 
+more serious and systematic than prior work has acknowledged. First, we begin by describing the 
+systematic and predictable ways in which goal setting harms organizations. We describe how the 
+use of goal setting can degrade employee performance, shift focus away from important but non-
+specified goals, harm interpersonal relationships, corrode organizational culture, and motivate 
+risky and unethical behaviors. We argue that, in many situations, the damaging effects of goal 
+setting outweigh its benefits.  
+Second, we offer a warning label to guide the use of goal setting. We identify specific 
+questions managers should ask to ascertain whether the harmful effects of goal setting outweigh 
+the potential benefits.  
+Third, we call for further study of the adverse consequences of goal setting. Given the 
+widespread endorsement and use of goal setting, we argue that the harmful effects of goal setting 
+deserve additional scholarly and managerial attention. 
+How Goals Go Wild 
+Advocates of goal setting argue that for goals to be successful, they should be specific 
+and challenging. Countless studies (see Locke & Latham, 2002, 2006) find that specific, 
+challenging goals motivate performance far better than “do your best” exhortations. According to 
+these findings, specific goals provide clear, unambiguous, and objective means for evaluating 
+employee performance. Specific goals focus people’s attention; lacking a specific goal, 
+employee attention may be dispersed across too many possible objectives. In turn, because 
+challenging goals, or “stretch” goals, create a discrepancy between one’s current and expected 
+output, they motivate greater effort and persistence.  
+
+  Goals Gone Wild            6 
+ 
+Although specific, challenging goals can produce positive results, we argue that it is often 
+these same characteristics of goals that cause them to “go wild.” 
+When Goals Are Too Specific 
+As research has shown, goals focus attention. Unfortunately, goals can focus attention so 
+narrowly that people overlook other important features of a task. Consider Simons and Chabris' 
+(1999; Neisser, 1979) well-known study of inattentional blindness. The researchers asked 
+participants to watch a video in which two groups of players pass basketballs. One group wears 
+white shirts; the other group wears dark shirts. Given the task of counting basketball passes 
+among people wearing only white shirts, people unconsciously block out the black shirted 
+individuals. As a result of this narrow focus, most participants fail to notice when a man wearing 
+a black gorilla suit saunters into the middle of the screen, pounds his chest, and walks off screen. 
+Intense concentration on the counting task causes people to overlook a striking element of their 
+visual world. This focusing problem has broad application (Bazerman & Chugh, 2006) and direct 
+relevance to goal setting. 
+Narrow Goals. With goals, people narrow their focus. This intense focus can blind people 
+to important issues that appear unrelated to their goal (as in the case of Ford employees who 
+overlooked safety testing to rush the Pinto to market). The tendency to focus too narrowly on 
+goals is compounded when managers chart the wrong course by setting the wrong goal (e.g., 
+setting revenue rather than profit goals at Enron).  
+Setting appropriate goals is a difficult, intricate process. Suppose that a university 
+department bases tenure decisions primarily on the number of articles that professors publish. 
+This goal will motivate professors to accomplish the narrow objective of publishing articles. 
+Other important objectives, however, such as research impact, teaching, and service, may suffer. 
+
+  Goals Gone Wild            7 
+ 
+Consistent with the classic notion that you get what you reward (Kerr, 1975, 1995), goal setting 
+may cause people to ignore important dimensions of performance that are not specified by the 
+goal setting system. 
+Staw and Boettger (1990) document the hazards of narrow focus fostered by goals in a 
+clever study. They asked students to proofread a paragraph that contained both grammatical and 
+blatant content errors. The paragraph was purportedly going to be used in a brochure promoting 
+the business college. The authors found that individuals instructed to “do your best” were more 
+likely to correct both grammatical and content errors than were those who were given explicit 
+goals to correct either grammar or content. Tenbrunsel, Wade-Benzoni, Messick, and Bazerman 
+(2000) make a related point. They argue that standards, such as the Environmental Protection 
+Agency’s standards on pollution, too often focus compliance on specific, measureable standards 
+at the expense of the overall goal of protecting the environment.  
+When manager set targets for specific dimensions of a problem, they often fail to 
+anticipate the broader results of their directives. Goals “inform the individual about what 
+behavior is valued and appropriate” (Staw & Boettger, 1990). The very presence of goals may 
+lead employees to focus myopically on short-term gains and to lose sight of the potential 
+devastating long-term effects on the organization. 
+Too many goals. A related problem occurs when employees pursue multiple goals at one 
+time. Shah, Friedman, and Kruglanski (2002) demonstrate that individuals with multiple goals 
+are prone to concentrate on only one goal. Related research suggests that some types of goals are 
+more likely to be ignored than others. In a stock selection task, Gilliland and Landis (1992) gave 
+participants both quality goals and quantity goals. When quantity and quality goals were both 
+difficult, participants sacrificed quality to meet the quantity goals. Goals that are easier to 
+
+  Goals Gone Wild            8 
+ 
+achieve and measure (such as quantity) may be given more attention than other goals (such as 
+quality) in a multi-goal situation. 
+Inappropriate Time Horizon. Even if goals are set on the right attribute, the time horizon 
+may be inappropriate. For example, goals that emphasize immediate performance (e.g., this 
+quarter’s profits) prompt managers to engage in myopic, short-term behavior that harms the 
+organization in the long run. Cheng, Subramanyam, and Zhang (2005) showed that firms that 
+frequently issue quarterly earnings reports, compared to firms that report earnings less 
+frequently, tended to meet or beat analyst expectations, but also tended to invest less in research 
+and development. The effort to meet short-term targets occurred at the expense of long-term 
+growth. Some companies are learning from these mistakes; Coca Cola announced in 2002 that is 
+would cease issuing quarterly earnings guidance and provide more information about progress on 
+meeting long-term objectives.  
+The time horizon problem is related to the notion that goals can lead people to perceive 
+their goals as ceilings rather than floors for performance. Just as the pigeons in the Skinner 
+experiments demonstrated “post-pellet pause” (a state of inactivity after their pecking produced 
+the desired pellet of food), once a goal is achieved people relax, rest, and pause. For example, a 
+salesperson, after meeting her monthly sales quota, may spend the rest of the month playing golf 
+rather than working on new sales leads. An excellent example of this problem comes from a 
+study of New York City cab drivers. This study answers the age-old question of why it is so hard 
+to get a cab on a rainy day (Camerer, Babcock, Loewenstein, & Thaler, 1997). Most people 
+blame demand: When it is raining, more people hail cabs than when the weather is clear. But as 
+it turns out, supply is another important culprit. As a day progresses, cabs start disappearing 
+more quickly from Manhattan streets on rainy days than on sunny days. Why? Because of the 
+
+  Goals Gone Wild            9 
+ 
+specific, daily goals that most cab drivers set: a goal to earn double the amount it costs them to 
+rent out their cabs for a 12-hour shift. On rainy days, cabbies make money more quickly than on 
+sunny days (because demand is indeed higher), hit their daily goal sooner, and then they go home 
+(the problem of goals as ceilings). This finding flies in the face of the economic tenet of wage 
+elasticity, which predicts that people should work more hours on days when they can earn more 
+money and less on days when they earn less. If NYC taxi drivers used a longer time horizon 
+(perhaps weekly or monthly), kept track of indicators of increased demand (e.g., rain or special 
+events), and ignored their typical daily goal, they could increase their overall wages, decrease the 
+overall time they spend working, and improve the welfare of drenched New Yorkers.  
+When Goals Are Too Challenging 
+Proponents of goal setting claim that a positive linear relationship exists between the 
+difficulty of a goal and employee performance. Specifically, they argue that goals should be set 
+at the most challenging level possible to inspire effort, commitment, and performance—but not 
+so challenging that employees see no point in trying. This logic makes intuitive sense, yet stretch 
+goals also cause serious side-effects: shifting risk attitudes, promoting unethical behavior, and 
+triggering the psychological costs of goal failure.  
+Risk taking. As prior work conjectured (Neale & Bazerman, 1985; Knight, Durham, & 
+Locke, 2001) and recent work demonstrates (Larrick, Heath, & Wu, in press), goal-setting 
+distorts risk preferences. Larrick et al. (in press) demonstrate that people motivated by specific, 
+challenging goals adopt riskier strategies and choose riskier gambles than do those with less 
+challenging or vague goals.  
+Related work has found that goals harm negotiation performance by increasing risky 
+behavior. Negotiators with goals are more likely to reach an inefficient impasse than are 
+
+  Goals Gone Wild            10 
+ 
+negotiators who lack goals (Neale & Bazerman, 1985; Galinsky, Mussweiler, & Medvec, 2002). 
+For example, Galinsky et al. (2002) found that stretch goals increased the number of impasses, 
+and Larrick et al. (in press) found that goals prompted participants to make larger demands that 
+in turn destroyed value. It is also quite easy to imagine that in a very different context, a 
+negotiator who has obtained concessions sufficient to reach their goal, will satisfice and accept 
+the agreement on the table, even if the value maximizing strategy would be to continue the 
+negotiation process. Clearly, in some domains, goal setting can significantly harm performance 
+rather than promoting better outcomes.   
+An excessive focus on goals may have prompted the risk-taking behavior that lies at the 
+root of many real-world disasters. The collapse of Continental Illinois Bank provides an example 
+with striking parallels to the collapse of Enron and the financial crisis of 2008. In 1976, 
+Continental’s chairman announced that within five years, the magnitude of the bank’s lending 
+would match that of any other bank. To reach this stretch goal, the bank shifted its strategy from 
+conservative corporate financing toward aggressive pursuit of borrowers. Continental allowed 
+officers to buy loans made by smaller banks that had invested heavily in very risky loans. 
+Continental would have become the seventh-largest U.S. bank if its borrowers had been able to 
+repay their loans; instead, following massive loan defaults, the government had to bail out the 
+bank.  
+In other domains, such as the design process for the Ford Pinto, the perceptual blinders of 
+narrow and challenging goals have had fatal consequences. Kayes (2006) cites the 1996 Mt. 
+Everest disaster in which eight climbers died due to the decisions of the two team leaders as an 
+example of “destructive goal pursuit.”   On Mt. Everest, world-class high-altitude guides, Rob 
+Hall and Scott Fischer, identified so closely with the goal of reaching the summit that they made 
+
+  Goals Gone Wild            11 
+ 
+risky decisions that led to their own and 6 of their clients’ deaths. Kayes identifies warning signs 
+of leaders who have become excessively fixated on goals. These occur in leaders who express 
+narrowly defined goals, associate goals with destiny, express an idealized future, offer goal-
+driven justifications, face public expectations, and attempt to engage in face-saving behavior. 
+Unethical behavior. Another serious way in which goal setting can damage organizations 
+is by promoting unethical behavior. At Sears’ automotive unit, employees charged customers for 
+unnecessary repairs in order to meet specific, challenging goals. In the late 1980s, Miniscribe 
+employees shipped bricks to customers instead of disk drives to meet shipping targets. And in 
+1993, Bausch and Lomb employees falsified financial statements to meet earnings goals. In each 
+of these cases, specific, challenging goals motivated employees to engage in unethical behavior. 
+ 
+Goal setting has been promoted as a powerful motivational tool, but substantial evidence 
+demonstrates that in addition to motivating constructive effort, goal setting can induce unethical 
+behavior. Surprisingly little research in the goal-setting literature has examined what people 
+might do when they have the opportunity to misrepresent their performance or cheat to attain a 
+goal. One of the few studies that looked for a direct link between goal setting and cheating found 
+that participants were more likely to misrepresent their performance level when they had a 
+specific, challenging goal than when they did not, especially when their actual performance level 
+fell just short of reaching the goal (Schweitzer, Ordóñez, & Douma, 2004). 
+Goal setting can promote two different types of cheating behavior. First, when motivated 
+by a goal, people may choose to use unethical methods to reach it. For example, at Sears, 
+mechanics told customers that they needed unnecessary repairs and then performed and charged 
+them for this unneeded work. Second, goal setting can motivate people to misrepresent their 
+performance level—in other words, to report that they met a goal when in fact they fell short. For 
+
+  Goals Gone Wild            12 
+ 
+example, employees at Bausch and Lomb who were driven to reach sales targets reported sales 
+that never took place. Similarly, when senior management gives lawyers and consultants 
+specific, challenging goals for billable hours, they may bill clients for hours they never worked. 
+Goal setting, of course, is not the only cause of employee unethical behavior, but it is 
+certainly an important, understudied ingredient. A number of factors serve as catalysts in the 
+relationship between goal setting and cheating: lax oversight, financial incentives for meeting 
+performance targets (Jensen, 2003; Schweitzer et al., 2004), and organizational cultures with a 
+weak commitment to ethics.  
+The interplay between organizational culture and goal setting is particularly important. 
+An ethical organizational culture can reign in the harmful effects of goal setting, but at the same 
+time, the use of goals can influence organizational culture. Specifically, the use of goal setting, 
+like “management by objectives,” creates a focus on ends rather than means. Barsky (2007) 
+argues that goal setting impedes ethical decision making by making it harder for employees to 
+recognize ethical issues and easier for them to rationalize unethical behavior. Given that small 
+actions within an organization can have broad implications for organizational culture (Fleming & 
+Zyglidopoulos, 2008), we postulate that aggressive goal setting within an organization will 
+foster an organizational climate ripe for unethical behavior. That is, not only does goal setting 
+directly motivate unethical behavior, but its introduction may also motivate unethical behavior 
+indirectly by subtly altering an organization’s culture. In sum, although many factors contribute 
+to unethical behavior, the point cannot be overstated: goal setting motivates unethical behavior.  
+Dissatisfaction and the psychological consequences of goal failure. One problem 
+embedded in stretch goals is the possibility that the goal may not be reached. In negotiations, for 
+example, challenging goals can increase negotiation and task performance, but decrease 
+
+  Goals Gone Wild            13 
+ 
+satisfaction with high-quality outcomes (Galinsky et al., 2002; Garland, 1983). These decreases 
+in satisfaction influence how people view themselves and have important consequences for 
+future behavior. Mussweiler and Strack (2000) found that giving someone a challenging goal 
+versus an easy goal on an attention task or an intelligence test improved performance, but left 
+people questioning their concentration abilities and overall intelligence. These goal-induced 
+reductions in self-efficacy can be highly detrimental, because perceptions of self-efficacy are a 
+key predictor of task engagement, commitment, and effort (Bandura, 1977). 
+Goals, Learning, and Cooperation 
+In order to adapt to a competitive landscape, organizations need employees who are able 
+to learn and collaborate with their colleagues. Goals can inhibit both learning and cooperation. 
+Goals inhibit learning. When individuals face a complex task, specific, challenging goals 
+may inhibit learning from experience and degrade performance compared to exhortations to “do 
+your best” (Cervone, Jiwani, & R. Wood, 1991; Earley, Connolly, & Ekegren, 1989; Robert 
+Wood, Bandura, & Bailey, 1990). An individual who is narrowly focused on a performance goal, 
+will be less likely to try alternative methods that could help her learn how to perform a task. As 
+an example of this phenomenon, Locke and Latham (2002) describe an air traffic controller 
+simulation in which the performance goal interfered with learning in this complex domain 
+(Kanfer & Ackerman, 1989). Overall, the narrow focus of specific goals can inspire performance 
+but prevent learning. 
+ Locke and Latham recommend that “learning goals” should be used in complex 
+situations rather than “performance goals.” In practice, however, managers may have trouble 
+determining when a task is complex enough to warrant a learning, rather than a performance 
+goal. In many changing business environments, perhaps learning goals should be the norm. Even 
+
+  Goals Gone Wild            14 
+ 
+when tasks are complex enough to clearly warrant learning goals, managers face the challenge of 
+identifying the specific, challenging goal levels for learning objectives. The goal of setting the 
+right goals is itself a challenging affair.  
+Goals create a culture of competition. Organizations that rely heavily on goal setting may 
+erode the foundation of cooperation that holds groups together. Arrow (1973) argued that an 
+exclusive focus on profit maximization can harm altruistic and other-regarding behavioral 
+motives. Similarly, being too focused on achieving a specific goal may decrease extra-role 
+behavior, such as helping coworkers (Wright, George, Farnsworth, & McMahan, 1993). Goals 
+may promote competition rather than cooperation and ultimately lower overall performance 
+(Mitchell & Silver, 1990).  
+When Goals Harm Motivation Itself  
+As goal setting increases extrinsic motivation, it can harm intrinsic motivation – engaging 
+in a task for its own sake (Mossholder, 1980; Rawsthorne & Elliot, 1999; Shalley & Oldham, 
+1985). This is true of rewards in general (Deci, Koestner, & Ryan, 1999), but several studies 
+demonstrate that this is particularly true for goals themselves (Elliot & Harackiewicz, 1996; 
+Rawsthorne & Elliot, 1999). 
+This problem is important, because managers are likely to over-value and overuse goals. 
+Although people recognize the importance of intrinsic rewards in motivating themselves, people 
+exaggerate the importance of extrinsic rewards in motivating others (Heath, 1999). In short, 
+managers may think that others need to be motivated by specific, challenging goals far more 
+often than they actually do.  
+
+  Goals Gone Wild            15 
+ 
+By setting goals, managers may create a hedonic treadmill in which employees are 
+motivated by external means (goals, rewards, etc.) and not by the intrinsic value of the job itself 
+(Deci, 1971, 1975).  
+Can We Set the Right Goal? The Problem of Calibration 
+Proponents of goal setting have long championed the simplicity of its implementation and 
+the efficiency of its effects. In practice, however, setting goals is a challenging process, 
+especially in novel settings. 
+Goal setting can become problematic when the same goal is applied to many different 
+people. Given the variability of performance on any given task, any standard goal set for a group 
+of people will vary in difficulty for individual members; thus, the goal will simultaneously be too 
+easy for some and too difficult for others. Conversely, idiosyncratically tailoring goals to each 
+individual can lead to charges of unfairness. This has important implications, because employee 
+perceptions of whether rewards fairly match effort and performance can be one of the best 
+predictors of commitment and motivation (Cropanzano, Byrne, Bobocel, & Rupp, 2001; Walster, 
+Walster, & Berscheid, 1978). For example, salary disparities between executives and lower-level 
+managers predict the organizational exodus of underpaid managers (Wade, O'Reilly, & Pollock, 
+2006). Both broad-based goals and idiosyncratic goals can lead to problems.  
+Perverse incentives can also make goal setting politically and practically problematic. 
+When reaching pre-set goals matters more than absolute performance, self-interested individuals 
+can strategically set (or guide their managers to set) easy-to-meet goals. By lowering the bar, 
+they procure valuable rewards and accolades. Many company executives often choose to manage 
+expectations rather than maximize earnings (Bartov, Givoly, & Hayn, 2002). In some cases, 
+managers set a combination of goals that, in aggregate, appears rational, but is in fact not 
+
+  Goals Gone Wild            16 
+ 
+constructive. For example, consider a self-interested CEO who receives a bonus for hitting 
+targets. This CEO may set a mix of easy goals (that she is sure to meet) and ‘what the hell’ 
+difficult goals (that she does not plan to meet). On average, the goal levels may seem 
+appropriate, but this mix of goals may generously reward the CEO (when she meets the easy 
+goals) without motivating any additional effort when the goals are difficult. In reality, CEOs (and 
+many Wall Street executives) face asymmetric rewards—a large bonus for meeting the goal in 
+one year, but no fear of having to return a large bonus the following year for underperforming.   
+Getting it Right: Harness the Power of Goals  
+There are many ways in which goals go wild: they can narrow focus, motivate risk-
+taking, lure people into unethical behavior, inhibit learning, increase competition, and decrease 
+intrinsic motivation. At the same time, goals can inspire employees and improve performance. 
+How, then, should we prescribe the use of goal setting? Which systematic side effects of goal 
+setting should we most closely monitor, and how can we minimize the side effects?  
+Just as doctors prescribe drugs selectively, mindful of interactions and adverse reactions, 
+so too should managers carefully prescribe goals. To do so, managers must consider—and 
+scholars must study—the complex interplay between goal setting and organizational contexts, as 
+well as the need for safeguards and monitoring.  
+According to General Electric’s Steve Kerr, an expert in reward and measurement 
+systems, “most organizations don’t have a clue how to manage ‘stretch goals’” (Sherman, 1995). 
+He advises managers to avoid setting goals that increase employee stress, to refrain from 
+punishing failure, and to provide the tools employees need to meet ambitious goals. Integrating 
+these ideas, we urge managers to think carefully about whether goals are necessary and, if so, 
+
+  Goals Gone Wild            17 
+ 
+about how to implement a goal-setting system. In particular, we encourage managers to ask 
+themselves the questions listed in the warning label in Table 1 when considering the use of goals. 
+ 
+  
+ 
+This cautious approach to setting goals is consistent with King and Burton's (2003) claim 
+that goals should be used only in the narrowest of circumstances:  
+The optimally striving individual ought to endeavor to achieve and approach goals that 
+only slightly implicate the self; that are only moderately important, fairly easy, and 
+moderately abstract; that do not conflict with each other; and that concern the 
+accomplishment of something other than financial gain. 
+After answering the questions in Table 1 and considering this advice, many managers may 
+conclude that goals are not the best way to motivate their employees. At a minimum, we 
+recommend that managers who use goals, do so with great caution. 
+Directions for Future Research 
+Why has prior research largely ignored the harmful effects of setting goals?  Part of the 
+problem stems from the methodological prism scholars have used to study goal setting. Most 
+goal setting research, whether it occurs in the lab or in the field, has been conducted in simple, 
+well-specified domains with well-specified performance measures such as the number of 
+
+  Goals Gone Wild            18 
+ 
+anagrams completed (e.g., Vance & Colella, 1990), the amount of electricity used (Becker, 
+1978), or the number of sales completed (Mann, Samson, & Dow, 1998).  
+ 
+Although all four authors of this article are enthusiastic supporters of lab research, we 
+argue that goals cause the most harm in complex, natural settings when outcomes are 
+interdependent, monitoring is difficult, and cheating possible.  
+When scholars have recognized harmful effects of goals, these effects have been 
+characterized as aberrations that could be addressed with simple solutions and relatively little 
+effort. Latham and Locke (2006) list 10 “pitfalls” of goal setting, such as conflict between group 
+members, task complexity, and financial incentives. For each pitfall, the authors suggest simple 
+(and often untested) solutions. For example, noting that dishonest means could be used to earn 
+financial rewards tied to goals, they suggest that an organization establish “control systems,” that 
+the CEO should model an ethical culture, and that offending employees “should be fired 
+regardless of any revenue streams they generate or costs they reduce.”  Recent corporate ethics 
+scandals suggest that this advice may be difficult to follow. Further, as Barsky's model (2007) of 
+the ethical implications of organizational goal setting implies, ethical infractions are not simply a 
+byproduct of a few “bad apple” employees, but a systematic result of setting specific, 
+challenging goals; similarly, Jensen (2003) contends that lying and cheating are byproducts of 
+connecting rewards to goal achievement. 
+How did this discrepancy between the goal-setting literature and the wild world of actual 
+organizations develop?  We argue that researchers (with the goal of publishing) followed a set of 
+paradigmatic paths that easily provided a practical, replicable set of evidence on goal setting. As 
+Wason (1960) demonstrated long ago, people (including researchers) tend to seek confirmatory 
+evidence and fail to search for disconfirmation. The relatively few studies that have directly 
+
+  Goals Gone Wild            19 
+ 
+challenged the conventional wisdom on goal setting (Staw & Boettger, 1990; Schweitzer et al., 
+2004) have been systematically ignored in reviews of goal setting authored by goal-setting 
+advocates (e.g., Locke & Latham, 2006), even when they consider the “pitfalls” of goals.  
+Like the participants in goal-setting studies themselves, goal-setting advocates have met 
+their specific, challenging goal of becoming publishing juggernauts, at the expense of the 
+broader objectives of providing scientific rigor and sound managerial advice. We advocate a new 
+generation of goal-setting research that correctly identifies broader objectives and carefully 
+balances the inspirational and insidious effects of setting goals.  
+Conclusion 
+For decades, scholars have prescribed goal setting as an all-purpose remedy for employee 
+motivation. Rather than dispensing goal setting as a benign, over-the-counter treatment for 
+students of management, experts need to conceptualize goal setting as a prescription-strength 
+medication that requires careful dosing, consideration of harmful side effects, and close 
+supervision. Given the sway of goal setting on intellectual pursuits in management, we call for a 
+more self-critical and less self-congratulatory approach to the study of goal setting.  
+
+  Goals Gone Wild            20 
+ 
+References 
+Ackman, D. (2002, March 22). Pay Madness At Enron. Forbes.com. Retrieved December 16, 
+2008, from http://www.forbes.com/2002/03/22/0322enronpay.html. 
+Arrow, K. (1973). Social responsibility and economic efficiency. Public Policy, 21, 300-317. 
+Bandura, A. (1977). Social Learning Theory. New York: General Learning Press. 
+Barsky, A. (2007). Understanding the ethical cost of organizational goal-setting: A review and 
+theory development. Journal of Business Ethics, 81(1), 63-81. 
+Bartov, E., Givoly, D., & Hayn, C. (2002). The rewards to meeting or beating earnings 
+expectations. Journal of Accounting and Economics, 33(2), 173-204. 
+Bazerman, M. H., & Chugh, D. (2006). Decisions without blinders. Harvard Business Review, 
+84(1), 88-97. doi: Article. 
+Becker, L. J. (1978). Joint effect of feedback and goal setting on performance: A field study of 
+residential energy conservation. Journal of Applied Psychology, 63(4), 428-433. 
+Camerer, C., Babcock, L., Loewenstein, G., & Thaler, R. (1997). Labor Supply of New York 
+City Cabdrivers: One Day at a Time. The Quarterly Journal of Economics, 112(2), 407-
+441. 
+Cervone, D., Jiwani, N., & Wood, R. (1991). Goal setting and the differential influence of self-
+regulatory processes on complex decision-making performance. Journal of Personality 
+and Social Psychology, 61(2), 257-66. 
+Cheng, M., Subramanyam, K. R., & Zhang, Y. (2005). Earnings Guidance and Managerial 
+Myopia. Working Paper, University of Southern California. 
+
+  Goals Gone Wild            21 
+ 
+Cropanzano, R., Byrne, Z. S., Bobocel, D. R., & Rupp, D. E. (2001). Moral Virtues, Fairness 
+Heuristics, Social Entities, and Other Denizens of Organizational Justice. Journal of 
+Vocational Behavior, 58(2), 164-209. 
+Deci, E. L. (1971). Effects of externally mediated rewards on intrinsic motivation. Journal of 
+Personality and Social Psychology, 18(1), 105-115. 
+Deci, E. L. (1975). Intrinsic motivation. New York: Plenum. 
+Deci, E. L., Koestner, R., & Ryan, R. M. (1999). A meta-analytic review of experiments 
+examining the effects of extrinsic rewards on intrinsic motivation. Psychological Bulletin, 
+125(6), 627-668. 
+Dishneau, D. (1992, June 22). Sears Admits Mistakes, Takes Workers O€ Commission. The 
+Associated Press. 
+Earley, P. C., Connolly, T., & Ekegren, G. (1989). Goals, strategy development, and task 
+performance: Some limits on the efficacy of goal setting. Journal of Applied Psychology, 
+74(1), 24-33. 
+Elliot, A. J., & Harackiewicz, J. M. (1996). Approach and avoidance achievement goals and 
+intrinsic motivation: A mediational analysis. Journal of Personality and Social 
+Psychology, 70(3), 461-475. 
+Fleming, P., & Zyglidopoulos, S. C. (2008). The Escalation of Deception in Organizations. 
+Journal of Business Ethics, 81(4), 837-850. 
+Galinsky, A. D., Mussweiler, T., & Medvec, V. H. (2002). Disconnecting outcomes and 
+evaluations: The role of negotiator focus. Journal of Personality and Social Psychology, 
+83(5), 1131-1140. 
+
+  Goals Gone Wild            22 
+ 
+Garland, H. (1983). Influence of ability, assigned goals, and normative information on personal 
+goals and performance: A challenge to the goal attainability assumption. Journal of 
+Applied Psychology, 68(1), 20-30. 
+Gilliland, S. W., & Landis, R. S. (1992). Quality and quantity goals in a complex decision task: 
+Strategies and outcomes. Journal of Applied Psychology, 77(5), 672-681. 
+Heath, C. (1999). On the Social Psychology of Agency Relationships: Lay Theories of 
+Motivation Overemphasize Extrinsic Incentives, . Organizational Behavior and Human 
+Decision Processes, 78(1), 25-62. 
+Jensen, M. C. (2003). Paying People to Lie: the Truth about the Budgeting Process. European 
+Financial Management, 9(3), 379-406. 
+Kanfer, R., & Ackerman, P. L. (1989). Motivation and cognitive abilities: An 
+integrative/aptitude-treatment interaction approach to skill acquisition. Journal of Applied 
+Psychology, 74(4), 657-690. 
+Kayes, D. C. (2006). Destructive goal pursuit: The Mount Everest disaster. Basingstoke: 
+Palgrave Macmillan. 
+Kerr, S. (1975). On the Folly of Rewarding A, While Hoping for B. The Academy of 
+Management Journal, 18(4), 769-783. 
+Kerr, S. (1995). On the Folly of Rewarding A, while Hoping for B. The Academy of 
+Management Executive (1993), 9(1), 7-14. 
+King, L. A., & Burton, C. M. (2003). The hazards of goal pursuit. In Virtue, vice, and 
+personality: The complexity of behavior. (pp. 53-69). Washington, DC US: American 
+Psychological Association. 
+
+  Goals Gone Wild            23 
+ 
+Knight, D., Durham, C. C., & Locke, E. A. (2001). The Relationship of Team Goals, Incentives, 
+and Efficacy to Strategic Risk, Tactical Implementation, and Performance. The Academy 
+of Management Journal, 44(2), 326-338. 
+Larrick, R. P., Heath, C., & Wu, G. (1900). Goal-Induced Risk Taking in Negotiation and 
+Decision Making. Social Cognition. 
+Latham, G. P., & Locke, E. A. (2006). Enhancing the Benefits and Overcoming the Pitfalls of 
+Goal Setting. Organizational Dynamics, 35(4), 332-340. 
+Locke, E. A., & Latham, G. P. (2002). Building a practically useful theory of goal setting and 
+task motivation: A 35-year odyssey. American Psychologist, 57(9), 705-717. 
+Locke, E. A., & Latham, G. P. (2006). New Directions in Goal-Setting Theory. Current 
+Directions in Psychological Science, 15(5), 265-268. 
+Locke, E. A., Latham, G. P., Smith, K. J., & Wood, R. E. (1990). A Theory of Goal Setting & 
+Task Performance (p. 544). Prentice Hall College Div. 
+Mann, L., Samson, D., & Dow, D. (1998). A Field Experiment on the Effects of Benchmarking 
+and Goal Setting on Company Sales Performance. Journal of Management, 24(1), 73-96. 
+Mitchell, T. R., & Silver, W. S. (1990). Individual and group goals when workers are 
+interdependent: Effects on task strategies and performance. Journal of Applied 
+Psychology, 75(2), 185-193. 
+Mossholder, K. W. (1980). Effects of externally mediated goal setting on intrinsic motivation: A 
+laboratory experiment. Journal of Applied Psychology, 65(2), 202-210. 
+Mussweiler, T., & Strack, F. (2000). The 'relative self': Informational and judgmental 
+consequences of comparative self-evaluation. Journal of Personality and Social 
+Psychology, 79(1), 23-38. 
+
+  Goals Gone Wild            24 
+ 
+Neale, M. A., & Bazerman, M. H. (1985). The Effect of Externally Set Goals on Reaching 
+Integrative Agreements in Competitive Markets. Journal of Occupational Behaviour, 
+6(1), 19-32. 
+Neisser, U. (1979). The Concept of Intelligence. Intelligence, 3(3), 217-27. 
+Rawsthorne, L. J., & Elliot, A. J. (1999). Achievement Goals and Intrinsic Motivation: A Meta-
+Analytic Review. Personality and Social Psychology Review, 3(4), 326-344. 
+Santoro, M. A., & Paine, L. S. (1993). Sears auto centers (Harvard Business School case 9-394-
+010). Boston: Harvard Business School Publishing. 
+Schweitzer, M. E., Ordóñez, L., & Douma, B. (2004). Goal Setting as a Motivator of Unethical 
+Behavior. Academy of Management Journal, 47(3), 422-432. 
+Shah , J. Y., Friedman, R., & Kruglanski , A. W. (2002). Forgetting all else: on the antecedents 
+and consequences of goal shielding. Journal of Personality and Social Psychology, 83(6), 
+1261-80. 
+Shalley, C. E., & Oldham, G. R. (1985). Effects of Goal Difficulty and Expected External 
+Evaluation on Intrinsic Motivation: A Laboratory Study. The Academy of Management 
+Journal, 28(3), 628-640. 
+Sherman, S. (1995, November). Stretch goals: The dark side of asking for miracles. Fortune, 
+132(10), 231. 
+Simons, D. J., & Chabris , C. F. (1999). Gorillas in our midst: sustained inattentional blindness 
+for dynamic events. Perception, 28(9), 1059-1074. 
+Staw, B. M., & Boettger, R. D. (1990). Task revision: A neglected form of work performance. 
+Academy of Management Journal, 33(3), 534-559. 
+
+  Goals Gone Wild            25 
+ 
+Tenbrunsel, A. E., Wade-Benzoni, K. A., Messick, D. M., & Bazerman, M. H. (2000). 
+Understanding the Influence of Environmental Standards on Judgments and Choices. The 
+Academy of Management Journal, 43(5), 854-866. 
+Vance, R. J., & Colella, A. (1990). Effects of two types of feedback on goal acceptance and 
+personal goals. Journal of Applied Psychology, 75(1), 68-76. 
+Wade, J. B., O'Reilly, C. A., & Pollock, T. G. (2006). Overpaid CEOs and Underpaid Managers: 
+Fairness and Executive Compensation. Organization Science, 17(5), 527-544. 
+Walster, E., Walster, G. W., & Berscheid, E. (1978). Equity Theory and Research. Allyn and 
+Bacon. 
+Wason, P. C. (1960). On the failure to eliminate hypotheses in a conceptual task. Quarterly 
+Journal of Experimental Psychology, 12, 129-140. 
+Wood, R., Bandura, A., & Bailey, T. (1990). Mechanisms governing organizational performance 
+in complex decision-making environments. Organizational Behavior and Human 
+Decision Processes, 46(2), 181-201. 
+Wright, P. M., George, J. M., Farnsworth, S. R., & McMahan, G. C. (1993). Productivity and 
+extra-role behavior: The effects of goals and incentives on spontaneous helping. Journal 
+of Applied Psychology, 78(3), 374-381. 
+ 
+ 
+
+  Goals Gone Wild            26 
+ 
+Table 1. A Warning Label for Setting Goals 
+ 
+ 
+ 
+ 
+ 
+1. Are the goals too specific?  
+Narrow goals can blind people to important aspects of a problem. Be sure that goals are 
+comprehensive and include all of the critical components for firm success (e.g., quantity 
+and quality). 
+ 
+2. Are the goals too challenging?  
+What will happen if goals are not met?  How will individual employees and outcomes be 
+evaluated?  Will failure harm motivation and self-efficacy? 
+Provide skills and training to enable employees to reach goals. Avoid harsh punishment 
+for failure to reach a goal.  
+ 
+3. Who sets the goals? 
+People will become more committed to goals they help to set. At the same time, people 
+may be tempted to set easy to reach goals.  
+ 
+4. Is the time horizon appropriate? 
+Be sure that short-term efforts to reach a goal do not harm investment in long-term 
+outcomes. For example, consider eliminating quarterly reports as Coco Cola did.  
+ 
+5. How might goals influence risk taking? 
+Be sure to articulate acceptable levels of risk. 
+ 
+6. How might goals motivate unethical behavior? 
+Goals narrow focus, such that employees may be less likely to recognize ethical issues. 
+Goals also induce employees to rationalize their unethical behavior and can corrupt 
+organizational cultures. Multiple safeguards may be necessary to ensure ethical behavior 
+while attaining goals (e.g., leaders as exemplars of ethical behavior, making the costs of 
+cheating far greater than the benefit, strong oversight).  
+ 
+7.  Can goals be idiosyncratically tailored for individual abilities and circumstances while 
+preserving fairness? 
+
+  Goals Gone Wild            27 
+ 
+Strive to set goals that use common standards and account for individual variation. 
+ 
+8. How will goals influence organizational culture? 
+If cooperation is essential, consider setting team-based rather than individual goals. 
+ 
+9. Are individuals intrinsically motivated? 
+Assess intrinsic motivation and recognize that goals can curtail intrinsic motivation. 
+ 
+10. Consider the ultimate goals of the organization and what type of goal (performance or 
+learning) is most appropriate?   
+In complex, changing environments learning goals may be more effective.  
+ 

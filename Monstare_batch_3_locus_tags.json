@@ -1,0 +1,12 @@
+{
+  "CORE-03": "supporting weight (not load-bearing)",
+  "CORE-11": "supporting weight (not load-bearing); warning-label design implication architecturally load-bearing",
+  "CORE-12": "supporting weight (not load-bearing)",
+  "CORE-13": "supporting weight (not load-bearing)",
+  "CORE-14": "supporting weight (not load-bearing); design role architecturally load-bearing (governing telos for Digital Capture Architecture)",
+  "CORE-16": "load-bearing (flow-layer phenomenological anchor; originator-corpus caveat; never quantitative)",
+  "CORE-17": "supporting weight (not load-bearing)",
+  "CORE-18": "supporting weight (not load-bearing)",
+  "CORE-19": "supporting weight (not load-bearing); pilot-rule role architecturally load-bearing",
+  "CORE-20": "supporting weight (not load-bearing); pilot-rule role architecturally load-bearing"
+}

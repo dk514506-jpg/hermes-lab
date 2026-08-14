@@ -1,0 +1,82 @@
+URL: https://selfdeterminationtheory.org/wp-content/uploads/2014/04/1999_DeciKoestnerRyan_Meta.pdf
+TITLE: None
+ERROR: None
+
+A Meta-Analytic Review of Experiments Examining the Effects of Extrinsic Rewards on Intrinsic Motivation
+
+Edward L. Deci
+
+University of Rochester
+
+Richard Koestner
+
+McGill University
+
+University of Rochester
+
+A meta-analysis of 128 studies examined the effects of extrinsic rewards on intrinsic motivation. As predicted, engagement-contingent, completion-contingent, and performance-contingent rewards significantly undermined free-choice intrinsic motivation $(d = -0.40, -0.36,$ and $-0.28,$ respectively), as did all rewards, all tangible rewards, and all expected rewards. Engagement-contingent and completion-contingent rewards also significantly undermined self-reported interest $(d = -0.15,$ and $-0.17)$, as did all tangible rewards and all expected rewards. Positive feedback enhanced both free-choice behavior $(d = 0.33)$ and self-reported interest $(d = 0.31)$. Tangible rewards tended to be more detrimental for children than college students, and verbal rewards tended to be less enhancing for children than college students. The authors review 4 previous meta-analyses of this literature and detail how this study's methods, analyses, and results differed from the previous ones.
+
+By 1971, hundreds of studies within the operant tradition (Skinner, 1953) had established that extrinsic rewards can control behavior. When administered closely subsequent to a behavior, rewards were reliably found to increase the likelihood that the behavior would be emitted again, an effect that persisted as long as the reward contingency was operative. When rewards were terminated, the likelihood that the behavior would be emitted eventually returned to the prereward baseline. This general finding led to the widespread advocacy of rewards as a motivational strategy, and behavior-change programs based heavily on the use of rewards were introduced into a variety of applied settings.
+
+In 1971, Deci (1971) argued that some activities provide their own inherent reward, so motivation for these activities is not dependent on external rewards. In line with White (1959), Deci referred to such activities as intrinsically motivated and raised the question of how extrinsic rewards would affect people's intrinsic motivation for these activities. Research reported in that and subsequent papers (Deci, 1971, 1972a, 1972b) revealed that tangible rewards (viz., money) could undermine college students' intrinsic
+
+motivation for an interesting activity, and studies by Kruglanski, Friedman, and Zeevi (1971) and Lepper, Greene, and Nisbett (1973) replicated the general finding, showing that other material and symbolic rewards could also undermine the intrinsic motivation of high school and preschool students.
+
+Subsequent to the initial studies showing the undermining of intrinsic motivation by extrinsic rewards, a variety of additional studies were conducted that explored the effects of various types of rewards and other external events on intrinsic motivation. Several dozen studies focused on the effects of tangible rewards, many others explored the effects of positive feedback or verbal rewards, and still others moved beyond rewards to explore the effects of external events such as threats (Deci & Cascio, 1972), deadlines (Amabile, DeJong, & Lepper, 1976), competition (Deci, Betley, Kahle, Abrams, & Porac, 1981), and choice (Zuckerman, Porac, Lathin, Smith, & Deci, 1978). Additional studies also explored the effects of interpersonal contexts such as classroom climates (Deci, Schwartz, Sheinman, & Ryan, 1981), as well as the combined effects of events such as rewards and the interpersonal contexts within which they are administered (Ryan, Mims, & Koestner,
+
+* * *
+
+Articles spanning a period of 25 years have presented behaviorist perspectives maintaining that the "obscure" concept of intrinsic motivation inhibits "scientific progress" and that there is "no acceptable evidence" of an undermining effect (see, e.g., Carton, 1996; Flora, 1990; Scott, 1975). Nonetheless, many behavioral theorists (e.g., Bernstein, 1990), as well as motivational and cognitive theorists, have acknowledged that there is indeed a phenomenon of undermining to be reckoned with and have tried to specify the limiting conditions of the phenomenon and to provide theoretical accounts of the processes through which rewards can affect intrinsic motivation. Although the explanations are numerous, they tend to fall into three general categories: motivational theories, attributional theories, and behavioral or cognitive-behavioral theories. We consider these three types of theories in turn.
+
+Motivational Approaches
+
+In line with the work of deCharms (1968) and Heider (1958), Deci (1971) suggested that an understanding of the effects of rewards requires a consideration of the interpretation (or what we call functional significance) that the recipients are likely to give to the rewards. Specifically, the recipients' interpretations of the rewards in relation to their own feelings of self-determination (i.e., autonomy) and competence were theorized to be the most important considerations. On the basis of the hypotheses and data from the Deci (1971) study and several that followed, Deci and Ryan (1980, 1985) made a formal statement of cognitive evaluation theory (CET).
+
+Reward Contingencies
+
+CET asserts that underlying intrinsic motivation are the psychological needs for autonomy and competence, so the effects of an event such as a reward depend on how it affects perceived self-determination and perceived competence. Events that allow need satisfaction tend to increase intrinsic motivation whereas those that thwart need satisfaction tend to decrease intrinsic motivation. CET proposes that rewards can be interpreted by recipients primarily as controllers of their behavior or, alternatively, as indicators of their competence. In the former case, rewards are predicted to thwart satisfaction of the need for autonomy, lead to a more external perceived locus of causality (deCharms, 1968), and undermine intrinsic motivation. In the latter case, however, where rewards are positively informational, they are predicted to provide satisfaction of the need for competence and thus to enhance intrinsic motivation.
+
+on a task, they are not predicted to affect intrinsic motivation for the task because the person is not likely to experience the task behavior as being controlled by the rewards.
+
+In many cases, rewards have conflicting effects, being experienced to some extent as controlling (thus thwarting satisfaction of the need for autonomy) and to some extent as informational (thus providing satisfaction of the need for competence). In such cases, these two processes work against each other, so additional factors must be taken into account in predicting the likely effect of such rewards. In considering such factors, we begin with an analysis of tangible rewards.
+
+For rewards that are expected while a person is working on a task, however, Ryan et al. (1983) introduced the following typology of reward contingencies: task-noncontingent rewards, which are given for something other than engaging in the target activity, such as simply participating in the study; task-contingent rewards, which are given for doing or completing the target activity; and performance-contingent rewards, which are given specifically for performing the activity well, matching some standard of excellence, or surpassing some specified criterion (e.g., doing better than 80% of the other participants). A further distinction can be usefully made between task-contingent rewards that are explicitly dependent upon completing the target task (herein referred to as completion-contingent rewards) and those that are dependent upon engaging in the activity but do not require completing it (herein referred to as engagement-contingent rewards). We have traditionally considered the completion-contingent and engagement-contingent rewards to constitute the single category of task-contingent rewards because the effects of these two reward contingencies have seemed to be remarkably similar; however, we separate them for this meta-analysis to evaluate quantitatively whether the effects of these two
+
+CET uses these reward contingencies as a factor in its analysis of the extent to which rewards tend to be interpreted as controllers of behavior versus affirmations of competence, and thus the extent to which they undermine versus enhance intrinsic motivation for interesting activities. First, consider task-noncontingent rewards. These rewards do not require doing the task, completing the task, or doing the task well, so there is no reason to expect these rewards to be experienced as either informational or controlling with respect to the task. Accordingly, intrinsic motivation for the task is predicted not to be affected by these rewards.
+
+predicted not to be affected by these rewards. With engagement-contingent rewards, people have to work on the task to get the reward, so the reward is likely to be experienced as controlling the task behavior. Because the reward carries little or no competence affirmation, it is unlikely to increase perceived competence, so there is nothing to counteract the negative effects of the control. Thus, engagement-contingent rewards are predicted to undermine intrinsic motivation. With completion-contingent rewards, people have to complete the task to get the rewards, so the rewards are likely to be experienced as even more controlling. However, with completion-contingent rewards, receipt of the rewards implies some level of competence if the task required skill and the individual had a normative sense of what constitutes good performance on the task. To the extent that the rewards do represent competence affirmation, that implicit positive feedback could offset some of the control. Nonetheless, on average across different types of tasks, the competence-affirming aspect of completion-contingent rewards is not expected to be strong relative to the controlling aspect, so completion-contingent rewards are expected to undermine intrinsic motivation at a level roughly comparable to engagement-contingent rewards. Finally, with dermine intrinsic motivation. However, performance-contingent rewards can also convey substantial positive competence information in cases where the person does well enough to get a level of reward that signifies excellent performance. In those cases, there is a significant tendency for performance-contingent rewards to affirm competence and, accordingly, to offset some of the negative effects of control.
+
+
+[... middle omitted — see footer ...]
+
+
+a Same means that Cameron and Pierce (1994) and we coded the study the same, used the same control groups, and found effects sizes that did not differ from each other by more that 0.10 in either direction. b C & P refers to Cameron and Pierce (1994). c Nearly the same means the studies were coded the same, and the same control groups were used, but the effect sizes differed by more than 0.10, probably due to differences in estimation of standard deviations. If the discrepancy is large, we make note of that. d Excluded, Type I refers to dissertations, and Cameron and Pierce (1994) excluded all dissertations. e Excluded, Type II refers to studies that Cameron and Pierce (1994) excluded for no apparent reason. f Cameron and Pierce (1994) did not use the term engagement-contingent. When we say they coded a reward engagement-contingent, it means that they coded it as both "task-contingent" and what they referred to as not contingent using a behavioral definition. Because the
+
+* * *
+
+Appendix B
+
+Studies Excluded From Our Meta-Analyses
+
+Studies included in the meta-analyses by Eisenberger and Cameron (1996) and Cameron and Pierce (1994) that we excluded, with the explanations for why we excluded them.
+
+Table B1 Studies We Excluded
+
+| Study | Reason for exclusion |
+| --- | --- |
+| Boal & Cummings(1981) | We excluded this because all participants received monetary payments(hourly wages)so there was not a no-rewards control group.For more detail,see Footnotes1 and6 to main text. |
+| Boggiano & Hertel(1983) | We excluded this because participants did not work on the target task before the dependent variable was assessed.Cameron and Pierce(1994)coded it unexpected and reporteda d=0.02,which is as we would expect. |
+| Freedman & Phillips(1985) | We excluded this because the interest level of the task was below the midpoint of the scale,so it did not examine reward effects on interesting tasks. |
+| Hom(1987) | Very little detail was presented about methods or results.Cameron & Pierce(1994)indicated that they could not tell if the reward was expected or unexpected or what type of reward contingency was used,so it is unclear whether they actually included the study in any analyses. |
+| Shapira(1976) | A study of preferences for level of challenge under reward versus no reward.We excluded it because rewarded participants worked on much easier puzzles than did nonrewarded participants. |
+| Wicker et al.(1990) | This study was not designed to evaluate reward effects on intrinsic motivation.It concerned the correlations between free-choice persistence and various mood variables,so the rewards manipulation was incidental.No cell means were reported for any variables,and there was no mention of whether any between-group tests were done or whether rewards affected any variables. |
+
+Note. Cameron and Pierce (1994) did a separate, supplemental meta-analysis of studies with single-subject designs that did not have no-reward control groups. We did not include those studies because they did not meet the inclusion criterion of having a no-reward control group. The studies were Davidson and Bucher (1978); Feingold and Mahoney (1975); Mawhinney, Dickinson, and Taylor (1989); and Vasta, Andrews, McLaughlin, Stirpe, and Comfort (1978).
+
+Received December 11,1997 Revision received February 16,1999 Accepted February 17,1999
+
+──────── [TRUNCATED] ────────
+Showing 10,599 chars (head) + 3,351 chars (tail) of 225,870 total clean characters.
+Full text saved to: /opt/data/cache/web/selfdeterminationtheory.org-7e3df82f75.md
+To read the omitted middle: read_file path="/opt/data/cache/web/selfdeterminationtheory.org-7e3df82f75.md" offset=45 limit=200  (the file is the complete page; raise/lower offset to page through it).
+─────────────────────────────

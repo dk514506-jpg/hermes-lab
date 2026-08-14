@@ -1,0 +1,975 @@
+SOURCE: A1-01 | pages 348
+
+MONO 003
+The Question Concerning 
+Technology In China
+An Essay in 
+Cosmotechnics
+YUK HUI
+THE QUESTION CONCERNING 
+TECHNOLOGY IN CHINA
+THE
+ 
+QUESTION
+ 
+C O N C E iN G
+ 
+TECHNO
+r-
+OGY
+ 
+IN
+ 
+CHINA
+ 
+>
+n
+ 
+Essay
+ 
+in
+ 
+Cosmotechnics
+YUK
+ 
+HUI
+U S A N O M IC
+When I hear modern people complain of being lonely then I know
+what has happened. They have lost the cosmos.
+D.H. Lawrence. Apocalypse
+If communism in China should come to rule, one can assume that 
+only in this way will China become 'free' for technology. What is 
+this process?
+M. Heidegger. GA97 Anmerkungen 1-V
+For Bernard
+Published in 2016 by 
+URBANOMIC MEDIA LTD, 
+THE OLD LEMONADE FACTORY, 
+WINDSOR QUARRY, 
+FALMOUTH TR11 3EX, 
+UNITED KINGDOM
+视觉中国研究院
+China Institute for Visual Studies
+This book is supported by the China Institute for Visual Studies, 
+China Academy of Art.
+No part of this book may be reproduced or transmitted in any form or by 
+any means, electronic or mechanical, including photocopying. recording or 
+any other information storage or retrieval system, without prior permission in 
+writing from the publisher.
+BRITISH LIBRARY CATALOGUING-IN — PUBLICATION DATA
+A full catalogue record of this book is available 
+from the British Library
+ISBN 978-0-9954550-0-9
+Type by Norm, Zurich 
+Printed and bound in the UK by 
+TJ International, Padstow
+w w w .urba no m ic.com
+CONTENTS
+Preface 
+xi
+Timeline of Thinkers 
+xv
+Introduction 
+1
+§1 The Becoming Of Prometheus. 7; §2 Cosmos, Cosmology, And 
+Cosmotechnics. 18; §3 Technological Rupture And Metaphysical Unity, 
+33; §4 Modernity, Modernisation. And Technicity, 39; §5 What Is The 
+'Ontological Turn1 For? 45; §6 Some Notes On Method, 53
+Part 1. In Search of Technological Thought in China 
+59
+§7 Dao And Cosmos: The Principle Of The Moral, 61; §8 Techne As 
+Violence. 69; §g Harmony And The Heaven, 80; §10 Dao And Qi: 
+Virtue Contra Freedom, 89; §10.1 Qi And Dao In Daoism: Pao Ding's 
+Knife, 101; §10.2 Qi And Dao In Confucianism: Restoring The Li, 108; 
+§10.3 Remarks On Stoic And Daoist Cosmotechnics, 116; §n Qi-Dao 
+As Resistance: The Gu Wen Movement In The Tang Period. 129; §12 
+The Materialist Theory Of Ch'i In Early Neo-Confucianism, 134; §13 Qi- 
+Dao In Song Yingxing's Encyclopaedia During The Ming Dynasty, 138; 
+§14 Zhang Xuecheng And The Historicisation Of Dao, 147; §15 The Rup­
+ture Of Qi And Dao After The Opium Wars. 151; §16 The Collapse Of Qi- 
+Dao. 158; §16.1 Carsun Chang: Science And The Problem Of Life. 159; 
+§16.2 The Manifesto For A China-Oriented Cultural Development. And Its 
+Critics. 162; §17 Needham's Question. 165; §17.1 The Organic Mode Of 
+Thought And The Laws Of Nature. 168; §18 Mou Zongsan's Response. 
+173; §18.1 Mou Zongsan's Appropriation Of Kant's Intellectual Intuition, 
+173; §18.2 The Self-Negation Of Liangzhi In Mou Zongsan. 184; §19 
+The Dialectics Of Nature And The End Of Xing Er Shang Xue. 190
+Part 2. M odernity and Technological Consciousness 
+199
+§20 Geometry And Time, 201; §20.1 The Absence Of Geometry In Ancient 
+China. 203; §20.2 Geometrisation And Temporalisation, 209; §20.3 
+Geometry And Cosmological Specificity, 216; §21 Modernity And Tech­
+nological Consciousness, 223; §22 The Memory Of Modernity, 231; 
+§23 Nihilism And Modernity, 241; §24 Overcoming Modernity, 249; §25 
+Anamnesis Of The Postmodern, 269; §26 The Dilemma Of Homecoming, 
+282; §27 Sinofuturism In The Anthropocene, 290; §28 For Another 
+World History, 301
+Index o f Names 
+313
+Index o f Subjects
+319
+P R E FA C E
+Quite a few of the notes to which I returned in writing this 
+xiii
+book date from my teenage years, when I was fascinated both 
+—
+by the cosmogony of Neo-Confucianism and by contemporary 
+astrophysics. I remember how, over several summers, I went 
+regularly every week to the central library in Kowloon w ith 
+m
+my brother Ben, and brought home piles o f books on physics 
+and metaphysics, spending all day reading things that were 
+beyond me and which at the time I didn't know how to use.
+Luckily, I profited from many discussions w ith my literature 
+and calligraphy teacher Dr. Lai Kwong Pang, who introduced 
+me to the thought of the New Confucian philosopher Mou 
+Zongsan (1909- 1995)— his PhD supervisor at that time. When 
+I started studying Western philosophy, especially contempo- 
+「a「y thought. I confronted the great difficulty of integrating it 
+w ith what I had learned in the past w ithout falling prey to a 
+superficial and exotic comparison. In 2009, an encounter w ith 
+the work of Keiji Nishitani and Bernard Stiegler on Heidegger 
+suggested to me a way to approach the different philosophical 
+systems from the perspective of the question of time; more 
+recently, while reading the works of anthropologist Philippe 
+Descola and Chinese philosopher Li Sanhu, I began to form u­
+late a concrete question: If one admits that there are multiple 
+natures, is it possible to think o f multiple technics. which 
+are different from each oth er no t simply functionally and 
+aesthetically, but also ontologically and cosmologically? This 
+is the principal question o f the current work. I propose w hat I 
+call cosmotechnics as an attem pt to open up the question of 
+technology and its history, which for various reasons has been 
+closed down over the last century.
+There are many people to whom I would like to express my 
+gratitude: members o f the Deutsch Forschungsgemeinschaft 
+research group Mediale Teilhabe, Prof.巳eate Ochsner, Prof. Urs
+
+[---MIDDLE OMITTED---]
+320 
+Mou Zongsan on 142
+___ 
+Neo-Confucianist theories of
+134-138
+u 
+Classic of Poetry 146
+山 
+_
+' 
+‘clear mirror’ (Dogen/Lyotard)
+:::: 
+274-277, 279
+u. 
+communism
+0 
+in China, Heidegger on 289
+0 
+Communist Party 5-6, 163
+0 
+Confucianism 29, 40, 65, 84, 87,
+166, 187
+and Buddhism, in Wang Yangming
+260
+and cosmology 81-85 
+as moral metaphysics (Mou 
+Zongsan) 115 
+in Japan, Nishitani on 250 
+see a/so New Confucianism, Neo- 
+Confucianism
+Confucius 69,100,104-105,109­
+110, 111, 112-113, 114, 156, 184 
+Analects of Confucius 113 
+and Li 109
+and relation between Li and Qi 
+109-110 
+on being a jun zi 117-118 
+on ren 184 
+Analects 117-118
+continuity
+in Chinese philosophy 55 
+correlationism (Meillassoux) 47 
+correlative thinking 
+in Chinese philosophy 55 
+cosmology 
+and ethics, Stoic and Daoist 
+121-122 
+conditions technics 217 
+Daoist 127
+in Anaximander's thought (Hei­
+degger) 78 
+'polycosmology’ (Sloterdijk) 280 
+sphere, in European 280 
+Stoic 122, 127 
+influence of Plato's Timaeus on 
+124-125
+cosmopolitanism 306
+cosmotechnics 18,19,19-20, 22-23, 
+24, 26, 34, 53,100,129,158,
+169, 
+223, 281. 289,290, 301, 
+309, 311 
+ancient Greek 77-79 
+in Daoism and Confucianism 65 
+of Stoicism 116-128 
+Stoic vs Daoist 128-129 
+Cultural Revolution 109,194
+D
+Dao (道）29, 50, 67,104,107,108,
+166
+and ch'i 140-141 
+and form 99-100 
+and knowledge 178 
+and Li 113
+and machines, in Zhuangzi 
+105-106 
+and Stoicism 121 
+and study of classic texts 148 
+and technical objects 89 
+and technics 116 
+and writing 131-132, 150-151 
+and zi ran 64,102 
+as historical 131 
+in Zhang Xuecheng 147-151 
+as unconditioned 68-69 
+as virtue 66
+identified with Western science 
+155-156 
+in Buddhism 134 
+in Confucianism vs Daoism 65 
+in Zhuangzi 102-104 
+relation to Qi, see Qi-Dao Relation
+Dao De Ching 102,166, 221 
+Daoism 29, 40, 64, 65, 166 
+and intellectual intuition 177 
+and Stoicism 116-128 
+as practical ontology (Mou Zong- 
+san) 115
+Dao of Politics and Dao of Gover­
+nance 〔政道與治道）（Mou 
+Zongsan) 187-188 
+Oas Dritte Reich (van den Bruck) 
+284
+Dasein 62, 2S2 
+and authenticity (Heidegger) 236 
+and intellectual intuition, Mou 
+Zongsan on 264 
+and resoluteness (Heidegger) 
+232-233 
+and world history 266 
+as technical being 22S
+Das Lebensproblem in Chino und in 
+Europa (Chang and Eucken) 
+160-162 
+de (德, ‘virtue1) 66 
+death
+in Heidegger 232-234 
+deconstruction 150, 230 
+democracy 159, 1SS 
+dialectics 
+materialist. in Engels 192 
+Dialectics of Nature (Engels)
+191-194
+Dialogue Concerning the Two Chief 
+World Systems (Galileo) 20S 
+difference
+ontological (Heidegger) 76 
+dike ('justice1) 75-76, 90, 239 
+and geometry 77-79 
+and techne 2'10
+in Heidegger 72-73, 76-77 
+in Plato 91 
+dis-orientation 195-196, 2S9, 296 
+Doctrine of the Mean (中庸）88, 135 
+dualism 2S2
+dun wu (頓悟,‘insight1) 26'1
+E
+ecology 25
+Enlightenment 1'10, 306 
+‘End of Philosophy and the Task of 
+Thinking, The’ (Heidegger)
+190
+Entwurzelung (Heidegger) 3'1 
+episteme 
+and techne 95 
+episteme (Foucault) 30-31
+ether
+and ren (Tan Sitong) 156-157 
+ethics
+and cosmology, Stoic and Daoist 
+121-122 
+eudaimonia 
+in Aristotle ^20-^2^ 
+in the Stoics 121,
+Eurasia movement (Dugin) 28'1 
+'Europe and the German Philosophy’ 
+(Heidegger) 288
+F
+fascism 280, 28'1 
+metaphysical 283, 288, 289 
+form 
+and ch'i ^A^ 
+and Dao 99-100 
+and Qi 99-100 
+FOdo (Watsuji) 218-221
+G
+Ganying (感應）（‘feeling’, 'response’) 
+27-28
+Gelossenheit (Heidegger) 3,
+115-116. 309 
+geometry 9^ 
+and dike 77-79 
+and exteriorisation 2M5-2M6 
+and temporalisation 213 
+and time 209-210 
+Einstein on 206 
+ideality of, and writing 214 
+in ancient Greece 204-206 
+and art 219 
+in Chinese thought 202, 
+203-204, 2^0
+Gestell (Heidegger) 97,229, 286 
+Gesture and Speech (Leroi- 
+Gourhan) 281 
+ge wu (格物，study of natural phe­
+nomena) 166
+§
+ 
+I
+ 
+NDE
+m 
+0
+F
+ 
+SUBJECTS
+globalisation 190, 280, 280-281, 306 
+and the local 242, 307 
+and tradition 283 
+governance 
+and resonance, in Chinese philoso­
+phy 81-82, 85-86 
+in Daoism, wu wei zhi zhi (無為之 
+治）101-102
+Gu Wen movement〔古文運動） 
+131-133
+H
+Heaven 
+in ancient China 81 
+Principle of the Heaven (天理） 
+(Confucius) 69 
+historicity 40,41 
+and memory 234-237 
+and technics 237 
+in Heidegger 231-232 
+history 221-222 
+and Geschichte (Heidegger), 
+Nishitani on 265 
+Chakrabarty on 303 
+historical consciousness 
+Nishitani on 249-250, 263 
+world history 312 
+as purgatory (Kyoto School) 258 
+in Heidegger 266
+in Nishitani 255-256, 257, 262-263 
+holism 67
+and mechanism 158, 169 
+homecoming 285-286, 290 
+Huainanzi 15, 80-82, 83, 84, 211 
+Hundred Days’ Reform 155 
+hylomorphism 61 
+hypokeimenon 
+in Lyotard 277
+I Ching 100, 102, 173 
+idealisation 209
+Idea (Plato) 97-98 
+individuation 51
+intellectual intuition 186, 265, 275 
+and Daoism 177
+and liangzhi, in Mou Zongsan 252 
+'continuity thesis’ (Gram) 178-179 
+defined by Kant 174-175, 175 
+in Fichte and Schelling 179-180 
+in Mou Zongsan 173-184, 264 
+in Nishitani 248
+Intellectual Intuition and Chinese 
+Philosophy (Mou Zongsan)
+175, 260 
+intensity 
+in Viveiros de Castro 49 
+Introduction to Husserl's Origin of 
+Geometry (Derrida) 215 
+Introduction to the Philosophy of 
+Technology (Chen Changshu) 
+194
+J
+Jiu Zhang Suan Shu (九章算術，
+ 
+Night Chapters on the Math­
+ematical Art) 203 
+jun zi (‘gentleman’）(Confucius) 118
+K
+Kant and the Problem of Metaphys­
+ics (Heidegger) 181, 187, 233 
+Kong (空, ‘void’）131 
+Kyoto School 43, 241, 242, 250, 255, 
+256, 258, 261. 282, 283, 288
+L
+law
+and nature 170-171 
+Nishitani on 244 
+concept of law-giving, and sci­
+ence 169-172
+Les Immateriaux (Lyotard) 227, 
+227-228 
+Ii (S, ‘reason’ or ‘principle’
+） 
+and ch'i 141 
+L,’ （禮,‘ rituals’) 29,300 
+and Dao 113 
+meaning of 109-110 
+and Qi, in Confucianism 108-114 
+liangzhi ( 良知, _consdousness’）177 
+in Mou Zongsan 182-188, 251,
+252, 282 
+as unconditioned 189 
+in Wang Yangming 183 
+self-negation as possibility of 
+(Mou Zongsan) 41, 
+184-187
+Li Ji (禮記, Book of Rites) (Confu­
+cius) 110-111 
+‘ Limits of Human Progress: A Critical 
+Study, The1 (Simondon) 310 
+Li Qi (禮器）109 
+locality 307 
+logos
+and philosophy, in Aristotle (Sel­
+lars) 118-119 
+and the clear mirror, in Lyotard
+279
+in Heidegger’s reading of Preso- 
+cratics 71 
+negation of, in Lyotard 273-274 
+overcoming of, in Lyotard 
+277-278
+‘Logos and Techne, or Telegraphy’ 
+(Lyotard) 269-279 
+Lun qi (論氣, 'On ch'i') (Song Yingx- 
+ing) 140
+M
+magic 20, 22
+Man and Machine (Lin Dehong) 195 
+‘Manifestofor a China-Oriented
+Cultural Development (中國本 
+位的文化建設宣言)’ 162-163
+marxism 194 
+materialism 43 
+and ch'i 142-143 
+and Qi-Dao relation 36 
+mathematics 
+in Montebello 48 
+May Fourth Movement 158-159 
+mechanism 172 
+memory 272 
+and historicity 234-237 
+epiphylogenetic (Stiegler) 216 
+exteriorisation of in technics 
+(Leroi-Gourhan) 214 
+industrialisation of (Lyotard) 279
+metaphysics 
+and technology 239-240 
+end of (Heidegger) 227 
+in Heidegger 96-97 
+and xing er shang xue (形而上學）
+99-100
+metis (Detienne and Vernant) 213 
+ming (名, ‘name’) 114 
+and Qi 114 
+modernisation 223 
+and Buddhism. in Nishitani 
+262-263 
+and Mou Zongsan 189-190 
+in China 226 
+in China and Japan 291
+modernity 42, 52, 223, 257, 296 
+and conception of time 222-223 
+and postmodernity 274 
+and tradition 235 
+as interpreted in China and Japan 
+259
+end of, in Europe 222-223, 227, 
+236, 305 
+in Europe and elsewhere 241-242 
+overcoming 45, 46, 52
+in Nishitani 250-252 
+through anamnesis 
+(Lyotard) 279 
+‘resetting modernity’ (Latour) 52, 
+294, 295 
+and the Anthropocene 293 
+Simondon on 311 
+Moism 83, 166, 167, 206
+x
+o
+323
+c
+o
+Mongolian Empire 138 
+moral
+in Confucian cosmology 38, 
+62-63 
+in I Ching 62-63 
+moral metaphysics, in Mou Zong- 
+san 181
+Moral Creative Reality: Mind and 
+Nature (心體與性體）（Mou 
+Zongsan) ^36 
+Morality of Happiness, The (Annas) 
+123 
+mythology 
+and philosophy 10-11 
+and techne, in Heidegger 74 
+and technics M 
+Chinese, and technics ^4-^6 
+■My View of ''Overcoming Moder­
+nity"1 (Nishitani) 250
+N
+nationalism 259 
+in Nishitani 254-255 
+naturalism (Descola) 21, 24, 49, 50, 
+52, 312 
+nature 51 
+and law 170-171 
+and technics, in Chinese and
+Western philosophy 69-70 
+and time, in Chinese philosophy 
+(Garnet, Jullien) 81 
+in Schelling 69 
+in Simondon 51-52
+neisheng waiwang (内聖夕卜王,‘inner 
+sageliness-outer kingliness') 
+113
+in Mou Zongsan 187 
+Neo-Confucianism 88,133,136,138, 
+149, 151, 168, 173, 185 
+New Confucianism 151,159, \7^, 251, 
+289-290 
+nihilism 284 
+Nishitani on 254
+Nineteen Lectures on Chinese Phi­
+losophy (Mou Zongsan) 260 
+nomos 75, 77-78 
+non-action (Nishitani) 247-248 
+nothingness 
+in Heidegger 253 
+in Nishitani 252-254, 259, 267, 
+282
+noumenon 182, 186-187, 189, 248, 
+268
+0
+oikeiosis 
+in Stoicism 123, 125 
+On Literature and History (文史通 
+义）(Zhang Xuecheng) ^49 
+On the Highest Good (Mou Zong- 
+san) 260 
+On the Mode of Existence of Tech­
+nical Objects (Simondon) 226 
+On the Phenomenology of the Con­
+sciousness of Internal Time 
+(Husserl) 215 
+ontology
+noumenal vs phenomenal 268 
+ontotheology 97, 98, 261, 298 
+Opium Wars 31-32, 152-153, 155 
+organic, organicism 
+and mechanism 169 
+in Chinese philosophy 64, 98, 202 
+in Kant 68
+Needham on 168-169 
+Outline of Marxist Philosophy of 
+Technology (Qiao Ruijin) 
+194-195
+P
+pharmacology 108, 195, 229 
+Phenomenon and Thing-in-Itself (現 
+象與物自身）（Mou Zongsan) 
+U4, 260
+324
+o
+nihility (Nishitani) 243-245, 246
+philosophy 
+and Enlightenment encyclopae- 
+dism 139-140 
+and myth and rationality 11 
+of technology 191
+in China 194-196 
+Western and Eastern, in Mou
+Zongsan 173-174,186-187 
+Western, history of as history of 
+technics (Stiegler) 238 
+Western, universalisation of 195
+Philosophy of History (歷史哲學） 
+(Mou Zongsan) 181-182 
+Philosophy of World History (Nishi- 
+tani) 250, 255 
+physis 74 
+and techne 70 
+in the Stoics 64 
+postcolonialism 56-57, 302 
+postmodern 226, 274, 284 
+in Lyot^d 227-228 
+Postmodern Exploined, The 
+(Lyotard) 271
+praxis
+and techne, in Plato (Vernant)
+92-93
+Proces ou Creotion (Jullien) 221 
+'productionist metaphysics’ (Zim­
+merman) 97, 98 
+Prometheanism 12, 29-30, 33, 
+196-197 
+Prometheus 12-14, 238 
+Provincioliz/ng Europe (Chakrabarty) 
+302-305
+Q
+in Confucianism 29
+in Daoism and Confucianism 115
+in Mou Zongsan 188
+meaning of 65, 98-99
+relation to Doo, see Qi-Doo relation
+Qi-Doo relation 35, 36, 56,100,197.
+241, 
+268-269, 292, 307-308 
+and technical objects 309 
+and the end of xing er shong xue 
+190-191 
+as resistance (Gu Wen Move­
+ment) 129-134 
+Doo in the Service of Qi (Tan 
+Sitong) 155-156 
+in Confucianism 108-115 
+in Daoism 101-107, 103-104 
+in modernity 153-154 
+in Mou Zongsan 177, 189 
+■matching’ between Chinese Doo 
+and Western Qi 154 
+relativisation of (Zhang Xuecheng) 
+151
+reunite to become One (道器合 
+一)101
+under conditions of modernity
+153, 223
+unification of Doo and Qi (道器合 
+器）65-66 
+'writing enlightens Doo’（文以明 
+道）131-133 
+■writing conveys Doo'(文以載 
+道)’ 138 
+and writing (Gu Wen Movement) 
+133-134
+'Question Concerning Technology, 
+The 1 (Heidegger) 3, 62, 230
+quasi-objects (Latour) 224-225
+R
+325
+O
+(fJ
+Qi〔器）29 
+and ch'i 141-142,143,145 
+and form 99-100 
+and Li, in Confucianism 108-114 
+and ming 114
+as retentional object 268-269 
+identified with Western technol­
+ogy 153
+rationality 
+in Stoicism 117, 122-123, 127 
+Reiteroting Tradition (Li Sanhu)
+100-101 
+relational thinking 
+in Chinese philosophy 55-56
+326 
+Religion and Nothingness (Nishitani)
+— 
+249
+Cf) 
+ren (仁，’benevolence’）109, ^35,
+() 
+157,184
+山
+DD 
+as ether (Tan Sitong) 156
+'re-orientation’ 28^
+Cf)LL 
+resonance 28
+° 
+in Chinese philosophy 27,80-85
+w 
+in Confucianism 83-84
+0 
+in Mou Zongsan 88
+retention (Stiegler) 215, 231, 266, 
+271
+Romanticism 68
+s
+Saving the Country through Material 
+〔物質救國論）（Kang YouWei) 
+157-158 
+science 188 
+Carsun Chang on 161 
+history of modern Western sci­
+ence 206-208 
+in twentieth-century China 159 
+lack of development in China 
+('Needham’s question’) 
+^65-^68, 20^-202 
+Nishitani on 244-245, 246
+Science and Civilisation in China 
+(Needham) 167-168 
+Self-Strengthening Movement 
+152-153, 155 
+shamanism 111-112 
+shen (神，'spirit’) ^36, ^4^ 
+stshi (四時，'four seasons’) 2^0-2^^, 
+212, 299-300 
+sophrosyne ('temperance’) 90 
+Soviet Union 193, 305 
+spatialisation 211-212 
+'Standpoint of World History and 
+Japan, The’ (Nishitani) 250 
+Stoicism 64, 116-128, 170 
+and Daoism 127-128 
+time in 212 
+structuralism 49-50
+sunyata
+in Nishitani 246
+T
+tan dang (坦蕩.'magnanimity’
+）17 
+Tan tian (談天,'On Heaven’) (Song 
+Yingxing) ^40 
+techne 6 
+and anamnesis (Stiegler) 214 
+and arete 93-94
+in Aristotle 94-95 
+in Plato 92-94 
+and episteme 95 
+and praxis, in Plato (Vernant) 
+92-93 
+and dike 239-240
+in Heidegger 76-77 
+and technology, in Heidegger 34 
+and virtue in the Stoics 126 
+as origin of thinking, in Heidegger 
+71-72
+as violence, in Heidegger 69-79 
+in Heidegger 238-239 
+in Plato 89-94 
+in Presocratic thought 89 
+technical fact and tendency (Leroi- 
+Gourhan) 8-9, 2M-2\Q, 22^ 
+technicity (Simondon) 20 
+technics 126 
+anamnesis and, in Lyotard 
+274-275 
+and Dao 116 
+equivalent in Chinese 54 
+and geometry 209 
+and historicity 237
+in Stiegler and Nishitani
+265-266 
+and living, in Daoism 103-104 
+and nature, in Chinese and West­
+ern philosophy 69-70 
+and technological unconscious­
+ness 225-226 
+and time 39-40 
+as anamnesis 223-224 
+as exteriorisation (Leroi-Gourhan) 
+217-218
+as exteriorisation (Stiegler)
+215-216 
+as philosophical concept 10 
+as poiesis, in Heidegger 77 
+as universal 4,19,195, 217, 229, 
+242
+forgetting of (Stiegler) 230 
+in China 9, 61 
+in Heidegger 239 
+universality of 217
+Technics and Time (Stiegler) 230, 
+234, 267 
+technology 
+and metaphysics 239-240 
+as completion of metaphysics 
+(Heidegger) 229 
+Dao as philosophy of, in Daoism 
+and Confucianism 65 
+digital 31
+Heidegger on 3, 4-6 
+in Leroi-Gourhan 8-9,18-19 
+in Lyotard 44-46 
+introduction of modern technol­
+ogy into China 152-153 
+Lyotard on 279 
+machines and Dao 105-106 
+Nishitani on 244, 246 
+Philosophy of Technology 6-7 
+technological unconsciousness 
+39-40 
+vs science, in China 167 
+Western, absorption into China 32 
+Western, identified with Qi 153 
+thing-in-itself 47, 175 
+Thinking and Technics (Boehm) 238 
+Tian Gong Kai Wu (天工開物，‘The 
+Exploitation of the Works of 
+Nature') (Song) 139-140, 
+145-146
+time
+and geometry 209 
+in Chinese thought 221 
+and historicity, in Heidegger 
+231-232 
+and history, in Christianity, Nishi- 
+tani on 263 
+and matter. in Lyotard 270
+327
+z
+om
+x
+o
+c
+m
+o
+u
+uncanny 72 
+unconditioned 
+in Fichte and Schelling 68 
+unconscious 
+in Freud 229
+technological unconsciousness 
+224, 230, 235, 241-242, 
+267, 282, 305 
+in Lyotard 228
+v
+View of the Wor/d and View of the 
+Nation (Nishitani) 250 
+violence
+techne as, in Heidegger 69-79 
+virtue
+as de, in Chinese philosophy 66 
+void 131-132, 178, 243 
+and ch'i (Zhang Zai) 141
+and nature, in Chinese philosophy 
+(Garnet. Jullien) 81 
+and technics 39-40 
+global time-axis 242, 261, 280,
+291, 
+301, 305 
+in Aristotle 211 
+in Chinese thought 39, 202, 
+210-213 
+temporalisation (Stiegler)
+266-267
+tong (統,‘integration1) 184 
+tragedy 85, 258 
+and chance 70-71 
+Transduction (Simondon) 310-311 
+truth
+in Greek and Chinese thought 213 
+in Heidegger’s account of Aristo­
+telian technics 62 
+‘Twelve Year Research Plan of 
+Dialectics of Nature’ 193 
+tyche ('chance’) 70, 90-91
+328
+w
+y
+wan wu (萬物,‘thousand beings’
+） 
+in Laozi and Zhuangzi 65-66, 137 
+war
+‘total war', in Nishitani 257-258. 
+261, 282. 283 
+Weltbild (Heidegger) 21 
+westernisation 
+of China 162-164 
+Working-Through (Durcharbeiten) 
+(Freud) 270-271 
+writing 
+and Dao 131-132,150-151 
+and technological unconscious­
+ness 267-268 
+Chinese vs alphabetical, Needham 
+on 168 
+in Plato 107-108
+wu wei (無為,‘non-doing') 3, 86,101 
+wu xing (五行.‘movements’）55, 
+136.143-144 
+in Dong Zhongshu 84
+Yin-Yang 54, 84, 87, 136 
+in Dong Zhongshu 84 
+you〔有, 'being’, 'there is’) 102 
+‘Yuan Dao’ （原道，‘Essentials of the 
+Dao') (Han Yu) 132 
+YuZou (宇宙.‘universe’）212
+z
+zhi〔執,‘attachment’）185 
+zhi xing〔知性,‘cognitive mind')
+(Mou Zongsan) 182 
+zi ran (自然）64-65, 70,101, 115, 117, 
+127. 134 
+and Dao 102
+x
+LLo
+xiao yao (逍遙. ‘free and easy') 117 
+xin〔心，'heart’) 38-39,40-41 
+in Mou Zongsan 41,88,142,176,
+181, 
+251 
+in Nishitani (shin) 251 
+xing er shang xue〔形而上學）36 
+and metaphysics 99-100 
+end of 190 
+xing (性, ‘inner possibility’ or 'human 
+nature’) 135 
+in Mou Zongsan 88 
+Xuan Xue (玄學）（'mysterious think­
+ing’) 86-87. 161
+MONO
+The Question Concerning 
+Technology in China
+An Essay in Cosmotechnics
+In this remarkable book, Yuk Hui draws on the major thinkers of 
+both the West and the East to elaborate an original reflection 
+on the nature of technolog]/. He has enlarged the philosophi- 
+cal horizon for the Anthropocene age.
+Andrew Feenberg
+Heidegger's critique of modern technology and its relation to 
+metaphysics has been widely accepted in the East. Yet the con­
+ception that there is only one-originally Greek-type of technics, 
+and only one modernity, has been an obstacle to any original 
+critical thinking of technology in modern Chinese thought.
+This fascinating investigation of the historical-metaphysical 
+question of technology, drawing on the work of Stiegler, Lyotard, 
+and Simondon. and introducing modern Eastern thinkers in­
+cluding Feng Youlan. Mou Zongsan. and Keiji Nishitani. sets 
+out to imagine a specifically Chinese philosophy of technol­
+ogy capable of responding to Heidegger's challenge, while 
+problematizing the assumption that technics is anthropologi­
+cally universal. Following a systematic historical survey of the 
+concepts of Dao and Qi in Chinese thinking, Yuk Hui sets out 
+a bold programme for a renewed, cosmotechnical questioning 
+of technology, and a re-oriented world history.
+r T l 
+M E D I A L E 
+L |J 
+TEI LHABE
+J USE""
+U R B 
+ANO 
+M IC
+Cover design: Leaky Stucco
+UR3AN0MIC.C0M
