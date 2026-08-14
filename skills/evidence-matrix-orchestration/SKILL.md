@@ -16,7 +16,7 @@ metadata:
 
 Disciplined, role-QC'd charting of an evidence matrix using `delegate_task` subagents, with
 source verification BEFORE reading and additive in-place patching. Proven on the Monstare
-project (2 batches, 16 rows charted, 2026-08-13). The Monstare handoff spec (v3 §5) is the
+project (3 batches, 26 rows charted, 2026-08-13). The Monstare handoff spec (v3 §5) is the
 design; this skill is the operational knowledge from executing it.
 
 ## When to Use
@@ -67,6 +67,7 @@ Known access classes and their handling:
 - Open PDF with text layer → best; cache locally.
 - OCR-only (broken ToUnicode or scanned) → readable via firecrawl; record "read via OCR" caveat.
 - Archive.org lending items → NO direct download (401); legal path only, or find companion source.
+- In-copyright books with no open full text → author-homepage preface/adapted chapters are acceptable PARTIAL coverage, labeled with what they cover (e.g. A1-08 Feenberg *Questioning Technology*: preface + "Crossroads" chapter = Part III only); full hunt recipe: `external-source-verification` references/open-fulltext-hunting.md.
 - Course-mirror PDFs → verify text, add "course-hosted copy" caveat.
 - Landing-only (paywalled) → chart at abstract level, record the limitation.
 - Bot-hostile (ACM DL, ResearchGate, academia) → needs manual/institutional retrieval.
@@ -83,8 +84,13 @@ site); flag rights caveats (e.g., scanned archive copies, mirror copies).
   (Key Finding/Design Implication/Causal Status) are sanctioned by the charting plan but must be
   logged truthfully: distinguish "additive fills" from "instructed seeded-cell upgrades" and
   "Verif. flips" in the Source Patch Log entry (repair-not-removal convention).
-- After save: read back with `data_only=True`, confirm formulas intact (Dashboard count),
-  confirm patch-log row appended.
+- After save: read back cell VALUES with `data_only=True`; count Dashboard formulas by loading
+  WITHOUT `data_only` (a data_only load returns cached values and reports 0 formulas — a false
+  negative that masks formula loss; batch-3 Data Steward caught this in the patch script).
+  Confirm the patch-log row appended.
+- BEFORE patching, verify whether target cells are blank vs seeded: a batch whose charting cells
+  all hold seed text is 100% "instructed seeded-cell upgrades" (0 pure fills), and the patch-log
+  entry must state that truthfully (batch-3: Data Steward verified 0 of 90 cells blank pre-patch).
 - No LibreOffice in this container → formula cached values are lost on openpyxl save; disclose
   that Excel recalculates on open (formulas are preserved as strings).
 
@@ -113,6 +119,40 @@ site); flag rights caveats (e.g., scanned archive copies, mirror copies).
 - Confirm Source Patch Log entry appended with truthful wording.
 - Confirm sheet count and Dashboard formula count unchanged.
 
+## Synthesis memos as deliverables
+
+After charting a spine (area or sub-batch), produce a **synthesis memo** that traces the cross-row tissue — the living organism of ideas in relation, not just a list of theses. Anatomy: organs (which authors serve which function), interconnecting nexuses (fault lines that are also connections), cross-cutting themes (through-lines that run across the whole spine), remaining specializations needed. The synthesis is where recallability becomes explicit: "when this author is needed, what whole body of thought does it call up?"
+
+## Epithet register (living document)
+
+The Epithet Register (`/opt/data/Monstare_epithet_register.md`) preserves each author's voice — not just their claims, but their tonal signature and the felt sense of what they are pointing at. Downstream artifacts (Design Veto Catalogue, Cosmotechnic Audit Card, pilot rules) draw from this register so rules grounded in an author *sound* like that author.
+
+Per author: **Epithet** (1-3 word signature), **Quotations** (range from subtle to robust — tonal register is exemplified, never described), **Reverie** (evocative vignette, 100-200 words, conveying the full spectrum of feelings and thoughts on the concept).
+
+Grow the register with each batch. The epithet is the seed; the quotations are the body; the reverie is the felt sense.
+
+## Batch 4-5 lessons (2026-08-14)
+
+- Image-only sources (A1-14 Mitcham, A1-16 Mumford) were charted supplemented by secondary synthesis (Philpapers abstract, independent summaries, publisher pages). Flag as "image-only" or "abstract-level" in Discovery Notes and record verification debt.
+  ⚠️ CORRECTION (2026-08-14, gap-closing pass): this section originally listed A1-07 Stiegler and A1-11 Winner as image-only TOO, but that was WRONG — both have genuine text layers (re-probe, below). Only A1-14 + A1-16 are truly scanned (0 chars). Do NOT trust a "image-only" flag as a permanent truth; re-probe cached PDFs before asking the user to hunt full-text copies.
+- 18-row batches are the max case — split into sub-batches (4a/4b) to stay within token envelope per sub-batch.
+- 52-row sessions produce ~400-480k spend — far over envelope. Record honestly and justify by scope.
+- The Phenomenologist role is essential for Area 5/8/9 rows — capture-order checks and phenomenological fidelity are real, propagating corrections.
+- Same-author consistency checks (A1-02/A1-01/HUI-2024; A1-10/A1-19 Verbeek; A1-05/A1-06 Simondon) are a canonical QC move.
+
+## Batch 8 lesson (2026-08-14) — final charting batch (Areas 9 & 10)
+- Epithet register classifier bug: `assemble_register.py` used naive substring matching (`"pending" in body`), so the word "de**pending**" false-flagged full-text entries as "deferred" in the tracking table. Fix: match on word boundaries (`\bword\b`). Audit any status-classifier for substring false positives before trusting tracking-table status.
+- Archive.org lending rows (Deep Work, GTD, Shweder, Nisbett) chart at ABSTRACT-LEVEL from publisher landing pages (Hachette, HUP, official site); Open Library may be bot-blocked (human-verification wall) — use the archive.org landing as canonical readable.
+- Batch 8 = final charting pass; matrix COMPLETE at 128/129 (only CORE-07 Lepper remains "Located (not charted)").
+
+## Gap-closing pass lesson (2026-08-14) — close the last not-charted row + clear verification debt
+- **PROBE-BEFORE-HUNT (image-only flag is not truth):** before asking the user to source a full-text copy of any row flagged "image-only"/"abstract-level," re-probe the locally-cached PDFs with pymupdf for a genuine text layer. This pass found A1-07 (monoskop Stiegler, 745K chars) and A1-11 (ratical Winner, 479K chars) are actually readable full text and upgraded both from image-only → TEXT-VERIFIED, clearing real verification debt. Only A1-14 Mitcham (204p) and A1-16 Mumford (530p) are truly scanned (0 chars). Probe = total chars across pages + sample a mid-body page (p10-15+), not just front matter; an "image-only" verdict can be a stale or front-matter-only reading. Add a `scripts/probe_pdf_textlayer.py` helper call before hunting copies.
+- **Last not-charted row close-out (CORE-07):** the final "Located (not charted)" row was charted from the ERIC ED084210 final-report full text (32p, text-layer verified) — filling ES/Limitations/Disconfirming cells + flipping Verif. + appending patch-log row. This closed the matrix to **129/129**. When one row blocks "complete," a full-text-verified chart of it is the highest-value single action.
+- **openpyxl not in system python in this container** — use `uv run --with openpyxl python <script>.py` (and `--with pymupdf` / `--with pypdf`) rather than assuming a venv; uv wheels are already cached.
+
 ## Support files
+- `scripts/probe_pdf_textlayer.py` — probe cached PDFs for a genuine text layer before trusting an "image-only" flag or hunting a full-text copy (run: `uv run --with pymupdf python <path>`).
 - `references/monstare-harness-state.md` — file map, harness state, batch outcomes, adjudications.
 - `references/monstare-batch3-pass.md` — batch-3 session detail: wrong-article catches, abstract-level decisions, causal-status/evidence-type adjudications, CORE-16 Phenomenologist re-chart (felt-invariants checklist), pilot flags.
+- `references/monstare-batch4-5-summary.md` — batches 4-5 summary: 70 rows charted, source quality distribution, key cross-area findings.
+- `references/monstare-github-workflow-pitfalls.md` — GitHub auth, credential storage, token redaction, .gitignore gotchas.

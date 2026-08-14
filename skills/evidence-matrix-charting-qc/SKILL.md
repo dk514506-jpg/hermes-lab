@@ -14,7 +14,7 @@ metadata:
 
 # Evidence-Matrix Charting QC (Methodologist role)
 
-Phase 3 of the source→matrix pipeline: (1) audit source links — `external-source-verification`; (2) chart rows from readable sources; (3) QC the charting pass with role reports (Methodologist, Ethics Auditor, ...). Run when a charting pass produced per-row drafts and the harness asks for a methodological QC report. Do NOT rewrite drafts — flag and recommend, with a reason and source basis for every flag.
+Phase 3 of the source→matrix pipeline: (1) audit source links — `external-source-verification`; (2) chart rows from readable sources; (3) QC the charting pass with role reports (Methodologist, Ethics Auditor, ..., Locus batch check LAST — see the 'Locus batch check' section below). Run when a charting pass produced per-row drafts and the harness asks for a methodological QC report. Do NOT rewrite drafts — flag and recommend, with a reason and source basis for every flag.
 
 ## Inputs
 
@@ -34,6 +34,23 @@ Phase 3 of the source→matrix pipeline: (1) audit source links — `external-so
 
 Save the report to the role-reports dir AND return the full report text in the final message (the parent consumes it directly).
 
+## Locus batch check (10-field report)
+
+Locus is the frame-keeper role that runs LAST on every batch: checks the reconciled charting against the disciplines and the interfaces (source -> claim -> matrix row -> design implication -> stake consequence -> artifact/pilot rule) WITHOUT re-reading sources. Report format — exactly these 10 fields:
+
+1. `claims_stronger`: (row_id, what became stronger, why) — adopted re-charts, guards absorbed into dimpl/cimpl, provenance corrections, veto-first rewrites.
+2. `claims_weaker`: (row_id, what became more conditional, why) — causal downgrades, ES demotions, cross-row-supported tags, originator-advocacy caveats.
+3. `forbidden_implications`: (row_id, implication now forbidden, which discipline forbids it) — name the forbidding discipline (Purist veto, Ethics S-floor, Methodologist, Phenomenologist).
+4. `stakes_moved`: (stake, direction, evidence) or 'none' — protected floors S1/S7/S10 hold/strengthen only; any trade is a breach.
+5. `protected_floor_strain`: (stake, strain detail) or 'none' — strain = guarded in charting, enforcement deferred to artifact level (not a breach); unnamed cross-row interfaces get NAMED here (e.g., CORE-16<->CORE-19 junction).
+6. `apparatus_burden`: one paragraph — proportionate or heavier; state the ACTUAL composition (Pri counts — verify, don't trust the pass brief's count; abstract-level count; quantitative payload), the yield, and the collapse recommendation.
+7. `contrary_indicators`: (row_id, disconfirming signal) — source-side limits, contested claims, transfer risks.
+8. `cosmotechnic_telos_check`: structural or decorative — one paragraph; three-level test: criterion-derived content, source-grounded micro-orders, artifact carriage.
+9. `rows_to_downgrade`: (row_id, weight decision, reason) — tag convention appended to Discovery Notes: 'LOCUS <date>: supporting weight (not load-bearing)' or 'load-bearing'. Split evidence weight from design-role load: a row with zero evidence payload can still be ARCHITECTURALLY load-bearing (its design implication is the only source of a binding rule — batch-2 CORE-10 precedent, batch-3 CORE-14/19/20). Batch-level verdict: 'zero rows load-bearing on evidence weight — all payload in design-rule roles'.
+10. `re_chart_required`: row_ids or 'none' — verify adopted re-charts satisfy the flag's REQUIRED additions item-by-item (not just 'it was re-charted'); list verification debts gated to the artifact pass, not the matrix write.
+
+Conventions: verify claims against the canonical matrix / operational database (openpyxl read of Verif. column + Source Patch Log tail), never the memo's self-report; correct the parent's composition counts when wrong; name fault lines (opposing advocacy poles are never summed — shared corpus = double-counting risk). Copy `templates/locus_report.md` per batch.
+
 ## Per-row checklist
 
 **(a) Causal status must match what the source IS, not what the theory asserts.**
@@ -52,6 +69,62 @@ Save the report to the role-reports dir AND return the full report text in the f
 
 **(e) SCED/pilot logic:** coefficients imported from literature = DIRECTION + BOUNDED BAND, never a point estimate lifted from the strongest cell. Parameters with no quantitative basis in the source (e.g., an authorship parameter from a conceptual paper) = structural/presence-based (0/1 or ordinal), not calibrated scalars. Pilots need a baseline/no-reward contrast to speak to a meta-analysis's evidence class (studies without controls were excluded from it). N-of-1/small-N cannot yield causal claims; selection effects block causal inference from self-selected users.
 
+## Digest method: chart as recallable thinking (Silvey preference)
+
+The goal of charting is not to fill cells but to **digest the author so they remain callable across future rows and sessions**. A charted row that cannot be recalled when a later row needs it is a dead row. Five practices make a row recallable:
+
+1. **Chart as thinking, not transcription.** The KFT, Limitations, and Disconfirming Implication cells should reflect your actual understanding of the argument, not a paraphrase of the abstract. A reader who hasn't read the source should grasp *why* the thesis matters and *where it could fail* from the Limitations and Disconfirming cells alone.
+
+2. **Anchor in the author's own vocabulary.** Every author builds precise tools to do their work: Stiegler's *pharmakon*, *epiphylogenesis*, *grammatization*; Simondon's *concretization*, *margin of indeterminacy*, *element/individual/ensemble*; Heidegger's *Gestell*, *Bestand*, *poiesis*. Do not replace these with generic synonyms. Carry the terms and show how they hook into Monstare's concerns (telos, design veto, cosmotechnic audit).
+
+3. **Cross-row recall.** When charting row N, say explicitly how it refines or tensions row M (already charted). The batch memo is where this becomes explicit. If A1-07 Stiegler is the pharmacological grounding for A1-08 Feenberg's democratic rationalization, name it. If A1-05 Simondon tensions A1-11 Winner, name the tension.
+
+4. **Disconfirming implications as active guards.** The Disconfirming Implication cell is not academic hedging — it is the "when this author fails, what breaks" marker. If future work (artifact construction, pilot design) relies on a charted row, the disconfirming implication is the tripwire. Make it sharp enough to trigger when the row is being misused.
+
+5. **Fault lines are named, not smoothed.** When two rows hold incompatible theses (e.g., Simondon's technical-object genesis vs. Winner's artifact-politics), the fault line is the continuity frame. Naming it tells future work the question is open, not resolved.
+
+This is what "digest particular authors to be recallable in the future" means. It is a first-class charting discipline, not a style preference.
+
+## Premature coherence pitfall (CRITICAL)
+
+The most common failure mode in evidence-matrix charting is **premature coherence** — making ideas fit together before they've been given a chance to clash. The user explicitly flagged this after batches 4-5. Watch for these specific symptoms:
+
+1. **The "organism" framing**: Presenting charted rows as "a single argument in multiple specializations" with "organs" is elegant but usually false. The matrix is a battlefield of partially overlapping, partially conflicting positions — not a unified body. Simondon vs. Winner, Stiegler vs. Heidegger, Hui vs. Haraway are not complementary specializations; they may be *incommensurable*.
+
+2. **Resolving every tension into complementarity**: "Apply both," "hold the tension," "the truth is between them" — these are smoothing moves. Some tensions should stand as *irreconcilable*. For each batch, identify at least one tension that is NOT resolved.
+
+3. **Extracting for use**: Reading every author as a design resource ("the tool must...") while ignoring what they *refuse*, *negate*, or *leave unresolved*. Heidegger says enframing is a danger that "human activity can never directly counter" — charting this as a design implication misrepresents the author.
+
+4. **Thematic imposition**: Claiming "through-lines" (pharmacological, genesis-process, politics-ethics) that are actually reading frameworks you brought to the texts, not discoveries about the authors.
+
+5. **Weight flattening**: Saying "zero rows load-bearing on evidence weight" obscures real differences in evidentiary strength. Norton & Gino's causal evidence is not the same weight as Van Gennep's anthropological theory.
+
+6. **Limitations cell confessing source weakness**: The Limitations cell should capture *argumentative* weaknesses (internal contradictions, unsupported claims, questionable premises), not just source weaknesses (archive mirror, image-only).
+
+**Corrective practice**: After each batch, run a "premature coherence audit" — review your synthesis memos and fault lines for smoothing. Flag incommensurable rows with `INCOMMENSURABLE with [row_id]: [reason]` in Discovery Notes.
+
+## Epithet register (living document)
+
+The Epithet Register (`/opt/data/Monstare_epithet_register.md`) preserves each author's voice — not just their claims, but their tonal signature and the felt sense of what they are pointing at. Downstream artifacts (Design Veto Catalogue, Cosmotechnic Audit Card, pilot rules) draw from this register so rules grounded in an author *sound* like that author.
+
+Per author: **Epithet** (1-3 word signature), **Quotations** (range from subtle to robust — tonal register is exemplified, never described), **Reverie** (evocative vignette, 100-200 words, conveying the full spectrum of feelings and thoughts on the concept). See the register file for worked examples (Heidegger, Borgmann, Haraway).
+
+Grow the register with each batch. The epithet is the seed; the quotations are the body; the reverie is the felt sense.
+
+## Synthesis memos as deliverables
+
+After charting a spine (area or sub-batch), produce a **synthesis memo** that traces the cross-row tissue — the living organism of ideas in relation, not just a list of theses. Anatomy: organs (which authors serve which function), interconnecting nexuses (fault lines that are also connections), cross-cutting themes (through-lines that run across the whole spine), remaining specializations needed. The synthesis is where recallability becomes explicit: "when this author is needed, what whole body of thought does it call up?"
+
+## Version control discipline
+
+The evidence matrix is the single source of truth. **Edit it in place** — do not create new charting files for each batch. The canonical workbook is patched additively each pass. The matrix file is the operational database; memos and drafts are continuity frames, not replacements.
+
+**Git init is NOT automatic** — always run `cd /opt/data && git init` when starting a new project. Create `.gitignore` BEFORE first `git add` to avoid committing secrets. See `references/monstare-github-workflow-pitfalls.md` for GitHub auth, credential storage, and .gitignore gotchas.
+
+**Git policy (Silvey's local-first law, corrected 2026-08-14):** commit locally in `.git` FREQUENTLY — every batch, every completed artifact. **Push ONLY FINAL, reviewed, deliverable-grade products to GitHub.** Working artifacts (drafts, staging extracts, spec revisions, per-batch memos, partial registers) stay local. Do NOT push after every commit. Mark push as a deliberate, user-approved act once a deliverable is final. The private Monstare remote is `git@github.com:dk514506-jpg/monstare-research-project.git` (SSH; public GitHub 404s for it — that is normal, it is private, reachable via the user's SSH key).
+
+**Project-management spine (Silvey, corrected 2026-08-14):** maintain the project through **kanban** (the Hermes `project`/kanban board for task tracking), **GitHub** (final-products-only push), and **Obsidian-as-wiki** (`Monstare-Obsidian/` vault: Home, Working Conventions, Epithet Register index, Research Spine, Roadmap, Sources — the editable knowledge layer; the matrix is the operational DB, notes link to it, never duplicate it). Numbered folders `00 Inbox .. 05 Templates`; evidence labels VERIFIED/ASSUMED/UNVERIFIED preserved.
+
 ## Verification techniques
 
 - Grep the source extracts for the exact quoted numbers/phrases before trusting any draft claim.
@@ -59,14 +132,63 @@ Save the report to the role-reports dir AND return the full report text in the f
 - Page-precise quotes: confirm they exist in the local extract. A reading file covering only front matter/preface/index means body-page claims are UNVERIFIED — flag the quote AND the reading base as narrower than claimed. Edition variance (archive scan vs print) changes page numbers.
 - Provenance: confirm the charted text is actually the row's named source (e.g., 1994 companion chapter vs 1997 book — 10 pp vs 604 pp). Provenance-tag or rename rows where they diverge; keep claims at charted-text level.
 - Check the draft's own 'Sources read' header against what the extracts actually contain.
+- Staleness: audit CSVs / verification reports can PREDATE the current matrix cells (batch-3 CORE-20 lesson: the CSV called an old URL dead/wrong after the cell had already been replaced). For every row, verify the CURRENT cell live (curl HTTP status + size / text-layer sniff), not the CSV verdict.
+- **Phantom row-ranges / miscounted block-completion claims** (batch-4/5 → register, 2026-08-14): a "block complete X/X" or a row-range like `CORE-21..26` that doesn't match the matrix is NOT evidence that rows are missing. Cross-source audit before concluding anything: read the current matrix AND a pre-batch snapshot (version history is the ground truth for row identity), all rows dumps/finals, and the URL index. The "26/26 CORE" was a phantom — the handoff's "26" was the TOTAL rows charted across batches 1-3 (19 CORE + A1-01 + HUI-2024 + 5 A9), misread as the CORE block count. Correct scope came from the matrix itself (CORE-01..20), identical in both versions. Also check per-row Verif. cells: a row present in the matrix can still be "Located (not charted)" (CORE-07 Lepper) — its register entry must be flagged as canonical-knowledge, not charted-backed, never fabricated. When a downstream artifact (epithet register) references a row set, verify the set against the matrix, don't inherit a memo's count.
+- Completion checks: when a pass claims 'all rows charted', verify in the workbook itself (Verif. column, Discovery Notes tags, Source Patch Log tail) rather than trusting the memo — the memo is a self-report.
+- Verify draft LIMITATION lines against the extract before keeping them: a limitation that is NOT
+  in the source must be corrected or softened, not charted (batch-3 CORE-13: the draft claimed the
+  review was 'restricted to work with animals'; the verified text covers human subjects briefly —
+  'results are broadly similar', with weaker reinforcers — so the limitation became
+  'animal-primary with brief human coverage').
+- Attribute contested within-field claims as the authors' position, not settled fact (batch-3
+  CORE-13: 'no integrated theory of conditioned reinforcement exists' is a contested stance, and
+  the senior author's own theories are foregrounded — mark advocacy-adjacent within-field).
 
 ## Disciplines
 
 Citation-is-not-evidence; Tier-P stays visible (plausible, not proven); H2 is a vector not a scalar; prevent false generalization from weak/correlational papers; SCED rows must not imply causal certainty. Distinguish 'confirmation' (never available from a narrative review) from 'corroboration'. Use the word 'durable'/'proven' only where the source demonstrates it.
 
+## Image-only and partial-text source conventions
+
+When a source is image-only (no extractable text layer), lending-only, or gated behind login, charting is still acceptable **supplemented by secondary synthesis** (Philpapers abstract, independent summaries, publisher pages) — but you MUST:
+- Flag the row as "abstract-level" or "image-only" in Discovery Notes
+- Record verification debt: "Full text needed for page-precise verification"
+- Never make schedule/mechanism/quote claims beyond the documented reading base
+- Distinguish "full text read" from "synthesized from summary" — a draft that doesn't distinguish these is a coverage violation
+
+Examples: batch-4a A1-07 Stiegler (image-only PDF, supplemented by Philpapers abstract + independent summary); batch-4b A1-11 Winner (image-only PDF, supplemented by Chicago UP page + Boundary 2 review + ESTS article); batch-4b A1-14 Mitcham, A1-16 Mumford (DLI/archive.org image-only scans).
+
+## Epithet register (living document)
+
+The Epithet Register (`/opt/data/Monstare_epithet_register.md`) preserves each author's voice — not just their claims, but their tonal signature and the felt sense of what they are pointing at. Downstream artifacts (Design Veto Catalogue, Cosmotechnic Audit Card, pilot rules) draw from this register so rules grounded in an author *sound* like that author.
+
+Per author: **Epithet** (1-3 word signature), **Quotations** (range from subtle to robust — tonal register is exemplified, never described), **Reverie** (evocative vignette, 100-200 words, conveying the full spectrum of feelings and thoughts on the concept). See the register file for worked examples (Heidegger, Borgmann, Haraway).
+
+Grow the register with each batch. The epithet is the seed; the quotations are the body; the reverie is the felt sense.
+
+## Synthesis memos as deliverables
+
+After charting a spine (area or sub-batch), produce a **synthesis memo** that traces the cross-row tissue — the living organism of ideas in relation, not just a list of theses. Anatomy: organs (which authors serve which function), interconnecting nexuses (fault lines that are also connections), cross-cutting themes (through-lines that run across the whole spine), remaining specializations needed. The synthesis is where recallability becomes explicit: "when this author is needed, what whole body of thought does it call up?"
+
 ## Files
 
 - `templates/methodologist_report.md` — 7-field report skeleton to copy per batch.
+- `templates/locus_report.md` — 10-field Locus batch-check skeleton (run last, copy per batch).
 - `references/monstare-batch1-methodologist.md` — worked case: batch-1 findings, source-file map, the anachronism catch, d-value verification, unverifiable quote.
+- `references/monstare-locus-batch3.md` — Locus worked case: weight-tag adjudication (evidence weight vs design-role load), re-chart verification, apparatus-burden judgment, completion verification.
+- `references/monstare-batch-handoff-hunt.md` — batch handoff prompt structure, per-source readability triage, sub-agent source-hunt protocol with halting buckets.
+- `references/monstare-batch4a-digest.md` — batch-4a digest pass: image-only PDFs, partial-text caveats, cross-row recall convention.
+- `references/monstare-batch5-epithet-register.md` — epithet register structure, reverie examples, forward-looking template.
+- `references/monstare-epithet-register-construction.md` — the full 4-phase register-construction recipe: 5 dimensions, anti-coherence guardrails, extraction→draft→review→assemble workflow, assembly/verification scripts, scope-correction lesson.
+- `references/monstare-github-workflow-pitfalls.md` — GitHub auth, credential storage, token redaction, .gitignore gotchas from sessions.
+
+### Git init discipline
+
+ALWAYS initialize git at project start:
+```bash
+cd /opt/data && git init
+```
+
+Do not assume `.git` exists. Without it, you cannot commit, push, or track history. Create `.gitignore` BEFORE first `git add` to avoid committing secrets. Verify each ignore pattern with `git check-ignore -v <pattern>` before relying on it.
 
 Companion phases: source-audit = `external-source-verification`; producing grounded prose = `grounded-citations`.

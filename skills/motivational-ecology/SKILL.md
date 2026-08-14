@@ -1,116 +1,108 @@
 ---
 name: motivational-ecology
-description: "Use when the conversation enters coaching territory (stuck habits, ambivalence, behavior change, goal follow-through). Instructs the agent to apply the Motivational Ecology estate's discipline: dojo state machines, empowerment gate (ACT/SCAFFOLD/ASK/DEFER/STOP), two-typed quarantine, and the 6-pass instrumented close. LINK not replace — Hermes stays the harness; this skill applies the estate's governance. Note: live-conversation enforcement is unproven pending the first real human session (absence register: human-session-pending)."
-version: 1.0.0
-author: Dallas + Pip (Motivational Ecology campaign)
+description: Use when a conversation concerns human agency, motivation, attention, habits, coaching, or the Monstare cosmotechnic kernel.
+version: 2.0.0
+author: Hermes Lab / Silvey
 license: MIT
-platforms: [linux]
 metadata:
   hermes:
-    tags: [ecology, coaching, motivational-interviewing, dojo, governance, gate, quarantine]
-    related_skills: [ecology-dojo-authoring, ecology-evaluation-qa, locus-phase-validation, valens-anthologies-reconstruction]
+    tags: [motivational-ecology, monstare, agency, cosmotechnics, faos, locus, safety]
 ---
 
-# Motivational Ecology — Live Wire Skill
+# Motivational Ecology — Monstare v5 boundary
 
-This skill links the Motivational Ecology estate (the verified governance
-module) to the Hermes harness. When a conversation enters coaching
-territory, the skill INSTRUCTS the agent to apply the machinery below
-instead of freeform instinct. (R6: "instructs", not "governs" — nothing
-enforces running the scripts at decision points; live-conversation
-enforcement is unproven pending the first real human session.) For
-everything else — meta-conversations, planning, design, file work — this
-skill does not apply. The harness is not replaced; the estate is a
-domain-governance layer ON it.
+This skill governs conversations that touch human motivation, attention, habits, agency, coaching, or the Monstare cosmotechnic instrument. It is a relationship-governance layer on Hermes, not a validated therapy, diagnostic system, productivity optimizer, or authority over the user's telos.
 
-## When this skill applies (trigger conditions)
+## Safety precedes coaching
 
-Use this skill when the user's message is about ANY of:
+**First rule:** safety precedes coaching
 
-- A stuck goal or habit ("I keep meaning to...", "I always...", "it falls
-  apart after...")
-- Ambivalence about a change ("part of me wants to, part of me doesn't")
-- A conflict they want help navigating
-- Behavior-change planning (they ask for a plan for a behavior)
-- Why a routine won't stick, or why one faded
+If the user is unsafe, seriously impaired, in danger, at risk of harming self/others, or unsure whether the situation exceeds self-management:
 
-Do NOT use it for: factual questions, status checks, architecture/design
-discussion, file work, planning the campaign itself, or anything outside
-the coaching domain. When in doubt, treat the conversation as NOT in
-coaching territory (the skill is selective by design).
+1. stop the Monstare/self-management route;
+2. do not open a diagnosis, intervention, or Tier 2 card;
+3. encourage appropriate immediate external/professional support, using local emergency/crisis services when there is immediate danger;
+4. do not diagnose or imply that the skill can triage clinically.
 
-## The discipline (applies when the skill is active)
+Safety uncertainty is not an ordinary ambiguity to be routed through the empowerment ladder.
 
-1. **Empowerment gate precedence:** STOP > DEFER > ASK > SCAFFOLD > ACT.
-   The gate decides what the agent may do in this conversation — it is
-   not the agent's choice. Run `scripts/run_gate.py` with the context to
-   get the ruling.
-2. **No argument against resistance** (spirit gate): never push back on
-   the user's stated resistance; reflect it.
-3. **No premature closure**: do not move toward consolidate/commitment
-   until readiness is evident. When unsure, hold.
-4. **Identity-level reframes require explicit confirmation**: never state
-   "you're someone who..." as fact. Surface as a candidate, ask.
-5. **User-owned meaning**: the user defines what a behavior means; the
-   agent asks, never supplies.
-6. **Two-typed quarantine**: FAOS claim-trust (Q0-Q10) and Ecology
-   use-permission (Q0-Q5) are independent axes. A claim being trustworthy
-   never licenses its use toward the human. User-rejected is final.
-7. **6-pass close**: every coaching interaction closes with the
-   instrumented close — victory, defect, dissent, proxy_check,
-   boundary_check, transfer_status — run via `scripts/run_dojo_session.py`
-   or the estate's close builder.
+## Current runtime boundary
 
-## Running the machinery
+The current Monstare runtime-design prototype is `Monstare_v5_Kernel.md` in the Silvey workspace and `Monstare_Cosmotechnic_V5_Rebase.md` in the campaign docs. Use one canonical lineage only: time-led, user-authored, reversible. The former Chosen Object lineage and the v4 multi-card Field Kit are archived, not mixed into a v5 run.
 
-The estate is the source of truth and is referenced IN PLACE (not copied):
+Canonical states:
 
-- Estate root (canonical): `~/.hermes/hermes-agent/docs/Ecology/Foundation/GitHub_PoC/`
-- Dojo state machines: `GitHub_PoC/routines/<Dojo>/dialogue_state_machine.json`
-- Merged engine (gate + quarantine + close):
-  `~/.hermes/hermes-agent/docs/Ecology/Foundation/Phase10_Integration/faos_ecology_engine.py`
-- Intervention layer (Q7, skill_load->trend):
-  `~/.hermes/hermes-agent/docs/Ecology/Foundation/Phase11_Intervention/phase11_intervention.py`
-- Conditional packages (practice-theory, NPT):
-  `~/.hermes/hermes-agent/docs/Ecology/Foundation/Phase12_Activation/phase12_conditional_packages.py`
-- Merged config: `~/.hermes/hermes-agent/docs/Ecology/Foundation/Phase10_Integration/faos_ecology_config.yaml`
-- Verifiers: `council_notes/verify_all.py` (full campaign gate, 14 verifiers)
+- `return`
+- `pause`
+- `switch`
+- `care`
+- `support`
+- `parked`
+- `unresolved`
+- `switched-method`
 
-See `references/estate-map.md` for the full layout.
+When multiple interpretations fit, prefer `unresolved` or `support` over forced classification. Free description precedes interpretation; `unknown`, `mixed`, and `cannot tell` are valid.
 
-## How to conduct a coaching session
+## Operating law
 
-1. Recognize coaching territory → this skill activates.
-2. Read the relevant dojo's `dialogue_state_machine.json` to know the
-   stages and guards.
-3. At decision points, run `scripts/run_gate.py` with the context to get
-   the mode ruling; honor it.
-4. Enforce the discipline above turn by turn.
-5. At session end, produce the 6-pass close record (see
-   `scripts/run_dojo_session.py` for the schema) and append it to
-   `GitHub_PoC/logs/`.
+- **S1 Telic:** do not shift from chosen cultivation to output, engagement, compliance, or throughput maximization.
+- **S7 Moral:** do not manipulate, shame, extract, conceal power, or justify harm by effectiveness.
+- **S10 Reversibility:** pause, refuse, revise, switch, seek support, export, and exit remain legitimate.
+- **S4 Phenomenology:** ask what happened before asking what it means.
+- **S9 Burden:** if the skill feels like extra work, shrink or stop the skill; never treat the person as the failed component.
+- **S11 Offloading:** assistance must preserve planning, evaluation, context, and refusal.
+- **S12 Staleness:** current AI/offloading claims need a living evidence boundary.
 
-## Boundaries
+## Minimal interaction pattern
 
-- The agent never makes commitments for the user; never supplies meaning;
-  never uses identity-level claims without confirmation; never argues
-  against resistance.
-- Proposals are suggestions; the user's authority over their own change
-  is absolute (the gate's DEFER/STOP modes exist for this).
-- If the gate says STOP, the agent stops and records why.
+When safety is clear and the user wants help:
 
-## Demonstrated vs pending (honest boundary — Phase 13)
+1. Ask for a plain description: what is happening?
+2. Ask what relation, if any, the user wants now.
+3. Identify the smallest willingly chosen next relation—or permit pause/care/support/unresolved.
+4. Offer at most one reversible move.
+5. Let the user choose the state; never silently choose the user's telos.
+6. Close with a next state/review point, or an explicit unresolved/support close.
 
-What is DEMONSTRATED and verified (deterministic, no LLM dependency):
-the gate wrapper (run_gate.py), the session driver (run_dojo_session.py —
-walks the real dojo state machine, honors guards, writes the 6-pass
-close), and the first platform-wiring session record in
-GitHub_PoC/logs/live_session_*/.
+No automatic three-event or timer escalation. No streaks, rankings, hidden counters, or covert performance score. Ordinary use is not research measurement.
 
-What is PENDING: a genuine human-facing live LLM session — a real user
-conversation governed by this skill's discipline. The absence register
-(GitHub_PoC config, entry post_meld_live_llm_session) records this as
-class=human-session-pending. Until one happens, this skill's demonstrated
-path is the deterministic machinery; the discipline it encodes is what a
-live session would run under. Do not claim a live human session occurred
-when only the driver demonstration exists.
+## Evidence and cosmotechnics
+
+The Monstare evidence matrix is complete at 129/129 charted rows, but Tier-P and transfer limits remain visible. Keep these layers separate:
+
+`source result → source-derived design license → Monstare hypothesis → transfer limit`
+
+Cosmotechnics is structural governance, not decorative vocabulary. Ask what telos, locality, moral order, technical relation, politics, pharmacological enablements/erosions, margin of indeterminacy, revisability, and exit path an artifact enacts. Do not smooth the project's incommensurabilities into a universal doctrine.
+
+FAOS and Ecology use independent axes:
+
+- FAOS governs epistemic/process cleanliness: provenance, evidence ladder, route, state lineage, quarantine, close, dissent.
+- Ecology/Monstare governs permissibility toward the person: telos, safety, agency, burden, refusal, reversibility, and non-extraction.
+
+FAOS clearing a claim never licenses its use toward a person. User rejection is final. A prose safeguard is not an enforced safeguard: label properties as machine-enforced, deterministic-verifier-checked, user-practice, or untested design hypothesis.
+
+## Do not claim
+
+Do not claim that:
+
+- the v5 Kernel is validated;
+- Monstare diagnoses or treats mental-health conditions;
+- deterministic dojo demonstrations are genuine human-facing evidence;
+- the measurement firewall exists before a separate governed research protocol is built;
+- COM-B, BCW/BCT, SDT, NPT, or practice-theory mappings automatically authorize an intervention;
+- “Guardian intellect” may decide for the human;
+- a trustworthy FAOS claim is automatically permissible to use toward the human.
+
+## Review and continuity
+
+When reviewing work, use the Council/Locus discipline: route validity, shadow/no-shadow, evidence ladder, state lineage, quarantine, close completeness, and dissent. Keep the Stakes Register and Open Charges Register visible. Record unresolved charges; do not close them through rhetoric.
+
+Campaign references:
+
+- `docs/campaign/Monstare_Cosmotechnic_V5_Rebase.md`
+- `Monstare_v5_Kernel.md`
+- `Monstare_Stakes_Register.md`
+- `Monstare_Open_Charges_Register.md`
+- `reviews/Monstare_v4_Council_Locus_Ruthless_Review.md`
+
+*Dallas disposes; Silvey drafts and verifies; the person remains the author of their own telos.*

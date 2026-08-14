@@ -1,109 +1,92 @@
-# Phase 13 Plan — The Live Wire (estate → Hermes skill module + first live session)
+# Phase 13 Plan — The Live Wire (revised after Monstare v5 rebase)
 
 Project: Motivational Ecology Agent Architecture
-Plan date: 2026-08-07
-Status: PLAN — written before execution. Dallas directive: "proceed with
-assumptions and complete phase 13." The phase that turns the verified
-estate into a callable governance module on the Hermes harness — LINK, not
-replace (Dallas's framing: Hermes stays the harness; the estate becomes a
-domain-governance module ON it).
+Plan date: 2026-08-14
+Status: **REVISE — platform wiring exists; Monstare human-facing runtime remains a prototype**
 
-## What the live wire is
+## What the live wire is now
 
-Hermes is the container (the harness running this conversation: the agent
-loop, model access, memory, plugins, skills at ~/.hermes/skills/). The
-Ecology estate (GitHub_PoC/) is content + governance — dojos, gate,
-quarantine, close. Phase 13 links them:
+Hermes remains the container: agent loop, model access, memory, plugins, and skills. The Ecology estate remains a governance/research module on Hermes. Monstare v5 is a separate minimal user-facing kernel-design prototype that may later be exercised through the harness.
 
-1. The estate becomes a **Hermes skill** — `motivational-ecology` in
-   ~/.hermes/skills/ — so that when a conversation enters coaching
-   territory, the agent's behavior is governed by the machinery (the
-   dojo state machine, the empowerment gate, the two-typed quarantine,
-   the 6-pass close) instead of freeform instinct.
-2. The skill references the estate IN PLACE (GitHub_PoC/ stays the source
-   of truth; the skill is the trigger + instructions + runnable wrapper).
-3. The FIRST LIVE POST-MELD SESSION runs through the merged gateway — a
-   real LLM-mediated Ambivalence_Dojo session with the gate consulted at
-   each stage, quarantine enforced, 6-pass close recorded. This is the act
-   that CLEARS the absence-register entry `post_meld_live_llm_session`
-   (class never-recorded → recorded) — the estate's own "architectural
-   only until a platform is wired" boundary, now crossed honestly.
+The live wire must not silently turn a governance module into a coach that decides for the person. Its job is to preserve process/evidence discipline and offer bounded, user-owned routes.
 
-## Deliverables
+## Non-negotiable ordering
 
-### D1 — The skill module: `motivational-ecology` at ~/.hermes/skills/
+1. **Safety first:** if the person is unsafe, seriously impaired, in danger, or unsure whether the situation exceeds self-management, stop the Monstare route and direct toward appropriate external/professional support. No Tier 2 card or diagnostic route comes first.
+2. **User-owned telos:** the agent may ask and reflect; it may not supply identity, meaning, diagnosis, or a hidden intervention objective.
+3. **One lineage:** v5 uses the time-led, user-authored, reversible kernel. The archived Chosen Object lineage is not mixed into a v5 run.
+4. **Explicit state:** return / pause / switch / care / support / parked / unresolved / switched-method.
+5. **No hidden thresholds:** no automatic count/timer escalation, streaks, rankings, or covert performance score.
+6. **Honest capability labels:** deterministic wrapper, verifier evidence, user-practice safeguard, and untested hypothesis must be distinguished.
 
-- SKILL.md (frontmatter per Hermes skill spec): trigger conditions
-  (coaching territory = user describes stuck habit/ambivalence/conflict/
-  goal), the gate precedence (STOP > DEFER > ASK > SCAFFOLD > ACT), the
-  discipline carried (no argument against resistance, no premature
-  closure, identity-level reframes require confirmation, user-owned
-  meaning, 6-pass close), and the estate paths it references.
-- scripts/run_gate.py — wrapper that loads the merged engine
-  (Phase10_Integration) and returns a gate decision + quarantine ruling
-  for a given context. Deterministic, callable from the skill.
-- scripts/run_dojo_session.py — the live-session driver: walks the real
-  dojo dialogue_state_machine.json, generates coach turns (LLM-mediated),
-  consults the gate at each stage, enforces quarantine, writes the
-  6-pass close record.
-- references/estate-map.md — pointer file: where each piece lives
-  (canonical tree, phase dirs, FAOS engine), so a fresh session can
-  navigate the estate.
+## Revised deliverables
 
-### D2 — Gate wired into the conversation path
+### D1 — v5 kernel adapter (not a coaching takeover)
 
-- The skill's scripts make the machinery CALLABLE; the skill's SKILL.md
-  makes it APPLIED. Verification: hermes skills list shows
-  motivational-ecology enabled; the scripts run standalone (exit 0).
+- Add a thin adapter only if it can preserve the v5 state vocabulary and safety precedence.
+- The adapter must not import the v4 Field Kit, charge menu, salience taxonomy, dual lineage, or three-event threshold.
+- The adapter must record kernel version and lineage at start.
+- A state transition must be explicit; unresolved and support are terminal/legitimate closes where appropriate.
 
-### D3 — First live post-meld session (clears the absence entry)
+### D2 — Boundary and quarantine mapping
 
-- Run ONE real Ambivalence_Dojo session through the merged gateway via
-  run_dojo_session.py: a coaching conversation (scenario persona, per the
-  acceptance-test convention) with gate decisions at each stage, quarantine
-  enforced, and a full 6-pass close record written to
-  GitHub_PoC/logs/live_session_001/.
-- Update the absence register: post_meld_live_llm_session →
-  class=recorded, blocks=nothing (first live session exists), with the
-  record path as the anchor.
-- The session record is the honest evidence: real LLM turns, real gate
-  outputs, real close.
+Maintain two typed axes:
 
-### D4 — Mirror sync (housekeeping)
+- FAOS: epistemic/process trust and state/route integrity.
+- Ecology/Monstare: permissibility toward the person, including telos, safety, burden, refusal, and reversibility.
 
-- Hermes_Agent_Harness is missing Material_Arrangement_Scan +
-  Feedback_Ecology_Map + the witness scripts + docs/. Sync it to the
-  canonical state so the one-to-one correspondence the campaign
-  convention calls for is restored. (Identified when Dallas asked where
-  the harness lives.)
+FAOS clearing never licenses use toward the person. User rejection remains final. Safety uncertainty outranks the normal empowerment-mode ladder.
 
-### D5 — verify_phase13.py + gate chain
+### D3 — Demonstration versus human evidence
 
-- Checks: skill exists + enabled (hermes skills list), scripts run
-  (exit 0), live session record exists + complete (6-pass close, gate
-  decisions, quarantine rulings), absence entry flipped to recorded,
-  mirror synced, legacy gate green.
-- verify_all.py chains verify_phase13.py (13 → 14 verifiers).
+The deterministic `run_gate.py` and `run_dojo_session.py` paths are demonstrations of machinery. They are not evidence of a genuine human-facing session. Do not clear an absence register entry or claim live human validation without an actual recorded session and explicit provenance.
 
-## Review round (per campaign convention)
+### D4 — First exercise before expansion
 
-- Locus validation (7-check) + DeepSeek outside judge (adversarial).
-- Sublative revision round; calibration log + journal updates.
+Exercise the v5 Kernel on one concrete component with a fresh reader. Include:
 
-## Out of scope
+- ordinary use;
+- safety uncertainty;
+- ambiguous/multiple state;
+- refusal or support route;
+- unresolved close;
+- method switch.
 
-- Replacing or modifying the Hermes harness itself (link, not replace).
-- Always-on dojo protocol for every conversation (the skill triggers only
-  in coaching territory; meta/design/planning conversations stay freeform).
-- The NPT registered-not-built mechanisms (still awaiting runtime signals).
-- Autopoietic_Boundary_Check (indefinite hold).
+Record burden, invented local policy, state carry-forward, and data expectations. No causal claim follows.
 
-## Decision points for Dallas (bite-sized)
+### D5 — Verifier updates
 
-- P13-D1: approve the skill-module design (estate referenced in place,
-  not copied into the skill)?
-- P13-D2: approve the live session convention (scenario persona, per the
-  acceptance-test precedent) as the first post-meld session — versus a
-  real session with you directly?
-- P13-D3: approve clearing the absence entry after the first recorded
-  live session?
+A future verifier may check:
+
+1. v5 kernel adapter uses one lineage;
+2. safety bypass precedes self-management routing;
+3. all explicit states are representable;
+4. `multiple/unclear` reaches unresolved/support rather than forced diagnosis;
+5. no automatic count/timer threshold is used;
+6. ordinary run has no hidden measurement record;
+7. demonstration records are labeled as demonstrations;
+8. Locus/Council dissent is preserved;
+9. legacy FAOS/Ecology suites remain green.
+
+## Explicitly superseded from the earlier plan
+
+- The live wire is not permission for an agent to become a “Guardian intellect” over the human.
+- The five empowerment modes are process options, not a substitute for the v5 safety gate or user authority.
+- The v4 multi-card artifact is not the default coaching surface.
+- A deterministic dojo witness is not a human validation session.
+- A declared measurement firewall is not a built firewall.
+
+## Out of scope until the v5 exercise passes
+
+- second-wave Monstare cards;
+- causal pilot claims;
+- broad intervention expansion;
+- autonomous diagnosis or meaning supply;
+- automatic reward-technique selection;
+- claiming a complete human-facing harness.
+
+## Review round
+
+Run Locus's seven checks and a Council adversarial pass after the first exercise. Record route validity, shadow/no-shadow, evidence ladder, state lineage, quarantine, close completeness, and dissent. The honest default is REVISE when the kernel has not yet been exercised.
+
+*Dallas disposes; Silvey drafts and verifies; the person remains the author of their own telos.*
