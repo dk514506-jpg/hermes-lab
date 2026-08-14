@@ -6,6 +6,7 @@
 .npm/
 .ssh/
 node_modules/
+node_modules
 lazy-packages/
 lsp/
 *.log
